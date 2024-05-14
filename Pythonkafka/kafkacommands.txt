@@ -1,0 +1,16 @@
+Starting zookeeper:  C:\kafka_2.13-3.5.1\bin\windows\zookeeper-server-start.bat C:\kafka_2.13-3.5.1\config\zookeeper.properties 
+
+------------------------------------------------------------------------------------------------------------------------
+
+starting kafka:  C:\kafka_2.13-3.5.1\bin\windows\kafka-server-start.bat C:\kafka_2.13-3.5.1\config\server.properties  
+
+------------------------------------------------------------------------------------------------------------------------
+
+creating topic: C:\kafka_2.13-3.5.1\bin\windows\kafka-topics.bat --create --topic Python --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1   
+
+------------------------------------------------------------------------------------------------------------------------
+
+creating producer: C:\kafka_2.13-3.5.1\bin\windows\kafka-console-producer.bat --topic Python-Kafka --bootstrap-server localhost:9092
+------------------------------------------------------------------------------------------------------------------------
+
+creating consumer: C:\kafka_2.13-3.7.0\bin\windows\kafka-console-consumer.bat --topic hello_world --from-beginning --bootstrap-server localhost:9091
