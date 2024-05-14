@@ -1,0 +1,178 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Student API",
+    "description": "API for managing student records",
+    "version": "1.0"
+  },
+  "paths": {
+    "/students": { 
+      "get": {
+        "summary": "Get all students",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "age": {
+                    "type": "integer"
+                  },
+                  "grade": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Database empty, no student exists"
+          }
+        }
+      },
+      "post": {
+        "summary": "Add a new student",
+        "parameters": [
+          {
+            "name": "student",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "integer"
+                },
+                "grade": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Student added successfully"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete all students",
+        "responses": {
+          "200": {
+            "description": "Truncate table successful"
+          },
+          "404": {
+            "description": "Table is already empty"
+          }
+        }
+      }
+    },
+    "/students/{id}": {
+      "get": {
+        "summary": "Get student by ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "integer"
+                },
+                "grade": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Student with the given ID doesn't exist"
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a student by ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "student",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "integer"
+                },
+                "grade": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Student with the given ID successfully updated"
+          },
+          "404": {
+            "description": "Student with the given ID doesn't exist"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a student by ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Student with the given ID successfully deleted"
+          },
+          "404": {
+            "description": "Student with the given ID doesn't exist"
+          }
+        }
+      }
+    }
+  }
+}

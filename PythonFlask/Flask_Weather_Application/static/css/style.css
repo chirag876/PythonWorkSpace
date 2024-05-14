@@ -1,0 +1,80 @@
+/* style.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .head-nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .head-nav h3 {
+    font-size: 14px;
+    color: yellow;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .logo-heading img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .container-data {
+    margin-top: 20px;
+  }
+  
+  .text-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .show-result {
+    margin-top: 30px;
+  }
+  
+  .output h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .output-logo {
+    margin-top: 20px;
+  }
+  
+  .output-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .output-desc {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .head-git {
+    margin-top: 50px;
+  }
+  
+  .head-git h2 {
+    font-size: 16px;
+  }
+  
+  .head-git a {
+    color: blue;
+  }
+  
+  
