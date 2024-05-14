@@ -1,0 +1,17 @@
+File uploading is the process of transmitting the binary or normal files to the server. Flask facilitates us to upload the files easily. All we need to have an HTML form with the encryption set to multipart/form-data.
+
+The server-side flask script fetches the file from the request object using request.files[] Object. On successfully uploading the file, it is saved to the desired location on the server.
+
+The uploaded file is saved to the temporary directory of the server for a while before it is saved to some desired location. The name of the destination file can be obtained using the following syntax.
+
+name = request.files['file'].filename  
+
+However, we can mention the path of the folder where the file is to be uploaded to the server and the maximum size of the uploaded file. This all can be done in the configuration settings of the flask object.
+
+1 app.config['UPLOAD_FOLDER']: It is used to mention the upload folder.
+
+2 app.config['MAX_CONTENT-PATH']: It is used to mention the maximum size of the file to be uploaded.
+
+3 app.config['MAX_CONTENT_LENGTH']: It is used to mention the maximum size of the uploaded file.
+
+

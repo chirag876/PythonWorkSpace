@@ -1,0 +1,15 @@
+The session can be defined as the duration for which a user logs into the server and logs out. The data which is used to track this session is stored into the temporary directory on the server.
+
+session data is stored on server.
+
+The session data is stored on the top of cookies and signed by the server cryptographically.
+
+In the flask, a session object is used to track the session data which is a dictionary object that contains a key-value pair of the session variables and their associated values.
+
+The following syntax is used to set the session variable to a specific value on the server.
+
+Session[<variable-name>] = <value>  
+
+To remove a session variable, use the pop() method on the session object and mention the variable to be removed.
+
+session.pop(<variable-name>, none)  

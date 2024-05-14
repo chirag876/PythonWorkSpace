@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    <form method="POST" action="{{ url_for('register') }}">
+        {{ form.csrf_token }}
+        {{ form.username.label }} {{ form.username }}<br><br>
+        {{ form.email.label }} {{ form.email }}<br><br>
+        {{ form.password.label }} {{ form.password }}<br><br>
+        {{ form.confirm_password.label }} {{ form.confirm_password }}<br><br>
+        {{ form.submit }}
+    </form>
+</body>
+
+</html>

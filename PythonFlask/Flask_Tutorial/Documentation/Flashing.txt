@@ -1,0 +1,25 @@
+In the web applications, there are scenarios where the developer might need to flash the messages to provide feedback to the users for the behavior of the application in different cases.
+
+Flask provides the flash() method, in the same way, the client-side scripting language like JavaScript uses the alerts or the python GUI framework Tkinter uses the dialogue box or the message box.
+
+The flash() method is used to generate informative messages in the flask. It creates a message in one view and renders it to a template view function called next.
+
+In other words, the flash() method of the flask module passes the message to the next request which is an HTML template. The syntax to use the flash() method is given below.
+
+flash(message, category)   
+
+It accepts the following parameters.
+
+message: it is the message to be flashed to the user.
+Category: It is an optional parameter. Which may represent any error, information, or warning.
+
+The messages are generated in the flask script using the flash() method of flask module. These messages need to be extracted in the template from the session. For this purpose, the method get_flashed_messages() is called in the HTML template.
+
+The syntax to use this method is given below.
+
+get_flashed_messages(with_categories, category_filter)  
+
+It accepts the following parameters.
+
+with_categories: This parameter is optional and used if the messages have the category.
+category_filter: This parameter is also optional. It is useful to display only the specified messages.

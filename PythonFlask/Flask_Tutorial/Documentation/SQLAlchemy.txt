@@ -1,0 +1,29 @@
+# Flask SQLAlchemy is an ORM tool which establishes the relationship between the objects and the tables of the relational databases.
+
+# The mapping between the both is important because the python is capable of storing the data in the form of objects whereas the database stores the data in the form of relational tables, i.e. the collection of rows and columns.
+
+# The object-relational mapping is the technique of storing python objects into the database tables without writing the raw SQL queries.
+
+# ORM stands for Object-Relational Mapping. It is a technique that allows you to interact with a database using objects instead of SQL. This makes it easier to write code that interacts with the database, and it can also improve performance.
+
+# ORMs (Object Relational Mapper) provides us with an interface to interact with the database as if the records were Python objects. For example, a record in the Users table would be an instance of the User class and fields of the record (like name could be accessed like a property of the object user.name)
+
+
+# The `with app.app_context()` statement is used to create an application context. An application context is a way of ensuring that the Flask application is available to the code within the block. This is important for things like accessing the database or generating URLs.
+
+# When you create an application context, Flask will do a number of things, including:
+
+# * Initialize the database connection.
+# * Register the application's blueprints.
+# * Set up the application's error handlers.
+
+# Once the application context is created, it will remain active until the block is exited. This ensures that the Flask application is always available to the code within the block.
+
+# The `with app.app_context()` statement is typically used in the following situations:
+
+# * When you are accessing the database.
+# * When you are generating URLs.
+# * When you are registering a blueprint.
+# * When you are setting up an error handler.
+
+# It is important to note that the `with app.app_context()` statement is not required for all code that interacts with the Flask application. For example, if you are only calling a function that is already registered with the application, you do not need to create an application context. However, if you are doing anything that requires the Flask application to be available, you should use the `with app.app_context()` statement.

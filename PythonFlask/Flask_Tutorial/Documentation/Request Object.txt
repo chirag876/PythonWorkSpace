@@ -1,0 +1,20 @@
+The request object contains all the data that is sent from the client to the server.
+1 Form: It is the dictionary object which contains the key-value pair of form parameters and their values.
+2 Files: It is the dictionary object which contains the key-value pair of uploaded files and their values.
+3 args: It is parsed from the URL. It is the part of the URL which is specified in the URL after question mark (?).
+4 Cookies: It is the dictionary object containing cookie names and the values. It is saved at the client-side to track the user session.
+5 method: It is the current request method (get or post).
+6 Headers: It is the dictionary object containing header names and the values.
+7 Content-Type: It is the MIME type of the body.
+8 Content-Length: It is the size of the body.
+9 Content-Encoding: It is the encoding of the body.
+10 Content-Language: It is the language of the body.
+11 Content-Location: It is the location of the body.
+12 Content-MD5: It is the MD5 hash of the body.
+13 Content-Range: It is the range of the body.
+14 Content-Disposition: It is the disposition of the body.
+15 Content-Description: It is the description of the body.
+16 Content-Transfer-Encoding: It is the encoding of the body.
+17 Content-ID: It is the ID of the body.
+
+

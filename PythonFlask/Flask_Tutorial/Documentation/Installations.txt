@@ -1,0 +1,6 @@
+1. pip install virtualenv , virtualenv venv, venv\scripts\activate  
+2. pip install flask  
+3. pip install flask-sqlalchemy   
+4. pip install flask-wtf   
+5  pip install email_validator
+6  pip freeze > requirements.txt(outstream operator, this will give the list of all the packages installed in this project)

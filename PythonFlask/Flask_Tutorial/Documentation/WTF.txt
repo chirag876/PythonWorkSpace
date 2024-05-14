@@ -1,0 +1,20 @@
+WTF stands for WT Forms which is intended to provide the interactive user interface for the user. The WTF is a built-in module of the flask which provides an alternative way of designing forms in the flask web applications.
+
+Why WTF Useful?
+
+1. The form elements are sent along with the request object from the client side to the server side. Server-Side script needs to recreate the form elements since there is no direct mapping between the client side form elements and the variables to be used at the server side.
+
+2. There is no way to render the HTML form data at real time.
+
+The WT Forms is a flexible, form rendering, and validation library used to provide the user interface.
+
+1	TextField	It is used to represent the text filed HTML form element.
+2	BooleanField	It is used to represent the checkbox HTML form element.
+3	DecimalField	It is used to represent the text field to display the numbers with decimals.
+4	IntegerField	It is used to represent the text field to display the integer values.
+5	RadioField	It is used to represent the radio button HTML form element.
+6	SelectField	It is used to represent the select form element.
+7	TextAreaField	It is used to represent text area form element.
+8	PasswordField	It is used to take the password as the form input from the user.
+9	SubmitField	It provides represents the <input type = 'submit' value = 'Submit'> html form element.
+
