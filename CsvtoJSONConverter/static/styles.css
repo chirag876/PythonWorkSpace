@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3468C0;
+    color: rgb(15, 15, 15);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto; /* Initial width for flexibility */
+    max-width: 100%; /* Cap width to prevent overflow */
+    overflow: hidden; /* Hide text that exceeds width */
+    text-overflow: ellipsis; /* Add ellipsis for long names */
+    white-space: nowrap; /* Prevent wrapping */
+    resize: horizontal; /* Allow user to adjust width */
+    font-weight: bold;
+    }
+
+input.hover {
+    background-color: #3468C0; /* No change for hover state */
+}
+
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #F8E559; /* Same as input button */
+    color: rgb(15, 15, 15); /* Same as input button */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    font-weight: bold; /* Makes text bold */
+  }
+
+  button:hover {
+    background-color: #F8E559; /* Same as input button */
+  }
+
+  #clear-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #B4B4B8; /* Change the color to orange */
+    color: rgb(15, 15, 15); /* Same as input button */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 100%;
+    font-weight: bold; /* Makes text bold */
+}
+
+#clear-button:hover {
+    background-color: #B4B4B8; /* Same as input button */
+}
+
+
+#result {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#download-link {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #43766C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+      
+
+#download-link:hover {
+    background-color: #43766C;
+}
+
+
+
+
+
