@@ -1,0 +1,22 @@
+Common Errors:
+1 Circular import Errors
+
+
+Strings
+os library
+Range function
+datetime
+iterator, generator, decorator
+regex
+
+list
+tuple
+dictionary
+sets
+methods and functions
+file handling
+exception handling (try-except, try-except-finally, try-except-else)
+input/output
+object oriented programming
+loops (for, while)
+conditional statements

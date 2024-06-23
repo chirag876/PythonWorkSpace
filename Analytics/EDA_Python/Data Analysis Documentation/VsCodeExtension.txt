@@ -1,0 +1,52 @@
+1 Python Based:
+-> Python
+-> Pylance
+-> Python - indent
+-> Autodocstring
+-> flask-snippets
+-> jinja2snippet kit
+-> Python must have essentials
+-> Djanerio-Django snippets
+
+2 Azure Based:
+-> Azure Account
+-> Azure app service
+-> Azure Databases
+-> Azure Developer cli
+-> Azure functions
+-> Azure Resources
+-> Azure Static webapps
+-> Azure storage
+-> Azure tools
+-> Azure Virtual Machines
+
+3 Jupyter Notebook Based
+-> Jupyter
+-> Jupyter cell tags
+-> Jupyter keymap
+-> Jupyter Notebook renderers
+-> Jupyter slide show
+
+4 Utility Based:
+-> Vscode -pdf
+-> WSL
+-> Polcode
+-> open-in browser
+-> live server
+-> indent server
+-> excel-viewer
+-> docker
+-> dev containers
+-> data preview
+-> code runner
+-> better comments
+-> Gitlens
+-> Thunderclient
+-> JsonCrack
+-> Draw.io integration
+-> error lens
+
+5 Web Development Based:
+-> HTML-CSS Support
+-> HTML Boilerplate
+-> JavaScript (E56) Code snippets

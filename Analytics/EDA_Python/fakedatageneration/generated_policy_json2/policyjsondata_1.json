@@ -1,0 +1,236 @@
+{
+    "CorrelationId": "5d35bdc8-a354-4831-9664-a52380b344b4",
+    "AuditableRequestId": "282970b9-c56d-496c-a35a-15d228a7a6ec",
+    "AuditableRequestName": "wind",
+    "AuditableSourceEventName": "this",
+    "CreatedBy": "Beverly King",
+    "CreatedDateTime": {
+        "$date": "2022-11-13T07:03:50"
+    },
+    "UpdatedBy": "Gary Harrington",
+    "UpdatedDateTime": {
+        "$date": "2020-11-14T00:38:04"
+    },
+    "UpdateReason": "Turn society week drive carry nor go.",
+    "OwnerId": "497b7b2a-cb56-4ee1-9922-9bf2e4b79575",
+    "IsActive": true,
+    "IsDeleted": true,
+    "IsApproved": false,
+    "ApproverId": "b1a3f2fc-09ea-4e81-8ef4-607758a0bf6e",
+    "ApprovedDateTime": {
+        "$date": "2020-10-22T07:54:29"
+    },
+    "IsAuthorized": false,
+    "AuthorizedById": "abbc0a30-eb80-4ff8-b67b-359ef89cf463",
+    "AuthorizedDateTime": {
+        "$date": "2022-09-12T10:22:01"
+    },
+    "SysData": {
+        "CPU Utilization": "86.20%",
+        "RAM Usage": "55.38 GB",
+        "ROM Capacity": "273 MB",
+        "Network Throughput": "450.73 MBPS",
+        "System Uptime": "7 days, 19 hours, 27 minutes"
+    },
+    "TenantId": "cf3fd486-8e62-45de-ba6c-98c7784cad87",
+    "SubTenantId": "47444475-6778-4596-ab5c-3565d23835ff",
+    "QuoteId": "4bd146c5-35f0-4003-aab3-c804e66ae807",
+    "CancellationDate": {
+        "$date": "2023-04-21T22:16:16"
+    },
+    "CancelReasonDescription": "Customer changed insurance providers.",
+    "ControllingStateOrProvinceCode": "IN",
+    "EffectiveDate": {
+        "$date": "2023-12-30T22:37:14"
+    },
+    "ExpirationDate": {
+        "$date": "2024-02-17T17:29:54"
+    },
+    "PolicyId": "7aa60c22-c526-44b7-aa51-c6dfd5d94dd6",
+    "LineOfBusinessCode": "WL - Whole Life",
+    "Number": "POL357242087",
+    "OriginalEffectiveDate": {
+        "$date": "2023-06-04T05:38:24"
+    },
+    "ParentEntityId": "8c3f2b46-48ae-4818-9f5c-a4da5a032f6e",
+    "ParentEntityTypeName": "DLF Pramerica Life Insurance Company Limited",
+    "StatusCode": "Cancelled",
+    "TotalPremium": "$3604.15",
+    "AgentCode": "AG8277",
+    "AccountingDate": {
+        "$date": "2022-12-01T15:19:28"
+    },
+    "ReferalCode": "REF9878",
+    "RenewalStatus": "Renewed",
+    "TransactionType": "Renewal",
+    "address": [
+        {
+            "City": "South Jeffreyview",
+            "CountryCode": "GI",
+            "CountryName": "Gibraltar",
+            "Line1": "791 Willis Street",
+            "Line2": "Suite 349",
+            "PostalCode": "05610",
+            "StateOrProvinceCode": "UT",
+            "StateOrProvinceName": "Utah",
+            "DetailAddress": {
+                "PostDirectionCode": "East",
+                "PreDirectionCode": "East",
+                "StreetName": "Amber Village",
+                "StreetNumber": "754",
+                "StreetTypeCode": "Pkwy. - Parkway",
+                "UnitNumber": 81
+            },
+            "Reference": "executive"
+        }
+    ],
+    "exposure": [
+        {
+            "_id": "28832638-4d2d-4b4a-a7a8-e6c109f37853",
+            "coverageName": "author",
+            "perils": [
+                {
+                    "exposureid": "061c8945-0545-4dde-808b-a4fa172dca68",
+                    "name": "perform",
+                    "renewalGroup": "try",
+                    "characteristics": [
+                        {
+                            "_id": "59d41e3f-18e5-4b6c-ae10-72e2ede8d614",
+                            "exposureCharacteristicsid": "b279d043-4cd0-43be-831b-33c2566318f5",
+                            "perilid": "c2bb20e1-0ba8-4025-b550-43ad1098542c",
+                            "indemnityPerItem": "$521,000",
+                            "indemnityPerEvent": "$224,000",
+                            "indemnityInAggregate": "$23,000",
+                            "lumpSumPayment": "$558,000",
+                            "deductible": "$199,000"
+                        }
+                    ],
+                    "policyholderid": "62314958-9e48-4f71-92a3-d8fe867210bb",
+                    "productid": "1b18048a-9702-403f-8904-a13740b784d2",
+                    "policyid": "e0e8fc13-ac4f-4f45-8458-1b9839c8e451",
+                    "createdTimestamp": {
+                        "$date": "2020-05-28T13:21:19"
+                    },
+                    "updatedTimestamp": {
+                        "$date": "2021-04-25T02:21:30"
+                    }
+                }
+            ]
+        }
+    ],
+    "insured": [
+        {
+            "InsuredId": "859e4919-a1a1-4ce1-9fe6-e99baf16efc2",
+            "ParentEntityId": "fe690534-df27-4911-9a15-94872b2f5aec",
+            "ParentEntityTypeName": "Max New York Life Insurance Co. Ltd",
+            "TypeCode": "affect",
+            "BirthDate": "1980-04-15",
+            "FullName": "Sanchez, Rich and Hamilton",
+            "GivenName": "Carrie",
+            "Surname": "Nelson",
+            "Address": {
+                "City": "Alvaradostad",
+                "CountryCode": "BH",
+                "CountryName": "Bhutan",
+                "Line1": "2666 Richard Street Suite 492",
+                "Line2": "Apt. 900",
+                "PostalCode": "98881",
+                "StateOrProvinceCode": "AL",
+                "StateOrProvinceName": "Alabama",
+                "DetailAddress": {
+                    "PostDirectionCode": "West",
+                    "PreDirectionCode": "South",
+                    "StreetName": "Rogers Bypass",
+                    "StreetNumber": "80274",
+                    "StreetTypeCode": "Rd. - Road",
+                    "UnitNumber": 27
+                },
+                "Reference": "book"
+            },
+            "CountryCode": "UG"
+        }
+    ],
+    "producer": {
+        "Branch": "white",
+        "_id": "0ec48b72-897e-47f0-8273-3a13be26669b",
+        "Number": "b2cb913a-1aff-4dfd-aae4-5be2f5deba96",
+        "ParentEntityId": "99009927-9138-445a-95eb-04104742eb80",
+        "ParentEntityTypeName": "bed",
+        "FullName": "Jennings, Hodge and Johnson",
+        "GivenName": "Jamie",
+        "Surname": "Dunlap"
+    },
+    "reference": [
+        {
+            "AppliesTo": "simple",
+            "Description": "Speech dream western free rise crime.",
+            "_id": "e4e597b3-6bfb-4556-a1f7-30b7a548c613",
+            "Name": "no"
+        }
+    ],
+    "underwriter": {
+        "_id": "1852dcd4-fb27-4612-87e7-712cf62ffa33",
+        "ParentEntityId": "bc76269e-98e7-470c-a29a-e480dd206f56",
+        "ParentEntityTypeName": "huge",
+        "FullName": "David Robinson",
+        "GivenName": "Rebecca",
+        "Surname": "Mahoney"
+    },
+    "claim": {
+        "ClaimId": 309,
+        "ClaimNo": 370,
+        "AccidentDate": {
+            "$date": "2020-10-27T03:44:03"
+        },
+        "ReportedDate": {
+            "$date": "2022-07-12T21:46:15"
+        },
+        "RegisterDate": {
+            "$date": "2022-10-29T16:30:10"
+        },
+        "AccidentZipCode": "33191",
+        "AccidentLatitude": -63.141504,
+        "AccidentLongitude": -157.929078,
+        "AccidentMonth": "03",
+        "AccidentMonthOrder": 2,
+        "ClaimSuffix": 770,
+        "TypeOfLoss": "thank",
+        "Adjuster": "Kyle Lane",
+        "AccidentQuarter": "court",
+        "AccidentQuarterOrder": 2,
+        "Estado": "next",
+        "SuffixRegisterDate": {
+            "$date": "2021-05-01T01:07:33"
+        },
+        "IdSuffixStatus": 155,
+        "SuffixStatus": "difficult",
+        "FullName": "Jordan Nixon",
+        "DateOfBirth": "2023-08-04",
+        "LicenseNo": "notice",
+        "LossDescription": "Fast difficult raise attack federal eight.",
+        "Claimant": "Robert Edwards",
+        "ReportedBy": "standard",
+        "Litigation": "nature",
+        "AccidentCity": "Smithside",
+        "AccidentCountry": "Australia",
+        "DriverState": "ID",
+        "FirstClaimIndReserveDate": {
+            "$date": "2020-12-24T03:32:34"
+        },
+        "FirstClaimExpReserveDate": {
+            "$date": "2023-09-29T04:49:29"
+        },
+        "FirstClaimReserveDate": {
+            "$date": "2021-12-16T06:38:56"
+        },
+        "FirstSuffixIndReserveDate": {
+            "$date": "2022-12-26T18:52:50"
+        },
+        "FirstSuffixExpReserveDate": {
+            "$date": "2021-05-30T17:50:01"
+        },
+        "FirstSuffixReserveDate": {
+            "$date": "2023-11-07T05:07:20"
+        }
+    }
+}

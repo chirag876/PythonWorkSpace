@@ -1,0 +1,81 @@
+{
+    "_id": {
+        "$oid": "65b9ee36bcebc9a24dae196c"
+    },
+    "CreatedBy": null,
+    "CreatedDateTime": {
+        "$date": "2023-09-25T06:01:09.241Z"
+    },
+    "UpdatedBy": null,
+    "UpdatedDateTime": {
+        "$date": "2023-09-25T06:01:09.241Z"
+    },
+    "UpdateReason": null,
+    "OwnerId": null,
+    "IsActive": false,
+    "IsDeleted": false,
+    "IsApproved": false,
+    "ApproverId": null,
+    "ApprovedDateTime": null,
+    "IsAuthorized": null,
+    "AuthorizedById": null,
+    "AuthorizedDateTime": null,
+    "SysData": null,
+    "TenantId": null,
+    "SubTenantId": null,
+    "QuoteId": null,
+    "insured": {
+        "Address": {
+            "City": "New York",
+            "CountryCode": "US",
+            "CountryName": "United States",
+            "Line1": "124 Main Street",
+            "PostalCode": "10341",
+            "StateOrProvinceCode": "NY",
+            "StateOrProvinceName": "New York",
+            "detailAddress": {
+                "PreDirectionCode": "",
+                "PostDirectionCode": "",
+                "StreetName": "Main",
+                "StreetNumber": "123",
+                "StreetTypeCode": "St"
+            }
+        },
+        "Business": {
+            "AnnualSales": "9999",
+            "BusinessName": "ABC Company",
+            "_id": "123456",
+            "NAICS": "123456",
+            "NumberOfEmployeeTotal": 2500,
+            "SIC": "987654"
+        },
+        "Contact": {
+            "Communication": [
+                {
+                    "PhoneTypeCode": "phonecode",
+                    "PhoneNumber": "001-365-6445-897",
+                    "WebsiteURL": "firstquote.com"
+                }
+            ],
+            "FullName": "John Doe"
+        }
+    },
+    "location": {
+        "City": "New York",
+        "CountryCode": "US",
+        "EndDate": "31/9/2025",
+        "Line1": "456 Elm Street",
+        "PostalCode": "10002",
+        "StateOrProvinceCode": "NY",
+        "StartDate": "01/01/2023"
+    },
+    "premium": {
+        "Amount": "2000",
+        "CurrencyCode": "$",
+        "period": {
+            "EndDate": "",
+            "StartDate": ""
+        }
+    },
+    "quoteId": null
+}

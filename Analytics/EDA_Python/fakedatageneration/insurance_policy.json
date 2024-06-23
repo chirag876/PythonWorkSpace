@@ -1,0 +1,211 @@
+{
+    "_id": {
+        "$oid": "65b9ee08bcebc9a24dae1969"
+    },
+    "CorrelationId": ":66257130-31c9-4412-9c07-6cc5af1c40ac",
+    "AuditableRequestId": ":fdc528e3-151c-4783-a40c-087a85fc10e3",
+    "AuditableRequestName": "CreatePolicyRequest",
+    "AuditableSourceEventName": null,
+    "CreatedBy": null,
+    "CreatedDateTime": {
+        "$date": "2023-11-20T12:57:25.912Z"
+    },
+    "UpdatedBy": null,
+    "UpdatedDateTime": {
+        "$date": "2023-11-20T12:57:25.912Z"
+    },
+    "UpdateReason": null,
+    "OwnerId": null,
+    "IsActive": false,
+    "IsDeleted": false,
+    "IsApproved": false,
+    "ApproverId": null,
+    "ApprovedDateTime": null,
+    "IsAuthorized": null,
+    "AuthorizedById": null,
+    "AuthorizedDateTime": null,
+    "SysData": null,
+    "TenantId": null,
+    "SubTenantId": null,
+    "QuoteId": null,
+    "CancellationDate": null,
+    "CancelReasonDescription": null,
+    "ControllingStateOrProvinceCode": null,
+    "EffectiveDate": {
+        "$date": "2023-11-20T12:35:28.606Z"
+    },
+    "ExpirationDate": {
+        "$date": "2024-11-20T12:35:28.606Z"
+    },
+    "PolicyId": "655b57b57013c97c6d7fb9d5",
+    "LineOfBusinessCode": null,
+    "Number": "POL987654321",
+    "OriginalEffectiveDate": {
+        "$date": {
+            "$numberLong": "-62135596800000"
+        }
+    },
+    "ParentEntityId": null,
+    "ParentEntityTypeName": null,
+    "StatusCode": null,
+    "TotalPremium": null,
+    "AgentCode": 0,
+    "AccountingDate": {
+        "$date": {
+            "$numberLong": "-62135596800000"
+        }
+    },
+    "ReferalCode": 0,
+    "RenewalStatus": "Active",
+    "TransactionType": "New Business",
+    "address": [
+        {
+            "City": "Metropolis",
+            "CountryCode": "US",
+            "CountryName": "United States",
+            "Line1": "123 Main Street",
+            "Line2": "",
+            "PostalCode": "12345",
+            "StateOrProvinceCode": "NY",
+            "StateOrProvinceName": "New York",
+            "DetailAddress": {
+                "PostDirectionCode": "",
+                "PreDirectionCode": "",
+                "StreetName": "Main",
+                "StreetNumber": "123",
+                "StreetTypeCode": "St",
+                "UnitNumber": ""
+            },
+            "Reference": null
+        }
+    ],
+    "exposure": [
+        {
+            "_id": "EXPOSURE_ID_1",
+            "coverageName": "General Liability Coverage",
+            "perils": [
+                {
+                    "exposureid": "PERIL_ID_1",
+                    "name": "Public Liability",
+                    "renewalGroup": "Group A",
+                    "characteristics": [
+                        {
+                            "_id": "CHARACTERISTICS_ID_1",
+                            "exposureCharacteristicsid": "EX_CHAR_ID_1",
+                            "perilid": "PERIL_ID_1",
+                            "indemnityPerItem": "$1,000,000",
+                            "indemnityPerEvent": "$5,000,000",
+                            "indemnityInAggregate": "$10,000,000",
+                            "lumpSumPayment": "$100,000",
+                            "deductible": "$10,000"
+                        }
+                    ],
+                    "policyholderid": "POLICY_HOLDER_ID_1",
+                    "productid": "PRODUCT_ID_1",
+                    "policyid": "POLICY_ID_1",
+                    "createdTimestamp": "2023-11-20T12:35:28.606Z",
+                    "updatedTimestamp": "2023-11-20T12:35:28.606Z"
+                }
+            ]
+        }
+    ],
+    "insured": [
+        {
+            "InsuredId": 1,
+            "ParentEntityId": "ENTITY_ID_1",
+            "ParentEntityTypeName": "Company",
+            "TypeCode": "Business",
+            "BirthDate": "",
+            "FullName": "ABC Corporation",
+            "GivenName": "ABC",
+            "Surname": "Corporation",
+            "Address": {
+                "City": "Metropolis",
+                "CountryCode": "US",
+                "CountryName": "United States",
+                "Line1": "123 Main Street",
+                "Line2": "",
+                "PostalCode": "12345",
+                "StateOrProvinceCode": "NY",
+                "StateOrProvinceName": "New York",
+                "DetailAddress": {
+                    "PostDirectionCode": "",
+                    "PreDirectionCode": "",
+                    "StreetName": "Main",
+                    "StreetNumber": "123",
+                    "StreetTypeCode": "St",
+                    "UnitNumber": ""
+                },
+                "Reference": null
+            },
+            "CountryCode": "US"
+        }
+    ],
+    "producer": {
+        "Branch": "Commercial",
+        "_id": "PRODUCER_ID_1",
+        "Number": "PRODUCER_NUM_1",
+        "ParentEntityId": "ENTITY_ID_2",
+        "ParentEntityTypeName": "Agency",
+        "FullName": "XYZ Insurance Agency",
+        "GivenName": "XYZ",
+        "Surname": "Agency"
+    },
+    "reference": [
+        {
+            "AppliesTo": "Policy",
+            "Description": "Reference for GL Policy",
+            "_id": "REF_ID_1",
+            "Name": "GL Policy Reference"
+        }
+    ],
+    "underwriter": {
+        "_id": "UNDERWRITER_ID_1",
+        "ParentEntityId": "ENTITY_ID_3",
+        "ParentEntityTypeName": "Company",
+        "FullName": "John Doe",
+        "GivenName": "John",
+        "Surname": "Doe"
+    },
+    "claim": {
+        "ClaimId": 123,
+        "ClaimNo": 456,
+        "AccidentDate": {
+            "$date": "2023-11-20T12:35:28.606Z"
+        },
+        "ReportedDate": {
+            "$date": "2023-11-20T12:35:28.606Z"
+        },
+        "RegisterDate": "",
+        "AccidentZipCode": "12345",
+        "AccidentLatitude": 40.7128,
+        "AccidentLongitude": -74.006,
+        "AccidentMonth": "November",
+        "AccidentMonthOrder": 11,
+        "ClaimSuffix": 0,
+        "TypeOfLoss": "Property Damage",
+        "Adjuster": "Jane Smith",
+        "AccidentQuarter": "Q4",
+        "AccidentQuarterOrder": 4,
+        "Estado": "State",
+        "SuffixRegisterDate": "2023-11-20T12:57:25.912Z",
+        "IdSuffixStatus": 0,
+        "SuffixStatus": "Active",
+        "FullName": "John Doe",
+        "DateOfBirth": "1980-01-01",
+        "LicenseNo": "DL123456",
+        "LossDescription": "Accident description",
+        "Claimant": "Jane Doe",
+        "ReportedBy": "Internal",
+        "Litigation": "No",
+        "AccidentCity": "Metropolis",
+        "AccidentCountry": "United States",
+        "DriverState": "NY",
+        "FirstClaimIndReserveDate": "",
+        "FirstClaimExpReserveDate": "",
+        "FirstClaimReserveDate": "",
+        "FirstSuffixIndReserveDate": "",
+        "FirstSuffixExpReserveDate": "",
+        "FirstSuffixReserveDate": ""
+    }
+}

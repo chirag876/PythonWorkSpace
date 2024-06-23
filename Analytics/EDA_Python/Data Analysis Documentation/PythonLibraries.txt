@@ -1,0 +1,50 @@
+Dataprep (from dataprep.eda import create_report, plot, plot_correlation, plot_missing
+# List Available Datasets
+from dataprep.datasets import get_dataset_names
+get_dataset_names()
+# Load Dataset
+from dataprep.datasets import load_dataset)
+
+
+sweetviz
+autoviz (autoviz.AutoViz_Class import AutoViz_Class)
+seaborn
+matplotlib
+plotly
+skearn
+fuzzywuzzy
+nltk
+openai
+pandas
+flask
+Django
+spacy
+tfidf
+numpy
+langchain
+tensorflow
+dtale
+regex
+pickle
+fit transform
+word2vec
+sqlalchemy
+ann-visualizer
+fastapi
+gradient
+os
+file imports
+streamlit
+swagger
+flask-swagger-ui
+json
+csv
+faker
+pymongo
+logzero
+warning
+mysql.connector
+PyGal
+NetworkX
+Panel
+Altair
