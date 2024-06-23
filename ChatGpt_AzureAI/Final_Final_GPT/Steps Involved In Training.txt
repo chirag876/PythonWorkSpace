@@ -1,0 +1,201 @@
+Step 1:  %pip install --upgrade openai  #install openai
+
+Step 2:  import libraries
+		import os
+
+		import openai
+		import csv
+		import json
+		import pandas as pd
+
+Step 3: os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY" 
+		
+	place api_key here
+
+Step 4: creating headers
+
+	# Specify the path to the CSV file
+	file_path = r'file_path'
+	# Open the CSV file in read mode
+	with open(file_path, 'r') as f:
+    		# Read the CSV data using the csv.reader
+    		data = list(csv.reader(f))
+    		# Extract headers from the first row
+    		headers = data[0]
+    		# Extract data excluding the headers
+    		header_data = data[1:]
+
+	# Now, you have 'headers' containing column names and 'datas' containing the actual data
+
+
+Step 5: create list of headers
+	
+	headers = list(csv.reader(mapping_df))
+
+	mapping_df is csv file in which all the mappings are available
+	
+ 
+Step 6: create pairs for each feature/mapping
+
+		# Initialization of 'pairs' List
+		pairs = []
+
+		# Iterate through each row in the DataFrame
+		for index, headers in mapping_df.iterrows():
+    		# Create a prompt string based on the current row
+    	prompt = (
+        	f"You are provided with a dataset featuring three key columns: data element, Description, and Alternative_names."
+        	f"The data element column contains predefined names, serving as reference points for matching incoming inputs."
+        	f"Your objective is to analyze the dataset, linking incoming inputs to the values of these predetermined data element names."
+        	f"In the Alternative_names column, you'll discover additional names linked to each data element value, separated by ';'."
+        	f"For example, let's focus on the current entry: {headers[0]} with a description of {headers[1]} and alternative names {headers[2]}, separated by ';'."
+        	f"Your task is to establish connections between incoming inputs and these fixed data element values."
+    		)
+    		# Extract the 'Alternative_names' feature for the current row
+    		completion = headers['Alternative_names']
+
+    		# Append a dictionary to 'pairs' containing the prompt and completion for the current row
+    		pairs.append({"prompt": prompt, "completion": completion})
+
+Step 7: create json file of pairs >> prompt_pairs.json
+
+		# Create a file named "prompt_pairs.json" and open it for writing
+		with open("prompt_updated_terms.json", 'w') as f:
+    		# Dump the 'pairs' list into the JSON file
+    			json.dump(pairs, f)
+
+Step 8: create .jsonl file with help of openai fine
+
+		!openai tools fine_tunes.prepare_data -f <prompt_pairs.json file path>
+
+		important note*** : run above command on command prompt 
+
+		It requires some inputs from user to complete the .jsonl file
+
+
+		example : 
+
+
+		Analyzing...
+
+		- Your file contains 5 prompt-completion pairs. In general, we recommend having at least a few hundred examples. We've found that performance tends to linearly increase for 		every doubling of the number of examples
+		- All prompts end with suffix `, separated by ';'.Your task is to establish connections between incoming inputs and these fixed data element values.`.This suffix seems very 		long. Consider replacing with a shorter suffix, such 		as ` ->`
+		- All prompts start with prefix `You are provided with a dataset featuring three key columns: data element, Description, and Alternative_names.The data element column 			contains predefined names, serving as reference points for matching incoming inputs.Your objective is to analyze the dataset,linking incoming inputs to the values of these 		predetermined data element names.In the Alternative_names column, you'll discover additional names linked to each data element value, separated by ';'.For example, let's 		focus on the current entry: `. Fine-tuning doesn't require the instruction specifying the task, or a few-shot example scenario. Most of the time you should only add the 		input data into the prompt, and the desired output into the completion
+		- Your data does not contain a common ending at the end of your completions. Having a common ending string appended to the end of the completion makes it clearer to the 		fine-tuned model where the completion should end. See https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset for more detail and examples.
+		- The completion should start with a whitespace character (` `). This tends to produce better results due to the tokenization we use. See 						https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset for more details
+
+		Based on the analysis we will perform the following actions:
+		- [Recommended] Remove prefix `You are provided with a dataset featuring three key columns: data element, Description, and Alternative_names.The data element column 			contains predefined names, serving as reference points for matching incoming inputs.Your objective is to analyze the dataset, linking incoming inputs to the values of these 		predetermined data element names.In the Alternative_names column, you'll discover additional names linked to each data element value, separated by ';'.For example, let's 		focus on the current entry: ` from all prompts [Y/n]: 
+
+		<here press Y/y or N/n for next step 
+		
+		And after providing all the inputs it will generate .jsonl file also suggests model name which are suitable for out custom prompt.
+
+		example:
+
+
+		- [Recommended] Add a suffix ending `\n` to all completions [Y/n]: Y
+		- [Recommended] Add a whitespace character to the beginning of the completion [Y/n]: Y
+
+
+		Your data will be written to a new JSONL file. Proceed [Y/n]: Y
+
+		Wrote modified file to `C:\Users\Nagesh\Downloads\prompt_updated_terms_prepared (1).jsonl`
+		Feel free to take a look!
+
+		Now use that file when fine-tuning:
+		> openai api fine_tunes.create -t "C:\Users\Nagesh\Downloads\prompt_updated_terms_prepared (1).jsonl"
+
+		After you’ve fine-tuned a model, remember that your prompt has to end with the indicator string `, separated by ';'.Your task is to establish connections between incoming 		inputs and these fixed data element values.` for the model to start generating completions, rather than continuing with the prompt. Make sure to include `stop=["\n"]` so 		that the generated texts ends at the expected place.
+		Once your model starts training, it'll approximately take 2.52 minutes to train a `curie` model, and less for `ada` and `babbage`. Queue will approximately take half an 		hour per job ahead of you.
+		
+		after this you will be able find your .jsonl file in same directory where .json file is present.
+
+		example >> json file path : "C:\Users\Nagesh\Downloads\prompt_updated_terms.json"
+			   jsonl file path : "C:\Users\Nagesh\Downloads\prompt_updated_terms_prepared.jsonl"
+
+
+
+			 
+
+
+Step 9: Upload a training file
+	
+	Once you have the data validated, the file needs to be uploaded using the Files API in order to be used with a fine-tuning jobs:
+
+	from openai import OpenAI
+	client = OpenAI()
+
+	client.files.create(
+  	file=open("mydata.jsonl", "rb"),
+  	purpose="fine-tune"
+	)
+	
+	After you upload the file, it may take some time to process. While the file is processing, you can still create a fine-tuning job but it will not start until the file processing 	has completed.
+
+	This returns output like this >>> 
+
+	FileObject(id='file-kY84rUQ7udiAcqEetqx2PSJv', bytes=1151, created_at=1702454121, filename='prompt_updated_terms_prepared.jsonl', object='file', purpose='fine-tune', 	status='uploaded', status_details=None)
+
+Step 10 : Create a fine-tuned model
+	
+	After ensuring you have the right amount and structure for your dataset, and have uploaded the file, the next step is to create a fine-tuning job. We support creating fine-tuning 	jobs via the fine-tuning UI or programmatically.
+
+	To start a fine-tuning job using the OpenAI SDK:
+
+	from openai import OpenAI
+	client = OpenAI()
+
+	client.fine_tuning.jobs.create(
+  	training_file="file-abc123", # Place file_id here which is created in  step 9.  example :file-kY84rUQ7udiAcqEetqx2PSJv
+  	model="davinci-002"
+	)
+
+
+Step 11 : 
+
+	After you've started a fine-tuning job, it may take some time to complete. Your job may be queued behind other jobs in our system, and training a model can take minutes or hours 	depending on the model and dataset size. After the model training is completed, the user who created the fine-tuning job will receive an email confirmation.
+
+	In addition to creating a fine-tuning job, you can also list existing jobs, retrieve the status of a job, or cancel a job.
+
+	from openai import OpenAI
+	client = OpenAI()
+
+	# List 10 fine-tuning jobs
+	client.fine_tuning.jobs.list(limit=10)
+
+	# Retrieve the state of a fine-tune
+	client.fine_tuning.jobs.retrieve("ftjob-abc123")
+
+	# Cancel a job
+	client.fine_tuning.jobs.cancel("ftjob-abc123")
+
+	# List up to 10 events from a fine-tuning job
+	client.fine_tuning.jobs.list_events(fine_tuning_job_id="ftjob-abc123", limit=10)
+
+	# Delete a fine-tuned model (must be an owner of the org the model was created in)
+	client.models.delete("ft:gpt-3.5-turbo:acemeco:suffix:abc123")
+
+Step 12 : Use a fine-tuned model
+
+	When a job has succeeded, you will see the fine_tuned_model field populated with the name of the model when you retrieve the job details. You may now specify this model as a 	parameter to in the Chat Completions (for gpt-3.5-turbo) or legacy Completions API (for babbage-002 and davinci-002), and make requests to it using the Playground.
+
+	After your job is completed, the model should be available right away for inference use. In some cases, it may take several minutes for your model to become ready to handle 	requests. If requests to your model time out or the model name cannot be found, it is likely because your model is still being loaded. If this happens, try again in a few minutes.
+
+	from openai import OpenAI
+	client = OpenAI()
+
+	response = client.chat.completions.create(
+  		model="ft:gpt-3.5-turbo:my-org:custom_suffix:id",
+  		messages=[
+    			{"role": "system", "content": "You are a helpful assistant."},
+    			{"role": "user", "content": "Hello!"}
+  				]
+			)
+	print(completion.choices[0].message)
+
+
+Step 13 : 
+
+
+	

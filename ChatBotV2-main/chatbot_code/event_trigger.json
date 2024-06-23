@@ -1,0 +1,20 @@
+{
+  "weather": ["weatherapi", "options"],
+  "timezone": ["timezoneapi", "options"],
+  "translation": ["translation_text"],
+  "translation_text": ["translation_to"],
+  "translation_to": ["translationapi", "options"],
+  "insurance": ["pdfapi", "options"],
+  "video_analytics": ["video_analytics_api", "options"],
+  "facts": ["facts_api", "options"],
+  "fnol": ["fnol_api", "options"],
+  "risk_and_enhanced_property_details": ["risk_and_enhanced_property_details_city"],
+  "risk_and_enhanced_property_details_city": ["risk_and_enhanced_property_details_state"],
+  "risk_and_enhanced_property_details_state": ["risk_and_enhanced_property_details_zip"],
+  "risk_and_enhanced_property_details_zip": ["risk_and_enhanced_property_details_api", "options"],
+  "risk_and_enhanced_property_details_with_replacement_cost_data": ["risk_and_enhanced_property_details_with_replacement_cost_data_city"],
+  "risk_and_enhanced_property_details_with_replacement_cost_data_city": ["risk_and_enhanced_property_details_with_replacement_cost_data_state"],
+  "risk_and_enhanced_property_details_with_replacement_cost_data_state": ["risk_and_enhanced_property_details_with_replacement_cost_data_zipcode"],
+  "risk_and_enhanced_property_details_with_replacement_cost_data_zipcode": ["risk_and_enhanced_property_details_with_replacement_cost_data_api", "options"],
+  "risk_and_enhanced_property_details_with_replacement_cost_data_json": ["risk_and_enhanced_property_details_with_replacement_cost_data_city_json_api", "options"]
+}

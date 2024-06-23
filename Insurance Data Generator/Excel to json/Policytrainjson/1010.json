@@ -1,0 +1,307 @@
+{
+  "RetrievePolicyRequest": {
+    "messageInformation": {
+      "businessPurposeTypeCode": "ABC123",
+      "effectiveDate": "2022-11-04",
+      "trackingNumber": "TRK123456789"
+    },
+    "policy": {
+      "cancellationDate": "2021-06-18",
+      "effectiveDate": "2020-10-31",
+      "expirationDate": "2021-10-31",
+      "id": "1010",
+      "lineofBusinessCode": "GL",
+      "number": "POLICY987654321",
+      "originalEffectiveDate": "2022-11-04",
+      "parentEntityId": "ENTITY456",
+      "parentEntityTypeName": "Business",
+      "cancelReasonDescription": "Cancellation due to non-payment",
+      "controllingStateOrProvinceCode": "NY",
+      "statusCode": "ACTIVE"
+    },
+    "insured": {
+      "id": "INSURED123",
+      "parentEntityTypeName": "GL",
+      "typeCode": "IND",
+      "otherGivenName": "",
+      "suffix": "",
+      "titlePrefix": "",
+      "parentEntityId": "1010",
+      "fullName": "John Thomas",
+      "givenName": "John",
+      "surname": "Thomas"
+    }
+  },
+  "RetrievePolicyResponse": {
+    "messageInformation": {
+      "businessPurposeTypeCode": "ABC123",
+      "effectiveDate": "2022-11-04",
+      "trackingNumber": "TRK123456789",
+      "messageStatus": [
+        {
+          "errorCode": "DataError",
+          "statusCode": "Error",
+          "statusDescription": "Data retrieval error"
+        }
+      ]
+    },
+    "Quote": {
+      "id": "Q1010"
+    },
+    "policyHolder": {
+      "CustomerID": "10",
+      "CustomerName": "John Thomas"
+    },
+    "policy": {
+      "cancelReasonDescription": "Cancellation due to non-payment",
+      "controllingStateOrProvinceCode": "NY",
+      "lineofBusinessCode": "GL",
+      "number": "POLICY987654321",
+      "originalEffectiveDate": "2022-11-04",
+      "parentEntityId": "ENTITY456",
+      "parentEntityTypeName": "Business",
+      "statusCode": "ACTIVE",
+      "claimsCount": "0",
+      "cancellationDate": "2021-06-18",
+      "effectiveDate": "2020-10-31",
+      "expirationDate": "2021-10-31",
+      "RenewalDate": "",
+      "id": "1010",
+      "renewalPremium": "7364.85",
+      "numberOfEmployees": "82",
+      "businessIndustry": "Manufacturing",
+      "annualRevenue": "7629698.86",
+      "paymentMethod": "Cheque",
+      "durationInMonths": "12",
+      "totalPremium": "7372.65",
+      "renewalStatus": "0",
+      "address": [
+        {
+          "city": "New York",
+          "countryCode": "US",
+          "countryName": "United States",
+          "line1": "123 Main Street",
+          "line2": "",
+          "postalCode": "10001",
+          "stateOrProvinceCode": "NY",
+          "stateOrProvinceName": "New York",
+          "id": "ADDR123",
+          "latitude": 40.7128,
+          "line3": "",
+          "line4": "",
+          "longitude": -74.006,
+          "parentEntityId": "ENTITY456",
+          "parentEntityTypeName": "Business",
+          "regionCode": "",
+          "regionName": "Northeast",
+          "subRegionCode": "",
+          "subRegionName": "Mid-Atlantic",
+          "typeCode": "",
+          "detailAddress": {
+            "postDirectionCode": "",
+            "preDirectionCode": "",
+            "streetName": "Main",
+            "streetNumber": "123",
+            "streetTypeCode": "",
+            "unitNumber": ""
+          },
+          "reference": [
+            {
+              "appliesTo": "Business",
+              "description": "Headquarters",
+              "id": "REF456",
+              "name": "HQ"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "cancellationDate": "2022-11-04",
+        "cancellationReasonCode": "",
+        "description": "General Liability",
+        "effectiveDate": "2022-11-04",
+        "expirationDate": "2022-11-04",
+        "id": "COVERAGE123",
+        "inceptionDate": "2022-11-04",
+        "lineOfBusinessCode": "GL",
+        "parentEntityTypeName": "GL",
+        "planName": "Standard",
+        "premiumBasisCode": "",
+        "productCode": "",
+        "typeCode": "",
+        "deductible": {
+          "amount": 1000,
+          "id": "DED123",
+          "parentEntityTypeName": "GL",
+          "typeCode": "DED",
+          "parentEntityId": "1010"
+        },
+        "limit": {
+          "amount": 1000000,
+          "id": "LIMIT123",
+          "parentEntityTypeName": "GL",
+          "parentEntityId": "1010",
+          "typeCode": "LIMIT"
+        },
+        "reference": [
+          {
+            "appliesTo": "Coverage",
+            "description": "Additional insured endorsement",
+            "id": "REF789",
+            "name": "AI"
+          }
+        ],
+        "scheduledItem": [
+          {
+            "categoryCode": "",
+            "description": "Computers and peripherals",
+            "effectiveDate": "2022-11-04",
+            "expirationDate": "2022-11-04",
+            "id": "ITEM123",
+            "limit": {
+              "amount": 1000000,
+              "id": "LIMIT123",
+              "parentEntityId": "P1122",
+              "parentEntityTypeName": "GL",
+              "typeCode": "LIMIT"
+            },
+            "parentEntityId": "COVERAGE123",
+            "parentEntityTypeName": "Coverage",
+            "purchasedDate": "2022-11-04",
+            "valuation": [
+              {
+                "description": "Computers",
+                "effectiveDate": "2022-11-04",
+                "id": "VALUATION456",
+                "parentEntityId": "ITEM123",
+                "parentEntityTypeName": "ScheduledItem",
+                "typeCode": "VALUATION",
+                "amount": {
+                  "appliesToCode": "ScheduledItem",
+                  "currencyCode": "USD",
+                  "id": "VALUATION123",
+                  "parentEntityId": "ITEM123",
+                  "parentEntityTypeName": "ScheduledItem",
+                  "typeCode": "VALUATION",
+                  "unitCount": 5,
+                  "value": 2500
+                }
+              }
+            ]
+          }
+        ],
+        "parentEntityId": "1010"
+      },
+      "insured": [
+        {
+          "id": "INSURED123",
+          "parentEntityTypeName": "GL",
+          "typeCode": "IND",
+          "otherGivenName": "",
+          "suffix": "",
+          "titlePrefix": "",
+          "birthDate": "1990-01-01",
+          "roleCode": "",
+          "parentEntityId": "1010",
+          "fullName": "Kristen Santos",
+          "givenName": "Kristen",
+          "surname": "Santos",
+          "address": {
+            "city": "New York",
+            "countryCode": "US",
+            "countryName": "United States",
+            "line1": "456 Elm Street",
+            "line2": "",
+            "postalCode": "10002",
+            "stateOrProvinceCode": "NY",
+            "stateOrProvinceName": "New York",
+            "id": "ADDR456",
+            "latitude": 40.7128,
+            "line3": "",
+            "line4": "",
+            "longitude": -74.006,
+            "parentEntityId": "INSURED123",
+            "parentEntity": "",
+            "typeName": "Address",
+            "regionCode": "",
+            "regionName": "",
+            "subRegionCode": "",
+            "subRegionName": "",
+            "typeCode": "HOME",
+            "detailAddress": {
+              "postDirectionCode": " ",
+              "preDirectionCode": " ",
+              "streetName": "Elm",
+              "streetNumber": "456",
+              "streetTypeCode": "ST",
+              "unitNumber": " "
+            },
+            "reference": []
+          }
+        }
+      ],
+      "producer": {
+        "branch": "ABC",
+        "id": "PROD789",
+        "number": "P12345",
+        "parentEntityTypeName": "GL",
+        "fullName": "John Smith",
+        "givenName": "John",
+        "otherGivenName": "",
+        "suffix": "",
+        "surname": "Smith",
+        "titlePrefix": "",
+        "parentEntityId": "1010"
+      },
+      "reference": [
+        {
+          "appliesTo": "Policy",
+          "description": "Additional insured endorsement",
+          "id": "REF789",
+          "name": "AI"
+        }
+      ],
+      "underwriter": {
+        "parentEntityId": "1010",
+        "parentEntityTypeName": "GL",
+        "fullName": "Emily Johnson",
+        "givenName": "Emily",
+        "otherGivenName": "",
+        "suffix": "",
+        "surname": "Johnson",
+        "titlePrefix": "",
+        "id": "UW123"
+      }
+    },
+    "claim": {
+      "parentEntityTypeName": "GL Policy",
+      "lossDate": "2023-05-10",
+      "reportDate": "2023-05-11",
+      "status": "Open",
+      "description": "Property damage claim",
+      "reserveAmount": 0,
+      "id": "C1010",
+      "parentEntityId": "1010",
+      "amount": "6872.65",
+      "adjuster": {
+        "id": "ADJ456",
+        "parentEntityTypeName": "Claim",
+        "fullName": "Sarah Johnson",
+        "givenName": "Sarah",
+        "otherGivenName": "",
+        "suffix": "",
+        "surname": "Johnson",
+        "titlePrefix": "",
+        "parentEntityId": "1010"
+      },
+      "reference": [
+        {
+          "appliesTo": "Claim",
+          "description": "Photos of damage",
+          "id": "REF789",
+          "name": "DamagePhotos"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+Output Column Name,Input Column Name
+MGA,Agent
+Program Name,Referring Broker/UW
+Issuing Company,Market Co
+Full policy number,Policy #
+Policy Effective Date,Eff. Date
+Policy Expiration Date,N/A
+Insured Name,Insured
+Insured Address,Prod Asso
+Insured City,Insured City
+Insured State,State
+Insured Zip,N/A
+Transaction Effective Date,Tran Eff. Date
+Transaction Expiration Date,Exp. Date
+Premium,File #
+Terrorism Premium,Agent Comm(%)
+Total Gross Premium including Terrorism,Gross Comm(%)
+Commission amount,Gross Comm Amt
+Net Premium,Income
+Surcharge amount,Income %
+Surcharge type,N/A
+Tax Amount,Total INV Taxes
+Tax Type,Admitted
+Fee Amount,Total INV Fees
+Fee Type,Fee Basis
+Payment terms,N/A
+Book or Process Date,Book Date
+Policy Type,Policy Type
+Transaction Type,Trans Code
+Primary/Excess Indicator,N/A
+Attachment Point,N/A
+CM/Occ Indicator,N/A
+Retroactive date,N/A
+Risk/Location #,Invoice #
+Risk/Location Address,N/A
+Risk/Location City,N/A
+Risk/Location State,Office
+Risk/Location Zip,N/A
+Risk/Location premium,Agent Comm Amt
+Technical Price,Gross Premium
+IRPM (Individual Risk Premium Modification),Log In
+Exposure Type,Quote Dt
+Exposure Amount,Invoice Dt
+Policy Occurrence Limit,N/A
+Policy Aggregate Limit,N/A
+SIR/Deductible indicator,N/A
+SIR/Deductible amount,Broker Fee
+SIR/Deductible type,N/A
+NAICS or SIC Code,NAICS Code
+Annual Statement Line Code,N/A
+Annual Statement Line Description,N/A
+Expiring Policy Number,N/A
+Issue Date,N/A
+Policy Event Number,N/A
+Companion policy number,N/A
+Carrier %,Split %
+Carrier Limit,N/A
+Broker/Agent,Producer
+Broker/Agent Address,Agent Address
+Broker/Agent City,N/A
+Broker/Agent State,Agent State - City
+Broker/Agent Zip,Agent Zipcode
+Direct/Assumed,N/A
+Fac?,COB
+Fac Reinsurance Attachment point,N/A
+Damage to Premises Rented to you Limit,N/A
+Medical Expense Limit Included,N/A
+Medical Expense Limit,Split BR Fee
+Personal and Advertising Injury Limit,N/A
+Products/Completed Operations Aggregate Limit,N/A
+2nd Layer Deductible - Per Occurrence,N/A
+2nd Layer Deductible Aggregate,N/A
+Stop Gap Limit,N/A
+Employee Benefits Limit,Total Inv Rev Per(%)
+Rate Per Member,N/A
+Endorsement number,N/A
+Ceded Fac Reinsurance Carrier,N/A
+Ceded Premium to Fac Reinsurance,N/A
+Certificate number,N/A
+Coverage Ceded to Fac Reinsurer,N/A
+Home State,N/A
+SL Tax Broker Company,N/A
+SL Tax Broker Name,N/A
+SL Tax Broker Address,N/A
+SL Broker City,N/A
+SL Broker State,N/A
+SL Broker Zip,N/A
+SL License Number,N/A
+NJ Transaction Number,N/A
+Coverage Code,N/A
+Coverage Sub Code,N/A
+CA Limit,N/A
+MTC Limit,N/A
+APD Limit,N/A
+CA Deductible Amount,N/A
+MTC Deductible Amount,N/A
+APD Deductible Amount,N/A
+Rating Class Code,N/A
+Fleet Indicator,N/A
+Fleet size,N/A
+Hired Car,N/A
+Non Owned,N/A
+Drive Other Car,N/A
+Vehicle Number,N/A
+Coverage Symbol,N/A
+Cost New,N/A
+Vehicle Body Type,N/A
+Vehicle Type,N/A
+Radius Of Use,N/A
+Business Use Class,N/A
+Gross Vehicle Weight,N/A
+Vehicle Make,N/A
+Vehicle Model,N/A
+Model Year,N/A
+Axel count,N/A
+Vehicle Identification Number,N/A
+Tractor GCW,N/A
+Cost of Hire,N/A
+Specialized Vehicle Type,N/A
+"Vehicle Number of Seats, Seating Capacity",N/A
+Occupancy,N/A
+Class Code,N/A
+Class Code Description,N/A
+100% Limit,N/A
+Building Value,N/A
+Coinsurance,N/A
+Building Valuation,N/A
+Agreed Value,N/A
+Contents Value,N/A
+BI/Rental Income Value,N/A
+Other Structure Limit,N/A
+TIV,N/A
+Construction,N/A
+Year Built,N/A
+# of Stories,N/A
+Square Footage,N/A
+AOP Deductible,N/A
+AOP Limit,N/A
+Flood Limit,N/A
+Flood % Deductible,N/A
+Flood Deducible,N/A
+Flood Zone,N/A
+Earthquake Limit,N/A
+Earthquake % Deductible,N/A
+Earthquake Deductible,N/A
+Earthquake Zone,N/A
+Wind Limit,N/A
+Wind Deductible,N/A
+Wind % Deducible,N/A
+Equipment Breakdown Limit,N/A
+Equipment Breakdown Deductible,N/A
+Protection Class,N/A
+100% Smoke Detectors,N/A
+Sprinkler Protection Type Code,N/A
+Percentage of sprinkler coverage,N/A
+Breach of Privacy Event,N/A
+Data and software loss,N/A
+Network service failure liabilities,N/A
+Business interruption,N/A
+Contingent Business Interruption,N/A
+Incident Response Costs,N/A
+Regulatory and defense coverage,N/A
+product and operations liability,N/A
+liability (Tech E&O),N/A
+Liability (Professional Services),N/A
+Liability (Directors and Officers),N/A
+Media,N/A
+Financial Theft and fraud,N/A
+Reputational Damages,N/A
+Cyber Extortion,N/A
+Intellectual Property Theft,N/A

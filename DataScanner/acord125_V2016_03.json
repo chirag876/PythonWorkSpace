@@ -1,0 +1,1580 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "acord125_V2016_03",
+    "type": "object",
+    "properties": {
+      "Page_1": {
+        "type": "object",
+        "properties": {
+          "DATE (MM/DD/YYYY)": {
+            "type": "string"
+          },
+          "AGENCY": {
+            "type": "string"
+          },
+          "CARRIER": {
+            "type": "string"
+          },
+          "NAIC CODE": {
+            "type": "string"
+          },
+          "COMPANY POLICY OR PROGRAM NAME": {
+            "type": "string"
+          },
+          "PROGRAM CODE": {
+            "type": "string"
+          },
+          "POLICY NUMBER": {
+            "type": "string"
+          },
+          "CONTACT NAME": {
+            "type": "string"
+          },
+          "PHONE (A/C. No. Ext)": {
+            "type": "string"
+          },
+          "UNDERWRITER": {
+            "type": "string"
+          },
+          "UNDERWRITER OFFICE": {
+            "type": "string"
+          },
+          "FAX (A/C. No)": {
+            "type": "string"
+          },
+          "E-MAIL ADDRESS": {
+            "type": "string"
+          },
+          "CODE": {
+            "type": "string"
+          },
+          "SUBCODE": {
+            "type": "string"
+          },
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "STATUS OF TRANSACTION": {
+            "type": "object",
+            "properties": {
+              "QUOTE": {
+                "type": "string"
+              },
+              "ISSUE POLICY": {
+                "type": "string"
+              },
+              "RENEW": {
+                "type": "string"
+              },
+              "BOUND (Give Date and/or Attach Copy)": {
+                "type": "string"
+              },
+              "CHANGE": {
+                "type": "string"
+              },
+              "CANCEL": {
+                "type": "string"
+              },
+              "DATE": {
+                "type": "string"
+              },
+              "TIME": {
+                "type": "string"
+              },
+              "AM": {
+                "type": "string"
+              },
+              "PM": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "LINE OF BUSINESS": {
+            "type": "object",
+            "properties": {
+              "BOILER MACHINERY": {
+                "type": "string"
+              },
+              "CYBER AND PRIVACY": {
+                "type": "string"
+              },
+              "YACHT": {
+                "type": "string"
+              },
+              "BUSINESS AUTO": {
+                "type": "string"
+              },
+              "FIDUCIARY LIABILITY": {
+                "type": "string"
+              },
+              "BUSINESS OWNERS": {
+                "type": "string"
+              },
+              "GARAGE AND DEALERS": {
+                "type": "string"
+              },
+              "COMMERCIAL GENERAL LIABILITY": {
+                "type": "string"
+              },
+              "LIQUOR LIABILITY": {
+                "type": "string"
+              },
+              "COMMERCIAL NLAND MARINE": {
+                "type": "string"
+              },
+              "MOTOR CARRIER": {
+                "type": "string"
+              },
+              "COMMERCIAL PROPERTY": {
+                "type": "string"
+              },
+              "TRUCKERS": {
+                "type": "string"
+              },
+              "CRIME": {
+                "type": "string"
+              },
+              "UMBRELLA": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ATTACHMENTS": {
+            "type": "object",
+            "properties": {
+              "ACCOUNTS RECEIVABLE VALUABLE PAPERS": {
+                "type": "string"
+              },
+              "GLASS AND SIGN SECTION": {
+                "type": "string"
+              },
+              "STATEMENT SCHEDULE OF VALUES": {
+                "type": "string"
+              },
+              "ADDITIONAL INTEREST SCHEDULE": {
+                "type": "string"
+              },
+              "HOTEL MOTEL SUPPLEMENT": {
+                "type": "string"
+              },
+              "STATE SUPPLEMENT (If applicable)": {
+                "type": "string"
+              },
+              "ADDITIONAL PREMISES INFORMATION SCHEDULE": {
+                "type": "string"
+              },
+              "INSTALLATION BUILDERS RISK SECTION": {
+                "type": "string"
+              },
+              "VACANT BUILDING SUPPLEMENT": {
+                "type": "string"
+              },
+              "APARTMENT BUILDING SUPPLEMENT": {
+                "type": "string"
+              },
+              "INTERNATIONAL LIABILITY EXPOSURE SUPPLEMENT": {
+                "type": "string"
+              },
+              "VEHICLE SCHEDULE": {
+                "type": "string"
+              },
+              "CONDO ASSN BYLAWS (for D&O Coverage only)": {
+                "type": "string"
+              },
+              "INTERNATIONAL PROPERTY EXPOSURE SUPPLEMENT": {
+                "type": "string"
+              },
+              "CONTRACTOR SUPPLEMENT": {
+                "type": "string"
+              },
+              "LOSS SUMMARY": {
+                "type": "string"
+              },
+              "COVERAGES SCHEDULE": {
+                "type": "string"
+              },
+              "OPEN CARGO SECTION": {
+                "type": "string"
+              },
+              "DEALERS SECTION": {
+                "type": "string"
+              },
+              "PREMIUM PAYMENT SUPPLEMENT": {
+                "type": "string"
+              },
+              "DRIVER INFORMATION SCHEDULE": {
+                "type": "string"
+              },
+              "PROFESSIONAL LIABILITY SUPPLEMENT": {
+                "type": "string"
+              },
+              "ELECTRONIC DATA PROCESSING SECTION": {
+                "type": "string"
+              },
+              "RESTAURANT TAVERN SUPPLEMENT": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "POLICY INFORMATION": {
+            "type": "object",
+            "properties": {
+              "PROPOSED EFF DATE": {
+                "type": "string"
+              },
+              "PROPOSED EXP DATE": {
+                "type": "string"
+              },
+              "PAYMENT PLAN": {
+                "type": "string"
+              },
+              "DEPOSIT": {
+                "type": "string"
+              },
+              "MINISTRA PREMIUM": {
+                "type": "string"
+              },
+              "METHOD OF PAYMENT": {
+                "type": "string"
+              },
+              "AUDIT": {
+                "type": "string"
+              },
+              "POLICY PREMIUM": {
+                "type": "string"
+              },
+              "DIRECT": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "APPLICANT INFORMATION": {
+            "type": "object",
+            "properties": {
+              "row_1": {
+                "type": "object",
+                "properties": {
+                  "NAME (First Named Insured) AND MAILING ADDRESS (including ZIP+4)": {
+                    "type": "string"
+                  },
+                  "GL CODE": {
+                    "type": "string"
+                  },
+                  "SIC": {
+                    "type": "string"
+                  },
+                  "NAICS": {
+                    "type": "string"
+                  },
+                  "FEIN OR SOC SEC #": {
+                    "type": "string"
+                  },
+                  "BUSINESS PHONE #": {
+                    "type": "string"
+                  },
+                  "WEBSITE ADDRESS": {
+                    "type": "string"
+                  },
+                  "CORPORATION": {
+                    "type": "string"
+                  },
+                  "JOINT VENTURE": {
+                    "type": "string"
+                  },
+                  "NOT FOR PROFIT ORG": {
+                    "type": "string"
+                  },
+                  "SUBCHAPTER \"S\" CORPORATION": {
+                    "type": "string"
+                  },
+                  "NO OF MEMBERS AND MANAGERS": {
+                    "type": "string"
+                  },
+                  "INDIVIDUAL": {
+                    "type": "string"
+                  },
+                  "LLC": {
+                    "type": "string"
+                  },
+                  "PARTNERSHIP": {
+                    "type": "string"
+                  },
+                  "TRUST": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "row_2": {
+                "type": "object",
+                "properties": {
+                  "NAME (Other Named Insured) AND MAILING ADDRESS (including ZIP+4)": {
+                    "type": "string"
+                  },
+                  "GL CODE": {
+                    "type": "string"
+                  },
+                  "SIC": {
+                    "type": "string"
+                  },
+                  "NAICS": {
+                    "type": "string"
+                  },
+                  "FEIN OR SOC SEC #": {
+                    "type": "string"
+                  },
+                  "BUSINESS PHONE #": {
+                    "type": "string"
+                  },
+                  "WEBSITE ADDRESS": {
+                    "type": "string"
+                  },
+                  "CORPORATION": {
+                    "type": "string"
+                  },
+                  "JOINT VENTURE": {
+                    "type": "string"
+                  },
+                  "NOT FOR PROFIT ORG": {
+                    "type": "string"
+                  },
+                  "SUBCHAPTER \"S\" CORPORATION": {
+                    "type": "string"
+                  },
+                  "NO OF MEMBERS AND MANAGERS": {
+                    "type": "string"
+                  },
+                  "INDIVIDUAL": {
+                    "type": "string"
+                  },
+                  "LLC": {
+                    "type": "string"
+                  },
+                  "PARTNERSHIP": {
+                    "type": "string"
+                  },
+                  "TRUST": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "row_3": {
+                "type": "object",
+                "properties": {
+                  "NAME (Other Named Insured) AND MAILING ADDRESS (including ZIP+4)": {
+                    "type": "string"
+                  },
+                  "GL CODE": {
+                    "type": "string"
+                  },
+                  "SIC": {
+                    "type": "string"
+                  },
+                  "NAICS": {
+                    "type": "string"
+                  },
+                  "FEIN OR SOC SEC #": {
+                    "type": "string"
+                  },
+                  "BUSINESS PHONE #": {
+                    "type": "string"
+                  },
+                  "WEBSITE ADDRESS": {
+                    "type": "string"
+                  },
+                  "CORPORATION": {
+                    "type": "string"
+                  },
+                  "JOINT VENTURE": {
+                    "type": "string"
+                  },
+                  "NOT FOR PROFIT ORG": {
+                    "type": "string"
+                  },
+                  "SUBCHAPTER \"S\" CORPORATION": {
+                    "type": "string"
+                  },
+                  "NO OF MEMBERS AND MANAGERS": {
+                    "type": "string"
+                  },
+                  "INDIVIDUAL": {
+                    "type": "string"
+                  },
+                  "LLC": {
+                    "type": "string"
+                  },
+                  "PARTNERSHIP": {
+                    "type": "string"
+                  },
+                  "TRUST": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              }
+            },
+            "required": [
+              
+            ]
+          }
+        },
+        "required": [
+          
+        ]
+      },
+      "Page_2": {
+        "type": "object",
+        "properties": {
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "CONTACT INFORMATION": {
+            "type": "object",
+            "properties": {
+              "col_1": {
+                "type": "object",
+                "properties": {
+                  "CONTACT TYPE": {
+                    "type": "string"
+                  },
+                  "CONTACT NAME": {
+                    "type": "string"
+                  },
+                  "Phone Info": {
+                    "type": "object",
+                    "properties": {
+                      "Primary": {
+                        "type": "object",
+                        "properties": {
+                          "PRIMARY PHONE #": {
+                            "type": "string"
+                          },
+                          "SECONDARY PHONE #": {
+                            "type": "string"
+                          },
+                          "HOME": {
+                            "type": "string"
+                          },
+                          "BUS": {
+                            "type": "string"
+                          },
+                          "CELL": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "Secondary": {
+                        "type": "object",
+                        "properties": {
+                          "SECONDARY PHONE #": {
+                            "type": "string"
+                          },
+                          "HOME": {
+                            "type": "string"
+                          },
+                          "BUS": {
+                            "type": "string"
+                          },
+                          "CELL": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "PRIMARY E-MAIL ADDRESS": {
+                    "type": "string"
+                  },
+                  "SECONDARY E-MAIL ADDRESS": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "col_2": {
+                "type": "object",
+                "properties": {
+                  "CONTACT TYPE": {
+                    "type": "string"
+                  },
+                  "CONTACT NAME": {
+                    "type": "string"
+                  },
+                  "Phone Info": {
+                    "type": "object",
+                    "properties": {
+                      "Primary": {
+                        "type": "object",
+                        "properties": {
+                          "PRIMARY PHONE #": {
+                            "type": "string"
+                          },
+                          "SECONDARY PHONE #": {
+                            "type": "string"
+                          },
+                          "HOME": {
+                            "type": "string"
+                          },
+                          "BUS": {
+                            "type": "string"
+                          },
+                          "CELL": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "Secondary": {
+                        "type": "object",
+                        "properties": {
+                          "SECONDARY PHONE #": {
+                            "type": "string"
+                          },
+                          "HOME": {
+                            "type": "string"
+                          },
+                          "BUS": {
+                            "type": "string"
+                          },
+                          "CELL": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "PRIMARY E-MAIL ADDRESS": {
+                    "type": "string"
+                  },
+                  "SECONDARY E-MAIL ADDRESS": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "PREMISES INFORMATION (Attach ACCORD 823 for Additional Premises)": {
+            "type": "object",
+            "properties": {
+              "table_1": {
+                "type": "object",
+                "properties": {
+                  "LOC #": {
+                    "type": "string"
+                  },
+                  "STREET": {
+                    "type": "string"
+                  },
+                  "CITY LIMITS": {
+                    "type": "object",
+                    "properties": {
+                      "INSIDE": {
+                        "type": "string"
+                      },
+                      "OUTSIDE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "INTEREST": {
+                    "type": "object",
+                    "properties": {
+                      "OWNER": {
+                        "type": "string"
+                      },
+                      "TENANT": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "FULL TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "PART TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "DESCRIPTION OF OPERATIONS": {
+                    "type": "string"
+                  },
+                  "ANY AREA LEASED TO OTHERS? Y/N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "table_2": {
+                "type": "object",
+                "properties": {
+                  "LOC #": {
+                    "type": "string"
+                  },
+                  "STREET": {
+                    "type": "string"
+                  },
+                  "CITY LIMITS": {
+                    "type": "object",
+                    "properties": {
+                      "INSIDE": {
+                        "type": "string"
+                      },
+                      "OUTSIDE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "INTEREST": {
+                    "type": "object",
+                    "properties": {
+                      "OWNER": {
+                        "type": "string"
+                      },
+                      "TENANT": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "FULL TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "PART TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "DESCRIPTION OF OPERATIONS": {
+                    "type": "string"
+                  },
+                  "ANY AREA LEASED TO OTHERS? Y/N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "table_3": {
+                "type": "object",
+                "properties": {
+                  "LOC #": {
+                    "type": "string"
+                  },
+                  "STREET": {
+                    "type": "string"
+                  },
+                  "CITY LIMITS": {
+                    "type": "object",
+                    "properties": {
+                      "INSIDE": {
+                        "type": "string"
+                      },
+                      "OUTSIDE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "INTEREST": {
+                    "type": "object",
+                    "properties": {
+                      "OWNER": {
+                        "type": "string"
+                      },
+                      "TENANT": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "FULL TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "PART TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "DESCRIPTION OF OPERATIONS": {
+                    "type": "string"
+                  },
+                  "ANY AREA LEASED TO OTHERS? Y/N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "table_4": {
+                "type": "object",
+                "properties": {
+                  "LOC #": {
+                    "type": "string"
+                  },
+                  "STREET": {
+                    "type": "string"
+                  },
+                  "CITY LIMITS": {
+                    "type": "object",
+                    "properties": {
+                      "INSIDE": {
+                        "type": "string"
+                      },
+                      "OUTSIDE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "INTEREST": {
+                    "type": "object",
+                    "properties": {
+                      "OWNER": {
+                        "type": "string"
+                      },
+                      "TENANT": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "FULL TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+
+                    ]
+                  },
+                  "PART TIME EMPLOYEMENT": {
+                    "type": "object",
+                    "properties": {
+                      "#FULL TIME EMPL": {
+                        "type": "string"
+                      },
+                      "ANNUAL REVENUES: $": {
+                        "type": "string"
+                      },
+                      "OCCUPIED AREA": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "DESCRIPTION OF OPERATIONS": {
+                    "type": "string"
+                  },
+                  "ANY AREA LEASED TO OTHERS? Y/N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "NATURE OF BUSINESS": {
+            "type": "object",
+            "properties": {
+              "APARTMENTS": {
+                "type": "string"
+              },
+              "CONTRACTOR": {
+                "type": "string"
+              },
+              "MANUFACTURING": {
+                "type": "string"
+              },
+              "RESTAURANT": {
+                "type": "string"
+              },
+              "SERVICE": {
+                "type": "string"
+              },
+              "NONPROFIT": {
+                "type": "string"
+              },
+              "DATE OF BUSINESS STARTED (MM/DD/YYYY)": {
+                "type": "string"
+              },
+              "CONDOMINIUMS": {
+                "type": "string"
+              },
+              "INSTITUTIONAL": {
+                "type": "string"
+              },
+              "OFFICE": {
+                "type": "string"
+              },
+              "RETAIL": {
+                "type": "string"
+              },
+              "WHOLESALE": {
+                "type": "string"
+              },
+              "DESCRIPTION OF PRIMARY OPERATIONS": {
+                "type": "string"
+              },
+              "RETAIL STORES OR SERVICE OPERATIONS % OF TOTAL LOSS": {
+                "type": "object",
+                "properties": {
+                  "INSTALLATION, SERVICE OR REPAIR WORK": {
+                    "type": "string"
+                  },
+                  "OFF PREMISES INSTALLATION, SERVICE OR REPAIR WORK": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "DESCRIPTION OF OPERATIONS OF OTHER NAMED INSUREDS": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL INTEREST (Not all fields apply to all scenarios-provide only the neccessary data)": {
+            "type": "object",
+            "properties": {
+              "INTEREST": {
+                "type": "object",
+                "properties": {
+                  "ADDITIONAL INSURED": {
+                    "type": "string"
+                  },
+                  "LIENHOLDER": {
+                    "type": "string"
+                  },
+                  "BREACH OF WARRANTY": {
+                    "type": "string"
+                  },
+                  "LOSS PAYEE": {
+                    "type": "string"
+                  },
+                  "CO-OWNER": {
+                    "type": "string"
+                  },
+                  "MORTRAGEE": {
+                    "type": "string"
+                  },
+                  "EMPLOYEE AS LESSOR": {
+                    "type": "string"
+                  },
+                  "LEASEBACK": {
+                    "type": "string"
+                  },
+                  "REGISTRANT": {
+                    "type": "string"
+                  },
+                  "OWNER": {
+                    "type": "string"
+                  },
+                  "TRUSTEE": {
+                    "type": "string"
+                  },
+                  "LENDER'S LOSS PAYABLE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "NAME AND ADDRESS": {
+                "type": "string"
+              },
+              "RANK": {
+                "type": "string"
+              },
+              "EVIDENCE": {
+                "type": "string"
+              },
+              "CERTIFICATE": {
+                "type": "string"
+              },
+              "POLICY": {
+                "type": "string"
+              },
+              "SEND BILL": {
+                "type": "string"
+              },
+              "REFERENCE/LOAN #": {
+                "type": "string"
+              },
+              "INTEREST END DATE": {
+                "type": "string"
+              },
+              "LIEN AMOUNT": {
+                "type": "string"
+              },
+              "PHONE (A/C No, Ext)": {
+                "type": "string"
+              },
+              "INTEREST IN ITEM NUMBER": {
+                "type": "object",
+                "properties": {
+                  "LOCATION": {
+                    "type": "string"
+                  },
+                  "BUILDING": {
+                    "type": "string"
+                  },
+                  "VEHICLE": {
+                    "type": "string"
+                  },
+                  "BOAT": {
+                    "type": "string"
+                  },
+                  "AIRPORT": {
+                    "type": "string"
+                  },
+                  "AIRCRAFT": {
+                    "type": "string"
+                  },
+                  "ITEM CLASS": {
+                    "type": "string"
+                  },
+                  "ITEM": {
+                    "type": "string"
+                  },
+                  "ITEM DESCRIPTION": {
+                    "type": "string"
+                  },
+                  "FAX (A/C No)": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "E-MAIL ADDRESS": {
+                "type": "string"
+              },
+              "REASON FOR INTEREST": {
+                "type": "string"
+              }
+            },
+            "required": [
+             
+            ]
+          }
+        },
+        "required": [
+         
+        ]
+      },
+      "Page_3": {
+        "type": "object",
+        "properties": {
+          "GENERAL INFORMATION": {
+            "type": "object",
+            "properties": {
+              "1a. IS THE APPLICANT A SUBSIDIARY OF ANOTHER ENTITY ,": {
+                "type": "string"
+              },
+              "1b. DOES THE APPLICANT HAVE ANY SUBSIDIARIES": {
+                "type": "string"
+              },
+              "2.": {
+                "type": "object",
+                "properties": {
+                  "is A FORMAL SAFETY PROGRAM IN OPERATION?": {
+                    "type": "string"
+                  },
+                  "SAFETY MANUAL": {
+                    "type": "string"
+                  },
+                  "SAFETY POSITION": {
+                    "type": "string"
+                  },
+                  "OSHA": {
+                    "type": "string"
+                  },
+                  "MONTHLY MEETINGS": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "3. ANY EXPOSURE TO FLAMMABLES EXPLOSIVES CHEMICALS?": {
+                "type": "string"
+              },
+              "4, ANY OTHER INSURANCE WITH THIS COMPANY? (List policy numbers)": {
+                "type": "string"
+              },
+              "5.": {
+                "type": "object",
+                "properties": {
+                  "ANY POLICY OR COVERAGE DECLINED CANCELLED OR NON RENEWED DURING THE PRIOR THREE (3) YEARS FOR ANY PREMISES OR OPERATIONS? (Missouri Applicants Do not answer this question)": {
+                    "type": "string"
+                  },
+                  "AGENT NO LONGER REPRESENTS CARRIER": {
+                    "type": "string"
+                  },
+                  "CONDITION CORRECTED (Describe)": {
+                    "type": "string"
+                  },
+                  "": {
+                    "type": "string"
+                  },
+                  "NON-PAYMENT": {
+                    "type": "string"
+                  },
+                  "NON-RENEWAL": {
+                    "type": "string"
+                  },
+                  "UNDERWRITING": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "6 ANY PAST LOSSES OR CLAIMS RELATING TO SEXUAL ABUSE OR MOLESTATION ALLEGATIONS DISCRIMINATION OR NEGLIGENT HIRING?": {
+                "type": "string"
+              },
+              "7. DURING THE LAST FIVE YEARS (TEN IN RII. HAS ANY APPLICANT BEEN INDICTED FOR OR CONVICTED OF ANY DEGREE OF THE CRIME OF FRAUD BRIBERY ARSON OR ANY OTHER ARSON-RELATED CRIME IN CONNECTION WITH THIS OR ANY OTHER PROPERTY? (In RI this question must be answered by any applicant for property insurance Failure to disclose the existence of an arson conviction is a misdemeanor punishable by , sentence of up to one year of imprisonment)": {
+                "type": "string"
+              },
+              "8. ANY UNCORRECTED FIRE AND/OR SAFETY CODE VIOLATIONS?": {
+                "type": "string"
+              },
+              "9. HAS APPLICANT HAD A FORECLOSURE REPOSSESSION BANKRUPTCY OR FILED FOR BANKRUPTCY DURING THE LAST FIVE (5) YEARS?": {
+                "type": "string"
+              },
+              "10. HAS APPLICANT HAD A JUDGEMENT OR LIEN DURING THE LAST FIVE (5) YEARS?": {
+                "type": "string"
+              },
+              "11. HAS BUSINESS BEEN PLACED IN A TRUST? NAME OF TRUST": {
+                "type": "string"
+              },
+              "12 ANY FOREIGN OPERATIONS FOREIGN PRODUCTS DISTRIBUTED IN USA OR US PRODUCTS SOLD / DISTRIBUTED IN FOREIGN COUNTRIES? (If \"YES\". attach ACORD 815 for Liability Exposure and/or ACORD 816 for Property Exposure)": {
+                "type": "string"
+              },
+              "13. DOES APPLICANT HAVE OTHER BUSINESS VENTURES FOR WHICH COVERAGE IS NOT REQUESTED?": {
+                "type": "string"
+              },
+              "14. DOES APPLICANT OWN / LEASE / OPERATE ANY DRONES? (If \"YES\". describe use)": {
+                "type": "string"
+              },
+              "15. DOES APPLICANT HIRE OTHERS TO OPERATE DRONES? (If \"YES\" describe use)": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ACORD": {
+            "type": "string"
+          },
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "REMARKS / PROCESSING INSTRUCTIONS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": {
+            "type": "string"
+          },
+          "table_data": {
+            "type": "object",
+            "properties": {
+              "table_1": {
+                "type": "object",
+                "properties": {
+                  "PARENT COMPANY NAME": {
+                    "type": "string"
+                  },
+                  "RELATIONSHIP DESCRIPTION": {
+                    "type": "string"
+                  },
+                  "% OWNED": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "table_2": {
+                "type": "object",
+                "properties": {
+                  "SUBSIDIARY COMPANY NAME": {
+                    "type": "string"
+                  },
+                  "RELATIONSHIP DESCRIPTION": {
+                    "type": "string"
+                  },
+                  "% OWNED": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "table_3": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "LINE OF BUSINESS": {
+                      "type": "string"
+                    },
+                    "POLICY NUMBER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                   
+                  ]
+                }
+              },
+              "table_4": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "LINE OF BUSINESS": {
+                      "type": "string"
+                    },
+                    "POLICY NUMBER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_5": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "OCCUR DATE": {
+                      "type": "string"
+                    },
+                    "EXPLANATION": {
+                      "type": "string"
+                    },
+                    "RESOLUTION": {
+                      "type": "string"
+                    },
+                    "RESOLVE DATE": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_6": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "OCCUR DATE": {
+                      "type": "string"
+                    },
+                    "EXPLANATION": {
+                      "type": "string"
+                    },
+                    "RESOLUTION": {
+                      "type": "string"
+                    },
+                    "RESOLVE DATE": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_7": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "OCCUR DATE": {
+                      "type": "string"
+                    },
+                    "EXPLANATION": {
+                      "type": "string"
+                    },
+                    "RESOLUTION": {
+                      "type": "string"
+                    },
+                    "RESOLVE DATE": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_8": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "YEAR": {
+                      "type": "string"
+                    },
+                    "CATEGORY": {
+                      "type": "string"
+                    },
+                    "GENERAL LIABILITY": {
+                      "type": "string"
+                    },
+                    "AUTOMOBILE": {
+                      "type": "string"
+                    },
+                    "PROPERTY": {
+                      "type": "string"
+                    },
+                    "OTHER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              }
+            },
+            "required": [
+              
+            ]
+          }
+        },
+        "required": [
+          
+        ]
+      },
+      "Page_4": {
+        "type": "object",
+        "properties": {
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "OTHER": {
+            "type": "string"
+          },
+          "LOSS HISTORY": {
+            "type": "object",
+            "properties": {
+              "Check if none (Attach Loss Summary for Additional Loss Information)": {
+                "type": "string"
+              },
+              "ENTER ALL CLAIMS OR LOSSES (REGARDLESS OF FAULT AND WHETHER OR NOT INSURED OR OCCURRENCES THAT MAY GIVE RISE TO CLAIMS FOR THE LAST YEARS": {
+                "type": "string"
+              },
+              "TOTAL LOSSES": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "SIGNATURE": {
+            "type": "object",
+            "properties": {
+              "Copy of the Notice of Information Practices (Privacy) has been given to the applicant (Not required in all states contact your agent or broker for your state's requirements.)": {
+                "type": "string"
+              },
+              "(Applicant's Initials)": {
+                "type": "string"
+              },
+              "PRODUCER'S SIGNATURE": {
+                "type": "string"
+              },
+              "PRODUCER'S NAME (Please Print)": {
+                "type": "string"
+              },
+              "STATE PRODUCER LICENCE NO (Required in Florida)": {
+                "type": "string"
+              },
+              "APPLICANT'S SIGNATURE": {
+                "type": "string"
+              },
+              "DATE": {
+                "type": "string"
+              },
+              "NATIONAL PROOUCER NUMBER": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "table_data": {
+            "type": "object",
+            "properties": {
+              "table_1": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "YEAR": {
+                      "type": "string"
+                    },
+                    "CATEGORY": {
+                      "type": "string"
+                    },
+                    "GENERAL LIABILITY": {
+                      "type": "string"
+                    },
+                    "AUTOMOBILE": {
+                      "type": "string"
+                    },
+                    "PROPERTY": {
+                      "type": "string"
+                    },
+                    "OTHER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_2": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "DATE OF OCCURRENCE": {
+                      "type": "string"
+                    },
+                    "LINE": {
+                      "type": "string"
+                    },
+                    "DESCRIPTION OF OCCURRENCE OR CLAIM": {
+                      "type": "string"
+                    },
+                    "DATE OF CLAIM": {
+                      "type": "string"
+                    },
+                    "AMOUNT PAID": {
+                      "type": "string"
+                    },
+                    "AMOUNT RESERVED": {
+                      "type": "string"
+                    },
+                    "SUBRO GATION Y / N": {
+                      "type": "string"
+                    },
+                    "CLAIM OPEN Y/N": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "table_3": {
+                "type": "object",
+                "properties": {
+                  "PRODUCER'S SIGNATURE Kiera Contreni": {
+                    "type": "string"
+                  },
+                  "PRODUCER'S NAME (Please Print) Kiera Contreni": {
+                    "type": "string"
+                  },
+                  "": {
+                    "type": "string"
+                  },
+                  "STATE PRODUCER LICENSE NO (Required in Florida)": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              }
+            },
+            "required": [
+             
+            ]
+          }
+        },
+        "required": [
+          
+        ]
+      }
+    },
+    "required": [
+      
+    ]
+  }

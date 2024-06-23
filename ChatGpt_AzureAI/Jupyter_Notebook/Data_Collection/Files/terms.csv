@@ -1,0 +1,171 @@
+Target,Source
+MGA,Agent;MGA;Managing General Agent
+Program Name,Program Name;Admitted
+Issuing Company,Issuing Company;Market Co
+Full policy number,Full policy number; Policy #
+Policy Effective Date,Policy Effective Date;Eff. Date
+Policy Expiration Date,Policy Expiration Date;Exp. Date
+Insured Name,Insured Name;Insured
+Insured Address,Insured Address
+Insured City,Insured City
+Insured State,Insured State;State
+Insured Zip,Insured Zip
+Transaction Effective Date,Transaction Effective Date;Tran Eff. Date
+Transaction Expiration Date,Transaction Expiration Date;Exp. Date
+Premium,Premium;Gross Premium
+Terrorism Premium,Terrorism Premium
+Total Gross Premium including Terrorism,Total Gross Premium including Terrorism
+Commission amount,Commission amount;Gross Comm Amt
+Net Premium,Net Premium;(Gross Premium minus Gross Comm Amt) + Broker Fee + Broker Insp Fee + Other Fee Amount + Total Inv Fee + Total Inv Taxes
+Surcharge amount,Surcharge amount
+Surcharge type,Surcharge type
+Tax Amount,Tax Amount;Total INV Taxes
+Tax Type,Tax Type;Admitted
+Fee Amount,Fee Amount;Total INV Fees
+Fee Type,Fee Type;Fee Basis
+Payment terms,Payment terms
+Book or Process Date,Book or Process Date;Book Date
+Policy Type,Policy Type
+Transaction Type,Transaction Type;Trans Code
+Endorsement number,
+Primary/Excess Indicator,Primary/Excess Indicator;'Primary'
+Attachment Point,Attachment Point
+CM/Occ Indicator,CM/Occ Indicator
+Retroactive date,Retroactive date
+Risk/Location #,Risk/Location #
+Risk/Location Address,Risk/Location Address
+Risk/Location City,Risk/Location City
+Risk/Location State,Risk/Location State
+Risk/Location Zip,Risk/Location Zip
+Risk/Location premium,Risk/Location premium
+Technical Price,Technical Price;Gross Premium
+IRPM (Individual Risk Premium Modification),IRPM (Individual Risk Premium Modification)
+Exposure Type,Exposure Type
+Exposure Amount,Exposure Amount
+Policy Occurrence Limit,Policy Occurrence Limit
+Policy Aggregate Limit,Policy Aggregate Limit
+SIR/Deductible indicator,SIR/Deductible indicator
+SIR/Deductible amount,SIR/Deductible amount
+SIR/Deductible type,SIR/Deductible type
+NAICS or SIC Code,NAICS or SIC Code;NAICS Code
+Annual Statement Line Code,Annual Statement Line Code;'2'
+Annual Statement Line Description,Annual Statement Line Description;'Allied Lines'
+Expiring Policy Number,Expiring Policy Number
+Issue Date,Issue Date
+Policy Event Number,Policy Event Number
+Companion policy number,Companion policy number
+Carrier %,Carrier %;Split %
+Carrier Limit,Carrier Limit
+Broker/Agent,Broker/Agent;Producer
+Broker/Agent Address,Broker/Agent Address;Agent Address
+Broker/Agent City,Broker/Agent City;Agent State - City
+Broker/Agent State,Broker/Agent State;Agent State - City
+Broker/Agent Zip,Broker/Agent Zip;Agent Zipcode
+Direct/Assumed,Direct/Assumed;'Direct'
+Fac?,Fac?
+Fac Reinsurance Attachment point,Fac Reinsurance Attachment point
+Ceded Fac Reinsurance Carrier,IRPM (Individual Risk Premium Modification);IRPM
+Ceded Premium to Fac Reinsurance,
+Certificate number,
+Coverage Ceded to Fac Reinsurer,
+Home State,
+SL Tax Broker Company,
+SL Tax Broker Name,
+SL Tax Broker Address,
+SL Broker City,
+SL Broker State,
+SL Broker Zip,
+SL License Number,
+NJ Transaction Number,
+Coverage Code,
+Coverage Sub Code,
+CA Limit,
+MTC Limit,
+APD Limit,
+CA Deductible Amount,
+MTC Deductible Amount,
+APD Deductible Amount,
+Rating Class Code,
+Fleet Indicator,
+Fleet size,
+Hired Car,
+Non Owned,
+Drive Other Car,
+Vehicle Number,
+Coverage Symbol,
+Cost New,
+Vehicle Body Type,
+Vehicle Type,
+Radius Of Use,
+Business Use Class,
+Gross Vehicle Weight,
+Vehicle Make,
+Vehicle Model,
+Model Year,
+Axel count,
+Vehicle Identification Number,
+Tractor GCW,
+Cost of Hire,
+Specialized Vehicle Type,
+"Vehicle Number of Seats, Seating Capacity",
+Occupancy,
+Class Code,
+Class Code Description,
+100% Limit,
+Building Value,
+Coinsurance,
+Building Valuation,
+Agreed Value,
+Contents Value,
+BI/Rental Income Value,
+Other Structure Limit,
+TIV,
+Construction,
+Year Built,
+# of Stories,
+Square Footage,
+AOP Deductible,
+AOP Limit,
+Flood Limit,
+Flood % Deductible,
+Flood Deducible,
+Flood Zone,
+Earthquake Limit,
+Earthquake % Deductible,
+Earthquake Deductible,
+Earthquake Zone,
+Wind Limit,
+Wind Deductible,
+Wind % Deducible,
+Equipment Breakdown Limit,
+Equipment Breakdown Deductible,
+Protection Class,
+100% Smoke Detectors,
+Sprinkler Protection Type Code,
+Percentage of sprinkler coverage,
+Breach of Privacy Event,
+Data and software loss,
+Network service failure liabilities,
+Business interruption ,
+Contingent Business Interruption ,
+Incident Response Costs,
+Regulatory and  defense coverage,
+product and operations liability,
+liability (Tech E&O),
+Liability (Professional Services),
+Liability (Directors and Officers),
+Media ,
+Financial Theft and fraud,
+Reputational Damages,
+Cyber Extortion,
+Intellectual Property Theft ,
+Damage to Premises Rented to you Limit,
+Medical Expense Limit Included,
+Medical Expense Limit,
+Personal and Advertising Injury Limit,
+Products/Completed Operations Aggregate Limit,
+2nd Layer Deductible - Per Occurrence,
+2nd Layer Deductible Aggregate,
+Stop Gap Limit,
+Employee Benefits Limit,
+Rate Per Member,

@@ -1,0 +1,1001 @@
+customerId,customerName,givenName,surname,controllingStateOrProvinceCode,id,lineOfBusinessCode,totalPremium,effectiveDate,cancellationDate,expirationDate,RenewalDate,status_Code,cancelReasonDescription,renewalPremium,numberOfEmployees,businessIndustry,annualRevenue,paymentMethod,claimsCount,claimAmount,RenewalStatus
+1,Rebecca Lynch,Rebecca,Lynch,PA,1001,Product Liability,446345.12,1960-01-01,,1961-01-01,1961-01-02,ACTIVE,,444701.35,25,Manufacturing,8736706.18,Credit Card,3,445845.12,1
+2,Mary Arroyo,Mary,Arroyo,CA,1002,Automobile Liability,724792.33,1960-01-02,,1961-01-02,1961-01-03,ACTIVE,,705560.21,13,Retail,6169850.77,Online,3,724292.33,1
+3,Dr. Michelle Sims,Dr.,Sims,PA,1003,Professional Liability,16805.27,1960-01-03,,1961-01-03,1961-01-04,ACTIVE,,16474.53,92,Retail,1656318.45,ACH Transfer,4,16305.27,1
+4,Thomas Baker,Thomas,Baker,TX,1004,Automobile Liability,341748.93,1960-01-04,1960-03-23,1961-01-04,,INACTIVE,Cancellation due to significant changes in risk,334571.18,70,Construction,9627146.77,Credit Card,7,341248.93,0
+5,Jack Hoffman,Jack,Hoffman,FL,1005,Automobile Liability,818888.35,1960-01-05,1960-06-13,1961-01-05,,INACTIVE,Cancellation due to non-payment,824071.01,67,Technology,5231818.09,Online,4,818388.35,0
+6,Kevin Craig,Kevin,Craig,PA,1006,Workers Compensation,603616.19,1960-01-06,1960-10-27,1961-01-06,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,580675.98,58,Construction,821694.67,ACH Transfer,7,603116.19,0
+7,Elizabeth Jones,Elizabeth,Jones,NY,1007,Professional Liability,337889.91,1960-01-07,1960-03-20,1961-01-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,351972.88,99,Manufacturing,6305645.75,Online,9,337389.91,0
+8,Susan Murphy,Susan,Murphy,FL,1008,Professional Liability,905619.27,1960-01-08,1960-05-20,1961-01-08,,INACTIVE,Cancellation due to significant changes in risk,925602.23,82,Construction,2606669.18,Cash,0,0.0,0
+9,Anthony Lewis,Anthony,Lewis,FL,1009,Professional Liability,772850.1,1960-01-09,,1961-01-09,1961-01-10,ACTIVE,,765233.32,75,Technology,8056565.17,Cash,9,772350.1,1
+10,Melissa Fisher,Melissa,Fisher,TX,1010,Automobile Liability,265630.55,1960-01-10,1960-11-22,1961-01-10,,INACTIVE,Cancellation due to non-payment,256562.56,84,Retail,8196438.53,Online,8,265130.55,0
+11,Jason Smith,Jason,Smith,TX,1011,Product Liability,645644.55,1960-01-11,,1961-01-11,1961-01-12,ACTIVE,,670307.67,64,Construction,9791578.82,ACH Transfer,5,645144.55,1
+12,Shane Jones,Shane,Jones,CA,1012,Professional Liability,596154.98,1960-01-12,,1961-01-12,1961-01-13,ACTIVE,,615457.17,69,Manufacturing,5068508.36,Credit Card,2,595654.98,1
+13,Marc Sandoval,Marc,Sandoval,CA,1013,Automobile Liability,401786.73,1960-01-13,,1961-01-13,1961-01-14,ACTIVE,,410695.21,83,Manufacturing,4604073.11,Cheque,7,401286.73,1
+14,Jamie Hall,Jamie,Hall,NY,1014,Workers Compensation,367589.12,1960-01-14,,1961-01-14,1961-01-15,ACTIVE,,359191.44,86,Retail,7559408.49,Credit Card,8,367089.12,1
+15,Audrey Long,Audrey,Long,FL,1015,Product Liability,344216.91,1960-01-15,,1961-01-15,1961-01-16,ACTIVE,,340858.96,59,Construction,1411459.5,Cheque,5,343716.91,1
+16,Kathy Mosley,Kathy,Mosley,NY,1016,Workers Compensation,617538.63,1960-01-16,1960-10-20,1961-01-16,,INACTIVE,Cancellation due to non-payment,593006.8,60,Technology,5514463.59,Cheque,6,617038.63,0
+17,Ryan Reynolds,Ryan,Reynolds,NY,1017,Product Liability,442967.53,1960-01-17,1960-02-29,1961-01-17,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,429192.99,83,Retail,5507851.24,ACH Transfer,0,0.0,0
+18,Tiffany Miller,Tiffany,Miller,TX,1018,Automobile Liability,832031.25,1960-01-18,1960-02-16,1961-01-18,,INACTIVE,Cancellation due to company bankruptcy,855579.12,62,Construction,985783.92,Online,4,831531.25,0
+19,Jacob Perez,Jacob,Perez,NY,1019,General Liability,669933.01,1960-01-19,,1961-01-19,1961-01-20,ACTIVE,,684339.16,16,Consulting,4238042.45,Credit Card,4,669433.01,1
+20,Melissa Nelson,Melissa,Nelson,NY,1020,Product Liability,70861.67,1960-01-20,,1961-01-20,1961-01-21,ACTIVE,,71524.13,88,Manufacturing,8547519.51,Online,9,70361.67,1
+21,Julie Bryan,Julie,Bryan,PA,1021,Workers Compensation,640528.06,1960-01-21,,1961-01-21,1961-01-22,ACTIVE,,665875.47,68,Technology,8575920.86,Cash,3,640028.06,1
+22,Katherine Porter,Katherine,Porter,CA,1022,Automobile Liability,271876.29,1960-01-22,,1961-01-22,1961-01-23,ACTIVE,,274140.11,15,Technology,1082452.88,ACH Transfer,5,271376.29,1
+23,Michael Myers,Michael,Myers,CA,1023,Product Liability,593219.18,1960-01-23,,1961-01-23,1961-01-24,ACTIVE,,591259.66,89,Technology,998136.74,ACH Transfer,6,592719.18,1
+24,Joseph Berg,Joseph,Berg,FL,1024,General Liability,680451.8,1960-01-24,,1961-01-24,1961-01-25,ACTIVE,,669589.8,55,Manufacturing,2700685.22,Cash,8,679951.8,1
+25,Carol Edwards,Carol,Edwards,CA,1025,General Liability,231598.36,1960-01-25,1960-09-11,1961-01-25,,INACTIVE,Cancellation due to significant changes in risk,241799.08,35,Construction,8760184.02,Credit Card,0,0.0,0
+26,Sarah Herrera,Sarah,Herrera,FL,1026,Professional Liability,457401.79,1960-01-26,,1961-01-26,1961-01-27,ACTIVE,,438315.12,55,Retail,1376135.59,Cash,5,456901.79,1
+27,Lauren Alexander,Lauren,Alexander,PA,1027,Professional Liability,191134.54,1960-01-27,,1961-01-27,1961-01-28,ACTIVE,,199370.29,14,Construction,7227968.35,Credit Card,6,190634.54,1
+28,Molly Jones,Molly,Jones,CA,1028,Workers Compensation,53286.54,1960-01-28,1960-11-30,1961-01-28,,INACTIVE,Cancellation due to significant changes in risk,55027.49,49,Retail,1101539.63,Cheque,2,52786.54,0
+29,Kevin Martin,Kevin,Martin,PA,1029,Product Liability,379097.95,1960-01-29,,1961-01-29,1961-01-30,ACTIVE,,365068.67,83,Technology,6269064.75,ACH Transfer,7,378597.95,1
+30,Michael Ashley,Michael,Ashley,CA,1030,Product Liability,363581.33,1960-01-30,1960-04-13,1961-01-30,,INACTIVE,Cancellation due to company bankruptcy,365944.04,7,Construction,3625066.26,Credit Card,4,363081.33,0
+31,Kelly Williams,Kelly,Williams,CA,1031,Professional Liability,995485.01,1960-01-31,1960-09-08,1961-01-31,,INACTIVE,Cancellation due to another carrer,1031974.31,30,Technology,7910248.23,Online,8,994985.01,0
+32,Dr. Miguel Lewis,Dr.,Lewis,PA,1032,Product Liability,446906.0,1960-02-01,1960-09-09,1961-02-01,,INACTIVE,Cancellation due to company bankruptcy,450115.19,83,Consulting,2413535.44,Online,4,446406.0,0
+33,Melissa Taylor,Melissa,Taylor,NY,1033,Product Liability,334235.98,1960-02-02,,1961-02-02,1961-02-03,ACTIVE,,347846.06,49,Technology,6428098.11,ACH Transfer,8,333735.98,1
+34,Luke Palmer,Luke,Palmer,NY,1034,General Liability,580894.53,1960-02-03,1960-02-17,1961-02-03,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,606627.22,89,Technology,2433257.09,Cash,9,580394.53,0
+35,Christopher Wilkins,Christopher,Wilkins,NY,1035,Professional Liability,89678.63,1960-02-04,1960-12-27,1961-02-04,,INACTIVE,Cancellation due to another carrer,88982.59,16,Retail,7165236.8,Cash,3,89178.63,0
+36,Kathleen Hernandez,Kathleen,Hernandez,NY,1036,Automobile Liability,961704.07,1960-02-05,,1961-02-05,1961-02-06,ACTIVE,,949905.27,51,Consulting,8749412.54,Credit Card,8,961204.07,1
+37,Mark Tyler,Mark,Tyler,CA,1037,Professional Liability,635325.09,1960-02-06,1960-08-07,1961-02-06,,INACTIVE,Cancellation due to non-payment,663045.67,72,Technology,1355337.81,Cash,4,634825.09,0
+38,Mary Huff,Mary,Huff,TX,1038,Automobile Liability,755082.98,1960-02-07,,1961-02-07,1961-02-08,ACTIVE,,768307.51,82,Technology,8679297.32,ACH Transfer,9,754582.98,1
+39,Travis Blake,Travis,Blake,PA,1039,General Liability,171307.46,1960-02-08,,1961-02-08,1961-02-09,ACTIVE,,164729.64,92,Consulting,5976395.02,Credit Card,8,170807.46,1
+40,Matthew Gray,Matthew,Gray,TX,1040,Workers Compensation,410068.38,1960-02-09,1960-10-04,1961-02-09,,INACTIVE,Cancellation due to another carrer,391299.21,80,Consulting,1358393.86,Cheque,2,409568.38,0
+41,Austin Smith,Austin,Smith,TX,1041,Product Liability,423266.42,1960-02-10,,1961-02-10,1961-02-11,ACTIVE,,426001.95,83,Construction,4332664.37,Cash,3,422766.42,1
+42,Bradley Bennett,Bradley,Bennett,FL,1042,General Liability,821984.64,1960-02-11,,1961-02-11,1961-02-12,ACTIVE,,857344.03,42,Retail,1692516.91,Cash,8,821484.64,1
+43,Jennifer Johnson PhD,Jennifer,PhD,NY,1043,Product Liability,2235.44,1960-02-12,1960-07-06,1961-02-12,,INACTIVE,Cancellation due to significant changes in risk,2312.39,17,Consulting,7033444.1,Credit Card,9,1735.44,0
+44,Daniel Lopez,Daniel,Lopez,CA,1044,Workers Compensation,301552.26,1960-02-13,1960-07-19,1961-02-13,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,306854.99,63,Consulting,7612794.53,Online,5,301052.26,0
+45,Justin Mitchell,Justin,Mitchell,NY,1045,Workers Compensation,981255.14,1960-02-14,1961-01-02,1961-02-14,,INACTIVE,Cancellation due to company bankruptcy,945843.2,45,Manufacturing,1147385.55,Cash,1,980755.14,0
+46,Ronald Berg,Ronald,Berg,NY,1046,General Liability,475411.66,1960-02-15,1960-08-05,1961-02-15,,INACTIVE,Cancellation due to another carrer,463727.53,77,Consulting,5110784.54,ACH Transfer,6,474911.66,0
+47,Kelsey Adams,Kelsey,Adams,TX,1047,Workers Compensation,383143.75,1960-02-16,,1961-02-16,1961-02-17,ACTIVE,,397531.23,7,Retail,8164788.05,Cash,1,382643.75,1
+48,Louis Brown,Louis,Brown,FL,1048,Automobile Liability,120709.17,1960-02-17,1960-02-28,1961-02-17,,INACTIVE,Cancellation due to significant changes in risk,116880.36,27,Technology,9368014.11,Cheque,1,120209.17,0
+49,Shane Ingram,Shane,Ingram,NY,1049,Workers Compensation,974190.46,1960-02-18,1960-08-14,1961-02-18,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,952606.24,10,Technology,5183826.88,Cash,0,0.0,0
+50,James Mcclain,James,Mcclain,PA,1050,Product Liability,21006.33,1960-02-19,1960-09-18,1961-02-19,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,20228.26,34,Technology,9507764.31,Online,2,20506.33,0
+51,Jennifer Jackson,Jennifer,Jackson,PA,1051,Product Liability,737443.04,1960-02-20,,1961-02-20,1961-02-21,ACTIVE,,750430.02,36,Technology,5403320.81,Cash,5,736943.04,1
+52,Matthew Porter,Matthew,Porter,NY,1052,Product Liability,768831.2,1960-02-21,,1961-02-21,1961-02-22,ACTIVE,,802965.94,25,Manufacturing,4002485.9,Credit Card,7,768331.2,1
+53,Kenneth Chen,Kenneth,Chen,TX,1053,Product Liability,244413.06,1960-02-22,,1961-02-22,1961-02-23,ACTIVE,,238766.34,6,Consulting,8497210.97,Cash,8,243913.06,1
+54,Michael Lee,Michael,Lee,TX,1054,Automobile Liability,671886.89,1960-02-23,,1961-02-23,1961-02-24,ACTIVE,,670234.49,24,Technology,4980528.83,Online,6,671386.89,1
+55,Claudia Kent,Claudia,Kent,CA,1055,Professional Liability,93836.22,1960-02-24,,1961-02-24,1961-02-25,ACTIVE,,95096.81,18,Construction,4771834.85,Credit Card,3,93336.22,1
+56,Mr. Matthew Ortiz,Mr.,Ortiz,FL,1056,General Liability,257790.22,1960-02-25,1960-08-18,1961-02-25,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,270665.97,87,Technology,4954093.65,ACH Transfer,5,257290.22,0
+57,Dennis Williams,Dennis,Williams,TX,1057,Product Liability,788114.09,1960-02-26,,1961-02-26,1961-02-27,ACTIVE,,756968.46,6,Consulting,8483171.52,Credit Card,4,787614.09,1
+58,Mark Martinez,Mark,Martinez,CA,1058,Workers Compensation,864821.51,1960-02-27,,1961-02-27,1961-02-28,ACTIVE,,864697.91,29,Technology,8336221.26,Cheque,7,864321.51,1
+59,Timothy Rodgers,Timothy,Rodgers,PA,1059,Product Liability,608877.93,1960-02-28,,1961-02-28,1961-03-01,ACTIVE,,601883.15,25,Manufacturing,4094847.93,Credit Card,0,0.0,1
+60,Sarah Eaton,Sarah,Eaton,PA,1060,Workers Compensation,507331.59,1960-02-29,1960-09-30,1961-02-28,,INACTIVE,Cancellation due to significant changes in risk,525890.8,55,Retail,3399668.61,ACH Transfer,0,0.0,0
+61,Allen Medina,Allen,Medina,PA,1061,Workers Compensation,160144.72,1960-03-01,1960-08-21,1961-03-01,,INACTIVE,Cancellation due to company bankruptcy,159759.86,81,Retail,4970087.44,Cash,5,159644.72,0
+62,Shannon May,Shannon,May,NY,1062,Product Liability,64045.92,1960-03-02,,1961-03-02,1961-03-03,ACTIVE,,61554.39,46,Consulting,5770447.85,Credit Card,9,63545.92,1
+63,Mia Hunter,Mia,Hunter,FL,1063,Automobile Liability,118531.38,1960-03-03,1960-03-03,1961-03-03,,INACTIVE,Cancellation due to company bankruptcy,120124.73,24,Retail,2459538.39,Credit Card,1,118031.38,0
+64,Susan Hardin,Susan,Hardin,CA,1064,Workers Compensation,228129.94,1960-03-04,,1961-03-04,1961-03-05,ACTIVE,,234307.26,75,Retail,7960155.34,Credit Card,4,227629.94,1
+65,Mark Moss,Mark,Moss,FL,1065,Workers Compensation,342332.83,1960-03-05,1960-10-21,1961-03-05,,INACTIVE,Cancellation due to company bankruptcy,325314.82,26,Construction,4916179.38,Credit Card,0,0.0,0
+66,Alexis Ramirez,Alexis,Ramirez,NY,1066,Product Liability,381528.62,1960-03-06,1960-09-12,1961-03-06,,INACTIVE,Cancellation due to another carrer,395223.84,98,Consulting,3407050.93,ACH Transfer,6,381028.62,0
+67,Patrick Spencer,Patrick,Spencer,CA,1067,Workers Compensation,346975.45,1960-03-07,,1961-03-07,1961-03-08,ACTIVE,,336081.22,28,Consulting,1157527.83,Online,0,0.0,1
+68,Kerry Mathews,Kerry,Mathews,CA,1068,Workers Compensation,239816.28,1960-03-08,1960-05-11,1961-03-08,,INACTIVE,Cancellation due to significant changes in risk,241064.99,3,Retail,2464567.09,Online,3,239316.28,0
+69,Billy Charles,Billy,Charles,TX,1069,Product Liability,510214.52,1960-03-09,,1961-03-09,1961-03-10,ACTIVE,,505918.39,75,Retail,9497883.6,Credit Card,8,509714.52,1
+70,Sarah Jefferson,Sarah,Jefferson,FL,1070,Product Liability,825460.82,1960-03-10,,1961-03-10,1961-03-11,ACTIVE,,843592.38,38,Retail,3120486.9,ACH Transfer,0,0.0,1
+71,Kelly Atkinson,Kelly,Atkinson,FL,1071,General Liability,280423.83,1960-03-11,,1961-03-11,1961-03-12,ACTIVE,,276810.89,61,Manufacturing,1771706.96,ACH Transfer,3,279923.83,1
+72,Tony Garcia,Tony,Garcia,TX,1072,Automobile Liability,942444.63,1960-03-12,1960-07-15,1961-03-12,,INACTIVE,Cancellation due to non-payment,977292.76,78,Technology,4660660.64,Credit Card,5,941944.63,0
+73,Lori Owen,Lori,Owen,PA,1073,Automobile Liability,873463.33,1960-03-13,1960-12-03,1961-03-13,,INACTIVE,Cancellation due to non-payment,893596.34,51,Manufacturing,3140168.66,Cheque,5,872963.33,0
+74,Sean Berry,Sean,Berry,NY,1074,Workers Compensation,162602.45,1960-03-14,,1961-03-14,1961-03-15,ACTIVE,,165004.3,90,Consulting,448076.58,Credit Card,7,162102.45,1
+75,Sharon Poole,Sharon,Poole,FL,1075,Automobile Liability,786489.68,1960-03-15,,1961-03-15,1961-03-16,ACTIVE,,809788.7,48,Construction,3299137.65,Cheque,0,0.0,1
+76,Katherine Bailey,Katherine,Bailey,TX,1076,Workers Compensation,575012.79,1960-03-16,1960-03-28,1961-03-16,,INACTIVE,Cancellation due to significant changes in risk,589619.44,21,Technology,5486675.38,Credit Card,6,574512.79,0
+77,Erin Oconnor,Erin,Oconnor,CA,1077,General Liability,567008.79,1960-03-17,,1961-03-17,1961-03-18,ACTIVE,,540696.1,54,Construction,5561952.48,Cheque,0,0.0,1
+78,Angela Brooks,Angela,Brooks,TX,1078,Product Liability,391651.72,1960-03-18,1960-04-11,1961-03-18,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,387528.97,56,Consulting,3629933.32,Cheque,6,391151.72,0
+79,Luke Franklin,Luke,Franklin,PA,1079,Product Liability,501651.85,1960-03-19,1961-02-27,1961-03-19,,INACTIVE,Cancellation due to another carrer,523263.38,94,Consulting,4528297.29,Credit Card,2,501151.85,0
+80,Paige Sutton,Paige,Sutton,NY,1080,Product Liability,397781.6,1960-03-20,1960-04-01,1961-03-20,,INACTIVE,Cancellation due to significant changes in risk,382893.6,59,Construction,9658627.39,Cheque,7,397281.6,0
+81,Laura Richards,Laura,Richards,PA,1081,Automobile Liability,540192.89,1960-03-21,,1961-03-21,1961-03-22,ACTIVE,,553000.68,72,Construction,3835749.92,Cash,2,539692.89,1
+82,Terri Burton,Terri,Burton,CA,1082,General Liability,628322.1,1960-03-22,,1961-03-22,1961-03-23,ACTIVE,,658141.75,51,Construction,2656445.45,Online,0,0.0,1
+83,Mark Anderson,Mark,Anderson,CA,1083,Automobile Liability,674629.5,1960-03-23,1960-08-11,1961-03-23,,INACTIVE,Cancellation due to significant changes in risk,644419.5,20,Consulting,2510323.74,ACH Transfer,7,674129.5,0
+84,Bradley Gray,Bradley,Gray,CA,1084,Automobile Liability,532948.71,1960-03-24,,1961-03-24,1961-03-25,ACTIVE,,542658.71,96,Retail,4631869.67,Cheque,2,532448.71,1
+85,Thomas Mercado,Thomas,Mercado,CA,1085,General Liability,721700.65,1960-03-25,,1961-03-25,1961-03-26,ACTIVE,,719402.33,86,Construction,7619249.47,Cheque,1,721200.65,1
+86,Cody Walsh,Cody,Walsh,TX,1086,General Liability,142136.77,1960-03-26,1960-06-15,1961-03-26,,INACTIVE,Cancellation due to another carrer,143262.14,59,Technology,2139283.02,ACH Transfer,0,0.0,0
+87,James Townsend,James,Townsend,CA,1087,General Liability,212770.51,1960-03-27,1960-05-24,1961-03-27,,INACTIVE,Cancellation due to non-payment,203947.8,71,Consulting,7122031.66,Cheque,2,212270.51,0
+88,Linda Jones,Linda,Jones,CA,1088,General Liability,818916.27,1960-03-28,,1961-03-28,1961-03-29,ACTIVE,,781492.37,9,Manufacturing,309383.25,ACH Transfer,1,818416.27,1
+89,Christopher Wiggins,Christopher,Wiggins,TX,1089,Product Liability,323205.45,1960-03-29,1960-08-01,1961-03-29,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,328598.67,1,Manufacturing,4247436.48,Credit Card,1,322705.45,0
+90,Mark Peck MD,Mark,MD,CA,1090,Professional Liability,23870.93,1960-03-30,,1961-03-30,1961-03-31,ACTIVE,,24642.7,29,Technology,7781064.15,Cash,5,23370.93,1
+91,Jessica Roberts,Jessica,Roberts,PA,1091,Professional Liability,154637.36,1960-03-31,1960-05-07,1961-03-31,,INACTIVE,Cancellation due to significant changes in risk,158998.37,63,Retail,3453456.26,Cash,0,0.0,0
+92,Taylor Miller,Taylor,Miller,PA,1092,General Liability,224390.82,1960-04-01,1960-05-02,1961-04-01,,INACTIVE,Cancellation due to another carrer,225373.78,72,Construction,5680997.3,Online,1,223890.82,0
+93,Jessica Williams,Jessica,Williams,FL,1093,Professional Liability,957365.57,1960-04-02,,1961-04-02,1961-04-03,ACTIVE,,919058.2,56,Consulting,2129294.4,Cheque,5,956865.57,1
+94,Heidi Adkins,Heidi,Adkins,PA,1094,Professional Liability,573468.39,1960-04-03,,1961-04-03,1961-04-04,ACTIVE,,584252.14,68,Construction,7445754.37,Online,2,572968.39,1
+95,Darlene Williams,Darlene,Williams,NY,1095,General Liability,932798.01,1960-04-04,,1961-04-04,1961-04-05,ACTIVE,,908721.46,35,Consulting,617563.12,Credit Card,3,932298.01,1
+96,Donna Colon,Donna,Colon,NY,1096,Professional Liability,575588.19,1960-04-05,,1961-04-05,1961-04-06,ACTIVE,,599248.82,3,Manufacturing,8540172.18,Cash,0,0.0,1
+97,Jacob Thomas,Jacob,Thomas,NY,1097,Automobile Liability,479875.09,1960-04-06,,1961-04-06,1961-04-07,ACTIVE,,496107.6,7,Construction,2062144.23,Credit Card,7,479375.09,1
+98,Brenda Greer,Brenda,Greer,TX,1098,Workers Compensation,314413.96,1960-04-07,1960-04-07,1961-04-07,,INACTIVE,Cancellation due to another carrer,320997.25,27,Technology,8756540.51,Credit Card,6,313913.96,0
+99,Michael Brady DVM,Michael,DVM,PA,1099,Workers Compensation,606764.57,1960-04-08,1960-06-15,1961-04-08,,INACTIVE,Cancellation due to another carrer,633998.95,1,Retail,3590039.49,Cheque,6,606264.57,0
+100,Mark Morrison,Mark,Morrison,NY,1100,General Liability,140058.83,1960-04-09,,1961-04-09,1961-04-10,ACTIVE,,133495.98,91,Technology,7254567.39,Credit Card,2,139558.83,1
+101,Crystal Holland,Crystal,Holland,FL,1101,Product Liability,898363.37,1960-04-10,1961-03-12,1961-04-10,,INACTIVE,Cancellation due to company bankruptcy,919582.75,80,Retail,3260330.45,Cash,9,897863.37,0
+102,John Padilla,John,Padilla,TX,1102,General Liability,829503.07,1960-04-11,,1961-04-11,1961-04-12,ACTIVE,,815421.66,71,Construction,9068525.55,Online,9,829003.07,1
+103,Alexandria Roberts,Alexandria,Roberts,FL,1103,Product Liability,318213.92,1960-04-12,1960-11-02,1961-04-12,,INACTIVE,Cancellation due to company bankruptcy,331135.5,44,Construction,1353707.54,Cash,2,317713.92,0
+104,Stephanie Grant,Stephanie,Grant,PA,1104,Workers Compensation,952844.73,1960-04-13,1961-01-13,1961-04-13,,INACTIVE,Cancellation due to company bankruptcy,930612.5,87,Retail,1867345.91,Cheque,1,952344.73,0
+105,Cory Young,Cory,Young,CA,1105,General Liability,825375.57,1960-04-14,,1961-04-14,1961-04-15,ACTIVE,,843934.68,41,Manufacturing,4980998.24,Cash,0,0.0,1
+106,Joseph Santiago,Joseph,Santiago,FL,1106,Automobile Liability,666640.58,1960-04-15,,1961-04-15,1961-04-16,ACTIVE,,691816.06,75,Consulting,911190.55,ACH Transfer,6,666140.58,1
+107,Sarah Moore,Sarah,Moore,CA,1107,Professional Liability,122640.15,1960-04-16,,1961-04-16,1961-04-17,ACTIVE,,117019.02,42,Technology,2040203.83,Online,6,122140.15,1
+108,James Brown,James,Brown,TX,1108,Product Liability,478755.79,1960-04-17,1960-06-12,1961-04-17,,INACTIVE,Cancellation due to company bankruptcy,473855.61,33,Technology,9443287.18,ACH Transfer,1,478255.79,0
+109,Mr. Anthony Garcia,Mr.,Garcia,FL,1109,Professional Liability,506601.45,1960-04-18,,1961-04-18,1961-04-19,ACTIVE,,519890.06,50,Technology,9767247.65,ACH Transfer,6,506101.45,1
+110,Dana Brown,Dana,Brown,FL,1110,Professional Liability,233318.81,1960-04-19,,1961-04-19,1961-04-20,ACTIVE,,232266.98,63,Construction,3824967.36,Cheque,7,232818.81,1
+111,Justin Evans,Justin,Evans,TX,1111,General Liability,80885.43,1960-04-20,,1961-04-20,1961-04-21,ACTIVE,,79002.84,37,Technology,9240531.61,Credit Card,0,0.0,1
+112,Patrick Meyer,Patrick,Meyer,TX,1112,Professional Liability,776946.91,1960-04-21,,1961-04-21,1961-04-22,ACTIVE,,755177.27,59,Consulting,5493764.29,ACH Transfer,8,776446.91,1
+113,Elijah Williams,Elijah,Williams,NY,1113,Automobile Liability,122913.02,1960-04-22,,1961-04-22,1961-04-23,ACTIVE,,118383.9,81,Consulting,2770450.41,Cash,6,122413.02,1
+114,Alison Marsh,Alison,Marsh,PA,1114,Professional Liability,594696.46,1960-04-23,,1961-04-23,1961-04-24,ACTIVE,,615934.83,99,Retail,7053747.34,Credit Card,2,594196.46,1
+115,Brooke Marshall PhD,Brooke,PhD,FL,1115,General Liability,936512.72,1960-04-24,1960-07-20,1961-04-24,,INACTIVE,Cancellation due to another carrer,943569.85,48,Construction,6623127.89,Cash,7,936012.72,0
+116,Jennifer Murphy,Jennifer,Murphy,FL,1116,Automobile Liability,876229.09,1960-04-25,1960-10-01,1961-04-25,,INACTIVE,Cancellation due to significant changes in risk,839110.71,5,Consulting,9892340.66,Cash,6,875729.09,0
+117,Melissa Smith,Melissa,Smith,TX,1117,Workers Compensation,278474.87,1960-04-26,1960-08-04,1961-04-26,,INACTIVE,Cancellation due to another carrer,275205.03,48,Manufacturing,2723968.15,Credit Card,7,277974.87,0
+118,Christopher Lopez,Christopher,Lopez,TX,1118,Professional Liability,851597.19,1960-04-27,1961-01-04,1961-04-27,,INACTIVE,Cancellation due to company bankruptcy,840333.42,96,Construction,6753389.08,Credit Card,5,851097.19,0
+119,Tracy Fitzgerald,Tracy,Fitzgerald,PA,1119,General Liability,1332.17,1960-04-28,,1961-04-28,1961-04-29,ACTIVE,,1289.77,3,Construction,615035.17,Cash,8,832.17,1
+120,Whitney Morris,Whitney,Morris,TX,1120,Workers Compensation,18670.12,1960-04-29,,1961-04-29,1961-04-30,ACTIVE,,18549.71,47,Consulting,1225095.78,Cheque,4,18170.12,1
+121,Jeremy Duffy,Jeremy,Duffy,CA,1121,Workers Compensation,602950.61,1960-04-30,1960-08-26,1961-04-30,,INACTIVE,Cancellation due to company bankruptcy,592827.03,62,Manufacturing,138791.91,Online,2,602450.61,0
+122,Christian Branch,Christian,Branch,CA,1122,Product Liability,365433.42,1960-05-01,1960-07-12,1961-05-01,,INACTIVE,Cancellation due to another carrer,359652.4,99,Retail,9994660.74,Online,2,364933.42,0
+123,Rachel Hernandez,Rachel,Hernandez,CA,1123,Automobile Liability,387074.38,1960-05-02,1960-08-10,1961-05-02,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,396326.49,14,Consulting,8042509.6,Cheque,0,0.0,0
+124,Kenneth Bowman,Kenneth,Bowman,CA,1124,Professional Liability,564876.65,1960-05-03,,1961-05-03,1961-05-04,ACTIVE,,549244.44,63,Manufacturing,7888557.85,Credit Card,7,564376.65,1
+125,Jennifer Logan,Jennifer,Logan,PA,1125,General Liability,192590.67,1960-05-04,,1961-05-04,1961-05-05,ACTIVE,,195322.76,61,Construction,5146288.15,Cash,1,192090.67,1
+126,Michael Ross,Michael,Ross,FL,1126,Product Liability,212543.6,1960-05-05,,1961-05-05,1961-05-06,ACTIVE,,214045.21,31,Manufacturing,3070664.12,Online,2,212043.6,1
+127,Tonya Mcdonald,Tonya,Mcdonald,CA,1127,Automobile Liability,485116.99,1960-05-06,1960-08-23,1961-05-06,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,488420.27,95,Construction,1597516.42,Cash,7,484616.99,0
+128,Daniel Thomas,Daniel,Thomas,TX,1128,Product Liability,754499.29,1960-05-07,1961-03-04,1961-05-07,,INACTIVE,Cancellation due to significant changes in risk,766798.18,17,Consulting,2918279.91,Cheque,7,753999.29,0
+129,Michael Mcgee,Michael,Mcgee,CA,1129,Automobile Liability,619878.25,1960-05-08,1960-09-12,1961-05-08,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,622877.35,24,Consulting,3822115.1,Cash,3,619378.25,0
+130,Molly Reyes,Molly,Reyes,PA,1130,Automobile Liability,298057.69,1960-05-09,1961-01-20,1961-05-09,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,309361.68,23,Technology,7587469.96,Cheque,3,297557.69,0
+131,Heather Hogan,Heather,Hogan,TX,1131,Professional Liability,430906.84,1960-05-10,1960-11-15,1961-05-10,,INACTIVE,Cancellation due to another carrer,438472.71,82,Technology,5442651.71,Credit Card,4,430406.84,0
+132,Michelle Swanson,Michelle,Swanson,CA,1132,Automobile Liability,171494.09,1960-05-11,,1961-05-11,1961-05-12,ACTIVE,,172299.48,50,Technology,867087.9,Cheque,5,170994.09,1
+133,Philip Monroe,Philip,Monroe,FL,1133,Product Liability,75555.18,1960-05-12,,1961-05-12,1961-05-13,ACTIVE,,78046.71,78,Consulting,278487.19,Cheque,4,75055.18,1
+134,Kenneth Macias,Kenneth,Macias,TX,1134,Automobile Liability,782913.34,1960-05-13,,1961-05-13,1961-05-14,ACTIVE,,791223.7,79,Retail,1113088.58,Online,6,782413.34,1
+135,Justin Maddox,Justin,Maddox,TX,1135,Professional Liability,266122.02,1960-05-14,,1961-05-14,1961-05-15,ACTIVE,,260563.91,79,Consulting,4163937.27,Cash,1,265622.02,1
+136,Brandon Delgado,Brandon,Delgado,FL,1136,Professional Liability,178588.62,1960-05-15,,1961-05-15,1961-05-16,ACTIVE,,173357.67,70,Manufacturing,9338609.88,Online,6,178088.62,1
+137,Gabriel Martin,Gabriel,Martin,TX,1137,Product Liability,691926.44,1960-05-16,1960-10-11,1961-05-16,,INACTIVE,Cancellation due to company bankruptcy,667870.08,27,Consulting,6410284.56,ACH Transfer,9,691426.44,0
+138,Madison Le,Madison,Le,CA,1138,Workers Compensation,618433.62,1960-05-17,,1961-05-17,1961-05-18,ACTIVE,,643137.27,15,Consulting,8038076.41,Cheque,6,617933.62,1
+139,Debra Jackson,Debra,Jackson,TX,1139,Workers Compensation,633556.44,1960-05-18,1960-11-26,1961-05-18,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,646869.71,50,Construction,4717108.49,ACH Transfer,0,0.0,0
+140,Steve Moore,Steve,Moore,CA,1140,Automobile Liability,229665.71,1960-05-19,,1961-05-19,1961-05-20,ACTIVE,,239710.79,36,Construction,3680494.22,Online,6,229165.71,1
+141,Terri Burns,Terri,Burns,FL,1141,General Liability,233412.89,1960-05-20,1960-07-01,1961-05-20,,INACTIVE,Cancellation due to significant changes in risk,235823.85,8,Construction,1173163.69,Cash,4,232912.89,0
+142,Christopher Wells,Christopher,Wells,NY,1142,Automobile Liability,221581.83,1960-05-21,1961-01-25,1961-05-21,,INACTIVE,Cancellation due to non-payment,220992.44,79,Consulting,8771736.92,Online,2,221081.83,0
+143,Cody Marsh,Cody,Marsh,FL,1143,Product Liability,174578.84,1960-05-22,1961-05-02,1961-05-22,,INACTIVE,Cancellation due to company bankruptcy,166892.42,3,Retail,7853284.29,Cash,2,174078.84,0
+144,Gary Wilcox,Gary,Wilcox,CA,1144,Product Liability,656067.95,1960-05-23,1960-07-15,1961-05-23,,INACTIVE,Cancellation due to significant changes in risk,667328.85,62,Manufacturing,1764369.17,Cash,3,655567.95,0
+145,Luis Mitchell,Luis,Mitchell,PA,1145,Product Liability,848167.87,1960-05-24,1961-03-18,1961-05-24,,INACTIVE,Cancellation due to company bankruptcy,855140.55,47,Manufacturing,5171379.58,Credit Card,1,847667.87,0
+146,Joshua Morrison,Joshua,Morrison,FL,1146,Product Liability,724593.15,1960-05-25,1960-11-29,1961-05-25,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,760113.35,77,Retail,4925010.6,Cheque,1,724093.15,0
+147,Matthew Vasquez,Matthew,Vasquez,PA,1147,Product Liability,792301.54,1960-05-26,,1961-05-26,1961-05-27,ACTIVE,,771635.05,98,Retail,6288406.37,Online,0,0.0,1
+148,Alicia Bowen,Alicia,Bowen,PA,1148,Professional Liability,405393.63,1960-05-27,1960-12-02,1961-05-27,,INACTIVE,Cancellation due to non-payment,406639.7,88,Manufacturing,9467250.25,Cash,4,404893.63,0
+149,Johnny Kennedy,Johnny,Kennedy,CA,1149,Workers Compensation,654421.72,1960-05-28,1960-08-04,1961-05-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,664300.7,96,Technology,5839737.27,Online,3,653921.72,0
+150,Robert Chapman,Robert,Chapman,CA,1150,Product Liability,354882.0,1960-05-29,,1961-05-29,1961-05-30,ACTIVE,,360013.28,61,Construction,5448150.94,Online,9,354382.0,1
+151,Tina Davis,Tina,Davis,NY,1151,General Liability,525979.12,1960-05-30,1961-02-02,1961-05-30,,INACTIVE,Cancellation due to significant changes in risk,529203.03,32,Construction,598197.04,Cash,1,525479.12,0
+152,Ricardo Rice,Ricardo,Rice,TX,1152,General Liability,482153.21,1960-05-31,,1961-05-31,1961-06-01,ACTIVE,,495505.38,94,Manufacturing,722784.01,ACH Transfer,2,481653.21,1
+153,Kerry Sanchez,Kerry,Sanchez,FL,1153,General Liability,177710.26,1960-06-01,,1961-06-01,1961-06-02,ACTIVE,,172467.47,13,Retail,1954733.23,Cheque,6,177210.26,1
+154,Andrea Fowler,Andrea,Fowler,CA,1154,General Liability,387691.68,1960-06-02,1960-09-08,1961-06-02,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,396439.06,1,Technology,421460.64,Cheque,6,387191.68,0
+155,Carlos Massey,Carlos,Massey,FL,1155,Professional Liability,963858.45,1960-06-03,1961-03-27,1961-06-03,,INACTIVE,Cancellation due to significant changes in risk,975399.17,34,Manufacturing,7459193.67,Credit Card,3,963358.45,0
+156,Joseph Reeves,Joseph,Reeves,PA,1156,General Liability,249331.68,1960-06-04,,1961-06-04,1961-06-05,ACTIVE,,259207.09,62,Construction,7260970.01,Credit Card,4,248831.68,1
+157,Christina Hayes,Christina,Hayes,TX,1157,Product Liability,134669.93,1960-06-05,1960-09-25,1961-06-05,,INACTIVE,Cancellation due to company bankruptcy,139345.6,79,Consulting,1446956.72,Credit Card,4,134169.93,0
+158,Julie Taylor,Julie,Taylor,NY,1158,Automobile Liability,419162.04,1960-06-06,,1961-06-06,1961-06-07,ACTIVE,,411413.71,78,Retail,8377181.12,Cheque,5,418662.04,1
+159,Benjamin Smith,Benjamin,Smith,FL,1159,General Liability,790547.4,1960-06-07,1960-07-26,1961-06-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,772857.9,93,Consulting,1632381.74,ACH Transfer,8,790047.4,0
+160,Casey Christian,Casey,Christian,TX,1160,Professional Liability,582566.08,1960-06-08,,1961-06-08,1961-06-09,ACTIVE,,610625.57,98,Manufacturing,3081638.31,Cheque,1,582066.08,1
+161,Tara Navarro,Tara,Navarro,NY,1161,Professional Liability,681293.85,1960-06-09,1960-10-23,1961-06-09,,INACTIVE,Cancellation due to non-payment,683151.41,82,Construction,2564871.3,Cheque,4,680793.85,0
+162,Richard Jacobson,Richard,Jacobson,FL,1162,General Liability,190505.15,1960-06-10,1961-05-27,1961-06-10,,INACTIVE,Cancellation due to non-payment,198247.68,71,Technology,3785840.28,Cheque,2,190005.15,0
+163,Robert Larson,Robert,Larson,TX,1163,Automobile Liability,619329.24,1960-06-11,,1961-06-11,1961-06-12,ACTIVE,,598512.41,93,Consulting,2621171.28,Cheque,3,618829.24,1
+164,Candace Garner,Candace,Garner,CA,1164,General Liability,324176.89,1960-06-12,,1961-06-12,1961-06-13,ACTIVE,,328806.75,31,Technology,4940614.17,ACH Transfer,9,323676.89,1
+165,Nicole Coleman,Nicole,Coleman,FL,1165,Professional Liability,834469.06,1960-06-13,,1961-06-13,1961-06-14,ACTIVE,,860325.93,64,Construction,4133338.03,Credit Card,5,833969.06,1
+166,Karen Le,Karen,Le,TX,1166,Workers Compensation,629669.51,1960-06-14,,1961-06-14,1961-06-15,ACTIVE,,657840.62,25,Consulting,9867037.96,Online,7,629169.51,1
+167,Keith Ferguson,Keith,Ferguson,NY,1167,Product Liability,199657.42,1960-06-15,1960-08-07,1961-06-15,,INACTIVE,Cancellation due to significant changes in risk,196409.8,38,Technology,653670.87,Credit Card,0,0.0,0
+168,Amanda Burns,Amanda,Burns,TX,1168,Professional Liability,65552.06,1960-06-16,,1961-06-16,1961-06-17,ACTIVE,,67026.86,14,Technology,1507595.63,Credit Card,9,65052.06,1
+169,John Stewart,John,Stewart,CA,1169,General Liability,43590.58,1960-06-17,,1961-06-17,1961-06-18,ACTIVE,,43759.77,8,Consulting,622976.35,Online,7,43090.58,1
+170,Judith Ferrell,Judith,Ferrell,FL,1170,Product Liability,372037.16,1960-06-18,1961-05-01,1961-06-18,,INACTIVE,Cancellation due to company bankruptcy,355690.92,91,Construction,6295827.83,Cheque,6,371537.16,0
+171,Christina Reyes,Christina,Reyes,FL,1171,General Liability,266585.29,1960-06-19,1961-03-12,1961-06-19,,INACTIVE,Cancellation due to non-payment,271650.4,54,Technology,639641.85,ACH Transfer,0,0.0,0
+172,Bradley Stevenson,Bradley,Stevenson,FL,1172,General Liability,646444.03,1960-06-20,,1961-06-20,1961-06-21,ACTIVE,,658732.71,2,Manufacturing,8380753.4,ACH Transfer,1,645944.03,1
+173,Lynn Randolph,Lynn,Randolph,CA,1173,Workers Compensation,499834.5,1960-06-21,1961-03-06,1961-06-21,,INACTIVE,Cancellation due to company bankruptcy,521357.71,81,Consulting,5168192.44,Credit Card,2,499334.5,0
+174,Joseph Burton,Joseph,Burton,NY,1174,Product Liability,266753.26,1960-06-22,,1961-06-22,1961-06-23,ACTIVE,,266681.57,78,Retail,5317375.48,Online,0,0.0,1
+175,Audrey Griffin,Audrey,Griffin,FL,1175,Product Liability,150088.54,1960-06-23,1960-08-11,1961-06-23,,INACTIVE,Cancellation due to non-payment,146039.92,89,Retail,5659785.63,Cash,8,149588.54,0
+176,Ronald Lopez,Ronald,Lopez,NY,1176,Workers Compensation,128072.56,1960-06-24,,1961-06-24,1961-06-25,ACTIVE,,122239.67,56,Construction,1791055.69,Cheque,7,127572.56,1
+177,Michael Mcgee,Michael,Mcgee,TX,1177,Professional Liability,864795.73,1960-06-25,1960-08-11,1961-06-25,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,857500.5,94,Manufacturing,2057134.0,Credit Card,1,864295.73,0
+178,Kevin Beltran,Kevin,Beltran,NY,1178,General Liability,244234.49,1960-06-26,,1961-06-26,1961-06-27,ACTIVE,,239396.61,93,Technology,3256291.5,ACH Transfer,8,243734.49,1
+179,John Wolf,John,Wolf,NY,1179,Automobile Liability,652058.94,1960-06-27,,1961-06-27,1961-06-28,ACTIVE,,669083.44,84,Retail,5975614.52,Online,6,651558.94,1
+180,Damon Sanchez,Damon,Sanchez,FL,1180,General Liability,810875.24,1960-06-28,1961-06-08,1961-06-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,799058.17,85,Construction,2180165.98,Online,8,810375.24,0
+181,Lisa Bennett,Lisa,Bennett,PA,1181,General Liability,614467.23,1960-06-29,1960-07-19,1961-06-29,,INACTIVE,Cancellation due to significant changes in risk,642061.18,61,Manufacturing,1251684.1,Credit Card,5,613967.23,0
+182,Jennifer Smith,Jennifer,Smith,PA,1182,Professional Liability,859705.67,1960-06-30,,1961-06-30,1961-07-01,ACTIVE,,899450.74,22,Manufacturing,9704157.18,Cash,5,859205.67,1
+183,Christina Thompson,Christina,Thompson,CA,1183,General Liability,393001.33,1960-07-01,,1961-07-01,1961-07-02,ACTIVE,,397753.05,35,Construction,317619.97,ACH Transfer,3,392501.33,1
+184,Mark Carter,Mark,Carter,CA,1184,Workers Compensation,956265.97,1960-07-02,1960-12-14,1961-07-02,,INACTIVE,Cancellation due to company bankruptcy,997257.29,16,Construction,8046704.31,Credit Card,9,955765.97,0
+185,Laura Alvarado,Laura,Alvarado,PA,1185,Workers Compensation,134011.86,1960-07-03,1961-05-20,1961-07-03,,INACTIVE,Cancellation due to significant changes in risk,137507.62,50,Technology,7901547.98,Cash,9,133511.86,0
+186,Jessica Washington,Jessica,Washington,TX,1186,Product Liability,103047.38,1960-07-04,1960-09-03,1961-07-04,,INACTIVE,Cancellation due to significant changes in risk,103530.26,43,Construction,3042419.73,Online,1,102547.38,0
+187,Jonathan Ayala,Jonathan,Ayala,FL,1187,Automobile Liability,659033.45,1960-07-05,1960-12-15,1961-07-05,,INACTIVE,Cancellation due to company bankruptcy,637964.67,17,Technology,1442703.5,Cheque,6,658533.45,0
+188,Tammie Sherman,Tammie,Sherman,FL,1188,General Liability,942888.31,1960-07-06,1960-11-04,1961-07-06,,INACTIVE,Cancellation due to non-payment,938984.56,80,Technology,1541723.6,ACH Transfer,4,942388.31,0
+189,Christina Fox,Christina,Fox,TX,1189,General Liability,809074.58,1960-07-07,1961-04-14,1961-07-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,813999.78,58,Consulting,7004573.01,ACH Transfer,5,808574.58,0
+190,Dustin Andrade,Dustin,Andrade,TX,1190,Professional Liability,77340.44,1960-07-08,1961-01-28,1961-07-08,,INACTIVE,Cancellation due to significant changes in risk,80155.33,2,Manufacturing,6463785.25,Cash,1,76840.44,0
+191,William Ochoa,William,Ochoa,PA,1191,Workers Compensation,280088.35,1960-07-09,1961-07-07,1961-07-09,,INACTIVE,Cancellation due to significant changes in risk,279565.52,4,Manufacturing,7849182.18,Credit Card,4,279588.35,0
+192,Sara Duffy,Sara,Duffy,CA,1192,Automobile Liability,930388.57,1960-07-10,1961-01-22,1961-07-10,,INACTIVE,Cancellation due to significant changes in risk,967387.77,85,Manufacturing,9381063.61,Online,9,929888.57,0
+193,Mr. Travis Garza,Mr.,Garza,TX,1193,Product Liability,253805.37,1960-07-11,,1961-07-11,1961-07-12,ACTIVE,,258230.44,39,Consulting,6950080.9,Cash,3,253305.37,1
+194,Paul Chavez,Paul,Chavez,CA,1194,Workers Compensation,781389.25,1960-07-12,1961-06-03,1961-07-12,,INACTIVE,Cancellation due to non-payment,753024.75,98,Technology,1642930.21,Cheque,8,780889.25,0
+195,Rachel Stanley,Rachel,Stanley,NY,1195,Product Liability,825307.06,1960-07-13,1961-04-22,1961-07-13,,INACTIVE,Cancellation due to non-payment,866158.22,94,Technology,2510081.91,Cheque,5,824807.06,0
+196,Judy Potts,Judy,Potts,FL,1196,Professional Liability,495956.65,1960-07-14,,1961-07-14,1961-07-15,ACTIVE,,497307.27,6,Construction,8437717.94,Cheque,1,495456.65,1
+197,Mrs. Tammy Ross,Mrs.,Ross,PA,1197,Professional Liability,386962.56,1960-07-15,,1961-07-15,1961-07-16,ACTIVE,,382777.88,81,Consulting,2172130.15,Cash,0,0.0,1
+198,Alicia White,Alicia,White,FL,1198,General Liability,450674.31,1960-07-16,,1961-07-16,1961-07-17,ACTIVE,,457845.16,89,Construction,817970.94,Online,4,450174.31,1
+199,Jennifer Hall,Jennifer,Hall,PA,1199,Automobile Liability,227737.73,1960-07-17,,1961-07-17,1961-07-18,ACTIVE,,218830.76,69,Consulting,7062472.54,ACH Transfer,8,227237.73,1
+200,Virginia Smith,Virginia,Smith,NY,1200,Product Liability,889501.53,1960-07-18,,1961-07-18,1961-07-19,ACTIVE,,901646.66,69,Construction,4085010.92,Credit Card,5,889001.53,1
+201,Gregory Fischer,Gregory,Fischer,FL,1201,Workers Compensation,451169.04,1960-07-19,,1961-07-19,1961-07-20,ACTIVE,,451089.45,20,Retail,9208396.52,ACH Transfer,9,450669.04,1
+202,Alan Holt,Alan,Holt,NY,1202,Professional Liability,882576.98,1960-07-20,1961-06-25,1961-07-20,,INACTIVE,Cancellation due to another carrer,874340.25,64,Manufacturing,6537525.2,Online,6,882076.98,0
+203,Ethan Campbell,Ethan,Campbell,PA,1203,General Liability,106587.79,1960-07-21,,1961-07-21,1961-07-22,ACTIVE,,111416.43,16,Manufacturing,995147.88,ACH Transfer,4,106087.79,1
+204,Anthony Rodriguez,Anthony,Rodriguez,TX,1204,General Liability,988287.0,1960-07-22,,1961-07-22,1961-07-23,ACTIVE,,990514.57,51,Technology,9483780.02,Cash,9,987787.0,1
+205,Jeremy Edwards,Jeremy,Edwards,FL,1205,Product Liability,443829.81,1960-07-23,,1961-07-23,1961-07-24,ACTIVE,,431363.41,37,Retail,2659716.91,Cheque,5,443329.81,1
+206,Gregory Fernandez,Gregory,Fernandez,NY,1206,Professional Liability,48782.99,1960-07-24,1960-09-23,1961-07-24,,INACTIVE,Cancellation due to company bankruptcy,48582.8,73,Manufacturing,3438403.66,Online,4,48282.99,0
+207,Ronald Pugh,Ronald,Pugh,FL,1207,Automobile Liability,38983.83,1960-07-25,,1961-07-25,1961-07-26,ACTIVE,,40618.76,69,Technology,4082378.1,Online,8,38483.83,1
+208,Gerald Lee,Gerald,Lee,FL,1208,Professional Liability,746461.05,1960-07-26,1960-07-27,1961-07-26,,INACTIVE,Cancellation due to another carrer,722282.84,42,Retail,607120.53,ACH Transfer,5,745961.05,0
+209,John Kim,John,Kim,FL,1209,Product Liability,659376.5,1960-07-27,,1961-07-27,1961-07-28,ACTIVE,,640515.5,57,Manufacturing,5015502.68,Cash,7,658876.5,1
+210,Courtney Gomez,Courtney,Gomez,CA,1210,Product Liability,802328.43,1960-07-28,,1961-07-28,1961-07-29,ACTIVE,,763257.41,66,Construction,1320853.06,ACH Transfer,1,801828.43,1
+211,David Bell,David,Bell,NY,1211,Professional Liability,106262.17,1960-07-29,1961-03-03,1961-07-29,,INACTIVE,Cancellation due to company bankruptcy,101099.85,9,Consulting,4069606.23,ACH Transfer,8,105762.17,0
+212,Jessica Jimenez,Jessica,Jimenez,NY,1212,Product Liability,36535.3,1960-07-30,1961-04-08,1961-07-30,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,37738.74,86,Retail,3572026.9,Online,4,36035.3,0
+213,Aaron Ward,Aaron,Ward,FL,1213,Professional Liability,509070.71,1960-07-31,,1961-07-31,1961-08-01,ACTIVE,,520887.39,64,Technology,7751116.83,ACH Transfer,6,508570.71,1
+214,Diane Estrada,Diane,Estrada,TX,1214,Workers Compensation,388207.64,1960-08-01,1961-04-03,1961-08-01,,INACTIVE,Cancellation due to company bankruptcy,382580.22,86,Retail,8051388.07,Cheque,9,387707.64,0
+215,Amber Navarro,Amber,Navarro,FL,1215,Professional Liability,462484.99,1960-08-02,1960-08-23,1961-08-02,,INACTIVE,Cancellation due to significant changes in risk,471656.58,22,Technology,1618787.54,ACH Transfer,0,0.0,0
+216,David Johnson,David,Johnson,CA,1216,Professional Liability,991596.82,1960-08-03,,1961-08-03,1961-08-04,ACTIVE,,981205.47,34,Retail,3728856.76,Cheque,9,991096.82,1
+217,Mark Ramirez,Mark,Ramirez,PA,1217,Product Liability,970779.21,1960-08-04,,1961-08-04,1961-08-05,ACTIVE,,1014745.49,55,Technology,3796196.29,Online,4,970279.21,1
+218,Monique Castillo,Monique,Castillo,CA,1218,Product Liability,942373.07,1960-08-05,,1961-08-05,1961-08-06,ACTIVE,,986386.86,29,Manufacturing,1598963.39,Cash,9,941873.07,1
+219,Sue Harrison,Sue,Harrison,TX,1219,General Liability,784058.83,1960-08-06,1960-11-01,1961-08-06,,INACTIVE,Cancellation due to company bankruptcy,775653.23,38,Construction,8004689.7,Cheque,1,783558.83,0
+220,Eric Melendez,Eric,Melendez,FL,1220,General Liability,355486.52,1960-08-07,,1961-08-07,1961-08-08,ACTIVE,,368078.63,97,Manufacturing,7101560.45,Cash,5,354986.52,1
+221,Valerie Davis,Valerie,Davis,NY,1221,Workers Compensation,412718.8,1960-08-08,,1961-08-08,1961-08-09,ACTIVE,,423989.7,18,Construction,1984779.68,Cash,0,0.0,1
+222,James Lowe,James,Lowe,FL,1222,General Liability,550066.43,1960-08-09,1960-08-27,1961-08-09,,INACTIVE,Cancellation due to significant changes in risk,539615.16,71,Manufacturing,3730546.9,Cheque,2,549566.43,0
+223,Jason Jones,Jason,Jones,TX,1223,Professional Liability,830703.92,1960-08-10,1961-04-28,1961-08-10,,INACTIVE,Cancellation due to another carrer,808444.36,65,Manufacturing,1147469.75,Online,4,830203.92,0
+224,Jennifer Schmidt,Jennifer,Schmidt,NY,1224,Product Liability,69644.12,1960-08-11,,1961-08-11,1961-08-12,ACTIVE,,69353.25,97,Retail,6319245.31,Credit Card,3,69144.12,1
+225,Patricia Hill,Patricia,Hill,CA,1225,General Liability,424872.59,1960-08-12,1960-12-20,1961-08-12,,INACTIVE,Cancellation due to another carrer,436826.33,1,Consulting,1301582.05,Cash,2,424372.59,0
+226,Don Washington,Don,Washington,PA,1226,General Liability,83535.05,1960-08-13,,1961-08-13,1961-08-14,ACTIVE,,87379.06,88,Technology,9860748.27,Cash,9,83035.05,1
+227,Wayne Simmons,Wayne,Simmons,PA,1227,Workers Compensation,515142.93,1960-08-14,1961-06-10,1961-08-14,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,528721.02,4,Technology,7828752.54,Online,4,514642.93,0
+228,Linda Austin,Linda,Austin,FL,1228,Workers Compensation,899001.92,1960-08-15,,1961-08-15,1961-08-16,ACTIVE,,930935.1,4,Technology,3963361.64,Online,7,898501.92,1
+229,Patrick Jensen,Patrick,Jensen,CA,1229,Professional Liability,782702.44,1960-08-16,1960-11-07,1961-08-16,,INACTIVE,Cancellation due to significant changes in risk,790769.31,82,Construction,5827782.93,ACH Transfer,3,782202.44,0
+230,Natalie Decker,Natalie,Decker,TX,1230,Product Liability,228614.58,1960-08-17,1961-04-02,1961-08-17,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,236282.49,27,Technology,9122283.98,Online,0,0.0,0
+231,Ashley Thomas,Ashley,Thomas,PA,1231,Workers Compensation,976014.86,1960-08-18,1961-05-13,1961-08-18,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,1003774.76,43,Technology,5585582.88,Cash,6,975514.86,0
+232,Peter Costa,Peter,Costa,CA,1232,General Liability,667683.05,1960-08-19,1960-09-24,1961-08-19,,INACTIVE,Cancellation due to another carrer,659469.58,59,Retail,1827535.02,Cheque,7,667183.05,0
+233,Denise Hernandez,Denise,Hernandez,FL,1233,Product Liability,11417.27,1960-08-20,,1961-08-20,1961-08-21,ACTIVE,,11476.63,32,Manufacturing,3849163.22,Credit Card,2,10917.27,1
+234,Eddie Molina,Eddie,Molina,NY,1234,Product Liability,256158.07,1960-08-21,1961-02-07,1961-08-21,,INACTIVE,Cancellation due to significant changes in risk,263964.57,33,Technology,8447134.16,ACH Transfer,5,255658.07,0
+235,Mary Carter,Mary,Carter,FL,1235,General Liability,261452.59,1960-08-22,,1961-08-22,1961-08-23,ACTIVE,,249584.13,28,Consulting,6477708.86,Cheque,1,260952.59,1
+236,Wendy Santiago,Wendy,Santiago,FL,1236,Workers Compensation,70185.05,1960-08-23,1961-02-24,1961-08-23,,INACTIVE,Cancellation due to non-payment,72347.31,55,Technology,6542171.4,Credit Card,6,69685.05,0
+237,Anne Jones,Anne,Jones,CA,1237,General Liability,959866.69,1960-08-24,1961-07-11,1961-08-24,,INACTIVE,Cancellation due to non-payment,928948.24,60,Construction,8681532.71,Credit Card,7,959366.69,0
+238,Denise Chapman,Denise,Chapman,PA,1238,Product Liability,478777.04,1960-08-25,,1961-08-25,1961-08-26,ACTIVE,,479480.06,70,Construction,8950333.27,Credit Card,5,478277.04,1
+239,Christine Gutierrez,Christine,Gutierrez,CA,1239,Automobile Liability,895918.78,1960-08-26,1961-07-01,1961-08-26,,INACTIVE,Cancellation due to non-payment,923537.76,62,Construction,9205946.46,Cheque,5,895418.78,0
+240,Gary May,Gary,May,NY,1240,Automobile Liability,322893.29,1960-08-27,1961-07-30,1961-08-27,,INACTIVE,Cancellation due to another carrer,314944.34,80,Technology,1039007.01,ACH Transfer,4,322393.29,0
+241,Allison Valenzuela,Allison,Valenzuela,CA,1241,Professional Liability,126108.34,1960-08-28,,1961-08-28,1961-08-29,ACTIVE,,122902.76,34,Retail,5486847.42,ACH Transfer,7,125608.34,1
+242,Amanda Kelley,Amanda,Kelley,TX,1242,General Liability,474861.77,1960-08-29,1961-07-04,1961-08-29,,INACTIVE,Cancellation due to significant changes in risk,470244.42,87,Consulting,7431044.26,Credit Card,0,0.0,0
+243,Stephanie Hale,Stephanie,Hale,FL,1243,General Liability,114842.68,1960-08-30,,1961-08-30,1961-08-31,ACTIVE,,119374.86,88,Technology,7593575.77,Cheque,9,114342.68,1
+244,Charles Mann,Charles,Mann,PA,1244,Professional Liability,486529.49,1960-08-31,1961-05-11,1961-08-31,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,462224.56,56,Retail,6106490.4,Credit Card,3,486029.49,0
+245,Terri Ramirez,Terri,Ramirez,NY,1245,Professional Liability,920376.88,1960-09-01,1961-04-24,1961-09-01,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,957319.25,13,Retail,1751194.62,Online,3,919876.88,0
+246,Peter Parker,Peter,Parker,FL,1246,Professional Liability,521247.37,1960-09-02,1960-09-30,1961-09-02,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,503202.15,56,Technology,7994463.48,ACH Transfer,2,520747.37,0
+247,Brandi Hunter,Brandi,Hunter,CA,1247,Product Liability,616883.23,1960-09-03,,1961-09-03,1961-09-04,ACTIVE,,647115.84,18,Technology,7229102.2,Cash,2,616383.23,1
+248,Bryan Allen,Bryan,Allen,TX,1248,General Liability,157481.8,1960-09-04,1960-12-14,1961-09-04,,INACTIVE,Cancellation due to another carrer,164644.81,54,Retail,952744.14,Credit Card,3,156981.8,0
+249,Jared Lam,Jared,Lam,CA,1249,Product Liability,44691.89,1960-09-05,1961-08-05,1961-09-05,,INACTIVE,Cancellation due to significant changes in risk,44668.09,77,Retail,4691717.26,Online,0,0.0,0
+250,Sean Carson MD,Sean,MD,FL,1250,Professional Liability,111697.15,1960-09-06,1961-07-22,1961-09-06,,INACTIVE,Cancellation due to significant changes in risk,111839.23,43,Retail,1822376.26,ACH Transfer,1,111197.15,0
+251,Taylor Hill,Taylor,Hill,NY,1251,General Liability,598933.04,1960-09-07,1961-09-05,1961-09-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,597827.97,39,Technology,3441022.75,Cheque,8,598433.04,0
+252,Jeremy Mccarthy,Jeremy,Mccarthy,PA,1252,Product Liability,95916.69,1960-09-08,1960-09-19,1961-09-08,,INACTIVE,Cancellation due to significant changes in risk,97215.82,61,Retail,279002.81,ACH Transfer,9,95416.69,0
+253,Kevin Hartman,Kevin,Hartman,FL,1253,Product Liability,376616.9,1960-09-09,1960-10-30,1961-09-09,,INACTIVE,Cancellation due to significant changes in risk,361202.79,42,Construction,4063265.7,Cheque,1,376116.9,0
+254,Angela Allen,Angela,Allen,NY,1254,Professional Liability,550541.85,1960-09-10,1961-03-06,1961-09-10,,INACTIVE,Cancellation due to non-payment,524810.51,81,Technology,5543781.52,Cheque,4,550041.85,0
+255,Brittany Allen,Brittany,Allen,FL,1255,General Liability,389264.15,1960-09-11,1961-06-04,1961-09-11,,INACTIVE,Cancellation due to significant changes in risk,372047.11,79,Construction,6233867.67,Credit Card,8,388764.15,0
+256,Mr. Jason Gonzalez II,Mr.,II,TX,1256,Professional Liability,164520.12,1960-09-12,1961-03-23,1961-09-12,,INACTIVE,Cancellation due to company bankruptcy,163604.82,18,Manufacturing,6668554.42,Credit Card,8,164020.12,0
+257,Jessica Clarke,Jessica,Clarke,CA,1257,General Liability,274517.52,1960-09-13,,1961-09-13,1961-09-14,ACTIVE,,268355.92,23,Technology,8379284.0,ACH Transfer,7,274017.52,1
+258,Dave Boyd,Dave,Boyd,PA,1258,Automobile Liability,928389.22,1960-09-14,1961-02-12,1961-09-14,,INACTIVE,Cancellation due to another carrer,939719.24,54,Manufacturing,2233082.78,Online,0,0.0,0
+259,Tara Evans,Tara,Evans,NY,1259,Workers Compensation,676306.29,1960-09-15,,1961-09-15,1961-09-16,ACTIVE,,709610.47,30,Retail,1292770.04,ACH Transfer,0,0.0,1
+260,Karen Flores,Karen,Flores,PA,1260,Workers Compensation,496551.79,1960-09-16,,1961-09-16,1961-09-17,ACTIVE,,490907.15,98,Retail,8530218.0,Cash,8,496051.79,1
+261,Raymond Schmidt,Raymond,Schmidt,PA,1261,Workers Compensation,13702.18,1960-09-17,,1961-09-17,1961-09-18,ACTIVE,,13803.36,58,Consulting,1650466.87,Cheque,7,13202.18,1
+262,Juan Johnson,Juan,Johnson,PA,1262,Professional Liability,992422.99,1960-09-18,1960-12-03,1961-09-18,,INACTIVE,Cancellation due to another carrer,984047.33,68,Retail,9750124.81,Cheque,9,991922.99,0
+263,Lauren Wood,Lauren,Wood,NY,1263,Automobile Liability,671783.48,1960-09-19,,1961-09-19,1961-09-20,ACTIVE,,695112.62,67,Manufacturing,8441128.47,Credit Card,8,671283.48,1
+264,Evan Kennedy,Evan,Kennedy,NY,1264,General Liability,317605.55,1960-09-20,,1961-09-20,1961-09-21,ACTIVE,,330380.8,71,Retail,5058678.4,Online,6,317105.55,1
+265,Zachary Sanchez,Zachary,Sanchez,PA,1265,Product Liability,879389.39,1960-09-21,,1961-09-21,1961-09-22,ACTIVE,,912573.64,18,Technology,9816072.11,Credit Card,2,878889.39,1
+266,Matthew Moore,Matthew,Moore,CA,1266,General Liability,259173.19,1960-09-22,1961-03-19,1961-09-22,,INACTIVE,Cancellation due to non-payment,271467.65,7,Retail,1064029.62,Cash,2,258673.19,0
+267,Lisa Terrell,Lisa,Terrell,FL,1267,Product Liability,544472.56,1960-09-23,,1961-09-23,1961-09-24,ACTIVE,,518747.28,40,Consulting,3100351.04,ACH Transfer,1,543972.56,1
+268,Tiffany Daniels,Tiffany,Daniels,PA,1268,General Liability,636434.69,1960-09-24,1961-07-01,1961-09-24,,INACTIVE,Cancellation due to company bankruptcy,658061.77,70,Retail,6418421.71,ACH Transfer,4,635934.69,0
+269,Jeremiah Chavez,Jeremiah,Chavez,TX,1269,Automobile Liability,221842.31,1960-09-25,,1961-09-25,1961-09-26,ACTIVE,,227427.68,86,Manufacturing,3565068.0,Online,2,221342.31,1
+270,Travis Rowe,Travis,Rowe,PA,1270,Product Liability,978418.88,1960-09-26,,1961-09-26,1961-09-27,ACTIVE,,951873.83,65,Manufacturing,9290888.26,Credit Card,5,977918.88,1
+271,Tammy Lambert,Tammy,Lambert,NY,1271,Professional Liability,748443.71,1960-09-27,1961-04-25,1961-09-27,,INACTIVE,Cancellation due to another carrer,782596.7,68,Retail,749698.27,Credit Card,1,747943.71,0
+272,Patrick Smith,Patrick,Smith,FL,1272,General Liability,558255.41,1960-09-28,1961-05-08,1961-09-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,538614.75,49,Manufacturing,5539177.14,Cash,2,557755.41,0
+273,Judith Cohen,Judith,Cohen,TX,1273,General Liability,181414.0,1960-09-29,,1961-09-29,1961-09-30,ACTIVE,,184671.29,52,Manufacturing,5949576.05,ACH Transfer,4,180914.0,1
+274,Richard Ortiz,Richard,Ortiz,FL,1274,Product Liability,54804.35,1960-09-30,,1961-09-30,1961-10-01,ACTIVE,,53296.63,29,Consulting,6562008.43,Credit Card,0,0.0,1
+275,Matthew Hernandez,Matthew,Hernandez,FL,1275,Professional Liability,320739.77,1960-10-01,,1961-10-01,1961-10-02,ACTIVE,,318538.87,21,Technology,2631095.61,Online,0,0.0,1
+276,Brandon Moore,Brandon,Moore,TX,1276,Professional Liability,753434.15,1960-10-02,1961-03-26,1961-10-02,,INACTIVE,Cancellation due to non-payment,769946.41,90,Consulting,3709207.63,ACH Transfer,9,752934.15,0
+277,Christopher Lopez,Christopher,Lopez,PA,1277,Automobile Liability,270061.97,1960-10-03,1961-02-04,1961-10-03,,INACTIVE,Cancellation due to company bankruptcy,271772.13,78,Construction,8452437.24,Cash,8,269561.97,0
+278,Justin Adams,Justin,Adams,PA,1278,Professional Liability,540016.66,1960-10-04,,1961-10-04,1961-10-05,ACTIVE,,536101.64,9,Consulting,2029933.41,Online,6,539516.66,1
+279,Michael Riley,Michael,Riley,PA,1279,Professional Liability,728219.23,1960-10-05,,1961-10-05,1961-10-06,ACTIVE,,715572.86,47,Retail,8285991.69,Cheque,0,0.0,1
+280,Christy Clark,Christy,Clark,CA,1280,Professional Liability,108835.77,1960-10-06,1961-02-04,1961-10-06,,INACTIVE,Cancellation due to another carrer,112532.48,76,Technology,5670288.69,Cash,7,108335.77,0
+281,Ronald Gutierrez,Ronald,Gutierrez,PA,1281,Workers Compensation,685612.72,1960-10-07,1961-06-20,1961-10-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,661192.18,42,Retail,7645656.36,Online,2,685112.72,0
+282,Mary Edwards,Mary,Edwards,TX,1282,Automobile Liability,92779.02,1960-10-08,,1961-10-08,1961-10-09,ACTIVE,,92130.52,51,Construction,7164712.93,Credit Card,7,92279.02,1
+283,James Stout,James,Stout,CA,1283,General Liability,965164.61,1960-10-09,1961-09-23,1961-10-09,,INACTIVE,Cancellation due to non-payment,1004133.86,56,Technology,2154363.8,Cheque,4,964664.61,0
+284,Joseph Berry,Joseph,Berry,PA,1284,Product Liability,488905.74,1960-10-10,,1961-10-10,1961-10-11,ACTIVE,,505814.52,51,Manufacturing,5731246.09,Cash,0,0.0,1
+285,Charles Browning,Charles,Browning,CA,1285,General Liability,151525.43,1960-10-11,1961-06-23,1961-10-11,,INACTIVE,Cancellation due to non-payment,150024.45,70,Consulting,8690459.21,Credit Card,6,151025.43,0
+286,Rebecca Moreno,Rebecca,Moreno,TX,1286,Automobile Liability,343041.25,1960-10-12,,1961-10-12,1961-10-13,ACTIVE,,352066.95,20,Retail,4377950.74,Cheque,4,342541.25,1
+287,Victoria Hoffman,Victoria,Hoffman,PA,1287,Product Liability,414003.03,1960-10-13,,1961-10-13,1961-10-14,ACTIVE,,427381.99,88,Construction,9669248.63,ACH Transfer,5,413503.03,1
+288,Samantha Johnson,Samantha,Johnson,NY,1288,Automobile Liability,758426.83,1960-10-14,,1961-10-14,1961-10-15,ACTIVE,,787921.1,27,Manufacturing,4576929.49,Credit Card,5,757926.83,1
+289,Courtney Clark,Courtney,Clark,TX,1289,Professional Liability,743680.36,1960-10-15,1961-02-07,1961-10-15,,INACTIVE,Cancellation due to company bankruptcy,746990.17,38,Consulting,1513577.8,Online,7,743180.36,0
+290,Jennifer Collins,Jennifer,Collins,FL,1290,Product Liability,612328.56,1960-10-16,,1961-10-16,1961-10-17,ACTIVE,,594231.86,72,Manufacturing,3955403.33,Cash,8,611828.56,1
+291,Heather Rowe,Heather,Rowe,FL,1291,Professional Liability,106824.78,1960-10-17,,1961-10-17,1961-10-18,ACTIVE,,104210.87,65,Consulting,9521853.82,Cheque,1,106324.78,1
+292,April Marks,April,Marks,TX,1292,General Liability,152417.8,1960-10-18,1960-11-09,1961-10-18,,INACTIVE,Cancellation due to company bankruptcy,149303.82,54,Technology,3265236.41,Credit Card,8,151917.8,0
+293,Carol Burns,Carol,Burns,FL,1293,General Liability,94663.16,1960-10-19,,1961-10-19,1961-10-20,ACTIVE,,95551.12,24,Manufacturing,8694171.78,ACH Transfer,9,94163.16,1
+294,Jenna Walker,Jenna,Walker,TX,1294,Product Liability,577595.61,1960-10-20,,1961-10-20,1961-10-21,ACTIVE,,550610.9,47,Manufacturing,8824381.75,Cash,8,577095.61,1
+295,John Dixon,John,Dixon,NY,1295,Product Liability,877261.3,1960-10-21,,1961-10-21,1961-10-22,ACTIVE,,889195.78,71,Manufacturing,3566846.59,Cash,9,876761.3,1
+296,Amy Aguilar,Amy,Aguilar,TX,1296,Automobile Liability,434366.71,1960-10-22,1961-06-28,1961-10-22,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,428474.71,83,Technology,924250.81,Credit Card,9,433866.71,0
+297,Mary Davis,Mary,Davis,PA,1297,Automobile Liability,161687.33,1960-10-23,1960-11-19,1961-10-23,,INACTIVE,Cancellation due to company bankruptcy,158376.65,86,Construction,7273123.3,ACH Transfer,6,161187.33,0
+298,Jack Mcdonald,Jack,Mcdonald,PA,1298,Professional Liability,558484.28,1960-10-24,1961-08-20,1961-10-24,,INACTIVE,Cancellation due to another carrer,579678.57,63,Consulting,3183971.76,Cheque,0,0.0,0
+299,Richard Martin,Richard,Martin,CA,1299,Product Liability,811940.46,1960-10-25,1961-03-15,1961-10-25,,INACTIVE,Cancellation due to significant changes in risk,808692.89,57,Manufacturing,7850943.78,Credit Card,6,811440.46,0
+300,Chase Tanner,Chase,Tanner,FL,1300,General Liability,741970.35,1960-10-26,,1961-10-26,1961-10-27,ACTIVE,,711924.49,55,Technology,4482283.0,Cheque,9,741470.35,1
+301,Russell Smith,Russell,Smith,FL,1301,Automobile Liability,881569.33,1960-10-27,1961-07-28,1961-10-27,,INACTIVE,Cancellation due to company bankruptcy,910374.32,60,Construction,4904140.75,Cash,4,881069.33,0
+302,Megan Williams,Megan,Williams,TX,1302,Automobile Liability,278624.2,1960-10-28,1960-11-12,1961-10-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,266020.39,99,Consulting,7801303.13,Cheque,5,278124.2,0
+303,Shelly Cordova,Shelly,Cordova,FL,1303,General Liability,194759.91,1960-10-29,1961-09-16,1961-10-29,,INACTIVE,Cancellation due to another carrer,199176.08,62,Technology,3885396.98,ACH Transfer,9,194259.91,0
+304,Michelle Moore,Michelle,Moore,PA,1304,Automobile Liability,879936.67,1960-10-30,,1961-10-30,1961-10-31,ACTIVE,,904038.68,30,Consulting,4486960.72,Online,6,879436.67,1
+305,Sean Byrd,Sean,Byrd,NY,1305,Professional Liability,657902.75,1960-10-31,,1961-10-31,1961-11-01,ACTIVE,,648205.43,93,Manufacturing,3824285.64,ACH Transfer,4,657402.75,1
+306,Stephen Brown,Stephen,Brown,TX,1306,Product Liability,311618.0,1960-11-01,,1961-11-01,1961-11-02,ACTIVE,,321738.97,22,Construction,3736671.1,Cheque,6,311118.0,1
+307,Catherine Brown,Catherine,Brown,FL,1307,General Liability,742605.7,1960-11-02,1960-11-05,1961-11-02,,INACTIVE,Cancellation due to significant changes in risk,743768.58,75,Technology,5306871.11,Credit Card,8,742105.7,0
+308,Heidi Whitaker,Heidi,Whitaker,PA,1308,Product Liability,815303.27,1960-11-03,,1961-11-03,1961-11-04,ACTIVE,,812310.59,84,Construction,8107114.5,Cash,2,814803.27,1
+309,Erika Young,Erika,Young,CA,1309,Automobile Liability,615363.26,1960-11-04,,1961-11-04,1961-11-05,ACTIVE,,587389.05,29,Manufacturing,3681506.29,Online,7,614863.26,1
+310,Kaitlin Oconnell,Kaitlin,Oconnell,FL,1310,Automobile Liability,688196.23,1960-11-05,1960-11-15,1961-11-05,,INACTIVE,Cancellation due to another carrer,673746.12,41,Construction,5290121.73,Credit Card,1,687696.23,0
+311,Carrie Smith,Carrie,Smith,NY,1311,General Liability,375884.64,1960-11-06,,1961-11-06,1961-11-07,ACTIVE,,392085.64,42,Construction,6740200.52,Credit Card,6,375384.64,1
+312,Susan Shaffer,Susan,Shaffer,NY,1312,Professional Liability,539156.97,1960-11-07,1961-04-22,1961-11-07,,INACTIVE,Cancellation due to another carrer,533324.58,98,Retail,2767450.52,ACH Transfer,1,538656.97,0
+313,Elizabeth Ryan,Elizabeth,Ryan,FL,1313,Workers Compensation,524635.01,1960-11-08,1961-02-28,1961-11-08,,INACTIVE,Cancellation due to non-payment,527085.08,65,Construction,2847475.77,Cheque,3,524135.01,0
+314,Matthew Smith,Matthew,Smith,FL,1314,General Liability,848199.74,1960-11-09,,1961-11-09,1961-11-10,ACTIVE,,850915.82,31,Consulting,9340789.96,ACH Transfer,6,847699.74,1
+315,Dawn Young,Dawn,Young,PA,1315,Workers Compensation,840124.02,1960-11-10,1961-08-10,1961-11-10,,INACTIVE,Cancellation due to non-payment,847721.35,30,Technology,7262992.28,Cheque,2,839624.02,0
+316,Dr. Eugene Miller,Dr.,Miller,FL,1316,Workers Compensation,832847.79,1960-11-11,1961-06-19,1961-11-11,,INACTIVE,Cancellation due to significant changes in risk,796313.34,18,Retail,5814148.09,ACH Transfer,1,832347.79,0
+317,Alexis Obrien,Alexis,Obrien,CA,1317,Professional Liability,12020.58,1960-11-12,1961-05-02,1961-11-12,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,11854.91,17,Technology,6512428.54,Credit Card,9,11520.58,0
+318,Clinton Lewis,Clinton,Lewis,PA,1318,Workers Compensation,749795.94,1960-11-13,1961-09-03,1961-11-13,,INACTIVE,Cancellation due to another carrer,766526.01,38,Technology,390064.49,Cash,6,749295.94,0
+319,Michael Cline,Michael,Cline,TX,1319,Workers Compensation,758917.71,1960-11-14,1961-11-03,1961-11-14,,INACTIVE,Cancellation due to another carrer,736192.7,14,Manufacturing,6219219.36,Cheque,0,0.0,0
+320,Edwin Bolton,Edwin,Bolton,CA,1320,Professional Liability,678700.44,1960-11-15,1960-12-03,1961-11-15,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,658582.29,87,Manufacturing,5144137.84,Online,7,678200.44,0
+321,James Young,James,Young,PA,1321,Workers Compensation,756508.39,1960-11-16,,1961-11-16,1961-11-17,ACTIVE,,719446.33,89,Retail,5502921.83,Online,2,756008.39,1
+322,Christopher Long,Christopher,Long,PA,1322,Workers Compensation,842128.4,1960-11-17,1960-11-25,1961-11-17,,INACTIVE,Cancellation due to non-payment,836863.58,79,Manufacturing,3658295.89,Credit Card,1,841628.4,0
+323,Bradley Stone,Bradley,Stone,NY,1323,Workers Compensation,470848.74,1960-11-18,1961-02-13,1961-11-18,,INACTIVE,Cancellation due to non-payment,488869.74,56,Manufacturing,906591.59,ACH Transfer,2,470348.74,0
+324,Terri Lloyd,Terri,Lloyd,PA,1324,General Liability,502548.16,1960-11-19,1961-06-14,1961-11-19,,INACTIVE,Cancellation due to another carrer,480029.02,22,Manufacturing,2014058.41,ACH Transfer,4,502048.16,0
+325,John King,John,King,CA,1325,General Liability,125589.34,1960-11-20,1961-09-25,1961-11-20,,INACTIVE,Cancellation due to another carrer,121710.12,67,Technology,9512372.66,Credit Card,7,125089.34,0
+326,Kim Vasquez,Kim,Vasquez,FL,1326,General Liability,385990.51,1960-11-21,,1961-11-21,1961-11-22,ACTIVE,,378659.95,56,Retail,4146125.67,Online,9,385490.51,1
+327,Sharon Allen,Sharon,Allen,CA,1327,Professional Liability,643721.81,1960-11-22,,1961-11-22,1961-11-23,ACTIVE,,658638.44,19,Technology,4720163.24,Online,6,643221.81,1
+328,David Obrien,David,Obrien,TX,1328,Automobile Liability,780619.38,1960-11-23,1961-09-09,1961-11-23,,INACTIVE,Cancellation due to company bankruptcy,791597.67,57,Consulting,621826.92,ACH Transfer,6,780119.38,0
+329,Dawn Little,Dawn,Little,PA,1329,Workers Compensation,217991.89,1960-11-24,,1961-11-24,1961-11-25,ACTIVE,,216159.54,44,Technology,471905.67,Cheque,6,217491.89,1
+330,Jillian Cantu,Jillian,Cantu,PA,1330,Workers Compensation,138685.08,1960-11-25,1961-04-27,1961-11-25,,INACTIVE,Cancellation due to significant changes in risk,142277.98,98,Consulting,7200096.33,Cash,7,138185.08,0
+331,Kristina Smith,Kristina,Smith,PA,1331,Professional Liability,663378.96,1960-11-26,1961-10-19,1961-11-26,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,670651.65,35,Construction,5427137.17,Cheque,0,0.0,0
+332,Isabella Williams,Isabella,Williams,PA,1332,Workers Compensation,2878.0,1960-11-27,1961-08-22,1961-11-27,,INACTIVE,Cancellation due to non-payment,2991.98,1,Construction,5136189.24,Online,3,2378.0,0
+333,Tyler Durham,Tyler,Durham,NY,1333,General Liability,179194.21,1960-11-28,1961-08-08,1961-11-28,,INACTIVE,Cancellation due to company bankruptcy,184893.07,52,Consulting,2506932.85,Cheque,5,178694.21,0
+334,Mary Wagner,Mary,Wagner,NY,1334,Automobile Liability,30042.31,1960-11-29,,1961-11-29,1961-11-30,ACTIVE,,29299.7,85,Consulting,7473032.24,Cash,8,29542.31,1
+335,Tara Munoz,Tara,Munoz,FL,1335,Product Liability,167718.23,1960-11-30,,1961-11-30,1961-12-01,ACTIVE,,163884.84,93,Technology,1765542.13,Cheque,1,167218.23,1
+336,Lisa Mata,Lisa,Mata,PA,1336,Workers Compensation,182137.96,1960-12-01,1961-02-20,1961-12-01,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,175314.28,70,Consulting,1980353.96,Cheque,0,0.0,0
+337,Stacy Brady,Stacy,Brady,TX,1337,General Liability,388285.92,1960-12-02,1961-03-07,1961-12-02,,INACTIVE,Cancellation due to non-payment,381955.49,37,Retail,4661050.5,Cheque,9,387785.92,0
+338,Eric Lopez,Eric,Lopez,FL,1338,Product Liability,402924.8,1960-12-03,,1961-12-03,1961-12-04,ACTIVE,,423052.66,65,Construction,2934170.63,Cheque,1,402424.8,1
+339,Mr. Eric Guerrero,Mr.,Guerrero,PA,1339,Automobile Liability,874388.21,1960-12-04,,1961-12-04,1961-12-05,ACTIVE,,866147.2,51,Construction,2549883.51,Credit Card,6,873888.21,1
+340,Christopher Carlson,Christopher,Carlson,NY,1340,Product Liability,510599.6,1960-12-05,1961-12-03,1961-12-05,,INACTIVE,Cancellation due to significant changes in risk,496327.75,1,Consulting,6487852.68,Online,2,510099.6,0
+341,Lynn Johnson,Lynn,Johnson,TX,1341,General Liability,723681.36,1960-12-06,,1961-12-06,1961-12-07,ACTIVE,,742676.76,91,Manufacturing,6544620.28,Cash,9,723181.36,1
+342,Sarah Bell,Sarah,Bell,FL,1342,Product Liability,105033.22,1960-12-07,1961-04-05,1961-12-07,,INACTIVE,Cancellation due to non-payment,105479.31,21,Manufacturing,8262718.99,Online,1,104533.22,0
+343,William Montoya,William,Montoya,TX,1343,Professional Liability,226213.32,1960-12-08,,1961-12-08,1961-12-09,ACTIVE,,218286.84,53,Consulting,4235314.81,Credit Card,6,225713.32,1
+344,Walter Roth,Walter,Roth,PA,1344,Product Liability,703240.5,1960-12-09,,1961-12-09,1961-12-10,ACTIVE,,694850.12,16,Retail,823542.4,Credit Card,1,702740.5,1
+345,William Brooks,William,Brooks,CA,1345,Workers Compensation,53751.16,1960-12-10,,1961-12-10,1961-12-11,ACTIVE,,53291.42,61,Manufacturing,2809297.21,Credit Card,2,53251.16,1
+346,Spencer Payne,Spencer,Payne,TX,1346,Workers Compensation,487111.06,1960-12-11,,1961-12-11,1961-12-12,ACTIVE,,499475.39,54,Consulting,9802054.09,Credit Card,6,486611.06,1
+347,Marc Nelson,Marc,Nelson,TX,1347,Professional Liability,599769.6,1960-12-12,1960-12-19,1961-12-12,,INACTIVE,Cancellation due to company bankruptcy,571020.93,40,Retail,6002959.89,Cheque,3,599269.6,0
+348,Mitchell Johnson,Mitchell,Johnson,NY,1348,General Liability,602543.5,1960-12-13,1960-12-17,1961-12-13,,INACTIVE,Cancellation due to company bankruptcy,588625.93,26,Retail,7126397.14,Online,0,0.0,0
+349,Denise Horton,Denise,Horton,PA,1349,Workers Compensation,23909.88,1960-12-14,,1961-12-14,1961-12-15,ACTIVE,,23951.95,80,Technology,172842.51,ACH Transfer,4,23409.88,1
+350,Michelle Ramirez,Michelle,Ramirez,TX,1350,Automobile Liability,322785.9,1960-12-15,1961-08-04,1961-12-15,,INACTIVE,Cancellation due to company bankruptcy,315324.6,92,Retail,5230236.75,Cash,8,322285.9,0
+351,Shane Baxter,Shane,Baxter,PA,1351,Workers Compensation,636854.16,1960-12-16,,1961-12-16,1961-12-17,ACTIVE,,645033.54,65,Manufacturing,471533.71,Credit Card,7,636354.16,1
+352,Mark Harvey,Mark,Harvey,NY,1352,Workers Compensation,149850.74,1960-12-17,,1961-12-17,1961-12-18,ACTIVE,,149579.02,74,Manufacturing,5735379.1,Online,8,149350.74,1
+353,Charles Simmons,Charles,Simmons,PA,1353,General Liability,695720.23,1960-12-18,1961-02-13,1961-12-18,,INACTIVE,Cancellation due to significant changes in risk,686099.13,64,Consulting,9215631.41,Credit Card,9,695220.23,0
+354,Clayton Merritt,Clayton,Merritt,NY,1354,Product Liability,746179.28,1960-12-19,1961-05-10,1961-12-19,,INACTIVE,Cancellation due to non-payment,779698.3,43,Consulting,9687349.39,Credit Card,8,745679.28,0
+355,Eric Thomas,Eric,Thomas,NY,1355,Workers Compensation,981987.22,1960-12-20,1961-07-31,1961-12-20,,INACTIVE,Cancellation due to another carrer,994965.11,17,Retail,5451471.49,Credit Card,6,981487.22,0
+356,Angela Murillo,Angela,Murillo,FL,1356,Professional Liability,210632.15,1960-12-21,,1961-12-21,1961-12-22,ACTIVE,,202837.53,59,Construction,4636227.57,Credit Card,3,210132.15,1
+357,Christopher Dickerson,Christopher,Dickerson,PA,1357,Product Liability,825305.54,1960-12-22,1961-10-07,1961-12-22,,INACTIVE,Cancellation due to non-payment,830264.94,23,Technology,9455669.23,Credit Card,4,824805.54,0
+358,Lisa Li,Lisa,Li,CA,1358,Automobile Liability,520776.28,1960-12-23,1961-09-28,1961-12-23,,INACTIVE,Cancellation due to non-payment,535396.13,7,Construction,6768737.34,Cash,0,0.0,0
+359,Jacob Wade,Jacob,Wade,FL,1359,General Liability,374089.13,1960-12-24,1961-08-18,1961-12-24,,INACTIVE,Cancellation due to company bankruptcy,381888.5,44,Retail,742502.87,Online,0,0.0,0
+360,Frank Hamilton,Frank,Hamilton,NY,1360,Automobile Liability,123254.38,1960-12-25,1961-09-15,1961-12-25,,INACTIVE,Cancellation due to another carrer,119212.74,53,Retail,4710683.22,Credit Card,2,122754.38,0
+361,Rebecca Romero,Rebecca,Romero,CA,1361,Product Liability,735770.1,1960-12-26,,1961-12-26,1961-12-27,ACTIVE,,770529.35,71,Construction,2478425.68,Credit Card,7,735270.1,1
+362,Tyler Lowery,Tyler,Lowery,TX,1362,Product Liability,236621.74,1960-12-27,,1961-12-27,1961-12-28,ACTIVE,,235410.56,79,Technology,4751062.78,Credit Card,1,236121.74,1
+363,John Allen,John,Allen,TX,1363,Product Liability,372050.58,1960-12-28,,1961-12-28,1961-12-29,ACTIVE,,359364.59,34,Construction,4609109.16,Credit Card,3,371550.58,1
+364,Bethany Gibson,Bethany,Gibson,FL,1364,Automobile Liability,63479.68,1960-12-29,,1961-12-29,1961-12-30,ACTIVE,,61449.57,46,Consulting,5863233.55,Cheque,1,62979.68,1
+365,Michele Gross,Michele,Gross,CA,1365,Product Liability,801565.55,1960-12-30,,1961-12-30,1961-12-31,ACTIVE,,769361.45,68,Manufacturing,3632027.85,Cheque,4,801065.55,1
+366,Mary Wang,Mary,Wang,PA,1366,Automobile Liability,766821.94,1960-12-31,,1961-12-31,1962-01-01,ACTIVE,,790096.37,78,Consulting,1726277.45,ACH Transfer,8,766321.94,1
+367,Cassandra Dorsey,Cassandra,Dorsey,CA,1367,Product Liability,733882.21,1961-01-01,,1962-01-01,1962-01-02,ACTIVE,,706143.7,78,Manufacturing,5086822.4,Credit Card,0,0.0,1
+368,David Dyer,David,Dyer,FL,1368,Professional Liability,300144.07,1961-01-02,1961-11-24,1962-01-02,,INACTIVE,Cancellation due to non-payment,288892.43,16,Retail,8319008.56,ACH Transfer,4,299644.07,0
+369,Aaron Carpenter,Aaron,Carpenter,PA,1369,Product Liability,174306.59,1961-01-03,,1962-01-03,1962-01-04,ACTIVE,,180415.54,71,Technology,6673721.06,Cash,8,173806.59,1
+370,Vanessa Williams,Vanessa,Williams,PA,1370,Automobile Liability,637915.71,1961-01-04,,1962-01-04,1962-01-05,ACTIVE,,628002.76,96,Construction,3449841.87,ACH Transfer,0,0.0,1
+371,Samuel Woods,Samuel,Woods,TX,1371,Workers Compensation,496670.22,1961-01-05,,1962-01-05,1962-01-06,ACTIVE,,473369.33,19,Technology,9361677.93,Online,8,496170.22,1
+372,Bob Smith,Bob,Smith,CA,1372,Product Liability,179074.21,1961-01-06,,1962-01-06,1962-01-07,ACTIVE,,171049.81,2,Construction,9130854.96,Cheque,7,178574.21,1
+373,Breanna Bryant,Breanna,Bryant,PA,1373,Workers Compensation,686225.36,1961-01-07,1961-05-20,1962-01-07,,INACTIVE,Cancellation due to another carrer,661670.19,10,Consulting,2172549.15,Cheque,3,685725.36,0
+374,Darren Richardson,Darren,Richardson,FL,1374,Professional Liability,991135.31,1961-01-08,,1962-01-08,1962-01-09,ACTIVE,,962728.71,50,Consulting,490234.09,Credit Card,9,990635.31,1
+375,Michael Huff,Michael,Huff,TX,1375,General Liability,747472.37,1961-01-09,,1962-01-09,1962-01-10,ACTIVE,,759816.59,81,Construction,7438956.21,Credit Card,4,746972.37,1
+376,Daniel Martinez,Daniel,Martinez,PA,1376,Professional Liability,740246.4,1961-01-10,1961-09-22,1962-01-10,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,714880.1,12,Technology,8293341.59,Cash,4,739746.4,0
+377,Kevin Miller,Kevin,Miller,CA,1377,Product Liability,950362.44,1961-01-11,,1962-01-11,1962-01-12,ACTIVE,,914141.69,70,Construction,9681859.2,Cash,5,949862.44,1
+378,Angela Burke,Angela,Burke,TX,1378,Workers Compensation,203733.43,1961-01-12,,1962-01-12,1962-01-13,ACTIVE,,209126.64,22,Retail,8909380.3,Online,6,203233.43,1
+379,Lisa Stephens,Lisa,Stephens,CA,1379,Workers Compensation,565984.41,1961-01-13,,1962-01-13,1962-01-14,ACTIVE,,575665.87,32,Consulting,6045294.21,Credit Card,7,565484.41,1
+380,Danielle Fernandez,Danielle,Fernandez,CA,1380,Automobile Liability,979667.07,1961-01-14,,1962-01-14,1962-01-15,ACTIVE,,973331.0,84,Retail,5347518.16,Credit Card,7,979167.07,1
+381,Brian Alexander,Brian,Alexander,CA,1381,Workers Compensation,166128.82,1961-01-15,,1962-01-15,1962-01-16,ACTIVE,,166948.0,1,Consulting,375626.41,Cash,1,165628.82,1
+382,Michael Wood,Michael,Wood,TX,1382,Automobile Liability,700551.71,1961-01-16,,1962-01-16,1962-01-17,ACTIVE,,687380.22,54,Consulting,2541898.82,Cash,8,700051.71,1
+383,Charles Barron,Charles,Barron,PA,1383,General Liability,586224.34,1961-01-17,,1962-01-17,1962-01-18,ACTIVE,,585198.47,58,Manufacturing,4650186.04,Cash,6,585724.34,1
+384,Elizabeth Lopez,Elizabeth,Lopez,NY,1384,Product Liability,586892.61,1961-01-18,1961-01-30,1962-01-18,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,587284.22,70,Retail,6322188.61,Cheque,3,586392.61,0
+385,Dustin Richardson,Dustin,Richardson,PA,1385,Automobile Liability,697972.96,1961-01-19,1961-10-07,1962-01-19,,INACTIVE,Cancellation due to non-payment,690102.43,83,Retail,5616793.15,ACH Transfer,3,697472.96,0
+386,Philip Rodriguez,Philip,Rodriguez,TX,1386,General Liability,929687.31,1961-01-20,,1962-01-20,1962-01-21,ACTIVE,,967485.81,18,Manufacturing,7452096.3,ACH Transfer,7,929187.31,1
+387,Candace Huang,Candace,Huang,NY,1387,Workers Compensation,782799.36,1961-01-21,1961-06-02,1962-01-21,,INACTIVE,Cancellation due to company bankruptcy,744916.71,6,Technology,2869692.62,Credit Card,3,782299.36,0
+388,Tina Burke,Tina,Burke,NY,1388,Workers Compensation,57079.97,1961-01-22,,1962-01-22,1962-01-23,ACTIVE,,58690.6,45,Retail,5693030.82,Cheque,5,56579.97,1
+389,Nancy English,Nancy,English,NY,1389,General Liability,852875.29,1961-01-23,1961-06-22,1962-01-23,,INACTIVE,Cancellation due to company bankruptcy,820839.83,97,Construction,972608.21,Cash,4,852375.29,0
+390,Jeremy Johnson,Jeremy,Johnson,FL,1390,Workers Compensation,226315.79,1961-01-24,,1962-01-24,1962-01-25,ACTIVE,,233049.76,23,Manufacturing,4195288.68,Credit Card,2,225815.79,1
+391,Judy Le,Judy,Le,TX,1391,General Liability,377537.25,1961-01-25,1961-09-13,1962-01-25,,INACTIVE,Cancellation due to another carrer,381913.36,23,Retail,7526592.25,Cheque,9,377037.25,0
+392,Ryan Evans,Ryan,Evans,FL,1392,Automobile Liability,462271.08,1961-01-26,,1962-01-26,1962-01-27,ACTIVE,,478139.83,26,Technology,6964668.45,Online,1,461771.08,1
+393,Kristen Arnold,Kristen,Arnold,NY,1393,Automobile Liability,481425.09,1961-01-27,1961-07-19,1962-01-27,,INACTIVE,Cancellation due to significant changes in risk,462048.42,77,Retail,9907363.1,Cheque,8,480925.09,0
+394,Kimberly Green,Kimberly,Green,FL,1394,General Liability,435745.22,1961-01-28,1961-09-15,1962-01-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,438315.27,7,Consulting,2851122.15,Credit Card,9,435245.22,0
+395,Chase Ford,Chase,Ford,FL,1395,Automobile Liability,937415.94,1961-01-29,,1962-01-29,1962-01-30,ACTIVE,,937517.92,79,Construction,5032074.06,ACH Transfer,8,936915.94,1
+396,Brian Collier,Brian,Collier,TX,1396,Automobile Liability,706312.99,1961-01-30,,1962-01-30,1962-01-31,ACTIVE,,720876.68,44,Manufacturing,3362351.1,Cash,0,0.0,1
+397,Russell Dixon,Russell,Dixon,CA,1397,Automobile Liability,631539.48,1961-01-31,1961-05-24,1962-01-31,,INACTIVE,Cancellation due to significant changes in risk,633705.06,27,Consulting,4461970.83,Online,9,631039.48,0
+398,Trevor Meyer,Trevor,Meyer,FL,1398,Professional Liability,50792.19,1961-02-01,1961-12-04,1962-02-01,,INACTIVE,Cancellation due to company bankruptcy,50999.09,26,Technology,8583806.29,Cheque,2,50292.19,0
+399,Christine Larson,Christine,Larson,FL,1399,Product Liability,904009.42,1961-02-02,,1962-02-02,1962-02-03,ACTIVE,,897644.83,97,Consulting,6873669.84,Credit Card,7,903509.42,1
+400,Jennifer Black PhD,Jennifer,PhD,NY,1400,Workers Compensation,909480.8,1961-02-03,1961-08-02,1962-02-03,,INACTIVE,Cancellation due to company bankruptcy,892094.66,79,Consulting,8836167.79,Credit Card,5,908980.8,0
+401,Michael Snyder,Michael,Snyder,NY,1401,Professional Liability,780432.85,1961-02-04,,1962-02-04,1962-02-05,ACTIVE,,779048.7,36,Technology,2114759.97,Cash,4,779932.85,1
+402,Richard Glover,Richard,Glover,NY,1402,Automobile Liability,8022.17,1961-02-05,1961-06-28,1962-02-05,,INACTIVE,Cancellation due to another carrer,7716.12,55,Consulting,8746275.07,Credit Card,4,7522.17,0
+403,Sarah Harvey,Sarah,Harvey,PA,1403,General Liability,58222.97,1961-02-06,1961-07-31,1962-02-06,,INACTIVE,Cancellation due to another carrer,60910.04,64,Manufacturing,691646.51,Credit Card,5,57722.97,0
+404,Matthew Norton,Matthew,Norton,FL,1404,Automobile Liability,225998.48,1961-02-07,,1962-02-07,1962-02-08,ACTIVE,,230844.13,91,Retail,8897132.88,Cash,6,225498.48,1
+405,Joel Perez,Joel,Perez,NY,1405,Product Liability,132218.06,1961-02-08,,1962-02-08,1962-02-09,ACTIVE,,138200.49,57,Consulting,3357830.42,Online,0,0.0,1
+406,Michelle Lucas,Michelle,Lucas,TX,1406,Automobile Liability,399437.19,1961-02-09,,1962-02-09,1962-02-10,ACTIVE,,388521.67,69,Manufacturing,3214417.57,ACH Transfer,8,398937.19,1
+407,Matthew Mejia,Matthew,Mejia,PA,1407,General Liability,922700.44,1961-02-10,1961-10-05,1962-02-10,,INACTIVE,Cancellation due to company bankruptcy,957702.25,61,Retail,5169676.91,ACH Transfer,2,922200.44,0
+408,Julia Vargas,Julia,Vargas,CA,1408,Product Liability,472588.37,1961-02-11,1962-01-09,1962-02-11,,INACTIVE,Cancellation due to company bankruptcy,487181.43,2,Retail,9412832.86,Cheque,3,472088.37,0
+409,Debra Martinez,Debra,Martinez,FL,1409,Automobile Liability,14389.22,1961-02-12,1962-01-01,1962-02-12,,INACTIVE,Cancellation due to another carrer,14644.13,55,Consulting,573035.51,Online,9,13889.22,0
+410,Lee Robinson,Lee,Robinson,FL,1410,Product Liability,283462.94,1961-02-13,,1962-02-13,1962-02-14,ACTIVE,,287007.05,97,Manufacturing,3587086.65,Cheque,0,0.0,1
+411,Nicholas Branch,Nicholas,Branch,TX,1411,Workers Compensation,45550.31,1961-02-14,1962-02-06,1962-02-14,,INACTIVE,Cancellation due to non-payment,44714.69,80,Consulting,8580062.69,ACH Transfer,9,45050.31,0
+412,Katie Hatfield,Katie,Hatfield,CA,1412,Workers Compensation,37251.33,1961-02-15,1961-10-16,1962-02-15,,INACTIVE,Cancellation due to another carrer,38430.0,87,Technology,4020939.33,Cash,2,36751.33,0
+413,Daniel Hall,Daniel,Hall,CA,1413,Automobile Liability,276444.13,1961-02-16,,1962-02-16,1962-02-17,ACTIVE,,276486.02,38,Retail,2071653.29,Credit Card,1,275944.13,1
+414,Rachel Perez,Rachel,Perez,PA,1414,Product Liability,276336.73,1961-02-17,1961-06-11,1962-02-17,,INACTIVE,Cancellation due to another carrer,264478.89,80,Consulting,4305462.4,ACH Transfer,1,275836.73,0
+415,James Hicks,James,Hicks,FL,1415,General Liability,787339.48,1961-02-18,1961-04-26,1962-02-18,,INACTIVE,Cancellation due to another carrer,772605.46,78,Retail,3916969.76,Online,0,0.0,0
+416,Marissa Murray,Marissa,Murray,NY,1416,Automobile Liability,974859.82,1961-02-19,,1962-02-19,1962-02-20,ACTIVE,,1017295.19,29,Manufacturing,9162620.39,ACH Transfer,7,974359.82,1
+417,Jacob Henry,Jacob,Henry,TX,1417,Workers Compensation,371835.89,1961-02-20,,1962-02-20,1962-02-21,ACTIVE,,384875.44,26,Construction,7643150.32,Online,2,371335.89,1
+418,Jacob Phillips,Jacob,Phillips,TX,1418,Workers Compensation,429457.99,1961-02-21,,1962-02-21,1962-02-22,ACTIVE,,450153.82,35,Consulting,5100644.0,Online,2,428957.99,1
+419,Jennifer White,Jennifer,White,TX,1419,Automobile Liability,844944.65,1961-02-22,,1962-02-22,1962-02-23,ACTIVE,,855759.38,79,Consulting,9884868.61,Online,5,844444.65,1
+420,Thomas Smith,Thomas,Smith,TX,1420,Product Liability,268870.88,1961-02-23,,1962-02-23,1962-02-24,ACTIVE,,262082.16,67,Retail,4706247.56,Cheque,7,268370.88,1
+421,Adrienne White,Adrienne,White,NY,1421,Workers Compensation,157225.42,1961-02-24,,1962-02-24,1962-02-25,ACTIVE,,151924.02,87,Manufacturing,676554.53,Cash,8,156725.42,1
+422,James Ross,James,Ross,NY,1422,Product Liability,853236.53,1961-02-25,,1962-02-25,1962-02-26,ACTIVE,,826522.93,29,Technology,2696515.79,ACH Transfer,8,852736.53,1
+423,Ronald Barton,Ronald,Barton,PA,1423,Workers Compensation,47454.09,1961-02-26,,1962-02-26,1962-02-27,ACTIVE,,45175.32,34,Manufacturing,4417097.75,Cash,3,46954.09,1
+424,Heidi Carter,Heidi,Carter,FL,1424,Workers Compensation,620079.74,1961-02-27,,1962-02-27,1962-02-28,ACTIVE,,613301.16,97,Consulting,1653335.98,Credit Card,4,619579.74,1
+425,Joshua Lane,Joshua,Lane,NY,1425,Professional Liability,562430.85,1961-02-28,1961-07-05,1962-02-28,,INACTIVE,Cancellation due to non-payment,545075.79,41,Technology,9480894.75,ACH Transfer,1,561930.85,0
+426,Theodore Kelley,Theodore,Kelley,PA,1426,Workers Compensation,346574.53,1961-03-01,,1962-03-01,1962-03-02,ACTIVE,,343512.73,41,Manufacturing,7691804.09,Cash,8,346074.53,1
+427,Tammy Rodriguez,Tammy,Rodriguez,CA,1427,General Liability,315874.33,1961-03-02,,1962-03-02,1962-03-03,ACTIVE,,329614.69,23,Construction,2756043.28,Cash,7,315374.33,1
+428,Amber Rogers,Amber,Rogers,FL,1428,Automobile Liability,772085.87,1961-03-03,1962-02-17,1962-03-03,,INACTIVE,Cancellation due to non-payment,766722.98,71,Retail,5948964.88,Credit Card,2,771585.87,0
+429,Ryan Murphy,Ryan,Murphy,NY,1429,Automobile Liability,87338.19,1961-03-04,,1962-03-04,1962-03-05,ACTIVE,,90639.44,3,Manufacturing,7242346.66,Online,8,86838.19,1
+430,James Lang,James,Lang,CA,1430,Product Liability,237547.53,1961-03-05,1961-04-14,1962-03-05,,INACTIVE,Cancellation due to significant changes in risk,240053.77,58,Manufacturing,9418661.4,ACH Transfer,2,237047.53,0
+431,Frank Johnson,Frank,Johnson,PA,1431,Workers Compensation,732716.28,1961-03-06,1961-03-28,1962-03-06,,INACTIVE,Cancellation due to significant changes in risk,714188.2,32,Construction,8828189.96,ACH Transfer,8,732216.28,0
+432,Mckenzie Smith MD,Mckenzie,MD,NY,1432,General Liability,548772.26,1961-03-07,,1962-03-07,1962-03-08,ACTIVE,,540861.97,31,Consulting,5200403.04,Credit Card,1,548272.26,1
+433,Paul Parker,Paul,Parker,NY,1433,Product Liability,128860.22,1961-03-08,1962-02-28,1962-03-08,,INACTIVE,Cancellation due to non-payment,123498.6,82,Retail,7769060.94,Online,9,128360.22,0
+434,Amy Wheeler,Amy,Wheeler,CA,1434,Professional Liability,882253.48,1961-03-09,,1962-03-09,1962-03-10,ACTIVE,,867560.66,43,Manufacturing,5665233.06,ACH Transfer,8,881753.48,1
+435,Kendra White,Kendra,White,NY,1435,Product Liability,394054.4,1961-03-10,,1962-03-10,1962-03-11,ACTIVE,,401050.48,7,Technology,5571768.51,ACH Transfer,7,393554.4,1
+436,Erin Davis,Erin,Davis,TX,1436,Product Liability,828040.51,1961-03-11,1961-06-15,1962-03-11,,INACTIVE,Cancellation due to significant changes in risk,792609.58,1,Manufacturing,1235945.39,ACH Transfer,8,827540.51,0
+437,Megan Thompson,Megan,Thompson,NY,1437,Workers Compensation,787925.3,1961-03-12,1962-01-19,1962-03-12,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,764713.13,61,Retail,1348762.81,Online,4,787425.3,0
+438,Gavin Williams,Gavin,Williams,FL,1438,Professional Liability,624801.02,1961-03-13,1961-08-26,1962-03-13,,INACTIVE,Cancellation due to another carrer,617393.44,14,Manufacturing,5342382.79,Credit Card,1,624301.02,0
+439,Timothy Smith,Timothy,Smith,CA,1439,Product Liability,494986.65,1961-03-14,,1962-03-14,1962-03-15,ACTIVE,,518847.46,52,Construction,2761729.3,ACH Transfer,7,494486.65,1
+440,Destiny Tran,Destiny,Tran,FL,1440,General Liability,979571.29,1961-03-15,,1962-03-15,1962-03-16,ACTIVE,,1007475.54,96,Manufacturing,308265.33,Cash,5,979071.29,1
+441,Amy Smith,Amy,Smith,PA,1441,General Liability,145820.11,1961-03-16,1961-12-05,1962-03-16,,INACTIVE,Cancellation due to company bankruptcy,149224.82,6,Manufacturing,7256108.12,Online,7,145320.11,0
+442,Natasha Henderson,Natasha,Henderson,FL,1442,Automobile Liability,725430.57,1961-03-17,,1962-03-17,1962-03-18,ACTIVE,,697587.89,10,Technology,421617.31,Cheque,4,724930.57,1
+443,Cassandra Murphy,Cassandra,Murphy,TX,1443,Professional Liability,191999.51,1961-03-18,,1962-03-18,1962-03-19,ACTIVE,,197394.62,71,Construction,5993240.73,Credit Card,9,191499.51,1
+444,Mrs. Lauren Scott,Mrs.,Scott,TX,1444,Professional Liability,338924.84,1961-03-19,1961-06-29,1962-03-19,,INACTIVE,Cancellation due to non-payment,348593.31,90,Construction,5438018.56,Cash,1,338424.84,0
+445,Sally Green,Sally,Green,FL,1445,Automobile Liability,309390.04,1961-03-20,1961-03-20,1962-03-20,,INACTIVE,Cancellation due to company bankruptcy,312518.06,98,Manufacturing,9691265.44,ACH Transfer,5,308890.04,0
+446,Cynthia Ward,Cynthia,Ward,PA,1446,Product Liability,947088.95,1961-03-21,1962-03-06,1962-03-21,,INACTIVE,Cancellation due to another carrer,993530.57,30,Technology,4893710.08,Cheque,4,946588.95,0
+447,Richard Phillips,Richard,Phillips,NY,1447,Professional Liability,967388.82,1961-03-22,1961-10-23,1962-03-22,,INACTIVE,Cancellation due to significant changes in risk,950484.08,21,Manufacturing,729654.22,Credit Card,4,966888.82,0
+448,Kristen Fisher,Kristen,Fisher,TX,1448,General Liability,183832.43,1961-03-23,1961-08-20,1962-03-23,,INACTIVE,Cancellation due to significant changes in risk,191944.45,60,Manufacturing,5561710.88,Online,0,0.0,0
+449,Mr. Micheal Guzman,Mr.,Guzman,FL,1449,General Liability,23013.13,1961-03-24,1961-12-27,1962-03-24,,INACTIVE,Cancellation due to company bankruptcy,23967.56,81,Retail,8426852.09,Cheque,1,22513.13,0
+450,Tina Collins,Tina,Collins,FL,1450,Workers Compensation,720288.03,1961-03-25,1962-01-27,1962-03-25,,INACTIVE,Cancellation due to significant changes in risk,685100.57,97,Retail,9968807.91,Cheque,7,719788.03,0
+451,Heather Perez,Heather,Perez,FL,1451,Professional Liability,418571.94,1961-03-26,1961-12-28,1962-03-26,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,416483.96,74,Technology,4360397.42,Cash,2,418071.94,0
+452,Mary Ochoa,Mary,Ochoa,NY,1452,Product Liability,89751.4,1961-03-27,1961-11-16,1962-03-27,,INACTIVE,Cancellation due to company bankruptcy,94033.48,63,Consulting,3270957.55,Credit Card,9,89251.4,0
+453,Michael Jordan,Michael,Jordan,CA,1453,Automobile Liability,684070.35,1961-03-28,1961-10-12,1962-03-28,,INACTIVE,Cancellation due to significant changes in risk,656921.06,42,Retail,9075867.64,Cash,2,683570.35,0
+454,Craig Bennett,Craig,Bennett,PA,1454,Automobile Liability,545560.42,1961-03-29,,1962-03-29,1962-03-30,ACTIVE,,548167.36,51,Consulting,1993297.08,Cash,7,545060.42,1
+455,Chad Morse,Chad,Morse,CA,1455,Product Liability,980536.31,1961-03-30,,1962-03-30,1962-03-31,ACTIVE,,1027499.83,64,Construction,6192746.26,ACH Transfer,7,980036.31,1
+456,Martin Stevenson,Martin,Stevenson,PA,1456,Workers Compensation,228182.09,1961-03-31,1961-06-12,1962-03-31,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,229448.4,76,Retail,4116572.8,Online,1,227682.09,0
+457,Angela Hunter,Angela,Hunter,PA,1457,Automobile Liability,404573.9,1961-04-01,,1962-04-01,1962-04-02,ACTIVE,,392024.64,56,Retail,506715.41,Cheque,7,404073.9,1
+458,Michelle Castaneda,Michelle,Castaneda,FL,1458,Professional Liability,543003.26,1961-04-02,,1962-04-02,1962-04-03,ACTIVE,,547465.84,80,Technology,3538155.9,Credit Card,0,0.0,1
+459,Marc Beasley,Marc,Beasley,TX,1459,Workers Compensation,791908.29,1961-04-03,,1962-04-03,1962-04-04,ACTIVE,,768502.69,41,Consulting,2725762.37,Online,5,791408.29,1
+460,Mr. Antonio Miller IV,Mr.,IV,FL,1460,Professional Liability,549289.82,1961-04-04,,1962-04-04,1962-04-05,ACTIVE,,550372.16,32,Retail,6892302.42,Online,7,548789.82,1
+461,Stephanie Andrews,Stephanie,Andrews,NY,1461,General Liability,613287.26,1961-04-05,,1962-04-05,1962-04-06,ACTIVE,,587163.81,15,Retail,9493025.93,Credit Card,2,612787.26,1
+462,Hannah James,Hannah,James,PA,1462,Workers Compensation,226920.9,1961-04-06,,1962-04-06,1962-04-07,ACTIVE,,229314.52,62,Technology,2753667.16,Online,7,226420.9,1
+463,David Clay,David,Clay,TX,1463,Automobile Liability,847071.81,1961-04-07,1961-09-27,1962-04-07,,INACTIVE,Cancellation due to another carrer,848494.04,27,Technology,8133512.8,ACH Transfer,0,0.0,0
+464,John Little MD,John,MD,PA,1464,Workers Compensation,429201.92,1961-04-08,1961-06-22,1962-04-08,,INACTIVE,Cancellation due to non-payment,439509.69,28,Consulting,648062.19,Online,8,428701.92,0
+465,Ralph King,Ralph,King,PA,1465,Workers Compensation,141818.67,1961-04-09,,1962-04-09,1962-04-10,ACTIVE,,143672.25,81,Construction,5427398.0,ACH Transfer,8,141318.67,1
+466,Michelle Howard,Michelle,Howard,FL,1466,Workers Compensation,664523.73,1961-04-10,,1962-04-10,1962-04-11,ACTIVE,,667820.18,64,Construction,798445.63,Cheque,4,664023.73,1
+467,Ryan Long,Ryan,Long,TX,1467,Workers Compensation,216874.36,1961-04-11,1962-04-04,1962-04-11,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,220990.18,59,Manufacturing,9346926.61,Cheque,9,216374.36,0
+468,Robert Gilbert,Robert,Gilbert,TX,1468,Professional Liability,98464.95,1961-04-12,,1962-04-12,1962-04-13,ACTIVE,,94959.03,58,Retail,7686877.68,Cash,3,97964.95,1
+469,William Martin,William,Martin,PA,1469,General Liability,862124.92,1961-04-13,,1962-04-13,1962-04-14,ACTIVE,,870346.11,2,Consulting,6613704.12,ACH Transfer,5,861624.92,1
+470,Donald Acosta,Donald,Acosta,TX,1470,Product Liability,460702.1,1961-04-14,,1962-04-14,1962-04-15,ACTIVE,,445596.17,36,Retail,8256574.18,Cheque,6,460202.1,1
+471,Sharon Alexander,Sharon,Alexander,TX,1471,Workers Compensation,749534.43,1961-04-15,,1962-04-15,1962-04-16,ACTIVE,,781428.78,71,Consulting,6510445.98,Online,4,749034.43,1
+472,Andrea Morrison,Andrea,Morrison,FL,1472,Automobile Liability,291296.97,1961-04-16,,1962-04-16,1962-04-17,ACTIVE,,278722.67,13,Consulting,9692549.53,Credit Card,9,290796.97,1
+473,Rodney Murphy,Rodney,Murphy,CA,1473,Workers Compensation,787183.16,1961-04-17,1962-04-09,1962-04-17,,INACTIVE,Cancellation due to significant changes in risk,781702.38,15,Consulting,7168183.68,Credit Card,8,786683.16,0
+474,Elizabeth Johnson,Elizabeth,Johnson,NY,1474,Automobile Liability,112823.99,1961-04-18,1961-06-24,1962-04-18,,INACTIVE,Cancellation due to company bankruptcy,115033.06,89,Retail,9254120.23,ACH Transfer,2,112323.99,0
+475,Julie Wilson,Julie,Wilson,CA,1475,Professional Liability,356617.4,1961-04-19,,1962-04-19,1962-04-20,ACTIVE,,355120.4,87,Technology,5219605.73,Cash,6,356117.4,1
+476,Lance Smith,Lance,Smith,TX,1476,Automobile Liability,978083.76,1961-04-20,1961-06-27,1962-04-20,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,938187.26,60,Retail,1258937.69,Online,9,977583.76,0
+477,Carrie Davis,Carrie,Davis,PA,1477,Product Liability,794195.73,1961-04-21,,1962-04-21,1962-04-22,ACTIVE,,798435.07,22,Consulting,5328959.44,ACH Transfer,9,793695.73,1
+478,Dennis Smith,Dennis,Smith,NY,1478,General Liability,497758.67,1961-04-22,,1962-04-22,1962-04-23,ACTIVE,,504808.52,63,Manufacturing,1356041.0,Credit Card,4,497258.67,1
+479,Michael Espinoza,Michael,Espinoza,NY,1479,Automobile Liability,340437.69,1961-04-23,,1962-04-23,1962-04-24,ACTIVE,,347375.55,90,Construction,5965685.44,ACH Transfer,6,339937.69,1
+480,Tyler Smith,Tyler,Smith,PA,1480,Automobile Liability,872263.56,1961-04-24,,1962-04-24,1962-04-25,ACTIVE,,861208.48,97,Consulting,4876681.3,Online,1,871763.56,1
+481,Adam Kelly,Adam,Kelly,NY,1481,General Liability,545302.91,1961-04-25,,1962-04-25,1962-04-26,ACTIVE,,548774.31,75,Manufacturing,6263496.44,Cheque,3,544802.91,1
+482,Cynthia White,Cynthia,White,PA,1482,Product Liability,758666.59,1961-04-26,,1962-04-26,1962-04-27,ACTIVE,,754925.34,74,Technology,199465.11,Online,1,758166.59,1
+483,Dustin Mitchell,Dustin,Mitchell,NY,1483,Workers Compensation,754353.57,1961-04-27,,1962-04-27,1962-04-28,ACTIVE,,767332.68,25,Consulting,2028920.87,Cheque,6,753853.57,1
+484,Tamara Jones,Tamara,Jones,CA,1484,Automobile Liability,18927.73,1961-04-28,,1962-04-28,1962-04-29,ACTIVE,,19085.88,48,Manufacturing,4964171.28,Cheque,1,18427.73,1
+485,Tim Cardenas,Tim,Cardenas,NY,1485,General Liability,127127.53,1961-04-29,,1962-04-29,1962-04-30,ACTIVE,,127454.96,43,Consulting,9509985.26,Cheque,0,0.0,1
+486,Bridget Scott,Bridget,Scott,FL,1486,Professional Liability,659969.74,1961-04-30,1961-07-16,1962-04-30,,INACTIVE,Cancellation due to another carrer,643439.11,38,Retail,3897729.5,ACH Transfer,8,659469.74,0
+487,Janet Hernandez,Janet,Hernandez,PA,1487,General Liability,162458.19,1961-05-01,,1962-05-01,1962-05-02,ACTIVE,,154368.07,41,Manufacturing,4301283.06,Credit Card,0,0.0,1
+488,Brenda Rasmussen,Brenda,Rasmussen,NY,1488,Professional Liability,256237.85,1961-05-02,1961-09-24,1962-05-02,,INACTIVE,Cancellation due to non-payment,247886.59,45,Retail,7175491.28,ACH Transfer,7,255737.85,0
+489,Jerome Grimes,Jerome,Grimes,PA,1489,Product Liability,946691.32,1961-05-03,1961-09-21,1962-05-03,,INACTIVE,Cancellation due to non-payment,910439.29,88,Retail,6077548.3,Credit Card,1,946191.32,0
+490,David Stephenson,David,Stephenson,FL,1490,Workers Compensation,560622.08,1961-05-04,,1962-05-04,1962-05-05,ACTIVE,,557767.66,40,Manufacturing,3059368.89,Online,7,560122.08,1
+491,Dean Murphy,Dean,Murphy,NY,1491,General Liability,750978.78,1961-05-05,1962-04-16,1962-05-05,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,759409.13,97,Construction,4167082.32,Cash,2,750478.78,0
+492,Alexis Reeves,Alexis,Reeves,NY,1492,Automobile Liability,558422.76,1961-05-06,,1962-05-06,1962-05-07,ACTIVE,,542400.77,17,Manufacturing,2255228.01,Online,5,557922.76,1
+493,Robert Miles,Robert,Miles,FL,1493,Product Liability,552961.1,1961-05-07,,1962-05-07,1962-05-08,ACTIVE,,577239.25,88,Construction,9663612.45,ACH Transfer,2,552461.1,1
+494,Ray Whitney,Ray,Whitney,FL,1494,General Liability,95057.76,1961-05-08,,1962-05-08,1962-05-09,ACTIVE,,90368.39,57,Consulting,1393280.38,ACH Transfer,6,94557.76,1
+495,Allison Holmes,Allison,Holmes,FL,1495,Automobile Liability,344319.53,1961-05-09,,1962-05-09,1962-05-10,ACTIVE,,353695.39,2,Consulting,3781184.17,Credit Card,9,343819.53,1
+496,Jared Butler,Jared,Butler,PA,1496,General Liability,283148.47,1961-05-10,1961-05-18,1962-05-10,,INACTIVE,Cancellation due to company bankruptcy,286693.62,96,Manufacturing,355805.82,ACH Transfer,8,282648.47,0
+497,Kenneth White,Kenneth,White,FL,1497,Professional Liability,391337.64,1961-05-11,1961-11-12,1962-05-11,,INACTIVE,Cancellation due to company bankruptcy,386389.36,62,Consulting,2295616.97,Cheque,1,390837.64,0
+498,Kristina Owens,Kristina,Owens,PA,1498,General Liability,798545.84,1961-05-12,,1962-05-12,1962-05-13,ACTIVE,,762650.32,88,Technology,7826664.27,ACH Transfer,4,798045.84,1
+499,Brandon Moss,Brandon,Moss,CA,1499,General Liability,372560.74,1961-05-13,1962-02-06,1962-05-13,,INACTIVE,Cancellation due to another carrer,377310.39,9,Retail,2091634.8,Credit Card,5,372060.74,0
+500,Brandon Atkins,Brandon,Atkins,NY,1500,General Liability,452245.12,1961-05-14,1961-10-14,1962-05-14,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,447072.05,68,Retail,892627.69,Credit Card,3,451745.12,0
+501,Michael Sims,Michael,Sims,NY,1501,Product Liability,397984.01,1961-05-15,1962-01-26,1962-05-15,,INACTIVE,Cancellation due to company bankruptcy,415346.74,81,Construction,4797086.48,Cheque,3,397484.01,0
+502,Shelly Johnson,Shelly,Johnson,TX,1502,General Liability,94314.56,1961-05-16,,1962-05-16,1962-05-17,ACTIVE,,94710.59,17,Consulting,198695.42,Credit Card,3,93814.56,1
+503,Sara Mckee,Sara,Mckee,CA,1503,Automobile Liability,441631.09,1961-05-17,1961-12-26,1962-05-17,,INACTIVE,Cancellation due to non-payment,461047.47,50,Construction,939184.93,Cash,1,441131.09,0
+504,Emily Meyer,Emily,Meyer,FL,1504,Professional Liability,196413.66,1961-05-18,1961-11-19,1962-05-18,,INACTIVE,Cancellation due to non-payment,190923.58,94,Retail,8095496.11,Online,3,195913.66,0
+505,Robert Nielsen,Robert,Nielsen,FL,1505,Professional Liability,187536.57,1961-05-19,1961-12-12,1962-05-19,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,191769.76,40,Retail,7737586.11,ACH Transfer,0,0.0,0
+506,Julie Schultz,Julie,Schultz,CA,1506,General Liability,94942.07,1961-05-20,,1962-05-20,1962-05-21,ACTIVE,,96055.26,58,Consulting,9159874.32,Cash,5,94442.07,1
+507,Kimberly Peterson,Kimberly,Peterson,FL,1507,Product Liability,357314.3,1961-05-21,1962-01-02,1962-05-21,,INACTIVE,Cancellation due to significant changes in risk,365868.7,75,Technology,8559702.82,ACH Transfer,0,0.0,0
+508,Michelle Garcia,Michelle,Garcia,TX,1508,Product Liability,757724.4,1961-05-22,1961-12-08,1962-05-22,,INACTIVE,Cancellation due to non-payment,736104.09,85,Technology,6863438.08,Cash,9,757224.4,0
+509,Steven Guerrero,Steven,Guerrero,PA,1509,Automobile Liability,277165.25,1961-05-23,,1962-05-23,1962-05-24,ACTIVE,,281738.32,21,Consulting,618095.29,ACH Transfer,5,276665.25,1
+510,David Fisher,David,Fisher,NY,1510,General Liability,313036.75,1961-05-24,1962-03-17,1962-05-24,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,312975.41,18,Consulting,7850201.32,Cheque,0,0.0,0
+511,Lori Robinson,Lori,Robinson,CA,1511,Professional Liability,643031.98,1961-05-25,,1962-05-25,1962-05-26,ACTIVE,,658646.4,55,Construction,8470557.03,Credit Card,5,642531.98,1
+512,Tyler Hensley,Tyler,Hensley,NY,1512,Product Liability,196644.97,1961-05-26,,1962-05-26,1962-05-27,ACTIVE,,193243.89,29,Consulting,8010913.24,Credit Card,9,196144.97,1
+513,Caitlin Ellis,Caitlin,Ellis,PA,1513,General Liability,897060.97,1961-05-27,,1962-05-27,1962-05-28,ACTIVE,,932051.46,24,Technology,5133942.45,Cheque,7,896560.97,1
+514,George Blake,George,Blake,CA,1514,Product Liability,520670.33,1961-05-28,,1962-05-28,1962-05-29,ACTIVE,,499026.13,74,Consulting,2405728.2,Cash,1,520170.33,1
+515,Elizabeth Fitzpatrick,Elizabeth,Fitzpatrick,PA,1515,Product Liability,448155.34,1961-05-29,,1962-05-29,1962-05-30,ACTIVE,,461922.19,17,Construction,8468766.76,Online,1,447655.34,1
+516,Dr. Morgan Miller,Dr.,Miller,FL,1516,Professional Liability,558262.37,1961-05-30,,1962-05-30,1962-05-31,ACTIVE,,578433.49,18,Construction,7298911.82,Cash,3,557762.37,1
+517,Ruth Taylor,Ruth,Taylor,FL,1517,Workers Compensation,166868.28,1961-05-31,1962-05-26,1962-05-31,,INACTIVE,Cancellation due to non-payment,172162.21,42,Construction,9809535.63,Credit Card,2,166368.28,0
+518,Adam Nelson DDS,Adam,DDS,FL,1518,Automobile Liability,613859.67,1961-06-01,,1962-06-01,1962-06-02,ACTIVE,,614640.89,84,Construction,1641356.72,Online,3,613359.67,1
+519,Michael Goodwin,Michael,Goodwin,PA,1519,Automobile Liability,363737.64,1961-06-02,1961-12-17,1962-06-02,,INACTIVE,Cancellation due to significant changes in risk,361496.47,45,Manufacturing,2334079.37,ACH Transfer,6,363237.64,0
+520,Brian Thomas,Brian,Thomas,PA,1520,Professional Liability,897289.15,1961-06-03,1961-07-04,1962-06-03,,INACTIVE,Cancellation due to another carrer,941818.23,82,Consulting,2196801.68,Online,0,0.0,0
+521,Mary Byrd,Mary,Byrd,PA,1521,Product Liability,169685.35,1961-06-04,,1962-06-04,1962-06-05,ACTIVE,,165089.79,17,Retail,7946143.7,Cash,5,169185.35,1
+522,David Wright,David,Wright,NY,1522,General Liability,507544.05,1961-06-05,1962-03-03,1962-06-05,,INACTIVE,Cancellation due to another carrer,509923.21,73,Consulting,1950382.23,Cheque,2,507044.05,0
+523,Michael Page,Michael,Page,PA,1523,Product Liability,598514.52,1961-06-06,1961-08-28,1962-06-06,,INACTIVE,Cancellation due to company bankruptcy,608729.7,14,Manufacturing,759932.32,ACH Transfer,9,598014.52,0
+524,Nicole Anderson,Nicole,Anderson,FL,1524,Professional Liability,34350.22,1961-06-07,1961-09-30,1962-06-07,,INACTIVE,Cancellation due to non-payment,35040.2,49,Construction,9985751.99,Cash,6,33850.22,0
+525,Mckenzie Johnson,Mckenzie,Johnson,TX,1525,Automobile Liability,364329.43,1961-06-08,,1962-06-08,1962-06-09,ACTIVE,,353546.18,29,Manufacturing,345690.39,ACH Transfer,9,363829.43,1
+526,Javier Bryant,Javier,Bryant,PA,1526,Product Liability,732902.6,1961-06-09,1962-03-17,1962-06-09,,INACTIVE,Cancellation due to significant changes in risk,744188.87,95,Technology,8368916.2,Online,1,732402.6,0
+527,Maria Montgomery,Maria,Montgomery,TX,1527,Automobile Liability,820557.13,1961-06-10,1962-03-09,1962-06-10,,INACTIVE,Cancellation due to another carrer,846681.17,4,Technology,3717131.73,Credit Card,1,820057.13,0
+528,Amy Boyd,Amy,Boyd,FL,1528,General Liability,313848.83,1961-06-11,,1962-06-11,1962-06-12,ACTIVE,,299726.22,82,Consulting,8431993.05,Cash,3,313348.83,1
+529,Leslie Harper,Leslie,Harper,PA,1529,Automobile Liability,798794.68,1961-06-12,1961-08-08,1962-06-12,,INACTIVE,Cancellation due to non-payment,831666.78,20,Consulting,5590742.86,Cheque,0,0.0,0
+530,Kara Miller,Kara,Miller,NY,1530,Automobile Liability,967788.12,1961-06-13,1962-05-17,1962-06-13,,INACTIVE,Cancellation due to significant changes in risk,922254.08,47,Retail,9026149.17,Online,2,967288.12,0
+531,Miss Cynthia Lee DDS,Miss,DDS,NY,1531,Workers Compensation,857017.06,1961-06-14,1961-08-06,1962-06-14,,INACTIVE,Cancellation due to significant changes in risk,844673.53,9,Retail,9269310.57,Cash,8,856517.06,0
+532,Christopher Goodman,Christopher,Goodman,TX,1532,Workers Compensation,118526.34,1961-06-15,,1962-06-15,1962-06-16,ACTIVE,,112787.45,77,Technology,190071.99,Cheque,6,118026.34,1
+533,Elizabeth Cox,Elizabeth,Cox,NY,1533,Workers Compensation,739990.6,1961-06-16,1962-04-26,1962-06-16,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,708699.74,79,Construction,846580.54,Cash,6,739490.6,0
+534,Nicholas Schwartz,Nicholas,Schwartz,NY,1534,Automobile Liability,320347.17,1961-06-17,1962-04-09,1962-06-17,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,333518.83,27,Manufacturing,2578551.42,Online,3,319847.17,0
+535,Casey Perry,Casey,Perry,NY,1535,Professional Liability,988427.57,1961-06-18,,1962-06-18,1962-06-19,ACTIVE,,974081.61,15,Retail,6726222.62,Cash,1,987927.57,1
+536,William Hayes,William,Hayes,FL,1536,Automobile Liability,485873.62,1961-06-19,,1962-06-19,1962-06-20,ACTIVE,,482218.47,92,Retail,8893894.75,ACH Transfer,3,485373.62,1
+537,Matthew Henderson,Matthew,Henderson,NY,1537,Professional Liability,123311.46,1961-06-20,,1962-06-20,1962-06-21,ACTIVE,,119801.33,19,Construction,4653425.32,Online,5,122811.46,1
+538,Carrie Yoder,Carrie,Yoder,CA,1538,Professional Liability,725460.36,1961-06-21,1961-11-02,1962-06-21,,INACTIVE,Cancellation due to significant changes in risk,732504.27,90,Construction,6109033.85,Cash,2,724960.36,0
+539,Robin Long,Robin,Long,PA,1539,Workers Compensation,323688.19,1961-06-22,,1962-06-22,1962-06-23,ACTIVE,,326756.86,52,Consulting,1966148.54,Credit Card,0,0.0,1
+540,Diana Schultz,Diana,Schultz,NY,1540,Product Liability,997081.08,1961-06-23,,1962-06-23,1962-06-24,ACTIVE,,984338.42,26,Manufacturing,8069171.66,Cash,7,996581.08,1
+541,Daniel Owens,Daniel,Owens,NY,1541,General Liability,979802.68,1961-06-24,,1962-06-24,1962-06-25,ACTIVE,,963443.39,89,Construction,9676548.3,ACH Transfer,4,979302.68,1
+542,Desiree Morton,Desiree,Morton,NY,1542,Workers Compensation,656477.88,1961-06-25,1962-03-06,1962-06-25,,INACTIVE,Cancellation due to non-payment,681749.94,26,Retail,2759129.44,Cheque,4,655977.88,0
+543,Kristi Morrow,Kristi,Morrow,CA,1543,Workers Compensation,130696.62,1961-06-26,,1962-06-26,1962-06-27,ACTIVE,,129171.18,26,Retail,4998776.92,Cheque,3,130196.62,1
+544,Jermaine Moore,Jermaine,Moore,NY,1544,Product Liability,687174.14,1961-06-27,,1962-06-27,1962-06-28,ACTIVE,,686727.54,46,Technology,952549.49,Cheque,5,686674.14,1
+545,Amy Newman,Amy,Newman,NY,1545,General Liability,93937.46,1961-06-28,,1962-06-28,1962-06-29,ACTIVE,,91901.88,92,Construction,5635452.9,Credit Card,2,93437.46,1
+546,Julie Patterson,Julie,Patterson,PA,1546,Automobile Liability,30334.79,1961-06-29,,1962-06-29,1962-06-30,ACTIVE,,31204.7,49,Consulting,5077556.07,ACH Transfer,8,29834.79,1
+547,Kelsey Odonnell,Kelsey,Odonnell,CA,1547,Automobile Liability,823135.49,1961-06-30,,1962-06-30,1962-07-01,ACTIVE,,814694.08,82,Manufacturing,1529921.19,Online,4,822635.49,1
+548,Mason Miller,Mason,Miller,CA,1548,Workers Compensation,210543.19,1961-07-01,1962-04-16,1962-07-01,,INACTIVE,Cancellation due to significant changes in risk,210829.76,96,Consulting,4476455.51,Cheque,2,210043.19,0
+549,Audrey Wagner,Audrey,Wagner,NY,1549,General Liability,379648.1,1961-07-02,1961-09-09,1962-07-02,,INACTIVE,Cancellation due to significant changes in risk,370284.35,53,Retail,3407636.06,ACH Transfer,0,0.0,0
+550,Douglas Deleon,Douglas,Deleon,CA,1550,Workers Compensation,973483.93,1961-07-03,,1962-07-03,1962-07-04,ACTIVE,,1020956.81,3,Consulting,5266125.67,Cash,9,972983.93,1
+551,Bailey Ward,Bailey,Ward,TX,1551,Professional Liability,337503.66,1961-07-04,,1962-07-04,1962-07-05,ACTIVE,,330466.56,66,Retail,5897977.92,Credit Card,5,337003.66,1
+552,Anthony Payne,Anthony,Payne,CA,1552,Workers Compensation,297193.29,1961-07-05,,1962-07-05,1962-07-06,ACTIVE,,305239.58,97,Retail,184106.23,ACH Transfer,1,296693.29,1
+553,Bethany Reynolds,Bethany,Reynolds,CA,1553,Workers Compensation,918289.79,1961-07-06,1961-10-22,1962-07-06,,INACTIVE,Cancellation due to company bankruptcy,911631.79,42,Retail,7633959.23,ACH Transfer,2,917789.79,0
+554,Linda Henry,Linda,Henry,CA,1554,Automobile Liability,111637.7,1961-07-07,1962-03-12,1962-07-07,,INACTIVE,Cancellation due to another carrer,108357.98,19,Retail,7158841.49,Online,0,0.0,0
+555,Julie Massey,Julie,Massey,FL,1555,Automobile Liability,759822.83,1961-07-08,1962-05-27,1962-07-08,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,782596.15,17,Retail,3726235.22,ACH Transfer,8,759322.83,0
+556,Samantha Franklin,Samantha,Franklin,FL,1556,Automobile Liability,988077.5,1961-07-09,1962-05-28,1962-07-09,,INACTIVE,Cancellation due to another carrer,971636.56,33,Technology,624065.76,Online,7,987577.5,0
+557,Jennifer Taylor,Jennifer,Taylor,FL,1557,Professional Liability,901394.71,1961-07-10,,1962-07-10,1962-07-11,ACTIVE,,934313.05,76,Consulting,7573832.14,Credit Card,1,900894.71,1
+558,Mark Liu,Mark,Liu,CA,1558,Automobile Liability,652016.25,1961-07-11,,1962-07-11,1962-07-12,ACTIVE,,679091.69,49,Technology,9556234.09,Credit Card,7,651516.25,1
+559,Anna Davis,Anna,Davis,TX,1559,General Liability,314746.73,1961-07-12,,1962-07-12,1962-07-13,ACTIVE,,326072.07,56,Technology,2477500.8,Cash,8,314246.73,1
+560,Clifford Hanson,Clifford,Hanson,CA,1560,Product Liability,255067.66,1961-07-13,,1962-07-13,1962-07-14,ACTIVE,,243207.22,63,Construction,3302893.68,Online,0,0.0,1
+561,Kyle Hernandez,Kyle,Hernandez,NY,1561,General Liability,819435.85,1961-07-14,1961-12-21,1962-07-14,,INACTIVE,Cancellation due to another carrer,842984.25,3,Construction,1919747.61,Online,4,818935.85,0
+562,Eric Stewart,Eric,Stewart,TX,1562,General Liability,879942.09,1961-07-15,,1962-07-15,1962-07-16,ACTIVE,,872140.48,49,Construction,5811667.62,Cheque,7,879442.09,1
+563,Heidi Warner,Heidi,Warner,FL,1563,Automobile Liability,525909.48,1961-07-16,1961-07-25,1962-07-16,,INACTIVE,Cancellation due to another carrer,545563.92,55,Manufacturing,1632929.81,Cheque,1,525409.48,0
+564,Courtney Conrad,Courtney,Conrad,PA,1564,Product Liability,245095.6,1961-07-17,1961-08-11,1962-07-17,,INACTIVE,Cancellation due to significant changes in risk,248476.8,26,Construction,3626320.04,Cash,3,244595.6,0
+565,Andrea Gonzales,Andrea,Gonzales,TX,1565,Product Liability,113830.27,1961-07-18,,1962-07-18,1962-07-19,ACTIVE,,117628.14,99,Consulting,7000428.84,Credit Card,6,113330.27,1
+566,Angela Tucker,Angela,Tucker,FL,1566,Product Liability,88092.29,1961-07-19,1962-01-29,1962-07-19,,INACTIVE,Cancellation due to non-payment,88087.28,72,Technology,5645148.23,Cheque,2,87592.29,0
+567,Wanda Mendez,Wanda,Mendez,TX,1567,Professional Liability,719358.37,1961-07-20,1962-01-01,1962-07-20,,INACTIVE,Cancellation due to another carrer,721877.96,52,Consulting,3925979.39,ACH Transfer,4,718858.37,0
+568,Christopher Robinson,Christopher,Robinson,TX,1568,Automobile Liability,420698.61,1961-07-21,,1962-07-21,1962-07-22,ACTIVE,,405738.05,7,Construction,4260471.06,Credit Card,7,420198.61,1
+569,Brandon Mcneil,Brandon,Mcneil,CA,1569,Product Liability,905454.51,1961-07-22,1962-07-11,1962-07-22,,INACTIVE,Cancellation due to non-payment,931168.27,46,Manufacturing,5664897.74,ACH Transfer,9,904954.51,0
+570,Marc Pierce,Marc,Pierce,NY,1570,Professional Liability,739931.63,1961-07-23,1961-08-12,1962-07-23,,INACTIVE,Cancellation due to another carrer,733967.01,46,Manufacturing,158060.81,Online,2,739431.63,0
+571,Elizabeth Thomas,Elizabeth,Thomas,PA,1571,Workers Compensation,192069.16,1961-07-24,,1962-07-24,1962-07-25,ACTIVE,,192070.7,16,Technology,877247.7,Credit Card,3,191569.16,1
+572,Charles Foster,Charles,Foster,FL,1572,Workers Compensation,614163.64,1961-07-25,1961-12-25,1962-07-25,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,631673.3,24,Consulting,8824454.87,Cash,8,613663.64,0
+573,Francisco Petersen,Francisco,Petersen,TX,1573,Professional Liability,436069.95,1961-07-26,1962-04-15,1962-07-26,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,440380.3,61,Retail,871001.99,Online,6,435569.95,0
+574,Lisa Morton,Lisa,Morton,PA,1574,Professional Liability,577672.48,1961-07-27,,1962-07-27,1962-07-28,ACTIVE,,560405.78,54,Consulting,7097355.6,Online,0,0.0,1
+575,Jeanne Thompson,Jeanne,Thompson,TX,1575,Automobile Liability,738331.05,1961-07-28,1961-10-26,1962-07-28,,INACTIVE,Cancellation due to significant changes in risk,744993.21,62,Construction,9208377.82,ACH Transfer,3,737831.05,0
+576,Joseph Jones,Joseph,Jones,NY,1576,Automobile Liability,806389.69,1961-07-29,,1962-07-29,1962-07-30,ACTIVE,,798941.3,1,Retail,2779767.68,Online,3,805889.69,1
+577,Taylor Pugh,Taylor,Pugh,PA,1577,Workers Compensation,843893.59,1961-07-30,1962-05-07,1962-07-30,,INACTIVE,Cancellation due to significant changes in risk,841321.87,49,Manufacturing,3767865.23,Cheque,8,843393.59,0
+578,Curtis Tyler,Curtis,Tyler,FL,1578,Product Liability,254720.9,1961-07-31,1962-04-14,1962-07-31,,INACTIVE,Cancellation due to significant changes in risk,242706.0,25,Technology,5732321.92,Credit Card,5,254220.9,0
+579,Jason Robertson,Jason,Robertson,TX,1579,Workers Compensation,32084.48,1961-08-01,,1962-08-01,1962-08-02,ACTIVE,,31154.12,10,Technology,8828918.8,Cheque,8,31584.48,1
+580,Michael Martin,Michael,Martin,NY,1580,Product Liability,739555.44,1961-08-02,,1962-08-02,1962-08-03,ACTIVE,,723361.99,80,Manufacturing,9424865.31,ACH Transfer,5,739055.44,1
+581,Lauren Santiago,Lauren,Santiago,PA,1581,Product Liability,107237.38,1961-08-03,1961-09-09,1962-08-03,,INACTIVE,Cancellation due to significant changes in risk,109521.11,16,Construction,7421676.16,ACH Transfer,5,106737.38,0
+582,Elizabeth Doyle,Elizabeth,Doyle,TX,1582,Automobile Liability,315604.67,1961-08-04,,1962-08-04,1962-08-05,ACTIVE,,300187.14,58,Manufacturing,957535.63,Credit Card,4,315104.67,1
+583,Randy Landry,Randy,Landry,TX,1583,General Liability,4813.32,1961-08-05,1962-03-08,1962-08-05,,INACTIVE,Cancellation due to another carrer,4769.41,72,Construction,6724626.14,Online,4,4313.32,0
+584,Robert Jenkins,Robert,Jenkins,FL,1584,General Liability,681987.81,1961-08-06,,1962-08-06,1962-08-07,ACTIVE,,710905.93,29,Retail,4162006.85,Cash,1,681487.81,1
+585,Amber Morales,Amber,Morales,NY,1585,Professional Liability,167964.88,1961-08-07,1962-06-09,1962-08-07,,INACTIVE,Cancellation due to non-payment,161445.84,92,Manufacturing,4759939.89,ACH Transfer,7,167464.88,0
+586,Cody Holmes,Cody,Holmes,CA,1586,Automobile Liability,655627.13,1961-08-08,1962-05-16,1962-08-08,,INACTIVE,Cancellation due to another carrer,656703.96,6,Construction,586569.06,Credit Card,7,655127.13,0
+587,Mr. Timothy Robinson,Mr.,Robinson,TX,1587,Product Liability,991750.87,1961-08-09,1962-01-17,1962-08-09,,INACTIVE,Cancellation due to another carrer,1020166.75,16,Retail,1991515.18,Cash,0,0.0,0
+588,Cynthia Wilson,Cynthia,Wilson,PA,1588,General Liability,73598.2,1961-08-10,1962-07-06,1962-08-10,,INACTIVE,Cancellation due to another carrer,76855.15,20,Manufacturing,7926084.71,Online,7,73098.2,0
+589,Scott Charles,Scott,Charles,FL,1589,Product Liability,78000.93,1961-08-11,1961-10-15,1962-08-11,,INACTIVE,Cancellation due to significant changes in risk,79925.81,80,Technology,4594192.45,ACH Transfer,4,77500.93,0
+590,Carl James,Carl,James,FL,1590,General Liability,341039.71,1961-08-12,,1962-08-12,1962-08-13,ACTIVE,,348561.87,71,Manufacturing,3086456.19,Credit Card,1,340539.71,1
+591,Joseph Copeland,Joseph,Copeland,TX,1591,General Liability,866520.13,1961-08-13,,1962-08-13,1962-08-14,ACTIVE,,894810.98,78,Consulting,3901788.83,Credit Card,1,866020.13,1
+592,Diana Church,Diana,Church,TX,1592,General Liability,216314.34,1961-08-14,1961-08-25,1962-08-14,,INACTIVE,Cancellation due to significant changes in risk,215150.6,43,Manufacturing,8558555.18,Credit Card,5,215814.34,0
+593,Michele Long,Michele,Long,TX,1593,Automobile Liability,361017.44,1961-08-15,1962-04-06,1962-08-15,,INACTIVE,Cancellation due to significant changes in risk,372058.96,26,Consulting,7515090.27,ACH Transfer,8,360517.44,0
+594,Mary Boyd,Mary,Boyd,CA,1594,Workers Compensation,69436.9,1961-08-16,,1962-08-16,1962-08-17,ACTIVE,,66020.36,90,Retail,2795922.43,Cash,0,0.0,1
+595,Matthew Romero,Matthew,Romero,TX,1595,Product Liability,763392.14,1961-08-17,,1962-08-17,1962-08-18,ACTIVE,,795802.8,78,Manufacturing,1263268.22,Credit Card,5,762892.14,1
+596,Peter Brown,Peter,Brown,NY,1596,Automobile Liability,408898.04,1961-08-18,,1962-08-18,1962-08-19,ACTIVE,,406579.85,71,Retail,2594782.39,Online,8,408398.04,1
+597,Glenda Evans,Glenda,Evans,PA,1597,Automobile Liability,759489.48,1961-08-19,,1962-08-19,1962-08-20,ACTIVE,,763543.65,33,Retail,9215488.87,Credit Card,7,758989.48,1
+598,Mrs. Dawn Williams,Mrs.,Williams,TX,1598,Automobile Liability,903704.24,1961-08-20,,1962-08-20,1962-08-21,ACTIVE,,881552.84,26,Construction,5857729.49,Cash,5,903204.24,1
+599,Stephanie Adams,Stephanie,Adams,CA,1599,Automobile Liability,233530.38,1961-08-21,1962-04-30,1962-08-21,,INACTIVE,Cancellation due to company bankruptcy,239194.21,45,Retail,5381454.07,ACH Transfer,2,233030.38,0
+600,Kevin Carr,Kevin,Carr,PA,1600,Automobile Liability,807588.63,1961-08-22,1962-04-02,1962-08-22,,INACTIVE,Cancellation due to company bankruptcy,773398.22,84,Retail,6004296.64,Credit Card,7,807088.63,0
+601,Eric Reynolds,Eric,Reynolds,FL,1601,Professional Liability,60034.8,1961-08-23,,1962-08-23,1962-08-24,ACTIVE,,62271.91,63,Manufacturing,3723679.83,Credit Card,8,59534.8,1
+602,Michael Wilson Jr.,Michael,Jr.,TX,1602,Product Liability,898948.54,1961-08-24,,1962-08-24,1962-08-25,ACTIVE,,928444.55,67,Manufacturing,8090359.5,Online,0,0.0,1
+603,Victoria Thomas,Victoria,Thomas,PA,1603,Automobile Liability,651117.78,1961-08-25,,1962-08-25,1962-08-26,ACTIVE,,632629.95,52,Technology,5280533.87,Online,8,650617.78,1
+604,Kristen Morris,Kristen,Morris,FL,1604,Product Liability,874352.5,1961-08-26,,1962-08-26,1962-08-27,ACTIVE,,901398.36,68,Construction,1255804.24,Credit Card,5,873852.5,1
+605,Mark Walker,Mark,Walker,CA,1605,Professional Liability,1188.21,1961-08-27,,1962-08-27,1962-08-28,ACTIVE,,1222.24,26,Retail,1377744.74,Credit Card,5,688.21,1
+606,Adrian Carter,Adrian,Carter,NY,1606,Professional Liability,169911.99,1961-08-28,,1962-08-28,1962-08-29,ACTIVE,,172158.51,75,Construction,5414905.55,Online,3,169411.99,1
+607,Joseph Cooper,Joseph,Cooper,TX,1607,Product Liability,390369.63,1961-08-29,,1962-08-29,1962-08-30,ACTIVE,,385432.24,2,Consulting,9372045.16,Cash,0,0.0,1
+608,Larry Meyer,Larry,Meyer,NY,1608,General Liability,380123.4,1961-08-30,,1962-08-30,1962-08-31,ACTIVE,,371437.53,14,Retail,3152686.0,Cheque,9,379623.4,1
+609,Anna Glass,Anna,Glass,CA,1609,Workers Compensation,227503.65,1961-08-31,,1962-08-31,1962-09-01,ACTIVE,,221401.63,30,Construction,8708457.57,Cheque,7,227003.65,1
+610,Jessica Pearson,Jessica,Pearson,PA,1610,General Liability,382230.33,1961-09-01,1962-04-17,1962-09-01,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,375297.01,49,Technology,7664546.31,Credit Card,1,381730.33,0
+611,Hector King,Hector,King,PA,1611,General Liability,129719.86,1961-09-02,,1962-09-02,1962-09-03,ACTIVE,,134954.81,12,Technology,2553343.18,Online,0,0.0,1
+612,Deborah Jones,Deborah,Jones,CA,1612,General Liability,413348.37,1961-09-03,,1962-09-03,1962-09-04,ACTIVE,,395890.22,90,Retail,459773.41,ACH Transfer,1,412848.37,1
+613,Shawn Wilson,Shawn,Wilson,CA,1613,Automobile Liability,802551.97,1961-09-04,1961-09-28,1962-09-04,,INACTIVE,Cancellation due to company bankruptcy,828945.6,44,Consulting,1108287.92,ACH Transfer,0,0.0,0
+614,Christopher Martinez,Christopher,Martinez,TX,1614,Professional Liability,479590.99,1961-09-05,1962-01-11,1962-09-05,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,472343.89,33,Technology,7312089.95,Cheque,0,0.0,0
+615,Jamie Koch DVM,Jamie,DVM,FL,1615,General Liability,18982.09,1961-09-06,1961-12-11,1962-09-06,,INACTIVE,Cancellation due to another carrer,19023.09,13,Technology,2076730.41,Cash,8,18482.09,0
+616,Dr. Robin Harris,Dr.,Harris,NY,1616,Professional Liability,422022.6,1961-09-07,,1962-09-07,1962-09-08,ACTIVE,,434450.56,78,Consulting,3775582.11,Cheque,0,0.0,1
+617,Jeremy Ross,Jeremy,Ross,NY,1617,Product Liability,28147.84,1961-09-08,,1962-09-08,1962-09-09,ACTIVE,,29229.78,88,Construction,5066821.74,Credit Card,3,27647.84,1
+618,Timothy Jackson,Timothy,Jackson,PA,1618,Workers Compensation,966277.17,1961-09-09,,1962-09-09,1962-09-10,ACTIVE,,951278.75,98,Technology,7282134.87,Cash,9,965777.17,1
+619,Joe Johnson,Joe,Johnson,PA,1619,Product Liability,128326.51,1961-09-10,,1962-09-10,1962-09-11,ACTIVE,,127836.86,26,Manufacturing,1220989.11,ACH Transfer,5,127826.51,1
+620,Laura Brown,Laura,Brown,TX,1620,Product Liability,707980.64,1961-09-11,1961-12-05,1962-09-11,,INACTIVE,Cancellation due to company bankruptcy,701928.54,21,Technology,4123027.41,Online,6,707480.64,0
+621,John Johnson,John,Johnson,CA,1621,Automobile Liability,972803.55,1961-09-12,,1962-09-12,1962-09-13,ACTIVE,,925452.44,28,Construction,4902221.8,Online,1,972303.55,1
+622,Nathaniel Bates,Nathaniel,Bates,NY,1622,Workers Compensation,826213.01,1961-09-13,,1962-09-13,1962-09-14,ACTIVE,,809353.55,48,Construction,5454187.93,Credit Card,5,825713.01,1
+623,Debra Boyd,Debra,Boyd,TX,1623,Product Liability,699616.06,1961-09-14,1961-10-31,1962-09-14,,INACTIVE,Cancellation due to significant changes in risk,696760.87,40,Retail,8201770.35,Cheque,6,699116.06,0
+624,Amy Matthews,Amy,Matthews,PA,1624,Product Liability,839621.45,1961-09-15,,1962-09-15,1962-09-16,ACTIVE,,832156.68,66,Manufacturing,1799614.13,Credit Card,9,839121.45,1
+625,David Wallace,David,Wallace,PA,1625,Workers Compensation,981816.89,1961-09-16,,1962-09-16,1962-09-17,ACTIVE,,1003606.28,73,Construction,8097531.37,Online,9,981316.89,1
+626,Rebecca Porter,Rebecca,Porter,NY,1626,Workers Compensation,621723.15,1961-09-17,,1962-09-17,1962-09-18,ACTIVE,,614561.12,87,Consulting,6959496.43,ACH Transfer,1,621223.15,1
+627,Megan Payne,Megan,Payne,PA,1627,Product Liability,559625.62,1961-09-18,,1962-09-18,1962-09-19,ACTIVE,,559031.1,79,Manufacturing,5603121.06,Online,1,559125.62,1
+628,Ashley Little,Ashley,Little,PA,1628,Workers Compensation,628609.87,1961-09-19,1962-01-03,1962-09-19,,INACTIVE,Cancellation due to another carrer,624185.0,77,Manufacturing,7025325.92,Cash,9,628109.87,0
+629,Amy Castillo,Amy,Castillo,FL,1629,Product Liability,533143.21,1961-09-20,1961-10-29,1962-09-20,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,545972.03,23,Consulting,4178975.62,Online,6,532643.21,0
+630,Sean Smith,Sean,Smith,CA,1630,Product Liability,635454.02,1961-09-21,1962-06-10,1962-09-21,,INACTIVE,Cancellation due to non-payment,658519.25,81,Technology,1470136.1,Online,0,0.0,0
+631,Elijah Miranda,Elijah,Miranda,PA,1631,Automobile Liability,450392.37,1961-09-22,1961-12-06,1962-09-22,,INACTIVE,Cancellation due to non-payment,451828.63,48,Consulting,6691075.88,Cash,7,449892.37,0
+632,Amy Bryan,Amy,Bryan,FL,1632,General Liability,219224.74,1961-09-23,,1962-09-23,1962-09-24,ACTIVE,,225569.81,2,Consulting,5294255.84,Cheque,2,218724.74,1
+633,Jake Coffey,Jake,Coffey,TX,1633,Product Liability,121126.98,1961-09-24,,1962-09-24,1962-09-25,ACTIVE,,118665.52,84,Technology,6429810.53,Online,5,120626.98,1
+634,Keith Ruiz,Keith,Ruiz,PA,1634,Professional Liability,69272.59,1961-09-25,,1962-09-25,1962-09-26,ACTIVE,,69559.17,20,Technology,3446187.93,Credit Card,8,68772.59,1
+635,Lisa Brown,Lisa,Brown,TX,1635,General Liability,264052.47,1961-09-26,1962-03-28,1962-09-26,,INACTIVE,Cancellation due to significant changes in risk,259965.73,59,Technology,9077979.12,Online,5,263552.47,0
+636,Dawn Marshall,Dawn,Marshall,PA,1636,General Liability,47077.44,1961-09-27,1961-11-23,1962-09-27,,INACTIVE,Cancellation due to non-payment,46673.52,46,Technology,5914961.7,Credit Card,8,46577.44,0
+637,Mark Cabrera,Mark,Cabrera,NY,1637,General Liability,567603.61,1961-09-28,1962-07-23,1962-09-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,580795.5,3,Technology,945484.59,Cash,6,567103.61,0
+638,Bobby Daniels,Bobby,Daniels,FL,1638,Automobile Liability,284544.62,1961-09-29,,1962-09-29,1962-09-30,ACTIVE,,295404.62,55,Consulting,4553059.51,Online,8,284044.62,1
+639,John Coleman,John,Coleman,FL,1639,Product Liability,824710.27,1961-09-30,,1962-09-30,1962-10-01,ACTIVE,,793494.61,12,Retail,7587924.94,Cash,1,824210.27,1
+640,Aaron Bautista,Aaron,Bautista,NY,1640,Automobile Liability,75166.63,1961-10-01,1962-02-18,1962-10-01,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,76178.67,40,Retail,7961932.16,Cash,7,74666.63,0
+641,Katherine Johnson,Katherine,Johnson,CA,1641,Product Liability,227125.14,1961-10-02,1962-04-15,1962-10-02,,INACTIVE,Cancellation due to significant changes in risk,228990.83,66,Construction,4996510.82,Cheque,7,226625.14,0
+642,Rachael Hart,Rachael,Hart,FL,1642,Automobile Liability,730515.9,1961-10-03,,1962-10-03,1962-10-04,ACTIVE,,702640.51,78,Retail,8958000.95,Online,1,730015.9,1
+643,Todd Dominguez,Todd,Dominguez,TX,1643,Automobile Liability,599209.49,1961-10-04,,1962-10-04,1962-10-05,ACTIVE,,581945.92,16,Retail,2749917.53,Credit Card,3,598709.49,1
+644,Brian York,Brian,York,FL,1644,Professional Liability,65426.78,1961-10-05,,1962-10-05,1962-10-06,ACTIVE,,64190.23,83,Consulting,4164927.1,Credit Card,6,64926.78,1
+645,Vincent Spencer,Vincent,Spencer,CA,1645,Automobile Liability,877362.22,1961-10-06,1962-09-10,1962-10-06,,INACTIVE,Cancellation due to another carrer,848140.01,34,Technology,8996109.41,Online,3,876862.22,0
+646,Christopher Snyder,Christopher,Snyder,TX,1646,Workers Compensation,877384.5,1961-10-07,1962-06-02,1962-10-07,,INACTIVE,Cancellation due to significant changes in risk,854899.72,44,Technology,8972941.49,Cheque,3,876884.5,0
+647,Sarah Mckee,Sarah,Mckee,TX,1647,Professional Liability,331077.6,1961-10-08,1961-12-05,1962-10-08,,INACTIVE,Cancellation due to company bankruptcy,323383.38,6,Consulting,6888556.41,Cheque,5,330577.6,0
+648,Teresa Johnson,Teresa,Johnson,NY,1648,Automobile Liability,341065.44,1961-10-09,1961-10-22,1962-10-09,,INACTIVE,Cancellation due to significant changes in risk,335460.84,77,Retail,8603907.42,Cheque,9,340565.44,0
+649,Katrina George,Katrina,George,PA,1649,General Liability,989039.33,1961-10-10,,1962-10-10,1962-10-11,ACTIVE,,1013705.03,64,Consulting,978855.34,Credit Card,5,988539.33,1
+650,Melissa Malone,Melissa,Malone,NY,1650,Workers Compensation,626550.0,1961-10-11,,1962-10-11,1962-10-12,ACTIVE,,631055.66,22,Construction,8663450.26,Cash,9,626050.0,1
+651,Brittany Nichols,Brittany,Nichols,PA,1651,Workers Compensation,531785.2,1961-10-12,,1962-10-12,1962-10-13,ACTIVE,,557643.08,18,Technology,3274137.07,Cheque,2,531285.2,1
+652,Crystal Ramirez,Crystal,Ramirez,NY,1652,Workers Compensation,838314.03,1961-10-13,1962-06-16,1962-10-13,,INACTIVE,Cancellation due to company bankruptcy,831166.21,12,Manufacturing,1865481.97,Credit Card,8,837814.03,0
+653,Derek Ware,Derek,Ware,PA,1653,Professional Liability,286005.05,1961-10-14,,1962-10-14,1962-10-15,ACTIVE,,293265.72,52,Construction,2469761.38,Credit Card,9,285505.05,1
+654,Kenneth Wright,Kenneth,Wright,FL,1654,Automobile Liability,429753.41,1961-10-15,,1962-10-15,1962-10-16,ACTIVE,,445717.39,94,Construction,4237888.23,Cash,1,429253.41,1
+655,Donald Patterson,Donald,Patterson,TX,1655,Automobile Liability,268508.9,1961-10-16,,1962-10-16,1962-10-17,ACTIVE,,273314.63,51,Consulting,2586800.85,Online,5,268008.9,1
+656,Cynthia Avila,Cynthia,Avila,PA,1656,General Liability,789371.69,1961-10-17,,1962-10-17,1962-10-18,ACTIVE,,782414.54,71,Retail,3273619.1,Online,6,788871.69,1
+657,Justin Smith,Justin,Smith,FL,1657,General Liability,573776.0,1961-10-18,,1962-10-18,1962-10-19,ACTIVE,,588326.65,96,Technology,1436287.01,Cheque,8,573276.0,1
+658,Jeffrey Marshall,Jeffrey,Marshall,CA,1658,Workers Compensation,659166.25,1961-10-19,1961-11-01,1962-10-19,,INACTIVE,Cancellation due to company bankruptcy,639632.99,48,Manufacturing,3032149.98,Cheque,2,658666.25,0
+659,Alicia Long,Alicia,Long,NY,1659,General Liability,253054.94,1961-10-20,,1962-10-20,1962-10-21,ACTIVE,,248691.06,19,Construction,5765609.76,Cash,9,252554.94,1
+660,Marcus Brown,Marcus,Brown,CA,1660,Professional Liability,221005.08,1961-10-21,,1962-10-21,1962-10-22,ACTIVE,,222036.85,6,Manufacturing,4474351.71,Cheque,2,220505.08,1
+661,Mitchell Reese,Mitchell,Reese,FL,1661,Automobile Liability,488886.25,1961-10-22,1962-08-13,1962-10-22,,INACTIVE,Cancellation due to significant changes in risk,492572.91,84,Retail,3532515.74,Cash,6,488386.25,0
+662,Todd Holmes,Todd,Holmes,CA,1662,Workers Compensation,737828.18,1961-10-23,1962-03-02,1962-10-23,,INACTIVE,Cancellation due to another carrer,702570.43,27,Retail,7489876.08,Credit Card,3,737328.18,0
+663,Michael Galloway,Michael,Galloway,CA,1663,General Liability,525714.52,1961-10-24,,1962-10-24,1962-10-25,ACTIVE,,549114.82,53,Manufacturing,8945748.72,Cheque,7,525214.52,1
+664,Dr. Lonnie Lee,Dr.,Lee,FL,1664,Professional Liability,33613.03,1961-10-25,,1962-10-25,1962-10-26,ACTIVE,,34273.95,48,Technology,7592213.31,Credit Card,6,33113.03,1
+665,Shannon Brown MD,Shannon,MD,TX,1665,Professional Liability,868682.95,1961-10-26,,1962-10-26,1962-10-27,ACTIVE,,868309.74,7,Retail,3386806.95,ACH Transfer,4,868182.95,1
+666,Jennifer Simpson,Jennifer,Simpson,PA,1666,General Liability,65622.21,1961-10-27,,1962-10-27,1962-10-28,ACTIVE,,68464.49,59,Manufacturing,7469977.46,Cash,6,65122.21,1
+667,Thomas Zamora,Thomas,Zamora,NY,1667,Automobile Liability,955868.66,1961-10-28,1962-01-21,1962-10-28,,INACTIVE,Cancellation due to non-payment,950047.0,69,Construction,1604603.81,ACH Transfer,2,955368.66,0
+668,John Smith,John,Smith,PA,1668,General Liability,26116.82,1961-10-29,,1962-10-29,1962-10-30,ACTIVE,,27371.56,11,Manufacturing,1390148.08,Cheque,1,25616.82,1
+669,Daniel Williams,Daniel,Williams,NY,1669,Workers Compensation,694756.01,1961-10-30,1962-06-18,1962-10-30,,INACTIVE,Cancellation due to company bankruptcy,695609.5,15,Manufacturing,3521707.67,Credit Card,5,694256.01,0
+670,Lisa Brock,Lisa,Brock,PA,1670,General Liability,83124.86,1961-10-31,,1962-10-31,1962-11-01,ACTIVE,,79918.62,64,Consulting,8096253.45,Cheque,1,82624.86,1
+671,Alexander Wade,Alexander,Wade,CA,1671,Professional Liability,910765.9,1961-11-01,,1962-11-01,1962-11-02,ACTIVE,,934883.07,3,Retail,2538847.65,ACH Transfer,2,910265.9,1
+672,Tina Mills,Tina,Mills,TX,1672,General Liability,464968.8,1961-11-02,,1962-11-02,1962-11-03,ACTIVE,,473286.99,69,Technology,726208.75,Cheque,5,464468.8,1
+673,Jose Joseph,Jose,Joseph,CA,1673,Automobile Liability,138386.25,1961-11-03,1962-09-22,1962-11-03,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,142164.01,23,Technology,1403924.4,Online,4,137886.25,0
+674,Jennifer Mora,Jennifer,Mora,TX,1674,Product Liability,341474.88,1961-11-04,,1962-11-04,1962-11-05,ACTIVE,,356890.49,53,Consulting,8601575.19,ACH Transfer,7,340974.88,1
+675,Sarah Clark,Sarah,Clark,FL,1675,General Liability,165659.85,1961-11-05,,1962-11-05,1962-11-06,ACTIVE,,170240.17,37,Technology,6374454.52,Cheque,8,165159.85,1
+676,Allen Mitchell,Allen,Mitchell,NY,1676,Automobile Liability,171411.33,1961-11-06,1962-07-22,1962-11-06,,INACTIVE,Cancellation due to another carrer,173319.77,9,Manufacturing,2606691.52,Credit Card,2,170911.33,0
+677,Kiara Morris,Kiara,Morris,NY,1677,Automobile Liability,948160.21,1961-11-07,,1962-11-07,1962-11-08,ACTIVE,,982038.82,15,Consulting,5597428.67,Cheque,9,947660.21,1
+678,Samantha Sosa DDS,Samantha,DDS,FL,1678,Professional Liability,445800.87,1961-11-08,1962-05-01,1962-11-08,,INACTIVE,Cancellation due to another carrer,453524.21,3,Construction,5323038.26,Credit Card,2,445300.87,0
+679,Thomas Dudley,Thomas,Dudley,PA,1679,Automobile Liability,789013.46,1961-11-09,,1962-11-09,1962-11-10,ACTIVE,,781763.93,93,Retail,6588816.19,Online,2,788513.46,1
+680,Spencer Reed,Spencer,Reed,FL,1680,Automobile Liability,639965.96,1961-11-10,1962-07-16,1962-11-10,,INACTIVE,Cancellation due to significant changes in risk,664644.31,70,Retail,2408556.79,Cheque,5,639465.96,0
+681,Barbara Willis,Barbara,Willis,FL,1681,Automobile Liability,676749.94,1961-11-11,1962-09-30,1962-11-11,,INACTIVE,Cancellation due to another carrer,657929.56,17,Retail,8657589.57,Online,0,0.0,0
+682,Douglas Mills,Douglas,Mills,TX,1682,Automobile Liability,132561.75,1961-11-12,1962-04-21,1962-11-12,,INACTIVE,Cancellation due to another carrer,135407.07,26,Manufacturing,3162748.76,ACH Transfer,6,132061.75,0
+683,Denise Ellis,Denise,Ellis,FL,1683,Workers Compensation,234950.26,1961-11-13,,1962-11-13,1962-11-14,ACTIVE,,243915.1,21,Construction,6971903.37,Credit Card,0,0.0,1
+684,Amy Sutton,Amy,Sutton,NY,1684,Workers Compensation,786963.58,1961-11-14,1962-08-18,1962-11-14,,INACTIVE,Cancellation due to another carrer,805167.35,72,Consulting,259634.0,ACH Transfer,4,786463.58,0
+685,Melissa Moore,Melissa,Moore,CA,1685,Professional Liability,970795.44,1961-11-15,1962-02-25,1962-11-15,,INACTIVE,Cancellation due to company bankruptcy,989946.85,21,Consulting,3789305.59,Credit Card,9,970295.44,0
+686,Robert Roach,Robert,Roach,TX,1686,General Liability,263412.97,1961-11-16,,1962-11-16,1962-11-17,ACTIVE,,270067.79,11,Retail,3581927.2,Online,7,262912.97,1
+687,Jennifer Thompson,Jennifer,Thompson,TX,1687,Automobile Liability,272297.2,1961-11-17,1962-01-01,1962-11-17,,INACTIVE,Cancellation due to non-payment,271345.66,38,Construction,5480495.84,Cash,3,271797.2,0
+688,Mary Moore,Mary,Moore,PA,1688,General Liability,473424.24,1961-11-18,,1962-11-18,1962-11-19,ACTIVE,,491138.39,72,Construction,820088.99,Cheque,4,472924.24,1
+689,Rebecca Ramirez,Rebecca,Ramirez,CA,1689,General Liability,983856.47,1961-11-19,,1962-11-19,1962-11-20,ACTIVE,,954678.88,88,Construction,7922300.6,Online,3,983356.47,1
+690,Troy Lopez,Troy,Lopez,TX,1690,Professional Liability,269689.99,1961-11-20,1962-03-09,1962-11-20,,INACTIVE,Cancellation due to company bankruptcy,259640.97,35,Technology,2256029.94,Credit Card,3,269189.99,0
+691,Andrew Bailey,Andrew,Bailey,FL,1691,Automobile Liability,407564.94,1961-11-21,1962-01-13,1962-11-21,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,398823.03,14,Technology,6802674.37,Credit Card,7,407064.94,0
+692,Mary White,Mary,White,TX,1692,Automobile Liability,891588.54,1961-11-22,,1962-11-22,1962-11-23,ACTIVE,,894403.94,14,Retail,8051800.02,Credit Card,1,891088.54,1
+693,Joel Castro,Joel,Castro,TX,1693,Product Liability,3918.11,1961-11-23,1962-01-11,1962-11-23,,INACTIVE,Cancellation due to non-payment,3922.25,10,Construction,5662581.87,Credit Card,0,0.0,0
+694,Nathan Johnson,Nathan,Johnson,TX,1694,General Liability,40726.2,1961-11-24,1962-04-11,1962-11-24,,INACTIVE,Cancellation due to non-payment,42031.88,12,Construction,7434743.75,Cheque,2,40226.2,0
+695,Bradley Brown,Bradley,Brown,PA,1695,General Liability,604467.61,1961-11-25,1962-10-29,1962-11-25,,INACTIVE,Cancellation due to significant changes in risk,598699.09,38,Consulting,6652417.09,ACH Transfer,8,603967.61,0
+696,Christopher Montgomery Jr.,Christopher,Jr.,TX,1696,Workers Compensation,907472.78,1961-11-26,1962-06-07,1962-11-26,,INACTIVE,Cancellation due to significant changes in risk,906052.08,34,Consulting,3619744.99,Cash,3,906972.78,0
+697,Gabrielle Wilson,Gabrielle,Wilson,TX,1697,Product Liability,239617.8,1961-11-27,,1962-11-27,1962-11-28,ACTIVE,,227957.22,41,Retail,8107699.54,Cheque,9,239117.8,1
+698,Aaron Hahn,Aaron,Hahn,PA,1698,Workers Compensation,470172.13,1961-11-28,,1962-11-28,1962-11-29,ACTIVE,,465928.32,10,Construction,3017543.56,Credit Card,4,469672.13,1
+699,Megan White,Megan,White,CA,1699,Workers Compensation,451014.84,1961-11-29,1962-10-13,1962-11-29,,INACTIVE,Cancellation due to company bankruptcy,457679.68,17,Retail,5755007.89,Cheque,1,450514.84,0
+700,Kevin Rivera,Kevin,Rivera,NY,1700,Workers Compensation,473498.37,1961-11-30,,1962-11-30,1962-12-01,ACTIVE,,450557.77,17,Consulting,7479437.62,Online,3,472998.37,1
+701,Lauren Walker,Lauren,Walker,PA,1701,Professional Liability,622897.18,1961-12-01,1962-02-11,1962-12-01,,INACTIVE,Cancellation due to company bankruptcy,609248.38,67,Consulting,3851663.51,Credit Card,1,622397.18,0
+702,Brett Martin,Brett,Martin,PA,1702,Professional Liability,470274.02,1961-12-02,1962-09-14,1962-12-02,,INACTIVE,Cancellation due to significant changes in risk,456539.97,62,Technology,3097399.32,Cash,1,469774.02,0
+703,Michael Williamson,Michael,Williamson,TX,1703,Workers Compensation,448020.67,1961-12-03,1962-02-11,1962-12-03,,INACTIVE,Cancellation due to significant changes in risk,427500.67,95,Retail,4647525.5,Credit Card,3,447520.67,0
+704,Alan Wolfe,Alan,Wolfe,TX,1704,Product Liability,474814.13,1961-12-04,1962-07-12,1962-12-04,,INACTIVE,Cancellation due to significant changes in risk,473829.37,1,Retail,8197838.59,Cash,5,474314.13,0
+705,John Peters,John,Peters,NY,1705,General Liability,591276.57,1961-12-05,,1962-12-05,1962-12-06,ACTIVE,,572457.61,12,Construction,9306225.46,Cash,6,590776.57,1
+706,Emily Reid,Emily,Reid,TX,1706,Product Liability,537470.48,1961-12-06,1962-10-16,1962-12-06,,INACTIVE,Cancellation due to another carrer,550535.4,4,Construction,5496325.79,ACH Transfer,9,536970.48,0
+707,David Butler,David,Butler,FL,1707,Automobile Liability,854281.86,1961-12-07,,1962-12-07,1962-12-08,ACTIVE,,884004.71,42,Technology,6648515.43,ACH Transfer,2,853781.86,1
+708,Michael White,Michael,White,TX,1708,Professional Liability,50447.36,1961-12-08,1962-11-17,1962-12-08,,INACTIVE,Cancellation due to company bankruptcy,50677.33,13,Manufacturing,9042408.86,Cheque,2,49947.36,0
+709,Dawn Delgado,Dawn,Delgado,TX,1709,General Liability,833483.75,1961-12-09,,1962-12-09,1962-12-10,ACTIVE,,873633.27,98,Manufacturing,1075613.83,Cheque,9,832983.75,1
+710,Wanda Hart,Wanda,Hart,FL,1710,General Liability,844080.69,1961-12-10,,1962-12-10,1962-12-11,ACTIVE,,839900.68,85,Manufacturing,2397577.92,Cash,5,843580.69,1
+711,Patrick Moore,Patrick,Moore,NY,1711,Automobile Liability,285623.11,1961-12-11,,1962-12-11,1962-12-12,ACTIVE,,286004.94,86,Retail,7118110.06,Credit Card,2,285123.11,1
+712,Anita Mann,Anita,Mann,FL,1712,Automobile Liability,463389.1,1961-12-12,,1962-12-12,1962-12-13,ACTIVE,,486058.92,4,Retail,8255070.17,Online,1,462889.1,1
+713,Phillip Mercer,Phillip,Mercer,PA,1713,Workers Compensation,439099.95,1961-12-13,1962-01-27,1962-12-13,,INACTIVE,Cancellation due to non-payment,427312.24,82,Consulting,8584587.38,Online,7,438599.95,0
+714,Shannon Booker,Shannon,Booker,FL,1714,Professional Liability,219291.32,1961-12-14,,1962-12-14,1962-12-15,ACTIVE,,228995.97,69,Retail,4209561.05,Credit Card,4,218791.32,1
+715,Christopher Melendez,Christopher,Melendez,CA,1715,Professional Liability,397400.05,1961-12-15,1962-12-05,1962-12-15,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,379232.41,19,Retail,984465.03,Credit Card,0,0.0,0
+716,Jacqueline Moore,Jacqueline,Moore,PA,1716,Product Liability,45343.38,1961-12-16,,1962-12-16,1962-12-17,ACTIVE,,45100.28,2,Retail,4434036.63,ACH Transfer,2,44843.38,1
+717,Cynthia Day,Cynthia,Day,TX,1717,Workers Compensation,278544.25,1961-12-17,,1962-12-17,1962-12-18,ACTIVE,,266566.95,12,Technology,2384272.44,Online,9,278044.25,1
+718,Alicia Smith,Alicia,Smith,PA,1718,Workers Compensation,816865.49,1961-12-18,,1962-12-18,1962-12-19,ACTIVE,,835590.89,81,Retail,2982844.9,Cash,7,816365.49,1
+719,Richard Mccarty,Richard,Mccarty,NY,1719,Workers Compensation,285277.74,1961-12-19,1962-11-16,1962-12-19,,INACTIVE,Cancellation due to another carrer,288370.41,74,Construction,7745448.81,Cheque,3,284777.74,0
+720,Sheri Collins,Sheri,Collins,NY,1720,Workers Compensation,818388.46,1961-12-20,,1962-12-20,1962-12-21,ACTIVE,,835299.17,98,Construction,847718.15,ACH Transfer,6,817888.46,1
+721,Shawn Coffey,Shawn,Coffey,FL,1721,Professional Liability,532067.87,1961-12-21,1962-01-18,1962-12-21,,INACTIVE,Cancellation due to non-payment,525389.38,6,Consulting,8293054.05,Online,9,531567.87,0
+722,Kelly Sanchez,Kelly,Sanchez,PA,1722,Professional Liability,879982.81,1961-12-22,1961-12-27,1962-12-22,,INACTIVE,Cancellation due to company bankruptcy,868497.44,8,Technology,4333923.95,Credit Card,1,879482.81,0
+723,Vanessa Mercado,Vanessa,Mercado,TX,1723,Workers Compensation,575204.77,1961-12-23,1962-03-02,1962-12-23,,INACTIVE,Cancellation due to another carrer,549051.32,51,Construction,6001032.92,Online,6,574704.77,0
+724,Collin Jones,Collin,Jones,NY,1724,Product Liability,30638.55,1961-12-24,,1962-12-24,1962-12-25,ACTIVE,,30178.8,11,Technology,987557.09,Cash,4,30138.55,1
+725,Shannon Perez,Shannon,Perez,TX,1725,General Liability,675744.79,1961-12-25,,1962-12-25,1962-12-26,ACTIVE,,704753.73,63,Technology,3439854.88,ACH Transfer,4,675244.79,1
+726,Joseph Curtis,Joseph,Curtis,CA,1726,General Liability,45808.71,1961-12-26,,1962-12-26,1962-12-27,ACTIVE,,45255.46,57,Consulting,988039.1,Credit Card,5,45308.71,1
+727,Ashley Harris,Ashley,Harris,NY,1727,Product Liability,451146.42,1961-12-27,,1962-12-27,1962-12-28,ACTIVE,,466095.96,12,Technology,9619282.86,Cash,8,450646.42,1
+728,Elizabeth Butler,Elizabeth,Butler,FL,1728,Workers Compensation,929497.27,1961-12-28,,1962-12-28,1962-12-29,ACTIVE,,961316.33,73,Retail,8091890.33,Cheque,5,928997.27,1
+729,Pamela Sweeney,Pamela,Sweeney,CA,1729,Professional Liability,166038.74,1961-12-29,,1962-12-29,1962-12-30,ACTIVE,,163934.05,2,Technology,4650364.27,ACH Transfer,7,165538.74,1
+730,Chloe Wright,Chloe,Wright,PA,1730,General Liability,390482.48,1961-12-30,,1962-12-30,1962-12-31,ACTIVE,,395636.41,8,Consulting,2313665.23,Cash,6,389982.48,1
+731,Michael Parker,Michael,Parker,TX,1731,Automobile Liability,730130.45,1961-12-31,1962-06-29,1962-12-31,,INACTIVE,Cancellation due to company bankruptcy,700587.3,11,Consulting,9341205.54,Cash,8,729630.45,0
+732,Tricia Smith,Tricia,Smith,NY,1732,Automobile Liability,882376.3,1962-01-01,,1963-01-01,1963-01-02,ACTIVE,,847405.84,53,Consulting,3511506.3,Credit Card,3,881876.3,1
+733,Heidi Stevens,Heidi,Stevens,CA,1733,Product Liability,671272.06,1962-01-02,1962-04-23,1963-01-02,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,640974.71,10,Construction,1693745.87,Cheque,1,670772.06,0
+734,Kimberly Gentry,Kimberly,Gentry,CA,1734,Workers Compensation,258915.08,1962-01-03,1962-08-22,1963-01-03,,INACTIVE,Cancellation due to non-payment,261012.68,85,Retail,5675327.45,Cash,6,258415.08,0
+735,Jordan Smith,Jordan,Smith,NY,1735,General Liability,674933.25,1962-01-04,,1963-01-04,1963-01-05,ACTIVE,,669943.53,84,Construction,9443363.79,ACH Transfer,5,674433.25,1
+736,Gabrielle Mitchell,Gabrielle,Mitchell,PA,1736,Workers Compensation,297430.91,1962-01-05,,1963-01-05,1963-01-06,ACTIVE,,298859.54,8,Manufacturing,137919.88,Cash,0,0.0,1
+737,Teresa Ramos,Teresa,Ramos,PA,1737,General Liability,718710.8,1962-01-06,1962-03-02,1963-01-06,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,720225.35,36,Retail,2457435.95,Online,8,718210.8,0
+738,Rebecca Abbott,Rebecca,Abbott,FL,1738,Product Liability,954079.09,1962-01-07,1962-02-22,1963-01-07,,INACTIVE,Cancellation due to non-payment,939787.27,93,Technology,9390631.64,ACH Transfer,8,953579.09,0
+739,Erin Cruz,Erin,Cruz,PA,1739,Product Liability,721672.06,1962-01-08,,1963-01-08,1963-01-09,ACTIVE,,734479.82,76,Consulting,1793751.07,ACH Transfer,1,721172.06,1
+740,Julie Mcdowell,Julie,Mcdowell,FL,1740,Automobile Liability,863017.62,1962-01-09,1962-09-01,1963-01-09,,INACTIVE,Cancellation due to non-payment,885326.79,14,Manufacturing,1221110.17,Cash,2,862517.62,0
+741,Bruce Perez,Bruce,Perez,CA,1741,Workers Compensation,3101.74,1962-01-10,1962-06-08,1963-01-10,,INACTIVE,Cancellation due to company bankruptcy,2951.19,54,Retail,5744853.44,Credit Card,4,2601.74,0
+742,Alan Moyer,Alan,Moyer,NY,1742,Automobile Liability,717854.55,1962-01-11,1962-09-24,1963-01-11,,INACTIVE,Cancellation due to significant changes in risk,696838.81,85,Construction,8632253.85,ACH Transfer,4,717354.55,0
+743,Amy Mills,Amy,Mills,PA,1743,Workers Compensation,829757.97,1962-01-12,1962-08-07,1963-01-12,,INACTIVE,Cancellation due to significant changes in risk,847451.39,86,Consulting,4823387.2,Online,0,0.0,0
+744,Nicole Rogers,Nicole,Rogers,FL,1744,Automobile Liability,41518.18,1962-01-13,,1963-01-13,1963-01-14,ACTIVE,,41047.45,21,Construction,9946186.14,Credit Card,7,41018.18,1
+745,Nicole Garner,Nicole,Garner,CA,1745,Professional Liability,871726.13,1962-01-14,,1963-01-14,1963-01-15,ACTIVE,,885890.28,50,Retail,6823799.83,Credit Card,7,871226.13,1
+746,Carol Harper,Carol,Harper,PA,1746,Professional Liability,257437.53,1962-01-15,1962-10-07,1963-01-15,,INACTIVE,Cancellation due to company bankruptcy,253497.77,94,Retail,833341.58,Credit Card,3,256937.53,0
+747,Victor Jensen,Victor,Jensen,TX,1747,Professional Liability,665626.81,1962-01-16,1962-09-05,1963-01-16,,INACTIVE,Cancellation due to non-payment,658355.18,39,Manufacturing,9929038.1,ACH Transfer,6,665126.81,0
+748,Brittany Simmons,Brittany,Simmons,CA,1748,Professional Liability,800554.52,1962-01-17,1962-05-17,1963-01-17,,INACTIVE,Cancellation due to company bankruptcy,773229.9,20,Technology,4138152.94,Credit Card,9,800054.52,0
+749,Alexander Steele,Alexander,Steele,PA,1749,General Liability,663001.85,1962-01-18,,1963-01-18,1963-01-19,ACTIVE,,646972.52,88,Construction,2945285.09,Cash,2,662501.85,1
+750,Jeffrey Smith,Jeffrey,Smith,CA,1750,Professional Liability,93192.51,1962-01-19,,1963-01-19,1963-01-20,ACTIVE,,94174.87,87,Manufacturing,5623003.92,Credit Card,5,92692.51,1
+751,Lisa Garcia,Lisa,Garcia,NY,1751,Product Liability,596725.2,1962-01-20,1962-10-02,1963-01-20,,INACTIVE,Cancellation due to non-payment,592736.87,7,Consulting,3112645.16,Online,9,596225.2,0
+752,Holly Brown,Holly,Brown,NY,1752,Product Liability,550034.07,1962-01-21,1962-01-28,1963-01-21,,INACTIVE,Cancellation due to significant changes in risk,565121.65,9,Technology,955929.32,Cheque,9,549534.07,0
+753,Brian Gonzalez,Brian,Gonzalez,NY,1753,General Liability,900420.95,1962-01-22,1962-03-22,1963-01-22,,INACTIVE,Cancellation due to company bankruptcy,932168.44,1,Manufacturing,114140.6,Online,8,899920.95,0
+754,Thomas Davis,Thomas,Davis,TX,1754,Professional Liability,404835.49,1962-01-23,,1963-01-23,1963-01-24,ACTIVE,,406521.48,26,Construction,4550875.19,ACH Transfer,0,0.0,1
+755,Jason Thompson,Jason,Thompson,NY,1755,Professional Liability,321760.02,1962-01-24,1963-01-03,1963-01-24,,INACTIVE,Cancellation due to another carrer,330070.03,38,Retail,8384947.88,Credit Card,4,321260.02,0
+756,Brandon Shelton,Brandon,Shelton,TX,1756,Professional Liability,750100.91,1962-01-25,1962-11-12,1963-01-25,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,735616.8,38,Consulting,5765920.34,Credit Card,3,749600.91,0
+757,Jeremy Valencia,Jeremy,Valencia,NY,1757,Automobile Liability,413262.65,1962-01-26,1962-08-23,1963-01-26,,INACTIVE,Cancellation due to another carrer,409748.73,61,Construction,9992152.26,Cash,7,412762.65,0
+758,Dominique Jefferson,Dominique,Jefferson,CA,1758,Workers Compensation,646450.08,1962-01-27,1962-03-08,1963-01-27,,INACTIVE,Cancellation due to another carrer,660205.09,44,Technology,2939781.79,Credit Card,0,0.0,0
+759,Ashley Stone,Ashley,Stone,PA,1759,Automobile Liability,646803.64,1962-01-28,1962-03-23,1963-01-28,,INACTIVE,Cancellation due to another carrer,639443.79,86,Technology,2876505.14,Online,8,646303.64,0
+760,Matthew Ortiz,Matthew,Ortiz,PA,1760,Workers Compensation,888151.03,1962-01-29,,1963-01-29,1963-01-30,ACTIVE,,896011.6,44,Retail,1681519.66,ACH Transfer,5,887651.03,1
+761,Joann Houston,Joann,Houston,NY,1761,Professional Liability,599093.71,1962-01-30,,1963-01-30,1963-01-31,ACTIVE,,580244.59,74,Retail,1724229.52,Cheque,3,598593.71,1
+762,Eileen Brown MD,Eileen,MD,PA,1762,Professional Liability,502651.46,1962-01-31,,1963-01-31,1963-02-01,ACTIVE,,507666.48,62,Consulting,2923347.3,Credit Card,8,502151.46,1
+763,Ryan Williams,Ryan,Williams,NY,1763,Automobile Liability,139732.46,1962-02-01,1962-05-16,1963-02-01,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,144783.98,6,Consulting,7949116.45,Cheque,4,139232.46,0
+764,Aaron Cooley,Aaron,Cooley,NY,1764,Automobile Liability,116621.87,1962-02-02,,1963-02-02,1963-02-03,ACTIVE,,120921.01,17,Retail,9066992.23,Credit Card,4,116121.87,1
+765,Desiree Fitzgerald,Desiree,Fitzgerald,FL,1765,Workers Compensation,155167.24,1962-02-03,1962-06-17,1963-02-03,,INACTIVE,Cancellation due to significant changes in risk,158648.33,51,Retail,9753362.98,ACH Transfer,4,154667.24,0
+766,Richard Cooper,Richard,Cooper,FL,1766,Product Liability,172676.63,1962-02-04,,1963-02-04,1963-02-05,ACTIVE,,176920.22,38,Technology,2399667.58,Online,0,0.0,1
+767,Keith Hopkins,Keith,Hopkins,FL,1767,Workers Compensation,638239.22,1962-02-05,,1963-02-05,1963-02-06,ACTIVE,,641936.38,24,Retail,8824845.7,ACH Transfer,0,0.0,1
+768,Charles Rogers,Charles,Rogers,TX,1768,Automobile Liability,741240.27,1962-02-06,1962-08-01,1963-02-06,,INACTIVE,Cancellation due to company bankruptcy,747516.21,51,Manufacturing,3349725.38,Cheque,7,740740.27,0
+769,William Proctor,William,Proctor,FL,1769,Automobile Liability,530461.53,1962-02-07,1962-05-18,1963-02-07,,INACTIVE,Cancellation due to non-payment,511028.1,10,Construction,1217121.39,Credit Card,7,529961.53,0
+770,Brittany Jones DVM,Brittany,DVM,NY,1770,General Liability,829188.71,1962-02-08,1962-05-14,1963-02-08,,INACTIVE,Cancellation due to company bankruptcy,824533.58,72,Retail,8713246.76,Cheque,5,828688.71,0
+771,Debra Flores,Debra,Flores,CA,1771,Automobile Liability,991271.96,1962-02-09,,1963-02-09,1963-02-10,ACTIVE,,986392.55,21,Consulting,6397445.78,Online,3,990771.96,1
+772,Laura King,Laura,King,FL,1772,General Liability,820192.62,1962-02-10,1962-05-26,1963-02-10,,INACTIVE,Cancellation due to company bankruptcy,857798.27,70,Manufacturing,1730835.87,ACH Transfer,1,819692.62,0
+773,Jacob Giles,Jacob,Giles,FL,1773,Product Liability,695187.49,1962-02-11,,1963-02-11,1963-02-12,ACTIVE,,690396.73,85,Consulting,4355329.45,Cheque,1,694687.49,1
+774,Craig Boone,Craig,Boone,CA,1774,Workers Compensation,532960.21,1962-02-12,,1963-02-12,1963-02-13,ACTIVE,,535589.98,57,Manufacturing,2943851.18,Cheque,8,532460.21,1
+775,Charles Cox,Charles,Cox,NY,1775,Workers Compensation,449404.22,1962-02-13,,1963-02-13,1963-02-14,ACTIVE,,450898.55,39,Retail,7394266.23,Online,4,448904.22,1
+776,Paul Greene,Paul,Greene,TX,1776,General Liability,85307.99,1962-02-14,1962-09-16,1963-02-14,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,86474.68,88,Construction,4588820.68,Credit Card,3,84807.99,0
+777,Christian Jenkins,Christian,Jenkins,FL,1777,Workers Compensation,399969.38,1962-02-15,1962-06-26,1963-02-15,,INACTIVE,Cancellation due to significant changes in risk,409897.93,33,Consulting,9893871.46,Cheque,9,399469.38,0
+778,Erica Lowe,Erica,Lowe,CA,1778,Automobile Liability,910224.5,1962-02-16,1962-07-25,1963-02-16,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,885197.14,59,Manufacturing,641975.32,Online,0,0.0,0
+779,Edward Scott,Edward,Scott,NY,1779,Professional Liability,808214.61,1962-02-17,,1963-02-17,1963-02-18,ACTIVE,,810536.16,18,Technology,3614651.13,Credit Card,6,807714.61,1
+780,Eric Patel,Eric,Patel,PA,1780,General Liability,216835.31,1962-02-18,,1963-02-18,1963-02-19,ACTIVE,,223902.36,56,Retail,4870811.65,Credit Card,2,216335.31,1
+781,Nicholas Silva,Nicholas,Silva,TX,1781,Workers Compensation,467141.18,1962-02-19,1962-02-25,1963-02-19,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,465418.12,92,Construction,5081022.19,ACH Transfer,5,466641.18,0
+782,Brenda Alvarado,Brenda,Alvarado,CA,1782,General Liability,816906.48,1962-02-20,,1963-02-20,1963-02-21,ACTIVE,,798808.53,57,Retail,3227764.64,Online,4,816406.48,1
+783,Donna Hopkins,Donna,Hopkins,CA,1783,General Liability,68317.17,1962-02-21,,1963-02-21,1963-02-22,ACTIVE,,69374.1,96,Technology,7319478.47,Credit Card,4,67817.17,1
+784,Ralph Collins Jr.,Ralph,Jr.,CA,1784,Professional Liability,388005.19,1962-02-22,,1963-02-22,1963-02-23,ACTIVE,,400567.53,76,Construction,8759996.03,ACH Transfer,4,387505.19,1
+785,Sally Black,Sally,Black,FL,1785,Automobile Liability,851989.4,1962-02-23,1962-11-18,1963-02-23,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,814769.42,48,Technology,9393321.09,Cash,0,0.0,0
+786,Daniel Chung,Daniel,Chung,PA,1786,General Liability,404493.97,1962-02-24,,1963-02-24,1963-02-25,ACTIVE,,415689.98,42,Retail,8070424.43,Online,0,0.0,1
+787,Joan Holt,Joan,Holt,TX,1787,Workers Compensation,78537.03,1962-02-25,,1963-02-25,1963-02-26,ACTIVE,,81063.16,27,Manufacturing,8520743.95,Cash,2,78037.03,1
+788,Christina Wagner,Christina,Wagner,NY,1788,Product Liability,542991.83,1962-02-26,1962-06-27,1963-02-26,,INACTIVE,Cancellation due to significant changes in risk,540902.56,74,Retail,5550398.48,Credit Card,9,542491.83,0
+789,James Thomas,James,Thomas,NY,1789,General Liability,861880.75,1962-02-27,1962-07-18,1963-02-27,,INACTIVE,Cancellation due to another carrer,903535.93,52,Retail,8276293.44,Online,3,861380.75,0
+790,Jeffrey Johnson,Jeffrey,Johnson,PA,1790,General Liability,590695.26,1962-02-28,1962-09-03,1963-02-28,,INACTIVE,Cancellation due to significant changes in risk,607630.99,42,Retail,3104688.7,ACH Transfer,4,590195.26,0
+791,Chelsea Ellison,Chelsea,Ellison,CA,1791,Professional Liability,227052.83,1962-03-01,1962-05-10,1963-03-01,,INACTIVE,Cancellation due to significant changes in risk,233266.42,32,Consulting,4044939.74,Credit Card,1,226552.83,0
+792,Cheyenne Fisher,Cheyenne,Fisher,CA,1792,Automobile Liability,384855.38,1962-03-02,1963-01-02,1963-03-02,,INACTIVE,Cancellation due to another carrer,394393.58,26,Technology,3237438.84,Online,7,384355.38,0
+793,Madeline Morris,Madeline,Morris,CA,1793,Product Liability,450673.24,1962-03-03,1962-08-13,1963-03-03,,INACTIVE,Cancellation due to significant changes in risk,434927.08,25,Technology,4727134.62,Online,1,450173.24,0
+794,Philip Santiago,Philip,Santiago,CA,1794,Workers Compensation,579687.09,1962-03-04,,1963-03-04,1963-03-05,ACTIVE,,563295.33,75,Technology,2927238.2,Cash,8,579187.09,1
+795,Jessica Murphy,Jessica,Murphy,CA,1795,Product Liability,759591.67,1962-03-05,,1963-03-05,1963-03-06,ACTIVE,,756856.39,23,Consulting,9619953.28,Credit Card,1,759091.67,1
+796,Julia Mendez,Julia,Mendez,PA,1796,Workers Compensation,99774.74,1962-03-06,,1963-03-06,1963-03-07,ACTIVE,,97420.1,98,Manufacturing,3197161.82,ACH Transfer,8,99274.74,1
+797,Paul Green,Paul,Green,FL,1797,Automobile Liability,889762.38,1962-03-07,,1963-03-07,1963-03-08,ACTIVE,,882220.84,57,Retail,1070640.93,ACH Transfer,6,889262.38,1
+798,Molly Kline,Molly,Kline,TX,1798,Workers Compensation,13297.39,1962-03-08,1962-10-04,1963-03-08,,INACTIVE,Cancellation due to company bankruptcy,13813.95,52,Manufacturing,5315489.94,Credit Card,7,12797.39,0
+799,Meghan James,Meghan,James,CA,1799,Professional Liability,370682.28,1962-03-09,,1963-03-09,1963-03-10,ACTIVE,,382704.5,87,Consulting,665280.88,Credit Card,1,370182.28,1
+800,Dr. Kim Strong,Dr.,Strong,FL,1800,Professional Liability,28392.89,1962-03-10,1962-09-22,1963-03-10,,INACTIVE,Cancellation due to non-payment,28762.11,93,Technology,1194377.35,Cheque,6,27892.89,0
+801,Rachel Patterson,Rachel,Patterson,NY,1801,Professional Liability,393581.25,1962-03-11,1962-08-21,1963-03-11,,INACTIVE,Cancellation due to company bankruptcy,407676.2,31,Retail,2271954.95,Cash,5,393081.25,0
+802,Joseph Simon,Joseph,Simon,PA,1802,Professional Liability,526286.79,1962-03-12,,1963-03-12,1963-03-13,ACTIVE,,541221.36,64,Construction,4697067.47,Credit Card,3,525786.79,1
+803,Karl Fuller,Karl,Fuller,FL,1803,Product Liability,512169.71,1962-03-13,,1963-03-13,1963-03-14,ACTIVE,,508532.53,71,Construction,4389184.23,Credit Card,6,511669.71,1
+804,Steven Blanchard,Steven,Blanchard,CA,1804,Automobile Liability,166462.72,1962-03-14,1962-04-13,1963-03-14,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,161486.57,33,Manufacturing,8016949.43,Cheque,3,165962.72,0
+805,Michael Banks,Michael,Banks,CA,1805,Workers Compensation,646094.77,1962-03-15,1962-04-29,1963-03-15,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,647012.29,85,Technology,7420799.07,Cheque,1,645594.77,0
+806,Diane Castillo,Diane,Castillo,CA,1806,Workers Compensation,45733.67,1962-03-16,1963-02-07,1963-03-16,,INACTIVE,Cancellation due to company bankruptcy,46814.03,2,Construction,4320551.11,Online,9,45233.67,0
+807,Samantha Rice,Samantha,Rice,FL,1807,Professional Liability,762144.91,1962-03-17,1962-08-07,1963-03-17,,INACTIVE,Cancellation due to another carrer,757299.16,18,Manufacturing,3403671.65,ACH Transfer,6,761644.91,0
+808,Jean Cochran,Jean,Cochran,CA,1808,Professional Liability,946697.79,1962-03-18,,1963-03-18,1963-03-19,ACTIVE,,962486.05,47,Consulting,3233040.96,Cash,7,946197.79,1
+809,Haley Schneider,Haley,Schneider,FL,1809,General Liability,340429.06,1962-03-19,1963-02-18,1963-03-19,,INACTIVE,Cancellation due to company bankruptcy,326618.79,33,Manufacturing,7762551.36,Online,1,339929.06,0
+810,Ariana Monroe,Ariana,Monroe,CA,1810,Automobile Liability,517722.14,1962-03-20,,1963-03-20,1963-03-21,ACTIVE,,530561.89,98,Manufacturing,615516.82,Credit Card,4,517222.14,1
+811,Krista Armstrong,Krista,Armstrong,NY,1811,Product Liability,379531.37,1962-03-21,1963-03-19,1963-03-21,,INACTIVE,Cancellation due to non-payment,391399.83,84,Manufacturing,226934.33,Cheque,0,0.0,0
+812,Kristen Hester,Kristen,Hester,NY,1812,Workers Compensation,7703.68,1962-03-22,1962-12-28,1963-03-22,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,7863.02,35,Retail,7975889.48,ACH Transfer,6,7203.68,0
+813,Christopher Morgan,Christopher,Morgan,TX,1813,General Liability,386488.63,1962-03-23,1962-06-21,1963-03-23,,INACTIVE,Cancellation due to significant changes in risk,404547.84,51,Manufacturing,4823749.12,Online,7,385988.63,0
+814,Johnny Anderson,Johnny,Anderson,CA,1814,General Liability,791928.54,1962-03-24,,1963-03-24,1963-03-25,ACTIVE,,817797.05,18,Manufacturing,1395723.27,ACH Transfer,5,791428.54,1
+815,Kyle Sims,Kyle,Sims,CA,1815,Workers Compensation,596392.85,1962-03-25,1962-07-31,1963-03-25,,INACTIVE,Cancellation due to company bankruptcy,620433.07,88,Retail,2432102.75,Cheque,4,595892.85,0
+816,Katelyn Nelson,Katelyn,Nelson,FL,1816,Product Liability,102158.65,1962-03-26,,1963-03-26,1963-03-27,ACTIVE,,106587.95,72,Retail,9331789.14,Online,5,101658.65,1
+817,Tamara Cohen,Tamara,Cohen,FL,1817,General Liability,847292.35,1962-03-27,,1963-03-27,1963-03-28,ACTIVE,,872825.33,30,Consulting,8609079.46,Online,1,846792.35,1
+818,Jasmine Smith,Jasmine,Smith,CA,1818,General Liability,531554.26,1962-03-28,,1963-03-28,1963-03-29,ACTIVE,,540817.06,44,Technology,7126872.0,ACH Transfer,0,0.0,1
+819,Patricia Burgess,Patricia,Burgess,TX,1819,Automobile Liability,841881.64,1962-03-29,1962-11-25,1963-03-29,,INACTIVE,Cancellation due to company bankruptcy,800268.99,53,Construction,4874029.78,Cheque,6,841381.64,0
+820,Sara Kennedy,Sara,Kennedy,CA,1820,Product Liability,580641.3,1962-03-30,,1963-03-30,1963-03-31,ACTIVE,,578657.0,10,Construction,5251203.9,Credit Card,6,580141.3,1
+821,Jacob Gray,Jacob,Gray,FL,1821,General Liability,560128.76,1962-03-31,,1963-03-31,1963-04-01,ACTIVE,,564114.77,87,Manufacturing,9754920.9,Online,9,559628.76,1
+822,Jason Zuniga,Jason,Zuniga,CA,1822,Product Liability,106153.93,1962-04-01,1963-01-29,1963-04-01,,INACTIVE,Cancellation due to significant changes in risk,104073.63,52,Consulting,9661127.39,Credit Card,9,105653.93,0
+823,Nathan Davis,Nathan,Davis,FL,1823,Workers Compensation,168192.37,1962-04-02,1962-04-27,1963-04-02,,INACTIVE,Cancellation due to significant changes in risk,165133.03,49,Manufacturing,2231163.55,Cheque,1,167692.37,0
+824,Willie Sullivan,Willie,Sullivan,CA,1824,Professional Liability,972053.23,1962-04-03,,1963-04-03,1963-04-04,ACTIVE,,1016880.38,11,Construction,8129935.21,Online,1,971553.23,1
+825,Elizabeth Gibson,Elizabeth,Gibson,PA,1825,General Liability,229258.26,1962-04-04,,1963-04-04,1963-04-05,ACTIVE,,238238.56,66,Retail,2052702.4,Online,0,0.0,1
+826,Justin Murphy,Justin,Murphy,FL,1826,Automobile Liability,977474.67,1962-04-05,1962-08-04,1963-04-05,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,1011606.03,58,Technology,2214021.03,Credit Card,9,976974.67,0
+827,Ana Griffin,Ana,Griffin,TX,1827,Workers Compensation,532380.79,1962-04-06,,1963-04-06,1963-04-07,ACTIVE,,527377.04,90,Consulting,6793321.04,Cash,7,531880.79,1
+828,Andrew Carson,Andrew,Carson,PA,1828,Product Liability,136653.26,1962-04-07,,1963-04-07,1963-04-08,ACTIVE,,130007.79,36,Retail,4109510.88,Credit Card,7,136153.26,1
+829,Christopher Grant,Christopher,Grant,CA,1829,Workers Compensation,100202.9,1962-04-08,,1963-04-08,1963-04-09,ACTIVE,,95996.61,33,Technology,9322289.63,Credit Card,0,0.0,1
+830,Amanda Freeman,Amanda,Freeman,FL,1830,General Liability,209655.21,1962-04-09,1962-10-15,1963-04-09,,INACTIVE,Cancellation due to significant changes in risk,205717.81,47,Consulting,981196.38,Cash,7,209155.21,0
+831,Mr. Lucas Sutton,Mr.,Sutton,PA,1831,Product Liability,925711.69,1962-04-10,,1963-04-10,1963-04-11,ACTIVE,,880883.45,13,Consulting,5164103.84,Cheque,8,925211.69,1
+832,Devin Sparks,Devin,Sparks,TX,1832,Professional Liability,414736.07,1962-04-11,1962-08-15,1963-04-11,,INACTIVE,Cancellation due to company bankruptcy,394710.53,40,Construction,9193363.15,Cheque,3,414236.07,0
+833,Lisa Ellis,Lisa,Ellis,FL,1833,Workers Compensation,396038.83,1962-04-12,1963-01-24,1963-04-12,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,412537.94,89,Retail,9050725.24,Online,0,0.0,0
+834,Amanda Miller,Amanda,Miller,PA,1834,General Liability,313893.05,1962-04-13,1963-02-28,1963-04-13,,INACTIVE,Cancellation due to company bankruptcy,320364.22,68,Consulting,1649639.21,ACH Transfer,0,0.0,0
+835,Kathleen Harrison,Kathleen,Harrison,PA,1835,Automobile Liability,147914.79,1962-04-14,,1963-04-14,1963-04-15,ACTIVE,,145088.97,42,Consulting,3729713.23,ACH Transfer,2,147414.79,1
+836,Timothy Reid,Timothy,Reid,PA,1836,Product Liability,488363.35,1962-04-15,1963-02-01,1963-04-15,,INACTIVE,Cancellation due to significant changes in risk,470423.06,19,Technology,6229301.86,Online,4,487863.35,0
+837,Jenna Sullivan,Jenna,Sullivan,NY,1837,Workers Compensation,130917.73,1962-04-16,,1963-04-16,1963-04-17,ACTIVE,,131070.06,82,Construction,1678009.36,ACH Transfer,4,130417.73,1
+838,Patrick Wagner,Patrick,Wagner,CA,1838,Workers Compensation,835644.76,1962-04-17,1963-03-09,1963-04-17,,INACTIVE,Cancellation due to non-payment,794309.27,94,Manufacturing,9683419.5,Credit Card,8,835144.76,0
+839,Mrs. Adrienne Jackson,Mrs.,Jackson,FL,1839,Professional Liability,371026.59,1962-04-18,,1963-04-18,1963-04-19,ACTIVE,,387292.91,19,Construction,9156018.35,Credit Card,9,370526.59,1
+840,Anthony Anderson,Anthony,Anderson,FL,1840,Professional Liability,375428.76,1962-04-19,,1963-04-19,1963-04-20,ACTIVE,,372230.67,58,Manufacturing,1752806.77,Cash,1,374928.76,1
+841,Yolanda Andrews,Yolanda,Andrews,FL,1841,Automobile Liability,474532.42,1962-04-20,,1963-04-20,1963-04-21,ACTIVE,,469897.9,23,Retail,1299439.07,Cash,1,474032.42,1
+842,Lindsey Turner,Lindsey,Turner,PA,1842,Automobile Liability,444683.59,1962-04-21,1962-08-16,1963-04-21,,INACTIVE,Cancellation due to significant changes in risk,439818.47,54,Retail,945543.98,Online,5,444183.59,0
+843,Sarah Moore,Sarah,Moore,CA,1843,General Liability,994863.12,1962-04-22,,1963-04-22,1963-04-23,ACTIVE,,952017.18,80,Consulting,9103492.27,Online,8,994363.12,1
+844,Jennifer Curry,Jennifer,Curry,TX,1844,General Liability,545835.74,1962-04-23,,1963-04-23,1963-04-24,ACTIVE,,553385.86,65,Retail,2016875.72,Online,0,0.0,1
+845,Laura Baker,Laura,Baker,FL,1845,Automobile Liability,89113.5,1962-04-24,1962-07-30,1963-04-24,,INACTIVE,Cancellation due to non-payment,91189.88,12,Consulting,4221220.79,Credit Card,8,88613.5,0
+846,Beth Garcia,Beth,Garcia,CA,1846,Automobile Liability,607270.46,1962-04-25,1962-12-08,1963-04-25,,INACTIVE,Cancellation due to another carrer,617966.04,24,Construction,4543628.52,ACH Transfer,8,606770.46,0
+847,Thomas Owen,Thomas,Owen,CA,1847,Product Liability,152432.71,1962-04-26,,1963-04-26,1963-04-27,ACTIVE,,146921.28,34,Retail,6030209.34,Online,8,151932.71,1
+848,Samuel Young,Samuel,Young,NY,1848,Professional Liability,31906.71,1962-04-27,1962-08-13,1963-04-27,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,32158.26,53,Construction,810179.9,Online,4,31406.71,0
+849,Jake Roberts,Jake,Roberts,FL,1849,General Liability,970771.41,1962-04-28,1962-10-30,1963-04-28,,INACTIVE,Cancellation due to significant changes in risk,977516.77,8,Construction,2344910.31,Credit Card,8,970271.41,0
+850,Patrick Sheppard,Patrick,Sheppard,PA,1850,Professional Liability,773765.35,1962-04-29,1962-11-05,1963-04-29,,INACTIVE,Cancellation due to non-payment,802271.7,18,Retail,9321754.83,Credit Card,3,773265.35,0
+851,Jeremy Mckee,Jeremy,Mckee,CA,1851,Professional Liability,980128.88,1962-04-30,,1963-04-30,1963-05-01,ACTIVE,,968281.83,57,Construction,9093260.06,Credit Card,1,979628.88,1
+852,Dorothy Mckee,Dorothy,Mckee,CA,1852,Automobile Liability,478400.57,1962-05-01,1962-11-20,1963-05-01,,INACTIVE,Cancellation due to another carrer,472252.45,5,Retail,7834777.41,ACH Transfer,5,477900.57,0
+853,Sean Schultz,Sean,Schultz,TX,1853,Product Liability,532725.27,1962-05-02,,1963-05-02,1963-05-03,ACTIVE,,539039.51,26,Retail,292072.33,Online,3,532225.27,1
+854,Daniel Gray,Daniel,Gray,NY,1854,Workers Compensation,169168.62,1962-05-03,1962-12-11,1963-05-03,,INACTIVE,Cancellation due to non-payment,171419.79,30,Retail,3337367.01,Cheque,5,168668.62,0
+855,Marisa Silva,Marisa,Silva,CA,1855,Product Liability,247660.52,1962-05-04,1963-04-07,1963-05-04,,INACTIVE,Cancellation due to significant changes in risk,246899.84,54,Manufacturing,6316791.48,Cheque,2,247160.52,0
+856,Amy Martinez,Amy,Martinez,CA,1856,Product Liability,838710.67,1962-05-05,,1963-05-05,1963-05-06,ACTIVE,,833935.0,13,Construction,2824383.1,Online,5,838210.67,1
+857,Charles Hughes,Charles,Hughes,PA,1857,Professional Liability,356829.46,1962-05-06,1962-09-21,1963-05-06,,INACTIVE,Cancellation due to non-payment,356620.63,83,Technology,9104908.28,Online,1,356329.46,0
+858,Jose Pratt,Jose,Pratt,PA,1858,Product Liability,826988.16,1962-05-07,1962-10-05,1963-05-07,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,856846.18,29,Retail,6375505.67,Online,1,826488.16,0
+859,Nathan Shaw,Nathan,Shaw,TX,1859,General Liability,709304.71,1962-05-08,1962-06-21,1963-05-08,,INACTIVE,Cancellation due to significant changes in risk,706550.26,3,Construction,811876.5,Online,8,708804.71,0
+860,Jerry Hampton,Jerry,Hampton,TX,1860,Professional Liability,177993.75,1962-05-09,1962-05-14,1963-05-09,,INACTIVE,Cancellation due to significant changes in risk,185824.26,90,Consulting,9099155.33,ACH Transfer,6,177493.75,0
+861,Kathy Pittman,Kathy,Pittman,TX,1861,General Liability,507938.92,1962-05-10,,1963-05-10,1963-05-11,ACTIVE,,508142.29,58,Retail,9581889.92,Cheque,2,507438.92,1
+862,Dominique Burnett,Dominique,Burnett,PA,1862,Workers Compensation,677709.93,1962-05-11,,1963-05-11,1963-05-12,ACTIVE,,708152.71,76,Retail,869352.94,Cash,0,0.0,1
+863,Janice Rogers,Janice,Rogers,PA,1863,Professional Liability,235802.18,1962-05-12,,1963-05-12,1963-05-13,ACTIVE,,243650.43,2,Technology,5370366.33,Cheque,7,235302.18,1
+864,Terri Perry,Terri,Perry,NY,1864,Workers Compensation,830857.82,1962-05-13,,1963-05-13,1963-05-14,ACTIVE,,819427.82,75,Manufacturing,3103306.39,Cheque,5,830357.82,1
+865,Audrey Wise,Audrey,Wise,FL,1865,Professional Liability,545282.83,1962-05-14,,1963-05-14,1963-05-15,ACTIVE,,565111.57,28,Manufacturing,3989106.86,Credit Card,6,544782.83,1
+866,Amy Stanley,Amy,Stanley,FL,1866,Automobile Liability,166076.81,1962-05-15,,1963-05-15,1963-05-16,ACTIVE,,159600.87,82,Retail,1878547.06,Online,8,165576.81,1
+867,Kathy Stevenson MD,Kathy,MD,NY,1867,Product Liability,583401.44,1962-05-16,,1963-05-16,1963-05-17,ACTIVE,,608198.75,77,Construction,5822913.81,Online,4,582901.44,1
+868,Bradley Webb,Bradley,Webb,FL,1868,Automobile Liability,999714.09,1962-05-17,1962-10-13,1963-05-17,,INACTIVE,Cancellation due to significant changes in risk,1012874.68,86,Consulting,9583995.6,Online,0,0.0,0
+869,Amanda Rogers,Amanda,Rogers,PA,1869,Workers Compensation,151370.97,1962-05-18,,1963-05-18,1963-05-19,ACTIVE,,144625.74,76,Consulting,5080418.74,Credit Card,9,150870.97,1
+870,John Gomez,John,Gomez,FL,1870,Product Liability,816940.17,1962-05-19,,1963-05-19,1963-05-20,ACTIVE,,828725.08,2,Construction,920854.36,ACH Transfer,6,816440.17,1
+871,Nathan Baker,Nathan,Baker,PA,1871,Professional Liability,208101.69,1962-05-20,,1963-05-20,1963-05-21,ACTIVE,,217970.86,7,Retail,6238013.2,ACH Transfer,4,207601.69,1
+872,Amanda Brown,Amanda,Brown,NY,1872,Product Liability,782605.94,1962-05-21,1963-05-20,1963-05-21,,INACTIVE,Cancellation due to non-payment,748938.28,26,Consulting,3468207.65,Cash,2,782105.94,0
+873,Tamara Clark,Tamara,Clark,TX,1873,General Liability,734843.35,1962-05-22,,1963-05-22,1963-05-23,ACTIVE,,738862.04,90,Manufacturing,8573659.38,ACH Transfer,8,734343.35,1
+874,Troy Rosario,Troy,Rosario,NY,1874,Product Liability,301188.9,1962-05-23,,1963-05-23,1963-05-24,ACTIVE,,308652.19,88,Construction,4403313.67,ACH Transfer,0,0.0,1
+875,Virginia Scott,Virginia,Scott,FL,1875,General Liability,326497.29,1962-05-24,,1963-05-24,1963-05-25,ACTIVE,,336627.15,76,Technology,2009112.13,Online,0,0.0,1
+876,Joshua Rowe,Joshua,Rowe,PA,1876,Product Liability,792728.87,1962-05-25,1962-06-22,1963-05-25,,INACTIVE,Cancellation due to significant changes in risk,785897.72,16,Retail,1991945.66,Cheque,0,0.0,0
+877,Mrs. Paula Lowery MD,Mrs.,MD,FL,1877,General Liability,461984.07,1962-05-26,,1963-05-26,1963-05-27,ACTIVE,,448317.04,23,Construction,7710765.39,ACH Transfer,2,461484.07,1
+878,Julie Reyes,Julie,Reyes,FL,1878,Workers Compensation,731087.21,1962-05-27,1963-05-22,1963-05-27,,INACTIVE,Cancellation due to company bankruptcy,697628.44,40,Consulting,2729317.22,ACH Transfer,5,730587.21,0
+879,Damon Murillo,Damon,Murillo,TX,1879,Automobile Liability,148836.16,1962-05-28,1963-04-06,1963-05-28,,INACTIVE,Cancellation due to non-payment,150022.77,60,Retail,7695610.6,Credit Card,9,148336.16,0
+880,Nicole Sullivan,Nicole,Sullivan,FL,1880,Professional Liability,852705.22,1962-05-29,1963-04-17,1963-05-29,,INACTIVE,Cancellation due to company bankruptcy,848689.92,73,Manufacturing,2138284.38,Cash,2,852205.22,0
+881,Michael Barron,Michael,Barron,TX,1881,Product Liability,711173.83,1962-05-30,1963-03-16,1963-05-30,,INACTIVE,Cancellation due to significant changes in risk,743087.36,32,Retail,3284695.05,Credit Card,7,710673.83,0
+882,Paul Holland,Paul,Holland,PA,1882,Automobile Liability,907035.87,1962-05-31,,1963-05-31,1963-06-01,ACTIVE,,867181.16,15,Retail,4708321.03,Online,9,906535.87,1
+883,Donald Mclean,Donald,Mclean,PA,1883,Professional Liability,133240.01,1962-06-01,1962-09-24,1963-06-01,,INACTIVE,Cancellation due to company bankruptcy,135710.22,13,Manufacturing,9437638.91,Cheque,1,132740.01,0
+884,Karen Daniels,Karen,Daniels,TX,1884,Professional Liability,593421.49,1962-06-02,1963-05-01,1963-06-02,,INACTIVE,Cancellation due to significant changes in risk,565231.96,5,Manufacturing,9324141.11,Cash,8,592921.49,0
+885,Lauren Mills,Lauren,Mills,NY,1885,General Liability,599521.46,1962-06-03,,1963-06-03,1963-06-04,ACTIVE,,579823.23,75,Retail,2148031.57,Credit Card,2,599021.46,1
+886,Natasha Willis DDS,Natasha,DDS,PA,1886,Workers Compensation,354107.28,1962-06-04,1962-06-11,1963-06-04,,INACTIVE,Cancellation due to non-payment,352463.48,74,Manufacturing,3646368.51,ACH Transfer,4,353607.28,0
+887,Tyrone Peterson,Tyrone,Peterson,NY,1887,Workers Compensation,459007.96,1962-06-05,1963-04-03,1963-06-05,,INACTIVE,Cancellation due to another carrer,456936.57,52,Construction,1579053.95,ACH Transfer,9,458507.96,0
+888,Lee Evans,Lee,Evans,PA,1888,Automobile Liability,38943.58,1962-06-06,1962-06-09,1963-06-06,,INACTIVE,Cancellation due to company bankruptcy,39666.76,77,Manufacturing,5148852.29,Cash,7,38443.58,0
+889,Nicolas Harrison,Nicolas,Harrison,PA,1889,Workers Compensation,746114.18,1962-06-07,1962-08-08,1963-06-07,,INACTIVE,Cancellation due to company bankruptcy,776720.76,41,Manufacturing,4659767.25,ACH Transfer,1,745614.18,0
+890,Daniel Bennett,Daniel,Bennett,CA,1890,Product Liability,549773.16,1962-06-08,1963-04-09,1963-06-08,,INACTIVE,Cancellation due to company bankruptcy,557416.77,53,Retail,9017525.61,Credit Card,5,549273.16,0
+891,Tiffany Eaton,Tiffany,Eaton,FL,1891,Workers Compensation,58683.31,1962-06-09,1962-09-26,1963-06-09,,INACTIVE,Cancellation due to significant changes in risk,61344.8,50,Construction,9307053.24,Credit Card,4,58183.31,0
+892,David Osborne,David,Osborne,FL,1892,Automobile Liability,681075.14,1962-06-10,,1963-06-10,1963-06-11,ACTIVE,,707066.03,15,Technology,3897317.17,ACH Transfer,9,680575.14,1
+893,Michael Harmon,Michael,Harmon,NY,1893,Workers Compensation,467315.3,1962-06-11,,1963-06-11,1963-06-12,ACTIVE,,471264.1,7,Technology,4968205.64,ACH Transfer,8,466815.3,1
+894,Hannah Holden,Hannah,Holden,FL,1894,Product Liability,35426.8,1962-06-12,,1963-06-12,1963-06-13,ACTIVE,,36609.32,40,Consulting,8972738.87,Online,4,34926.8,1
+895,Danny Morris,Danny,Morris,NY,1895,General Liability,969638.12,1962-06-13,,1963-06-13,1963-06-14,ACTIVE,,983462.99,28,Manufacturing,8086407.3,Cheque,1,969138.12,1
+896,Beth Beck,Beth,Beck,PA,1896,Automobile Liability,949163.03,1962-06-14,1963-05-14,1963-06-14,,INACTIVE,Cancellation due to non-payment,909161.3,32,Manufacturing,136197.48,Cash,4,948663.03,0
+897,Karen Johnson,Karen,Johnson,CA,1897,General Liability,513389.51,1962-06-15,1962-12-07,1963-06-15,,INACTIVE,Cancellation due to company bankruptcy,525739.85,99,Construction,3268589.69,Credit Card,3,512889.51,0
+898,Jack Schmitt,Jack,Schmitt,CA,1898,General Liability,94578.75,1962-06-16,1963-05-10,1963-06-16,,INACTIVE,Cancellation due to another carrer,90747.44,15,Technology,4275565.0,Cash,6,94078.75,0
+899,Dr. Kristin Santos DDS,Dr.,DDS,PA,1899,General Liability,754866.6,1962-06-17,,1963-06-17,1963-06-18,ACTIVE,,761968.59,85,Consulting,2374191.21,Online,5,754366.6,1
+900,Jason Beard,Jason,Beard,TX,1900,Professional Liability,492439.17,1962-06-18,,1963-06-18,1963-06-19,ACTIVE,,502417.97,70,Construction,2075759.0,Credit Card,1,491939.17,1
+901,Erin Turner DDS,Erin,DDS,TX,1901,Professional Liability,303145.03,1962-06-19,1962-09-24,1963-06-19,,INACTIVE,Cancellation due to non-payment,290004.53,65,Manufacturing,474066.62,Online,4,302645.03,0
+902,Robert Bradshaw,Robert,Bradshaw,FL,1902,General Liability,491926.76,1962-06-20,1962-07-12,1963-06-20,,INACTIVE,Cancellation due to non-payment,478683.83,4,Technology,6469360.28,Online,6,491426.76,0
+903,Kimberly Clark,Kimberly,Clark,NY,1903,Automobile Liability,522921.7,1962-06-21,,1963-06-21,1963-06-22,ACTIVE,,544658.1,11,Consulting,2698851.88,ACH Transfer,6,522421.7,1
+904,Joshua Kennedy,Joshua,Kennedy,CA,1904,Product Liability,563148.99,1962-06-22,,1963-06-22,1963-06-23,ACTIVE,,569699.23,26,Retail,618237.07,Cash,4,562648.99,1
+905,Mariah Gonzales,Mariah,Gonzales,FL,1905,Product Liability,441782.49,1962-06-23,,1963-06-23,1963-06-24,ACTIVE,,430573.85,61,Technology,2386695.17,Cash,8,441282.49,1
+906,Jennifer Fisher,Jennifer,Fisher,PA,1906,Workers Compensation,606149.55,1962-06-24,,1963-06-24,1963-06-25,ACTIVE,,617707.6,37,Consulting,8038948.13,ACH Transfer,3,605649.55,1
+907,Patty Lopez,Patty,Lopez,CA,1907,Automobile Liability,918815.98,1962-06-25,1963-05-09,1963-06-25,,INACTIVE,Cancellation due to another carrer,927707.95,23,Construction,8529742.9,Cash,2,918315.98,0
+908,Julian Perez,Julian,Perez,NY,1908,Professional Liability,362905.82,1962-06-26,,1963-06-26,1963-06-27,ACTIVE,,362963.0,93,Retail,4882355.83,ACH Transfer,3,362405.82,1
+909,Christian Wilcox,Christian,Wilcox,NY,1909,General Liability,725990.75,1962-06-27,,1963-06-27,1963-06-28,ACTIVE,,760561.48,85,Consulting,4219099.64,Credit Card,4,725490.75,1
+910,Jennifer Williams,Jennifer,Williams,TX,1910,Workers Compensation,894558.1,1962-06-28,1963-01-07,1963-06-28,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,910969.11,91,Consulting,9780751.57,Online,5,894058.1,0
+911,Hailey Schmitt,Hailey,Schmitt,FL,1911,Product Liability,456523.3,1962-06-29,1963-02-12,1963-06-29,,INACTIVE,Cancellation due to significant changes in risk,450836.9,40,Manufacturing,2085590.13,Online,2,456023.3,0
+912,Jacob Johns,Jacob,Johns,PA,1912,Professional Liability,444012.38,1962-06-30,1962-08-10,1963-06-30,,INACTIVE,Cancellation due to non-payment,457336.01,77,Technology,2232056.9,Cash,1,443512.38,0
+913,Angela Sanders,Angela,Sanders,CA,1913,Professional Liability,602514.87,1962-07-01,,1963-07-01,1963-07-02,ACTIVE,,625686.59,23,Manufacturing,2989485.05,Cheque,3,602014.87,1
+914,Christopher Kane,Christopher,Kane,NY,1914,General Liability,591815.35,1962-07-02,,1963-07-02,1963-07-03,ACTIVE,,569635.33,16,Retail,1810297.45,Online,4,591315.35,1
+915,Terry Lee,Terry,Lee,CA,1915,Product Liability,806782.75,1962-07-03,,1963-07-03,1963-07-04,ACTIVE,,782623.88,94,Consulting,3855719.42,ACH Transfer,3,806282.75,1
+916,Jennifer Sullivan,Jennifer,Sullivan,PA,1916,Automobile Liability,477006.9,1962-07-04,,1963-07-04,1963-07-05,ACTIVE,,463470.73,61,Manufacturing,9117258.85,Cheque,2,476506.9,1
+917,Anthony Holloway,Anthony,Holloway,CA,1917,Professional Liability,996126.83,1962-07-05,1963-03-30,1963-07-05,,INACTIVE,Cancellation due to significant changes in risk,1015173.95,68,Technology,6191943.62,Cheque,7,995626.83,0
+918,Denise Stevens,Denise,Stevens,FL,1918,General Liability,60412.1,1962-07-06,1962-08-08,1963-07-06,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,61034.58,80,Retail,4178270.83,Online,9,59912.1,0
+919,Frances Hall,Frances,Hall,TX,1919,Automobile Liability,4164.68,1962-07-07,,1963-07-07,1963-07-08,ACTIVE,,4214.24,31,Construction,9350666.87,Online,3,3664.68,1
+920,Maria Garcia,Maria,Garcia,CA,1920,Product Liability,640558.11,1962-07-08,,1963-07-08,1963-07-09,ACTIVE,,668792.2,53,Manufacturing,579795.9,Online,1,640058.11,1
+921,Lisa Adams,Lisa,Adams,TX,1921,Professional Liability,299136.48,1962-07-09,,1963-07-09,1963-07-10,ACTIVE,,307390.0,25,Retail,2181734.16,ACH Transfer,1,298636.48,1
+922,Christopher Rivera,Christopher,Rivera,PA,1922,Automobile Liability,241142.01,1962-07-10,1963-02-21,1963-07-10,,INACTIVE,Cancellation due to significant changes in risk,232170.01,44,Construction,5702297.19,Cheque,0,0.0,0
+923,Robert Cline,Robert,Cline,TX,1923,Automobile Liability,312587.18,1962-07-11,,1963-07-11,1963-07-12,ACTIVE,,307820.45,12,Manufacturing,6193970.97,Cash,3,312087.18,1
+924,Kimberly Flores,Kimberly,Flores,CA,1924,Automobile Liability,256791.52,1962-07-12,1963-03-17,1963-07-12,,INACTIVE,Cancellation due to significant changes in risk,255132.48,90,Retail,491619.31,ACH Transfer,9,256291.52,0
+925,Eric Garcia,Eric,Garcia,CA,1925,Professional Liability,31759.26,1962-07-13,,1963-07-13,1963-07-14,ACTIVE,,31428.84,97,Retail,4090083.7,Credit Card,8,31259.26,1
+926,Gina Roberts,Gina,Roberts,NY,1926,Professional Liability,971561.51,1962-07-14,1962-09-26,1963-07-14,,INACTIVE,Cancellation due to significant changes in risk,988010.88,92,Manufacturing,6526624.25,Online,6,971061.51,0
+927,Garrett Warner,Garrett,Warner,CA,1927,Workers Compensation,221524.74,1962-07-15,1962-12-29,1963-07-15,,INACTIVE,Cancellation due to another carrer,230206.14,9,Retail,7010898.41,Cheque,9,221024.74,0
+928,Denise Steele,Denise,Steele,TX,1928,Product Liability,734295.73,1962-07-16,,1963-07-16,1963-07-17,ACTIVE,,720054.17,12,Consulting,6417585.03,ACH Transfer,6,733795.73,1
+929,Ashley Blanchard,Ashley,Blanchard,NY,1929,General Liability,762833.8,1962-07-17,1963-05-06,1963-07-17,,INACTIVE,Cancellation due to company bankruptcy,766791.16,69,Manufacturing,3273575.92,Credit Card,6,762333.8,0
+930,Aaron Jones,Aaron,Jones,CA,1930,Automobile Liability,929328.14,1962-07-18,1962-09-03,1963-07-18,,INACTIVE,Cancellation due to significant changes in risk,956223.77,54,Retail,1025849.22,ACH Transfer,7,928828.14,0
+931,Alexander Townsend,Alexander,Townsend,CA,1931,Workers Compensation,31518.91,1962-07-19,,1963-07-19,1963-07-20,ACTIVE,,31254.84,54,Construction,4328413.22,ACH Transfer,0,0.0,1
+932,Christopher Fernandez,Christopher,Fernandez,PA,1932,General Liability,872176.29,1962-07-20,1962-11-04,1963-07-20,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,843230.34,28,Construction,1374668.93,Cash,9,871676.29,0
+933,Michael Stevens,Michael,Stevens,NY,1933,Workers Compensation,527698.95,1962-07-21,,1963-07-21,1963-07-22,ACTIVE,,526377.12,56,Consulting,9481474.22,Cash,9,527198.95,1
+934,Catherine Kelly,Catherine,Kelly,PA,1934,Professional Liability,632911.57,1962-07-22,1963-04-27,1963-07-22,,INACTIVE,Cancellation due to significant changes in risk,604761.09,99,Manufacturing,4804191.57,ACH Transfer,7,632411.57,0
+935,Kenneth Hall,Kenneth,Hall,PA,1935,Automobile Liability,644825.81,1962-07-23,1962-12-04,1963-07-23,,INACTIVE,Cancellation due to significant changes in risk,673351.84,69,Retail,3240865.83,Credit Card,3,644325.81,0
+936,Nicole Johnson,Nicole,Johnson,PA,1936,General Liability,819978.01,1962-07-24,1963-03-18,1963-07-24,,INACTIVE,Cancellation due to another carrer,785114.28,98,Retail,7686410.3,Cheque,3,819478.01,0
+937,James Wong,James,Wong,FL,1937,General Liability,334073.91,1962-07-25,1963-06-27,1963-07-25,,INACTIVE,Cancellation due to another carrer,332017.91,98,Construction,5029691.07,Cheque,3,333573.91,0
+938,Anthony Washington,Anthony,Washington,PA,1938,General Liability,733318.14,1962-07-26,,1963-07-26,1963-07-27,ACTIVE,,735509.39,77,Consulting,3169336.84,Online,5,732818.14,1
+939,Rebecca Olson,Rebecca,Olson,TX,1939,General Liability,529049.53,1962-07-27,,1963-07-27,1963-07-28,ACTIVE,,554724.51,58,Construction,8138480.65,Online,6,528549.53,1
+940,Dakota Jones,Dakota,Jones,CA,1940,General Liability,793600.62,1962-07-28,,1963-07-28,1963-07-29,ACTIVE,,767096.09,78,Construction,8684806.29,Cheque,5,793100.62,1
+941,Richard Martinez,Richard,Martinez,FL,1941,Workers Compensation,990555.49,1962-07-29,1963-03-12,1963-07-29,,INACTIVE,Cancellation due to significant changes in risk,952362.79,75,Consulting,6762780.85,ACH Transfer,0,0.0,0
+942,Cindy Patton,Cindy,Patton,PA,1942,Automobile Liability,201450.37,1962-07-30,1962-09-26,1963-07-30,,INACTIVE,Cancellation due to significant changes in risk,191553.24,42,Manufacturing,564947.78,ACH Transfer,7,200950.37,0
+943,Brittany Smith,Brittany,Smith,CA,1943,Professional Liability,994653.99,1962-07-31,,1963-07-31,1963-08-01,ACTIVE,,960395.27,38,Retail,5706596.51,Cash,9,994153.99,1
+944,Joshua Madden,Joshua,Madden,NY,1944,Professional Liability,90722.34,1962-08-01,,1963-08-01,1963-08-02,ACTIVE,,88066.65,68,Manufacturing,7656619.63,Cash,6,90222.34,1
+945,Michael Calderon,Michael,Calderon,NY,1945,Professional Liability,3315.23,1962-08-02,,1963-08-02,1963-08-03,ACTIVE,,3358.52,53,Technology,1451379.82,Online,5,2815.23,1
+946,Edgar Marshall,Edgar,Marshall,CA,1946,Professional Liability,45117.77,1962-08-03,,1963-08-03,1963-08-04,ACTIVE,,43853.15,33,Technology,2363840.44,Cheque,5,44617.77,1
+947,Andrew Lee Jr.,Andrew,Jr.,TX,1947,Workers Compensation,342440.62,1962-08-04,1962-11-28,1963-08-04,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,326021.31,71,Technology,8836701.54,ACH Transfer,4,341940.62,0
+948,Julia Valentine,Julia,Valentine,CA,1948,Product Liability,633273.42,1962-08-05,,1963-08-05,1963-08-06,ACTIVE,,653957.29,56,Consulting,299205.05,Cheque,5,632773.42,1
+949,Sean Patel,Sean,Patel,CA,1949,Automobile Liability,69960.51,1962-08-06,1962-10-05,1963-08-06,,INACTIVE,Cancellation due to significant changes in risk,69020.21,72,Construction,7551998.66,Credit Card,8,69460.51,0
+950,Nathan Clayton,Nathan,Clayton,FL,1950,General Liability,6660.15,1962-08-07,,1963-08-07,1963-08-08,ACTIVE,,6562.71,51,Manufacturing,4790355.6,Cheque,9,6160.15,1
+951,Tyler Parks,Tyler,Parks,NY,1951,Product Liability,937153.94,1962-08-08,1963-01-10,1963-08-08,,INACTIVE,Cancellation due to another carrer,918643.18,74,Retail,4523044.37,Credit Card,8,936653.94,0
+952,Sheila Rowland,Sheila,Rowland,NY,1952,Professional Liability,822104.71,1962-08-09,,1963-08-09,1963-08-10,ACTIVE,,861185.37,43,Technology,170255.67,Cash,9,821604.71,1
+953,Megan Johnson,Megan,Johnson,PA,1953,Product Liability,809373.99,1962-08-10,,1963-08-10,1963-08-11,ACTIVE,,782673.99,15,Manufacturing,8212042.49,Cash,7,808873.99,1
+954,Christopher Rogers,Christopher,Rogers,CA,1954,Automobile Liability,884539.85,1962-08-11,1962-10-29,1963-08-11,,INACTIVE,Cancellation due to company bankruptcy,919765.59,38,Technology,3662266.52,Online,9,884039.85,0
+955,Katelyn Moore,Katelyn,Moore,CA,1955,General Liability,700334.24,1962-08-12,1963-07-09,1963-08-12,,INACTIVE,Cancellation due to significant changes in risk,719719.73,15,Technology,5453579.75,Cheque,8,699834.24,0
+956,Ashley Warren,Ashley,Warren,TX,1956,General Liability,105299.73,1962-08-13,,1963-08-13,1963-08-14,ACTIVE,,100840.08,5,Retail,6805276.79,Cheque,9,104799.73,1
+957,Joshua Jimenez,Joshua,Jimenez,NY,1957,Automobile Liability,399701.09,1962-08-14,1963-07-29,1963-08-14,,INACTIVE,Cancellation due to another carrer,419155.71,93,Consulting,7056032.81,Credit Card,7,399201.09,0
+958,Ashley Nguyen,Ashley,Nguyen,TX,1958,Automobile Liability,723426.34,1962-08-15,,1963-08-15,1963-08-16,ACTIVE,,706886.35,83,Construction,9564202.58,Cash,7,722926.34,1
+959,Matthew Jones,Matthew,Jones,FL,1959,Professional Liability,281054.13,1962-08-16,1963-01-20,1963-08-16,,INACTIVE,Cancellation due to non-payment,269772.14,54,Consulting,5360265.54,Credit Card,0,0.0,0
+960,David Wood,David,Wood,PA,1960,General Liability,687718.96,1962-08-17,,1963-08-17,1963-08-18,ACTIVE,,710366.52,51,Manufacturing,4057223.55,Cash,9,687218.96,1
+961,Gary Christian,Gary,Christian,TX,1961,Product Liability,25473.95,1962-08-18,,1963-08-18,1963-08-19,ACTIVE,,26000.43,10,Consulting,9541665.9,Credit Card,4,24973.95,1
+962,Randy Miller,Randy,Miller,NY,1962,Workers Compensation,306831.2,1962-08-19,,1963-08-19,1963-08-20,ACTIVE,,310427.84,12,Manufacturing,6456891.33,Cash,3,306331.2,1
+963,Travis Rosales,Travis,Rosales,FL,1963,Workers Compensation,549581.21,1962-08-20,,1963-08-20,1963-08-21,ACTIVE,,530674.56,4,Manufacturing,3051688.53,Credit Card,1,549081.21,1
+964,Justin Jones,Justin,Jones,CA,1964,Automobile Liability,632457.74,1962-08-21,,1963-08-21,1963-08-22,ACTIVE,,631097.71,95,Construction,1351996.03,Cash,7,631957.74,1
+965,Ashlee White,Ashlee,White,FL,1965,Professional Liability,577463.62,1962-08-22,,1963-08-22,1963-08-23,ACTIVE,,593664.71,18,Retail,8441289.56,Credit Card,2,576963.62,1
+966,Suzanne Williams,Suzanne,Williams,TX,1966,Workers Compensation,698058.52,1962-08-23,,1963-08-23,1963-08-24,ACTIVE,,684350.32,80,Construction,3685597.87,Cheque,3,697558.52,1
+967,Justin Carey,Justin,Carey,NY,1967,General Liability,7082.66,1962-08-24,,1963-08-24,1963-08-25,ACTIVE,,6949.29,36,Consulting,6638650.24,Online,6,6582.66,1
+968,Calvin Lopez,Calvin,Lopez,TX,1968,Automobile Liability,101840.26,1962-08-25,1962-09-10,1963-08-25,,INACTIVE,Cancellation due to significant changes in risk,96780.23,25,Manufacturing,4761082.55,Credit Card,9,101340.26,0
+969,Kevin Cox,Kevin,Cox,CA,1969,Product Liability,869075.31,1962-08-26,1962-10-05,1963-08-26,,INACTIVE,Cancellation due to significant changes in risk,840764.61,87,Technology,2069404.82,Online,8,868575.31,0
+970,Jamie Hopkins MD,Jamie,MD,CA,1970,Automobile Liability,682066.9,1962-08-27,1963-07-22,1963-08-27,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,707672.08,76,Technology,6056697.43,Cheque,1,681566.9,0
+971,Richard Aguilar,Richard,Aguilar,NY,1971,Product Liability,113818.71,1962-08-28,,1963-08-28,1963-08-29,ACTIVE,,113155.68,98,Manufacturing,700762.38,Cheque,2,113318.71,1
+972,Jacqueline Spence,Jacqueline,Spence,PA,1972,Automobile Liability,842232.36,1962-08-29,,1963-08-29,1963-08-30,ACTIVE,,883016.16,36,Construction,4192090.35,Cash,3,841732.36,1
+973,Ashley Jimenez,Ashley,Jimenez,FL,1973,Automobile Liability,242988.99,1962-08-30,,1963-08-30,1963-08-31,ACTIVE,,240454.81,67,Retail,5511487.9,Online,9,242488.99,1
+974,Stanley Barrett,Stanley,Barrett,FL,1974,Automobile Liability,478781.62,1962-08-31,1963-08-11,1963-08-31,,INACTIVE,Cancellation due to company bankruptcy,489084.35,9,Construction,4416865.04,ACH Transfer,0,0.0,0
+975,Warren Morris,Warren,Morris,CA,1975,Product Liability,146051.32,1962-09-01,1963-06-17,1963-09-01,,INACTIVE,Cancellation due to another carrer,142866.22,61,Manufacturing,7511854.53,Cash,6,145551.32,0
+976,Lisa Griffith,Lisa,Griffith,TX,1976,Product Liability,710399.95,1962-09-02,1963-03-24,1963-09-02,,INACTIVE,Cancellation due to company bankruptcy,700724.99,53,Manufacturing,8296457.05,Online,1,709899.95,0
+977,Angela Anderson,Angela,Anderson,TX,1977,Automobile Liability,667187.57,1962-09-03,1963-07-21,1963-09-03,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,646553.19,18,Retail,7735306.43,Credit Card,4,666687.57,0
+978,Jonathon Holder,Jonathon,Holder,PA,1978,Workers Compensation,211901.36,1962-09-04,1963-01-06,1963-09-04,,INACTIVE,Cancellation due to significant changes in risk,208660.59,43,Consulting,484248.18,Credit Card,0,0.0,0
+979,Mark Palmer,Mark,Palmer,TX,1979,Professional Liability,863537.37,1962-09-05,,1963-09-05,1963-09-06,ACTIVE,,867616.51,35,Consulting,2021874.83,Cheque,2,863037.37,1
+980,Laurie Bright,Laurie,Bright,FL,1980,Professional Liability,401904.72,1962-09-06,1963-02-03,1963-09-06,,INACTIVE,Cancellation due to significant changes in risk,421669.3,63,Retail,5412414.34,ACH Transfer,1,401404.72,0
+981,Edward Holmes,Edward,Holmes,TX,1981,Professional Liability,293222.58,1962-09-07,,1963-09-07,1963-09-08,ACTIVE,,298037.34,98,Consulting,9354738.2,Credit Card,0,0.0,1
+982,Monica Hughes,Monica,Hughes,PA,1982,Product Liability,153177.26,1962-09-08,,1963-09-08,1963-09-09,ACTIVE,,148570.39,78,Technology,8366072.07,Online,6,152677.26,1
+983,Kimberly Barnett,Kimberly,Barnett,FL,1983,Product Liability,266901.84,1962-09-09,,1963-09-09,1963-09-10,ACTIVE,,254756.78,4,Consulting,8441091.63,Online,4,266401.84,1
+984,Austin Landry,Austin,Landry,TX,1984,Workers Compensation,23004.89,1962-09-10,1963-01-12,1963-09-10,,INACTIVE,Cancellation due to non-payment,22145.33,93,Consulting,3101761.12,Credit Card,0,0.0,0
+985,Jennifer Willis,Jennifer,Willis,FL,1985,Professional Liability,583674.23,1962-09-11,1962-11-02,1963-09-11,,INACTIVE,Cancellation due to company bankruptcy,587325.42,41,Consulting,4351534.18,Online,5,583174.23,0
+986,Tyler Miller,Tyler,Miller,CA,1986,Professional Liability,842388.52,1962-09-12,,1963-09-12,1963-09-13,ACTIVE,,864725.32,45,Technology,4759988.88,Online,4,841888.52,1
+987,Michael Weber,Michael,Weber,CA,1987,Automobile Liability,549431.47,1962-09-13,1963-06-15,1963-09-13,,INACTIVE,Cancellation due to unfulfillment of obligations under the policy agreement.,573629.49,50,Consulting,1657978.68,Cheque,2,548931.47,0
+988,Emily Lewis,Emily,Lewis,CA,1988,Product Liability,220054.69,1962-09-14,1963-05-26,1963-09-14,,INACTIVE,Cancellation due to significant changes in risk,209400.15,79,Technology,407574.49,ACH Transfer,6,219554.69,0
+989,Paul Miller,Paul,Miller,TX,1989,Professional Liability,34635.51,1962-09-15,,1963-09-15,1963-09-16,ACTIVE,,34714.34,28,Retail,9474338.7,Cheque,9,34135.51,1
+990,Molly Ortega,Molly,Ortega,PA,1990,Workers Compensation,215413.45,1962-09-16,,1963-09-16,1963-09-17,ACTIVE,,214785.89,42,Construction,2483054.6,ACH Transfer,8,214913.45,1
+991,Adam Johnson,Adam,Johnson,FL,1991,Workers Compensation,416705.31,1962-09-17,,1963-09-17,1963-09-18,ACTIVE,,423208.21,80,Retail,2475494.15,Online,8,416205.31,1
+992,Cynthia Perez,Cynthia,Perez,NY,1992,Professional Liability,759851.82,1962-09-18,,1963-09-18,1963-09-19,ACTIVE,,764378.93,76,Construction,925452.63,ACH Transfer,8,759351.82,1
+993,Heidi Parker,Heidi,Parker,CA,1993,Product Liability,188655.01,1962-09-19,,1963-09-19,1963-09-20,ACTIVE,,192183.6,69,Retail,9292226.74,Online,1,188155.01,1
+994,Timothy Powell,Timothy,Powell,CA,1994,Workers Compensation,720071.66,1962-09-20,1963-06-12,1963-09-20,,INACTIVE,Cancellation due to non-payment,731454.74,98,Construction,5839397.44,Online,2,719571.66,0
+995,Michael Goodman,Michael,Goodman,NY,1995,Automobile Liability,867066.53,1962-09-21,,1963-09-21,1963-09-22,ACTIVE,,833858.9,1,Construction,6703664.89,Cheque,6,866566.53,1
+996,Jacob Miles,Jacob,Miles,NY,1996,Workers Compensation,454492.9,1962-09-22,1963-01-21,1963-09-22,,INACTIVE,Cancellation due to non-payment,468114.87,39,Manufacturing,9124611.18,Cheque,4,453992.9,0
+997,Michelle Swanson,Michelle,Swanson,TX,1997,General Liability,821610.56,1962-09-23,1962-10-06,1963-09-23,,INACTIVE,Cancellation due to company bankruptcy,790654.95,96,Construction,3521639.67,Cash,1,821110.56,0
+998,Gregory Boyd,Gregory,Boyd,FL,1998,General Liability,555102.69,1962-09-24,,1963-09-24,1963-09-25,ACTIVE,,566123.18,90,Construction,6252922.38,Credit Card,2,554602.69,1
+999,Cynthia Perez,Cynthia,Perez,CA,1999,Product Liability,637453.75,1962-09-25,,1963-09-25,1963-09-26,ACTIVE,,632108.41,17,Manufacturing,484114.6,Cash,9,636953.75,1
+1000,Kimberly Baker,Kimberly,Baker,PA,2000,Professional Liability,526752.18,1962-09-26,1963-07-22,1963-09-26,,INACTIVE,Cancellation due to another carrer,527481.77,91,Consulting,1949048.03,Cash,5,526252.18,0

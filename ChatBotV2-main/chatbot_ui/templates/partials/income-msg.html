@@ -1,0 +1,21 @@
+{% for value in range(response.response|length) %}
+    {% if '.pdf' in response.response[value] %}
+    <div class="income-msg">
+        <img src="static/images/bot.jpg" class="avatar" alt="bot image">
+
+            <a href="static/files/{{response.response[value]}}" target="_blank">
+                <img src="static/images/PDF_icon.png" class="pdf" alt="pdf image">
+            </a>
+    </div>
+    {% else %}
+    <div class="income-msg">
+        <img src="static/images/bot.jpg" class="avatar" alt="bot image">
+        <span class="msg">{{response.response[value]}} </span>
+    </div>
+    {% if response.buttons[value]|length > 0 %}
+    {% for button in response.buttons[value] %}
+        <button class="option-btn" name='{{button}}' onclick="optionHandler(this)">{{button}}</button>
+    {% endfor %}
+{% endif %}
+    {% endif %}
+{% endfor %}

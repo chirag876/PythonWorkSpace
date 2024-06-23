@@ -1,0 +1,836 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "acord140_V2014_12",
+    "type": "object",
+    "properties": {
+      "Page_1": {
+        "type": "object",
+        "properties": {
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "DATE MM DD/YYYY)": {
+            "type": "string"
+          },
+          "AGENCY NAME": {
+            "type": "string"
+          },
+          "CARRIER": {
+            "type": "string"
+          },
+          "NAIC CODE": {
+            "type": "string"
+          },
+          "POLICY NUMBER": {
+            "type": "string"
+          },
+          "EFFECTIVE DATE": {
+            "type": "string"
+          },
+          "NAMED INSURED(S)": {
+            "type": "string"
+          },
+          "PREMISES INFORMATION": {
+            "type": "object",
+            "properties": {
+              "PREMISES .": {
+                "type": "string"
+              },
+              "STREET ADDRESS": {
+                "type": "string"
+              },
+              "BUILDING #": {
+                "type": "string"
+              },
+              "BLDG DESCRIPTION": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL INFORMATION": {
+            "type": "object",
+            "properties": {
+              "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": {
+                "type": "string"
+              },
+              "VALUE REPORTING INFORMA TION Attach ACORD 811": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "type": "object",
+            "properties": {
+              "SPOILAGE COVERAGE (Y / N)": {
+                "type": "string"
+              },
+              "DESCRIPTION OF PROPERTY COVERED": {
+                "type": "string"
+              },
+              "LIMIT": {
+                "type": "string"
+              },
+              "DEDUCTIBLE": {
+                "type": "string"
+              },
+              "REFRIG MAINT AGREEMENT (Y / N)": {
+                "type": "string"
+              },
+              "OPTIONS": {
+                "type": "object",
+                "properties": {
+                  "BREAKDOWN OR CONTAMINATION": {
+                    "type": "string"
+                  },
+                  "POWER OUTAGE": {
+                    "type": "string"
+                  },
+                  "SELLING PRICE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "SINKHOLE COVERAGE (Required in Florida)": {
+                "type": "object",
+                "properties": {
+                  "ACCEPT COVERAGE": {
+                    "type": "string"
+                  },
+                  "REJECT COVERAGE": {
+                    "type": "string"
+                  },
+                  "LIMIT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+                "type": "object",
+                "properties": {
+                  "ACCEPT COVERAGE": {
+                    "type": "string"
+                  },
+                  "REJECT COVERAGE": {
+                    "type": "string"
+                  },
+                  "LIMIT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": {
+                "type": "string"
+              },
+              "# OF OPEN SIDES ON STRUCTURE": {
+                "type": "string"
+              },
+              "CONSTRUCTION TYPE": {
+                "type": "string"
+              },
+              "DISTANCE TO": {
+                "type": "object",
+                "properties": {
+                  "HYDRANT": {
+                    "type": "string"
+                  },
+                  "FIRE STAT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "FIRE DISTRICT": {
+                "type": "string"
+              },
+              "CODE NUMBER": {
+                "type": "string"
+              },
+              "PROT CL": {
+                "type": "string"
+              },
+              "# STORIES": {
+                "type": "string"
+              },
+              "# BASM'TS": {
+                "type": "string"
+              },
+              "YR BUILT": {
+                "type": "string"
+              },
+              "TOTAL AREA": {
+                "type": "string"
+              },
+              "BUILDING IMPROVEMENTS": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "WIRING": {
+                      "type": "string"
+                    },
+                    "YR": {
+                      "type": "string"
+                    },
+                    "PLUMBING": {
+                      "type": "string"
+                    },
+                    "HEATING": {
+                      "type": "string"
+                    },
+                    "ROOFING": {
+                      "type": "string"
+                    },
+                    "OTHER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                
+                  ]
+                }
+              },
+              "BLDG CODE GRADE": {
+                "type": "string"
+              },
+              "TAX CODE": {
+                "type": "string"
+              },
+              "ROOF TYPE": {
+                "type": "string"
+              },
+              "OTHER OCCUPANCIES": {
+                "type": "string"
+              },
+              "WIND CLASS": {
+                "type": "object",
+                "properties": {
+                  "SEMI-RESISTIVE": {
+                    "type": "string"
+                  },
+                  "RESISTIVE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": {
+                "type": "string"
+              },
+              "DATE INSTALLED": {
+                "type": "string"
+              },
+              "MANUFACTURER": {
+                "type": "string"
+              },
+              "PRIMARY HEAT": {
+                "type": "object",
+                "properties": {
+                  "BOILER": {
+                    "type": "string"
+                  },
+                  "SOLID FUEL": {
+                    "type": "string"
+                  },
+                  "IF BOILER IS INSURANCE PLACED ELSEWHERE?": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "SECONDARY HEAT": {
+                "type": "object",
+                "properties": {
+                  "BOILER": {
+                    "type": "string"
+                  },
+                  "SOLID FUEL": {
+                    "type": "string"
+                  },
+                  "IF BOILER IS INSURANCE PLACED ELSEWHERE?": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "RIGHT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "LEFT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "FRONT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "REAR EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "BURGLAR ALARM TYPE": {
+                "type": "string"
+              },
+              "CERTIFICATE#": {
+                "type": "string"
+              },
+              "EXPIRATION DATE": {
+                "type": "string"
+              },
+              "CENTRAL STATION": {
+                "type": "string"
+              },
+              "LOCAL GONG": {
+                "type": "string"
+              },
+              "WITH KEYS": {
+                "type": "string"
+              },
+              "BURGLAR ALARM INSTALLED AND SERVICED BY": {
+                "type": "string"
+              },
+              "EXTENT": {
+                "type": "string"
+              },
+              "GRADE": {
+                "type": "string"
+              },
+              "# GUARDS / WATCHMEN": {
+                "type": "string"
+              },
+              "CLOCK HOURLY": {
+                "type": "string"
+              },
+              "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": {
+                "type": "string"
+              },
+              "% SPRNK": {
+                "type": "string"
+              },
+              "FIRE ALARM MANUFACTURER": {
+                "type": "string"
+              },
+              "ACORD 45 attached for additional names": {
+                "type": "string"
+              },
+              "NAME AND ADDRESS": {
+                "type": "string"
+              },
+              "RANK": {
+                "type": "string"
+              },
+              "CERTIFICATE": {
+                "type": "string"
+              },
+              "REFERENCE LOAN": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL INTEREST": {
+            "type": "object",
+            "properties": {
+              "INTEREST": {
+                "type": "object",
+                "properties": {
+                  "LOSS PAYEE": {
+                    "type": "string"
+                  },
+                  "MORTGAGEE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "type": "object",
+            "properties": {
+              "LOCATION": {
+                "type": "string"
+              },
+              "BUILDING": {
+                "type": "string"
+              },
+              "ITEM CLASS": {
+                "type": "string"
+              },
+              "ITEM": {
+                "type": "string"
+              },
+              "ITEM DESCRIPTION": {
+                "type": "string"
+              }
+            },
+            "required": [
+             
+            ]
+          },
+          "ACORD": {
+            "type": "string"
+          },
+          "table_data": {
+            "type": "string"
+          }
+        },
+        "required": [
+          
+        ]
+      },
+      "Page_2": {
+        "type": "object",
+        "properties": {
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "ADDITIONAL PREMISES INFORMATION": {
+            "type": "object",
+            "properties": {
+              "PREMISES": {
+                "type": "string"
+              },
+              "STREET ADDRESS": {
+                "type": "string"
+              },
+              "BUILDING": {
+                "type": "string"
+              },
+              "BLDC DESCRIPTION": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL INFORMATION": {
+            "type": "object",
+            "properties": {
+              "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": {
+                "type": "string"
+              },
+              "VALUE REPORTING INFORMATION Attach ACORD 611": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "type": "object",
+            "properties": {
+              "SPOILAGE COVERAGE (Y / N)": {
+                "type": "string"
+              },
+              "DESCRIPTION OF PROPERTY COVERED": {
+                "type": "string"
+              },
+              "LIMIT": {
+                "type": "string"
+              },
+              "DEDUCTIBLE": {
+                "type": "string"
+              },
+              "REFRIG MAINT AGREEMENT (Y / N)": {
+                "type": "string"
+              },
+              "OPTIONS": {
+                "type": "object",
+                "properties": {
+                  "BREAKDOWN OR CONTAMINATION": {
+                    "type": "string"
+                  },
+                  "POWER OUTAGE": {
+                    "type": "string"
+                  },
+                  "SELLING PRICE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "SINKHOLE COVERAGE (Required in Florida)": {
+                "type": "object",
+                "properties": {
+                  "ACCEPT COVERAGE": {
+                    "type": "string"
+                  },
+                  "REJECT COVERAGE": {
+                    "type": "string"
+                  },
+                  "LIMIT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+                "type": "object",
+                "properties": {
+                  "ACCEPT COVERAGE": {
+                    "type": "string"
+                  },
+                  "REJECT COVERAGE": {
+                    "type": "string"
+                  },
+                  "LIMIT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": {
+                "type": "string"
+              },
+              "# OF OPEN SIDES ON STRUCTURE": {
+                "type": "string"
+              },
+              "CONSTRUCTION TYPE": {
+                "type": "string"
+              },
+              "DISTANCE TO": {
+                "type": "object",
+                "properties": {
+                  "HYDRANT": {
+                    "type": "string"
+                  },
+                  "FIRE STAT": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "FIRE DISTRICT": {
+                "type": "string"
+              },
+              "CODE NUMBER": {
+                "type": "string"
+              },
+              "PROT CL": {
+                "type": "string"
+              },
+              "# STORIES": {
+                "type": "string"
+              },
+              "# BASM'TS": {
+                "type": "string"
+              },
+              "YR BUILT": {
+                "type": "string"
+              },
+              "TOTAL AREA": {
+                "type": "string"
+              },
+              "BUILDING IMPROVEMENTS": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "WIRING": {
+                      "type": "string"
+                    },
+                    "YR": {
+                      "type": "string"
+                    },
+                    "PLUMBING": {
+                      "type": "string"
+                    },
+                    "HEATING": {
+                      "type": "string"
+                    },
+                    "ROOFING": {
+                      "type": "string"
+                    },
+                    "OTHER": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                   
+                  ]
+                }
+              },
+              "BLDG CODE GRADE": {
+                "type": "string"
+              },
+              "TAX CODE": {
+                "type": "string"
+              },
+              "ROOF TYPE": {
+                "type": "string"
+              },
+              "OTHER OCCUPANCIES": {
+                "type": "string"
+              },
+              "WIND CLASS": {
+                "type": "object",
+                "properties": {
+                  "SEMI-RESISTIVE": {
+                    "type": "string"
+                  },
+                  "RESISTIVE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": {
+                "type": "string"
+              },
+              "DATE INSTALLED": {
+                "type": "string"
+              },
+              "MANUFACTURER": {
+                "type": "string"
+              },
+              "PRIMARY HEAT": {
+                "type": "object",
+                "properties": {
+                  "BOILER": {
+                    "type": "string"
+                  },
+                  "SOLID FUEL": {
+                    "type": "string"
+                  },
+                  "IF BOILER IS INSURANCE PLACED ELSEWHERE?": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "SECONDARY HEAT": {
+                "type": "object",
+                "properties": {
+                  "BOILER": {
+                    "type": "string"
+                  },
+                  "SOLID FUEL": {
+                    "type": "string"
+                  },
+                  "IF BOILER IS INSURANCE PLACED ELSEWHERE?": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "RIGHT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "LEFT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "FRONT EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "REAR EXPOSURE & DISTANCE": {
+                "type": "string"
+              },
+              "BURGLAR ALARM TYPE": {
+                "type": "string"
+              },
+              "CERTIFICATE#": {
+                "type": "string"
+              },
+              "EXPIRATION DATE": {
+                "type": "string"
+              },
+              "CENTRAL STATION": {
+                "type": "string"
+              },
+              "LOCAL GONG": {
+                "type": "string"
+              },
+              "WITH KEYS": {
+                "type": "string"
+              },
+              "BURGLAR ALARM INSTALLED AND SERVICED BY": {
+                "type": "string"
+              },
+              "EXTENT": {
+                "type": "string"
+              },
+              "GRADE": {
+                "type": "string"
+              },
+              "# GUARDS / WATCHMEN": {
+                "type": "string"
+              },
+              "CLOCK HOURLY": {
+                "type": "string"
+              },
+              "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": {
+                "type": "string"
+              },
+              "% SPRNK": {
+                "type": "string"
+              },
+              "FIRE ALARM MANUFACTURER": {
+                "type": "string"
+              },
+              "ACORD 45 attached for additional names": {
+                "type": "string"
+              },
+              "NAME AND ADDRESS": {
+                "type": "string"
+              },
+              "RANK": {
+                "type": "string"
+              },
+              "CERTIFICATE": {
+                "type": "string"
+              },
+              "REFERENCE LOAN": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ADDITIONAL INTEREST": {
+            "type": "object",
+            "properties": {
+              "INTEREST": {
+                "type": "object",
+                "properties": {
+                  "LOSS PAYEE": {
+                    "type": "string"
+                  },
+                  "MORTGAGEE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              }
+            },
+            "required": [
+             
+            ]
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "type": "object",
+            "properties": {
+              "LOCATION": {
+                "type": "string"
+              },
+              "BUILDING": {
+                "type": "string"
+              },
+              "ITEM CLASS": {
+                "type": "string"
+              },
+              "ITEM": {
+                "type": "string"
+              },
+              "ITEM DESCRIPTION": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": {
+            "type": "string"
+          },
+          "ACORD": {
+            "type": "string"
+          },
+          "table_data": {
+            "type": "string"
+          }
+        },
+        "required": [
+          
+        ]
+      },
+      "Page_3": {
+        "type": "object",
+        "properties": {
+          "AGENCY CUSTOMER ID": {
+            "type": "string"
+          },
+          "SIGNATURE": {
+            "type": "object",
+            "properties": {
+              "STATE PRODUCER LICENSE NO (Required in Florida)": {
+                "type": "string"
+              },
+              "PRODUCER'S SIGNATURE": {
+                "type": "string"
+              },
+              "PRODUCER'S NAME (Please Print)": {
+                "type": "string"
+              },
+              "APPLICANT'S SIGNATURE": {
+                "type": "string"
+              },
+              "DATE": {
+                "type": "string"
+              },
+              "NATIONAL PRODUCER NUMBER": {
+                "type": "string"
+              },
+              "ACORD": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          }
+        },
+        "required": [
+          
+        ]
+      }
+    },
+    "required": [
+     
+    ]
+  }

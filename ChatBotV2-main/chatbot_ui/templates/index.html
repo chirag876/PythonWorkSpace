@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <title>ChatBot</title>
+</head>
+
+<body>
+    <section>
+        <h1>SpectralTech <br/> Conversational AI</h1>
+
+        <button class="chat-btn">
+            <img src="static/images/chatbot.png" class="chatbot" alt="bot image"/>
+        </button>
+        <div class="popup">
+            <span class="popuptext" id="myPopup">Hi there, I am {{botname}}, a virtual assistant</span>
+        </div>
+        <div class="chat-popup">
+             <div class="chat-header ">
+
+                <div>
+                    <img src="static/images/bot.jpg" class="avatar" alt="bot image" style="float: left; padding: 8px;">
+                </div>
+
+                <div class="profilename_area" style="float: left;">
+                    <p class="profilename profilename_area"
+                        style="font-size: 15px; padding: 2px; margin-top: 4px; color: #fff;">{{botname}}</p>
+                    <p class="type-status" style="font-size: 10px; margin-right: 6px;  color: #fff; ">Online</p>
+                </div>
+
+                <div class="reset-btn-area">
+                    <button class="reset-btn"
+                        style="float: right; color: #fff; margin-right:10px; background: transparent !important; margin-top: 9px; "><i
+                            class="material-icons">restart_alt</i></button>
+                </div>
+            </div>
+            <div class="chat-area">
+                <div class="income-msg">
+                    <img src="static/images/bot.jpg" class="avatar" alt="bot image">
+                    <span class="msg">Hi there, I am {{botname}}, a virtual assistant
+                </div>
+                <div class="income-msg">
+                    <img src="static/images/bot.jpg" class="avatar" alt="bot image">
+                    <span class="msg">I'm here to show you some chatbot examples and demo our product features. You can choose to chat with me via Text or Voice</span>
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" name= "text" placeholder="Type a message..." />
+                <button class="mic"><i class="material-icons">mic</i></button>
+                <button class="submit"><i class="material-icons">send</i></button>
+            </div>
+        </div>
+    </section>
+    <audio class="sound" src="static/audio/chime.wav"></audio>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,1252 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "acord126_2014_04",
+    "type": "object",
+    "properties": {
+      "Page_1": {
+        "type": "object",
+        "properties": {
+          "COMMERCIAL GENERAL LIABILITY SECTION": {
+            "type": "object",
+            "properties": {
+              "AGENCY CUSTOMER ID": {
+                "type": "string"
+              },
+              "DATE (MM/DD/YYYY)": {
+                "type": "string"
+              },
+              "AGENCY": {
+                "type": "string"
+              },
+              "CARRIER": {
+                "type": "string"
+              },
+              "NAIC CODE": {
+                "type": "string"
+              },
+              "POLICY NUMBER": {
+                "type": "string"
+              },
+              "EFFECTIVE DATE": {
+                "type": "string"
+              },
+              "APPLICANT / FIRST NAMED INSURED": {
+                "type": "string"
+              },
+              "COVERAGES": {
+                "type": "object",
+                "properties": {
+                  "COMMERCIAL GENERAL LIABILITY": {
+                    "type": "string"
+                  },
+                  "CLAIMS MADE": {
+                    "type": "string"
+                  },
+                  "OCCURRENCE": {
+                    "type": "string"
+                  },
+                  "OWNER'S & CONTRACTOR'S PROTECTIVE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "DEDUCTIBLES": {
+                "type": "object",
+                "properties": {
+                  "PROPERTY DAMAGE": {
+                    "type": "string"
+                  },
+                  "BODILY INJURY": {
+                    "type": "string"
+                  },
+                  "PER CLAIM": {
+                    "type": "string"
+                  },
+                  "PER OCCURRENCE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "LIMITS": {
+                "type": "object",
+                "properties": {
+                  "GENERAL AGGREGATE": {
+                    "type": "string"
+                  },
+                  "LIMIT APPLIES PER": {
+                    "type": "object",
+                    "properties": {
+                      "POLICY": {
+                        "type": "string"
+                      },
+                      "PROJECT": {
+                        "type": "string"
+                      },
+                      "LOCATION": {
+                        "type": "string"
+                      },
+                      "OTHER": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": {
+                "type": "string"
+              },
+              "PERSONAL & ADVERTISING INJURY": {
+                "type": "string"
+              },
+              "EACH OCCURRENCE": {
+                "type": "string"
+              },
+              "DAMAGE TO RENTED PREMISES (each occurrence)": {
+                "type": "string"
+              },
+              "MEDICAL EXPENSE (Any one person)": {
+                "type": "string"
+              },
+              "EMPLOYEE BENEFITS": {
+                "type": "string"
+              },
+              "PREMIUMS": {
+                "type": "object",
+                "properties": {
+                  "PREMISES/OPERATIONS": {
+                    "type": "string"
+                  },
+                  "PRODUCTS": {
+                    "type": "string"
+                  },
+                  "OTHER": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "TOTAL": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "OTHER COVERAGES, RESTRICTIONS AND/OR ENDORSEMENTS (For hired/non-owned auto coverages attach the applicable state Business Auto Section, ACORD 137)": {
+                "type": "string"
+              },
+              "APPLICABLE ONLY IN WISCONSIN: IF NON-OWNED ONLY AUTO COVERAGE IS TO BE PROVIDED UNDER THE POLICY:": {
+                "type": "object",
+                "properties": {
+                  "1. UM / UIM COVERAGE": {
+                    "type": "object",
+                    "properties": {
+                      "IS": {
+                        "type": "string"
+                      },
+                      "IS NOT AVAILABLE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "2. MEDICAL PAYMENTS COVERAGE": {
+                    "type": "object",
+                    "properties": {
+                      "IS": {
+                        "type": "string"
+                      },
+                      "IS NOT AVAILABLE": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "SCHEDULE OF HAZARDS": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "LOC": {
+                      "type": "string"
+                    },
+                    "HAZ": {
+                      "type": "string"
+                    },
+                    "CLASSIFICATION": {
+                      "type": "string"
+                    },
+                    "CLASS CODE": {
+                      "type": "string"
+                    },
+                    "PREMIUM BASIS": {
+                      "type": "string"
+                    },
+                    "EXPOSURE": {
+                      "type": "string"
+                    },
+                    "TERR": {
+                      "type": "string"
+                    },
+                    "RATE": {
+                      "type": "object",
+                      "properties": {
+                        "PREM/OPS": {
+                          "type": "string"
+                        },
+                        "PRODUCTS": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        
+                      ]
+                    },
+                    "PREMIUM": {
+                      "type": "object",
+                      "properties": {
+                        "PREM/OPS": {
+                          "type": "string"
+                        },
+                        "PRODUCTS": {
+                          "type": "object",
+                          "properties": {},
+                          "required": []
+                        }
+                      },
+                      "required": [
+                        
+                      ]
+                    }
+                  },
+                  "required": [
+                    
+                  ]
+                }
+              },
+              "CLAIMS MADE (Explain all 'Yes' responses)": {
+                "type": "object",
+                "properties": {
+                  "EXPLAIN ALL 'YES' RESPONSES": {
+                    "type": "object",
+                    "properties": {
+                      "1": {
+                        "type": "object",
+                        "properties": {
+                          "PROPOSED RETROACTIVE DATE": {
+                            "type": "string"
+                          },
+                          "Y / N": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "2": {
+                        "type": "object",
+                        "properties": {
+                          "ENTRY DATE INTO UNINTERRUPTED CLAIMS MADE COVERAGE": {
+                            "type": "string"
+                          },
+                          "Y / N": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                         
+                        ]
+                      },
+                      "3": {
+                        "type": "object",
+                        "properties": {
+                          "HAS ANY PRODUCT, WORK, ACCIDENT, OR LOCATION BEEN EXCLUDED, UNINSURED OR SELF-INSURED FROM ANY PREVIOUS COVERAGE?": {
+                            "type": "string"
+                          },
+                          "Y / N": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "4": {
+                        "type": "object",
+                        "properties": {
+                          "WAS TAIL COVERAGE PURCHASED UNDER ANY PREVIOUS POLICY?": {
+                            "type": "string"
+                          },
+                          "Y / N": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                         
+                        ]
+                      }
+                    },
+                    "required": [
+                   
+                    ]
+                  }
+                },
+                "required": [
+                
+                ]
+              },
+              "EMPLOYEE BENEFITS LIABILITY": {
+                "type": "object",
+                "properties": {
+                  "1. DEDUCTIBLE PER CLAIM": {
+                    "type": "string"
+                  },
+                  "2. NUMBER OF EMPLOYEES": {
+                    "type": "string"
+                  },
+                  "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS": {
+                    "type": "string"
+                  },
+                  "4. RETROACTIVE DATE": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "table_data": {
+                "type": "string"
+              },
+              "ACORD": {
+                "type": "string"
+              },
+              "FILE NAME": {
+                "type": "string"
+              },
+              "PAGE COUNT": {
+                "type": "string"
+              }
+            },
+            "required": [
+
+            ]
+          }
+        },
+        "required": [
+          
+        ]
+      },
+      "Page_2": {
+        "type": "object",
+        "properties": {
+          "CONTRACTORS": {
+            "type": "object",
+            "properties": {
+              "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "type": "object",
+                "properties": {
+                  "1": {
+                    "type": "object",
+                    "properties": {
+                      "DOES APPLICANT DRAW PLANS, DESIGNS, OR SPECIFICATIONS FOR OTHERS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "2": {
+                    "type": "object",
+                    "properties": {
+                      "DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "3": {
+                    "type": "object",
+                    "properties": {
+                      "DO ANY OPERATIONS INCLUDE EXCAVATION, TUNNELING, UNDERGROUND WORK OR EARTH MOVING?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "4": {
+                    "type": "object",
+                    "properties": {
+                      "DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "5": {
+                    "type": "object",
+                    "properties": {
+                      "ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "6": {
+                    "type": "object",
+                    "properties": {
+                      "DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  }
+                },
+                "required": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ]
+              }
+            },
+            "required": [
+             
+            ]
+          },
+          "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": {
+            "type": "object",
+            "properties": {
+              "$ PAID TO SUBCONTRACTORS": {
+                "type": "string"
+              },
+              "% OF WORK SUBCONTRACTED": {
+                "type": "string"
+              },
+              "# FULL TIME STAFF": {
+                "type": "string"
+              },
+              "# PARTTIME STAFF": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "PRODUCTS / COMPLETED OPERATIONS": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "PRODUCTS": {
+                  "type": "string"
+                },
+                "ANNUAL GROSS SALES": {
+                  "type": "string"
+                },
+                "# OF UNITS": {
+                  "type": "string"
+                },
+                "TIME IN MARKET": {
+                  "type": "string"
+                },
+                "EXPECTED LIFE": {
+                  "type": "string"
+                },
+                "INTENDED USE": {
+                  "type": "string"
+                },
+                "PRINCIPAL COMPONENTS": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            }
+          },
+          "EXPLAIN ALL 'YES' RESPONSES (For all past or present products or operations) PLEASE ATTACH LITERATURE, BROCHURES, LABELS, WARNINGS, ETC.": {
+            "type": "object",
+            "properties": {
+              "1": {
+                "type": "object",
+                "properties": {
+                  "DOES APPLICANT INSTALL, SERVICE OR DEMONSTRATE PRODUCTS?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "2": {
+                "type": "object",
+                "properties": {
+                  "FOREIGN PRODUCTS SOLD, DISTRIBUTED, USED AS COMPONENTS? (If 'YES', attach ACORD 815)": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "3": {
+                "type": "object",
+                "properties": {
+                  "RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "4": {
+                "type": "object",
+                "properties": {
+                  "GUARANTEES, WARRANTIES, HOLD HARMLESS AGREEMENTS?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "5": {
+                "type": "object",
+                "properties": {
+                  "PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "6": {
+                "type": "object",
+                "properties": {
+                  "PRODUCTS RECALLED, DISCONTINUED, CHANGED?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "7": {
+                "type": "object",
+                "properties": {
+                  "PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "8": {
+                "type": "object",
+                "properties": {
+                  "PRODUCTS UNDER LABEL OF OTHERS?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "9": {
+                "type": "object",
+                "properties": {
+                  "VENDORS COVERAGE REQUIRED?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  
+                ]
+              },
+              "10": {
+                "type": "object",
+                "properties": {
+                  "DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?": {
+                    "type": "string"
+                  },
+                  "Y / N": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                 
+                ]
+              }
+            },
+            "required": [
+             
+            ]
+          },
+          "table_data": {
+            "type": "string"
+          },
+          "ACORD": {
+            "type": "string"
+          }
+        },
+        "required": [
+         
+        ]
+      },
+      "Page_3": {
+        "type": "object",
+        "properties": {
+          "ADDITIONAL INTEREST / CERTIFICATE RECIPIENT": {
+            "type": "string"
+          },
+          "INTEREST": {
+            "type": "object",
+            "properties": {
+              "ADDITIONAL INSURED": {
+                "type": "string"
+              },
+              "EMPLOYEE AS LESSOR": {
+                "type": "string"
+              },
+              "LIENHOLDER": {
+                "type": "string"
+              },
+              "LOSS PAYEE": {
+                "type": "string"
+              },
+              "MORTGAGEE": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "NAME AND ADDRESS": {
+            "type": "string"
+          },
+          "RANK": {
+            "type": "string"
+          },
+          "EVIDENCE": {
+            "type": "string"
+          },
+          "CERTIFICATE": {
+            "type": "string"
+          },
+          "REFERENCE / LOAN #": {
+            "type": "string"
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "type": "object",
+            "properties": {
+              "LOCATION": {
+                "type": "string"
+              },
+              "BUILDING": {
+                "type": "string"
+              },
+              "ITEM CLASS": {
+                "type": "string"
+              },
+              "ITEM": {
+                "type": "string"
+              },
+              "ITEM DESCRIPTION": {
+                "type": "string"
+              }
+            },
+            "required": [
+             
+            ]
+          },
+          "GENERAL INFORMATION": {
+            "type": "object",
+            "properties": {
+              "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "type": "object",
+                "properties": {
+                  "1": {
+                    "type": "object",
+                    "properties": {
+                      "ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "2": {
+                    "type": "object",
+                    "properties": {
+                      "ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "3": {
+                    "type": "object",
+                    "properties": {
+                      "DO/HAVE PAST, PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING, TREATING, DISCHARGING, APPLYING, DISPOSING, OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g. landfills, wastes, fuel tanks, etc)": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+
+                    ]
+                  },
+                  "4": {
+                    "type": "object",
+                    "properties": {
+                      "ANY OPERATIONS SOLD, ACQUIRED, OR DISCONTINUED IN LAST FIVE (5) YEARS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "5": {
+                    "type": "object",
+                    "properties": {
+                      "DO YOU RENT OR LOAN EQUIPMENT TO OTHERS?": {
+                        "type": "object",
+                        "properties": {
+                          "EQUIPMENT": {
+                            "type": "string"
+                          },
+                          "TYPE OF EQUIPMENT": {
+                            "type": "object",
+                            "properties": {
+                              "SMALL TOOLS": {
+                                "type": "string"
+                              },
+                              "LARGE EQUIPMENT": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              
+                            ]
+                          },
+                          "INSTRUCTION GIVEN (Y/N)": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "6": {
+                    "type": "object",
+                    "properties": {
+                      "ANY WATERCRAFT, DOCKS, FLOATS OWNED, HIRED OR LEASED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "7": {
+                    "type": "object",
+                    "properties": {
+                      "ANY PARKING FACILITIES OWNED/RENTED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "8": {
+                    "type": "object",
+                    "properties": {
+                      "IS A FEE CHARGED FOR PARKING?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "9": {
+                    "type": "object",
+                    "properties": {
+                      "RECREATION FACILITIES PROVIDED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "10": {
+                    "type": "object",
+                    "properties": {
+                      "ARE THERE ANY LODGING OPERATIONS INCLUDING APARTMENTS? (If 'YES', answer the following):": {
+                        "type": "object",
+                        "properties": {
+                          "# APTS": {
+                            "type": "string"
+                          },
+                          "TOTAL APT AREA": {
+                            "type": "string"
+                          },
+                          "DESCRIBE OTHER LODGING OPERATIONS": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "11": {
+                    "type": "object",
+                    "properties": {
+                      "IS THERE A SWIMMING POOL ON PREMISES? (Check all that apply)": {
+                        "type": "object",
+                        "properties": {
+                          "APPROVED FENCE": {
+                            "type": "string"
+                          },
+                          "LIMITED ACCESS": {
+                            "type": "string"
+                          },
+                          "DIVING BOARD": {
+                            "type": "string"
+                          },
+                          "SLIDE": {
+                            "type": "string"
+                          },
+                          "ABOVE GROUND": {
+                            "type": "string"
+                          },
+                          "IN GROUND": {
+                            "type": "string"
+                          },
+                          "LIFE GUARD": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                         
+                        ]
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "12": {
+                    "type": "object",
+                    "properties": {
+                      "ARE SOCIAL EVENTS SPONSORED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "13": {
+                    "type": "object",
+                    "properties": {
+                      "ARE ATHLETIC TEAMS SPONSORED?": {
+                        "type": "object",
+                        "properties": {
+                          "TYPE OF SPORT": {
+                            "type": "string"
+                          },
+                          "CONTACT SPORT (Y/N)": {
+                            "type": "string"
+                          },
+                          "AGE GROUP": {
+                            "type": "object",
+                            "properties": {
+                              "12 & UNDER": {
+                                "type": "string"
+                              },
+                              "13 - 18": {
+                                "type": "string"
+                              },
+                              "OVER 18": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              
+                            ]
+                          },
+                          "EXTENT OF SPONSORSHIP": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          
+                        ]
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "14": {
+                    "type": "object",
+                    "properties": {
+                      "ANY STRUCTURAL ALTERATIONS CONTEMPLATED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  },
+                  "15": {
+                    "type": "object",
+                    "properties": {
+                      "ANY DEMOLITION EXPOSURE CONTEMPLATED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  }
+                },
+                "required": [
+                 
+                ]
+              },
+              "table_data": {
+                "type": "string"
+              },
+              "ACORD": {
+                "type": "string"
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "ACORD": {
+            "type": "string"
+          }
+        },
+        "required": [
+         
+        ]
+      },
+      "Page_4": {
+        "type": "object",
+        "properties": {
+          "GENERAL INFORMATION": {
+            "type": "object",
+            "properties": {
+              "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "type": "object",
+                "properties": {
+                  "16": {
+                    "type": "object",
+                    "properties": {
+                      "HAS APPLICANT BEEN ACTIVE IN OR IS CURRENTLY ACTIVE IN JOINT VENTURES?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "17": {
+                    "type": "object",
+                    "properties": {
+                      "DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": {
+                        "type": "object",
+                        "properties": {
+                          "LEASE TO": {
+                            "type": "string"
+                          },
+                          "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                         
+                        ]
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "18": {
+                    "type": "object",
+                    "properties": {
+                      "IS THERE A LABOR INTERCHANGE WITH ANY OTHER BUSINESS OR SUBSIDIARIES?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "19": {
+                    "type": "object",
+                    "properties": {
+                      "ARE DAY CARE FACILITIES OPERATED OR CONTROLLED?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "20": {
+                    "type": "object",
+                    "properties": {
+                      "HAVE ANY CRIMES OCCURRED OR BEEN ATTEMPTED ON YOUR PREMISES WITHIN THE LAST THREE (3) YEARS?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "21": {
+                    "type": "object",
+                    "properties": {
+                      "IS THERE A FORMAL, WRITTEN SAFETY AND SECURITY POLICY IN EFFECT?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      
+                    ]
+                  },
+                  "22": {
+                    "type": "object",
+                    "properties": {
+                      "DOES THE BUSINESSES' PROMOTIONAL LITERATURE MAKE ANY REPRESENTATIONS ABOUT THE SAFETY OR SECURITY OF THE PREMISES?": {
+                        "type": "string"
+                      },
+                      "Y / N": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                     
+                    ]
+                  }
+                },
+                "required": [
+                 
+                ]
+              }
+            },
+            "required": [
+              
+            ]
+          },
+          "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": {
+            "type": "string"
+          },
+          "PRODUCER'S SIGNATURE": {
+            "type": "string"
+          },
+          "PRODUCER'S NAME (Please Print)": {
+            "type": "string"
+          },
+          "STATE PRODUCER LICENSE NO (Required on Florida)": {
+            "type": "string"
+          },
+          "APPLICANT'S SIGNATURE": {
+            "type": "string"
+          },
+          "DATE": {
+            "type": "string"
+          },
+          "NATIONAL PRODUCER NUMBER": {
+            "type": "string"
+          },
+          "table_data": {
+            "type": "string"
+          },
+          "ACORD": {
+            "type": "string"
+          }
+        },
+        "required": [
+          
+        ]
+      }
+    },
+    "required": [
+      
+    ]
+  }

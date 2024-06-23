@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Column Mapper</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSV Column Mapper</h1>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="source_file">Source CSV File:</label>
+                <input type="file" class="form-control-file" id="source_file" name="source_file" required>
+            </div>
+            <div class="form-group">
+                <label for="destination_file">Destination CSV File:</label>
+                <input type="file" class="form-control-file" id="destination_file" name="destination_file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload and Map Columns</button>
+        </form>
+        <div id="mappingSection" style="display:none;">
+            <!-- The column mapping UI will be generated here -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#uploadForm').on('submit', function(e) {
+                e.preventDefault();
+                var formData = new FormData(this);
+                $.ajax({
+                    url: '/upload',
+                    type: 'POST',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        if (data.error) {
+                            alert(data.error);
+                        } else {
+                            generateMappingUI(data.mapping, data.unmapped_source_cols, data.unmapped_destination_cols);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        alert('An error occurred: ' + error);
+                    }
+                });
+            });
+        });
+
+        function generateMappingUI(mapping, unmappedSource, unmappedDestination) {
+            const mappingSection = document.getElementById('mappingSection');
+            mappingSection.innerHTML = '';  // Clear the section
+        
+            // For each unmapped source column, create a dropdown to map it to a destination column
+            unmappedSource.forEach(sourceCol => {
+                const formGroup = document.createElement('div');
+                formGroup.className = 'form-group';
+        
+                const label = document.createElement('label');
+                label.textContent = `Map ${sourceCol} to:`;
+                formGroup.appendChild(label);
+        
+                const select = document.createElement('select');
+                select.className = 'form-control';
+                select.name = `map_${sourceCol}`;
+        
+                // Add a default option
+                const defaultOption = document.createElement('option');
+                defaultOption.value = '';
+                defaultOption.textContent = 'Select a column';
+                select.appendChild(defaultOption);
+        
+                // Add options for each unmapped destination column
+                unmappedDestination.forEach(destCol => {
+                    const option = document.createElement('option');
+                    option.value = destCol;
+                    option.textContent = destCol;
+                    select.appendChild(option);
+                });
+        
+                formGroup.appendChild(select);
+                mappingSection.appendChild(formGroup);
+            });
+        
+            // Create a submit button for the manual mapping
+            const submitButton = document.createElement('button');
+            submitButton.type = 'button';
+            submitButton.className = 'btn btn-success';
+            submitButton.textContent = 'Submit Mapping';
+            submitButton.onclick = submitMapping;  // Function to handle the submission of the mapping
+            mappingSection.appendChild(submitButton);
+        
+            // Show the mapping section
+            mappingSection.style.display = 'block';
+        }
+        
+        // Placeholder function to handle submitting the manual mapping
+        function submitMapping() {
+            const mappingSection = document.getElementById('mappingSection');
+            const selects = mappingSection.getElementsByTagName('select');
+            const manualMapping = {};
+        
+            for (let select of selects) {
+                const sourceCol = select.name.replace('map_', '');  // Get the source column name
+                const mappedCol = select.value;  // Get the selected destination column
+        
+                if (mappedCol) {
+                    manualMapping[sourceCol] = mappedCol;
+                }
+            }
+        
+            // Send the manual mapping to the server
+            // You will need to implement the corresponding server-side logic
+            console.log(manualMapping);  // For debugging
+            // TODO: Make an AJAX request to send the mapping to the server
+        }
+        
+    </script>
+</body>
+</html>

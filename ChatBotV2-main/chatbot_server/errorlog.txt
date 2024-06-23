@@ -1,0 +1,628 @@
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 980, in send
+    self.connect()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000150DCBEAD60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /weather?city_name=Jaipur (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000150DCBEAD60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 162, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 146, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 93, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 19, in call_api
+    return weather.weather(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\weather.py", line 11, in weather
+    response = requests.get(url = config["API"]["WEATHER_API"], params= param)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /weather?city_name=Jaipur (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000150DCBEAD60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 980, in send
+    self.connect()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002A688BA5970>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='3.138.190.16', port=8080): Max retries exceeded with url: /weather?city_name=Jaipur (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A688BA5970>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 162, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 146, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 93, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 19, in call_api
+    return weather.weather(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\weather.py", line 11, in weather
+    response = requests.get(url = config["API"]["WEATHER_API"], params= param)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='3.138.190.16', port=8080): Max retries exceeded with url: /weather?city_name=Jaipur (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A688BA5970>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 183, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 161, in __get_response
+    self.tag = intent["menu"]
+KeyError: 'menu'
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 177, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 159, in __get_response
+    self.last_tag = self.data["options"]
+KeyError: 'options'
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 184, in run
+    print(response["response"][0])
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 118, in __get_response
+    self.response['response'].append(random.choice(intent['responses']))
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python39\lib\random.py", line 346, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 149, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 94, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 31, in call_api
+    return caffiene_contacts.contacts(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\caffiene_contacts.py", line 10, in contacts
+    "prospectId": api_parameters[1]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 149, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 94, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 31, in call_api
+    return caffiene_contacts.contacts(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\caffiene_contacts.py", line 10, in contacts
+    "prospectId": api_parameters[1]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 149, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 94, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 31, in call_api
+    return caffiene_contacts.contacts(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\caffiene_contacts.py", line 10, in contacts
+    "prospectId": api_parameters[1]
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 149, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 94, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 31, in call_api
+    return caffiene_contacts.contacts(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\caffiene_contacts.py", line 10, in contacts
+    }
+IndexError: list index out of range
+Exception on /web_ui [GET]
+Traceback (most recent call last):
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Workspaces\Codespaces\ChatBot\env_chatbot\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\service.py", line 37, in bot
+    response = obj.run(Message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 171, in run
+    response = self.__get_response(message)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 149, in __get_response
+    self.api_result = self.__get_event(element)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\main.py", line 94, in __get_event
+    return api_object.call_api(tag)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_adapter.py", line 31, in call_api
+    return caffiene_contacts.contacts(self.api_parameters)
+  File "D:\Workspaces\Codespaces\ChatBot\chatbot_server\..\chatbot_code\api_calls\caffiene_contacts.py", line 10, in contacts
+    }
+IndexError: list index out of range

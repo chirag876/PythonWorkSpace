@@ -1,0 +1,159 @@
+{
+	"intents": [
+		{
+			"tag": "welcome",
+			"patterns": ["hi", "hello", "good morning", "hey"],
+			"responses": ["Let's explore the capabilities that the team has given me. You can ask me about", "Let's explore the capabilities that the team has given me. You can ask me about", "Let's explore the capabilities that the team has given me. You can ask me about"],
+			"dependent":[],
+			"buttons": ["Weather", "Time Zone", "Language Translation", "Facts", "Inusrance Application Form", "FNOL", "Hazard Hub"]
+		},
+		{
+			"tag": "weather",
+			"patterns": ["weather"],
+			"responses": ["Enter the City, State or Country", "Which location's weather do you wish to know"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "timezone",
+			"patterns": ["timezone", "time zone"],
+			"responses": ["Enter the City, State or Country", "Which location's Time Zone do you wish to know?"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "video_analytics",
+			"patterns": ["video_analytics", "Logs", "Video Analytics Logs", "I want to see Video Logs", "I want to check Logs", "I want to see Video Analytics logs", "Please show me vidoe analytics logs"],
+			"responses": ["Enter the First name of the person?"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "translation",
+			"patterns": ["Language Translation", "Translation"],
+			"responses": ["Which language you want to enter the Text"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "translation_text",
+			"patterns": [],
+			"responses": ["Enter the text you would like to convert"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "translation_to",
+			"patterns": [],
+			"responses": ["Which language do you wish to convert the text to?"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "options",
+			"patterns": [],
+			"responses": ["Do you like to continue. Please choose from the options below."],
+			"dependent": [],
+			"buttons": ["Continue", "Main Menu"]
+		},
+		{
+			"tag": "continue",
+			"patterns": ["continue", "Continue"],
+			"responses": ["continue"],
+			"dependent": ["options"],
+			"buttons": []	
+		},
+		{
+			"tag": "menu",
+			"patterns": ["menu", "Menu", "Main Menu", "main menu"],
+			"responses": ["Here are the options you can try"],
+			"dependent": ["options"],
+			"buttons": ["Weather", "Time Zone", "Language Translation", "Facts", "Inusrance Application Form", "FNOL", "Hazard Hub"]
+		},
+		{
+			"tag": "insurance",
+			"patterns": ["Inusrance Application Form", "insurance"],
+			"responses": ["Get me your Policy Number", "Enter the Policy Number", "Type in the Policy Number"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "facts",
+			"patterns": ["fact", "facts"],
+			"responses": ["How many facts would you like to know?"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "fnol",
+			"patterns": ["FNOL", "fnol"],
+			"responses": ["This functionality is under development"],
+			"dependent": [],
+			"buttons": ["Weather", "Time Zone", "Language Translation", "Facts", "Inusrance Application Form", "FNOL", "Hazard Hub"]
+		},
+		{
+			"tag": "risk_and_enhanced_property_details",
+			"patterns": ["Risk and enhanced property details"],
+			"responses": ["Enter Address"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_city",
+			"patterns": ["Risk and enhanced property details city"],
+			"responses": ["Enter City"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_state",
+			"patterns": ["Risk and enhanced property details state"],
+			"responses": ["Enter State"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_zip",
+			"patterns": ["Risk and enhanced property details zipcode"],
+			"responses": ["Enter Zipcode"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_with_replacement_cost_data",
+			"patterns": ["Risk and enhanced property details with replacement cost data"],
+			"responses": ["Enter Address"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_with_replacement_cost_data_city",
+			"patterns": ["Risk and enhanced property details with replacement cost data city"],
+			"responses": ["Enter City"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_with_replacement_cost_data_state",
+			"patterns": ["Risk and enhanced property details with replacement cost data state"],
+			"responses": ["Enter State"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_with_replacement_cost_data_zipcode",
+			"patterns": ["Risk and enhanced property details with replacement cost data zipcode"],
+			"responses": ["Enter Zipcode"],
+			"dependent": [],
+			"buttons": []
+		},
+		{
+			"tag": "risk_and_enhanced_property_details_with_replacement_cost_data_json",
+			"patterns": ["Risk and enhanced property details with replacement cost data json", "Hazard Hub"],
+			"responses": ["Enter JSON"],
+			"dependent": [],
+			"buttons": []
+		}
+
+	]
+}

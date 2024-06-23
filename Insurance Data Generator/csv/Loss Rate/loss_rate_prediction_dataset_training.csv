@@ -1,0 +1,1001 @@
+CustomerID,CustomerName,PolicyID,PolicyType,PolicyPremium,RenewalPremium,NumberOfEmployees,BusinessIndustry,AnnualRevenue,PaymentMethod,ClaimsCount,DurationInMonths,LossRate
+1,Katherine Gray,1001,General Liability,4370.86107,4233.237047,92,Retail,2564722,ACH Transfer,2,12,0.10325666
+2,Eric Parrish,1002,General Liability,9556.428758,9596.4711,7,Construction,6659442,Credit Card,3,12,0.116129045
+3,Larry Walton,1003,General Liability,7587.945476,7870.934743,35,Consulting,5730761,Credit Card,4,12,0.18718745
+4,Katelyn Reyes,1004,General Liability,6387.926358,6536.269905,55,Manufacturing,3001092,Cheque,1,12,0.134450137
+5,Alex Adkins,1005,General Liability,2404.167764,2477.870207,92,Construction,1822907,Credit Card,0,12,0.09625559
+6,Robert Stewart,1006,General Liability,2403.950683,2442.121421,14,Construction,2970574,Cheque,3,12,0.161935007
+7,Brittany Glover,1007,General Liability,1522.75251,1552.031472,10,Consulting,6982799,ACH Transfer,3,12,0.190106564
+8,Lisa Robertson,1008,General Liability,8795.585312,9102.723326,80,Manufacturing,8052017,ACH Transfer,2,12,0.00441323
+9,Hannah Thompson,1009,General Liability,6410.035106,6249.571421,16,Retail,7021983,Credit Card,4,12,0.196504254
+10,Lisa Brown,1010,General Liability,7372.6532,7364.856593,54,Consulting,6626925,Cheque,2,12,0.017226428
+11,Elizabeth Castro,1011,General Liability,1185.260449,1152.216506,95,Manufacturing,5465986,Credit Card,2,12,0.162877356
+12,Allen Chapman,1012,General Liability,9729.188669,10203.65008,89,Construction,6859291,Cheque,4,12,0.056066951
+13,James Trevino,1013,General Liability,8491.983767,8869.078238,77,Manufacturing,8443528,Cheque,0,12,0.026435932
+14,Kristin Moore,1014,General Liability,2911.051996,2776.976746,70,Construction,5632388,Cheque,2,12,0.087971128
+15,Kathy Lee,1015,General Liability,2636.424705,2690.623051,44,Consulting,8120364,ACH Transfer,2,12,0.128791316
+16,Anna Bryant,1016,General Liability,2650.640589,2763.358634,73,Consulting,7551747,Cheque,3,12,0.076190369
+17,Gail Patel,1017,General Liability,3738.180187,3618.773495,45,Technology,3981857,ACH Transfer,4,12,0.010913082
+18,Jill Herring,1018,General Liability,5722.807885,5761.691635,56,Technology,4637871,Cheque,1,12,0.119892228
+19,Matthew White,1019,General Liability,4887.505168,5090.575288,84,Technology,391464,ACH Transfer,0,12,0.180480655
+20,Mitchell Martin,1020,General Liability,3621.062262,3452.301199,82,Consulting,4839400,ACH Transfer,0,12,0.076643073
+21,Melissa Rodriguez,1021,General Liability,6506.676053,6635.131025,57,Retail,218581,ACH Transfer,4,12,0.043266556
+22,Lawrence Mitchell,1022,General Liability,2255.444746,2209.737934,21,Consulting,5470807,Credit Card,3,12,0.088515469
+23,John White,1023,General Liability,3629.301837,3783.328026,68,Manufacturing,3952256,Cheque,3,12,0.009672542
+24,Martha Torres,1024,General Liability,4297.25659,4499.682404,50,Consulting,8827148,Credit Card,4,12,0.164097517
+25,Shelly Anderson,1025,General Liability,5104.629858,5331.411456,33,Consulting,601590,Cheque,3,12,0.165268162
+26,Sharon Anderson,1026,General Liability,8066.583653,8045.783335,91,Construction,9907020,Cheque,0,12,0.117600093
+27,Christopher Hunt,1027,General Liability,2797.064039,2898.329687,7,Construction,3460492,Credit Card,0,12,0.070620578
+28,Christopher Roach,1028,General Liability,5628.109946,5822.026135,70,Construction,972328,ACH Transfer,1,12,0.159956673
+29,Eric Meadows,1029,General Liability,6331.73112,6217.190403,15,Consulting,4909479,Cheque,4,12,0.110937405
+30,Joshua Anderson,1030,General Liability,1418.053714,1464.695695,82,Retail,3210691,ACH Transfer,2,12,0.165186462
+31,Daniel Baldwin,1031,General Liability,6467.903667,6168.444665,32,Manufacturing,1458097,Credit Card,2,12,0.126291759
+32,Melissa Pruitt,1032,General Liability,2534.717113,2559.118804,75,Manufacturing,8413157,ACH Transfer,1,12,0.156881095
+33,Natalie Phillips,1033,General Liability,1585.464337,1542.658201,20,Retail,1394315,Cheque,1,12,0.119712599
+34,Dylan Weaver,1034,General Liability,9539.969835,9177.991789,88,Retail,6187595,Cheque,3,12,0.082828214
+35,Leslie White,1035,General Liability,9690.688298,9280.726832,15,Manufacturing,2675508,Cheque,1,12,0.191589172
+36,Jennifer Sanders,1036,General Liability,8275.576133,8438.016404,48,Technology,9846919,Credit Card,1,12,0.108222765
+37,Marilyn Cox,1037,General Liability,3741.523923,3681.612757,71,Construction,4610784,Cheque,2,12,0.121017904
+38,Shannon Newman,1038,General Liability,1879.049026,1921.283804,21,Construction,9778075,Credit Card,3,12,0.044097528
+39,Jonathan Winters,1039,General Liability,7158.097239,6846.975081,42,Manufacturing,264074,ACH Transfer,1,12,0.125130158
+40,Brian Cooley,1040,General Liability,4961.372444,4869.731101,26,Retail,2670466,Cheque,1,12,0.11432153
+41,Aaron Vasquez,1041,General Liability,2098.344114,2106.630746,14,Technology,9279253,Cheque,3,12,0.03696768
+42,Madison Mcdonald,1042,General Liability,5456.592191,5615.227966,57,Manufacturing,3387093,Cheque,4,12,0.011917419
+43,Laurie Howell,1043,General Liability,1309.49669,1285.76239,37,Construction,1117481,ACH Transfer,3,12,0.120871864
+44,William Stanley,1044,General Liability,9183.883619,9299.500794,58,Consulting,3694804,Cheque,2,12,0.152738454
+45,Samuel Klein,1045,General Liability,3329.019834,3457.512592,21,Retail,8551115,Credit Card,4,12,0.104680274
+46,Debra Thomas,1046,General Liability,6962.700559,7043.372628,82,Consulting,9594318,ACH Transfer,0,12,0.045354525
+47,Kevin Dalton,1047,General Liability,3805.399685,3703.780092,69,Manufacturing,2438377,ACH Transfer,3,12,0.133304395
+48,Roberto Adams,1048,General Liability,5680.612191,5410.442719,3,Construction,906564,ACH Transfer,2,12,0.016021145
+49,Lacey Moss,1049,General Liability,5920.392514,6139.505574,87,Technology,4018949,ACH Transfer,4,12,0.088366741
+50,Julie Miller,1050,General Liability,2663.6901,2536.171107,90,Consulting,6147511,ACH Transfer,3,12,0.032673352
+51,Becky Miller,1051,General Liability,9726.26165,10090.7063,37,Technology,837954,Credit Card,1,12,0.03689181
+52,Philip Lambert,1052,General Liability,7976.19541,7999.276234,88,Construction,3008056,ACH Transfer,3,12,0.04045879
+53,Catherine Walton,1053,General Liability,9455.490474,9870.650518,49,Consulting,7940130,Cheque,0,12,0.077341411
+54,Teresa Brown,1054,General Liability,9053.446154,9323.947948,19,Technology,8457998,ACH Transfer,3,12,0.010230041
+55,Emily Medina,1055,General Liability,6381.099809,6698.836535,89,Technology,9195781,ACH Transfer,4,12,0.079558688
+56,Christopher White,1056,General Liability,9296.868115,9158.076859,85,Consulting,6034261,ACH Transfer,4,12,0.102341489
+57,Alicia Brooks DVM,1057,General Liability,1796.432518,1844.431092,12,Construction,4610579,ACH Transfer,3,12,0.096658857
+58,Tony Mueller,1058,General Liability,2763.845762,2736.740979,61,Technology,9168055,ACH Transfer,4,12,0.07655682
+59,Danielle Mccullough,1059,General Liability,1407.0456,1404.214008,41,Manufacturing,9550012,Credit Card,1,12,0.167829322
+60,Elizabeth Miller,1060,General Liability,3927.972977,3978.056778,33,Consulting,7663493,Credit Card,3,12,0.029065338
+61,Jeffrey Pearson,1061,General Liability,4498.095607,4666.179146,50,Retail,2635232,ACH Transfer,1,12,0.101139349
+62,Cynthia Robbins,1062,General Liability,3442.141286,3608.769655,68,Retail,7804694,Credit Card,1,12,0.012408283
+63,Anthony Phillips,1063,General Liability,8458.637582,8685.56034,71,Construction,2478907,Cheque,2,12,0.014231136
+64,Carlos Simon,1064,General Liability,4210.77994,4176.153342,86,Manufacturing,7090607,ACH Transfer,3,12,0.11477317
+65,Sarah Fitzgerald,1065,General Liability,3528.410587,3500.662109,33,Technology,4632688,Cheque,4,12,0.113203685
+66,Abigail Anderson,1066,General Liability,5884.264748,6024.064465,81,Retail,7679751,Cheque,1,12,0.175606703
+67,Christopher Travis,1067,General Liability,2268.318025,2209.064374,24,Construction,7233131,ACH Transfer,2,12,0.111574735
+68,Michelle White,1068,General Liability,8219.772827,7899.591397,61,Manufacturing,2463162,Cheque,3,12,0.191958204
+69,John Key,1069,General Liability,1670.955793,1646.663798,61,Manufacturing,4981909,Cheque,3,12,0.00973897
+70,Lee Hall,1070,General Liability,9881.982429,9671.732375,98,Construction,5780820,Cheque,0,12,0.019601537
+71,David Turner,1071,General Liability,7950.202924,7788.263746,28,Construction,9403721,ACH Transfer,0,12,0.008813172
+72,Robert Rodgers,1072,General Liability,2788.441134,2714.159223,58,Technology,2792794,ACH Transfer,1,12,0.03705537
+73,Caleb Alvarado,1073,General Liability,1049.699054,1001.63262,43,Construction,2445704,Cheque,0,12,0.108254022
+74,Carla Hernandez,1074,General Liability,8339.152856,7937.100561,41,Technology,8911940,ACH Transfer,1,12,0.129114436
+75,Jason Little,1075,General Liability,7361.716095,7720.763471,39,Technology,8320038,ACH Transfer,4,12,0.009117032
+76,Olivia Wade,1076,General Liability,7561.064512,7506.453313,86,Consulting,8377983,Cheque,1,12,0.189194178
+77,John Smith,1077,General Liability,7941.43312,7849.571901,49,Manufacturing,392575,ACH Transfer,0,12,0.168433075
+78,Tony Lopez,1078,General Liability,1666.401866,1696.338322,17,Manufacturing,1559700,Credit Card,4,12,0.059322496
+79,Daniel Davis,1079,General Liability,4226.191557,4107.120253,98,Manufacturing,8517944,ACH Transfer,0,12,0.015437506
+80,Christine Rivera,1080,General Liability,2042.821536,2134.740575,70,Consulting,3301078,Credit Card,1,12,0.033977415
+81,Shannon Conrad,1081,General Liability,8767.930833,9018.996161,70,Technology,2707622,Cheque,2,12,0.025388883
+82,Joel Hooper,1082,General Liability,6609.683141,6338.296824,98,Technology,1986963,ACH Transfer,3,12,0.024656756
+83,Elizabeth Walker,1083,General Liability,3978.082224,3945.295179,65,Construction,5404120,Cheque,0,12,0.103712338
+84,Tiffany Cortez,1084,General Liability,1572.025153,1631.623504,74,Consulting,2872605,Cheque,1,12,0.049169488
+85,Monique Parker,1085,General Liability,3798.840895,3967.787515,85,Construction,1547947,Cheque,4,12,0.071627943
+86,Alan Lewis,1086,General Liability,3926.649898,3913.849613,5,Consulting,5913775,Cheque,0,12,0.197901067
+87,Timothy Olson,1087,General Liability,7566.455605,7652.267829,2,Construction,7342447,Cheque,0,12,0.13686285
+88,Christopher Sawyer,1088,General Liability,6738.017242,6513.664141,22,Retail,8378499,ACH Transfer,3,12,0.189796133
+89,Andrew Gibbs,1089,General Liability,8984.914683,9426.225503,57,Manufacturing,6572652,Credit Card,1,12,0.028511311
+90,Kathleen Johnson,1090,General Liability,5249.934326,5109.063732,66,Manufacturing,6706470,ACH Transfer,2,12,0.076427895
+91,Tara Oliver,1091,General Liability,2076.348213,2168.274746,74,Technology,1598339,ACH Transfer,4,12,0.110946361
+92,Gloria Scott,1092,General Liability,7419.203085,7530.228973,98,Retail,776296,ACH Transfer,1,12,0.015351612
+93,Jonathan Stewart,1093,General Liability,7847.065438,7931.607205,16,Manufacturing,479039,ACH Transfer,4,12,0.000837489
+94,Shawna Perkins DDS,1094,General Liability,6051.494778,6059.173224,51,Technology,628714,Credit Card,0,12,0.134086867
+95,Molly Bailey,1095,General Liability,7938.70462,7724.891339,39,Retail,7135655,ACH Transfer,3,12,0.128363903
+96,Andrew Jenkins,1096,General Liability,5444.160367,5268.05704,86,Manufacturing,8468352,Cheque,3,12,0.082157762
+97,Jessica Casey,1097,General Liability,5704.595464,5545.144154,76,Construction,3011190,ACH Transfer,2,12,0.097928815
+98,James Ruiz,1098,General Liability,4847.869165,4695.858537,88,Consulting,9041047,ACH Transfer,3,12,0.0830886
+99,Ariana Wilson,1099,General Liability,1228.772141,1263.126702,40,Retail,4242535,Credit Card,0,12,0.004801009
+100,Edward Garrison,1100,General Liability,1971.022843,1941.482189,38,Technology,373452,Credit Card,2,12,0.067074321
+101,Brittany Diaz,1101,General Liability,1282.862671,1226.139959,60,Retail,9267491,Cheque,1,12,0.035416451
+102,Katelyn Bartlett,1102,General Liability,6727.693701,7043.291582,59,Technology,4471047,ACH Transfer,3,12,0.019684838
+103,Casey Curry,1103,General Liability,3829.20383,3976.163268,10,Retail,7284872,ACH Transfer,2,12,0.191344087
+104,Thomas Glover,1104,General Liability,5577.13622,5815.699496,99,Technology,2289921,ACH Transfer,0,12,0.119871945
+105,Terry Phelps,1105,General Liability,9168.098265,9621.83462,64,Manufacturing,7527297,Cheque,4,12,0.145731257
+106,Steven Gonzalez,1106,General Liability,3243.630062,3137.853745,63,Construction,3298156,Credit Card,4,12,0.063072749
+107,Ryan Moore,1107,General Liability,4693.446307,4644.748056,49,Manufacturing,5901038,Cheque,0,12,0.078629426
+108,Miranda Daniels,1108,General Liability,7799.960247,8001.385231,64,Construction,4922139,ACH Transfer,0,12,0.047384799
+109,Samantha Adams,1109,General Liability,3059.183489,3119.149793,32,Manufacturing,5054582,Credit Card,4,12,0.019393134
+110,Angela Warren,1110,General Liability,1692.819188,1634.230023,7,Manufacturing,862371,Credit Card,2,12,0.035806327
+111,Elizabeth Valdez,1111,General Liability,3607.763076,3721.708185,21,Retail,3357945,Cheque,4,12,0.159502809
+112,Samuel Duncan,1112,General Liability,2450.991585,2383.452201,20,Consulting,8379143,Credit Card,0,12,0.135509161
+113,Derek Johnson,1113,General Liability,9367.278871,9108.571129,26,Technology,5761064,Credit Card,3,12,0.109385775
+114,Tiffany Hall,1114,General Liability,8273.083416,8303.672665,68,Technology,3868950,ACH Transfer,1,12,0.095017975
+115,Mary Friedman,1115,General Liability,6700.633809,6762.909456,86,Technology,242980,ACH Transfer,3,12,0.184486857
+116,John Gomez,1116,General Liability,8843.145312,8913.966709,15,Construction,6600785,Credit Card,3,12,0.01454699
+117,Gina Kelly,1117,General Liability,8233.048692,7896.717816,85,Technology,357354,Credit Card,0,12,0.056120163
+118,Lauren Marshall,1118,General Liability,2679.13053,2780.257222,79,Technology,7963438,Cheque,4,12,0.069987571
+119,Christine Johnson,1119,General Liability,9033.030986,8821.296779,86,Retail,6054075,Cheque,2,12,0.156485162
+120,Robert Villanueva,1120,General Liability,5854.080177,5637.195242,92,Manufacturing,8072368,Credit Card,3,12,0.198502924
+121,Casey Kidd,1121,General Liability,8266.961396,8588.337933,14,Technology,2335883,ACH Transfer,4,12,0.048134103
+122,Christopher Villarreal,1122,General Liability,9064.821699,9477.861658,27,Consulting,864265,Credit Card,2,12,0.174861467
+123,Misty Howell,1123,General Liability,3862.031275,4001.886093,40,Technology,6730840,Credit Card,3,12,0.166124552
+124,Robert Chavez,1124,General Liability,1990.467321,2052.075484,58,Construction,5768889,ACH Transfer,2,12,0.04493148
+125,Ryan Hamilton,1125,General Liability,3051.416463,3098.787256,28,Construction,408617,ACH Transfer,4,12,0.079866516
+126,Rebekah Bennett,1126,General Liability,4843.970098,4868.605256,26,Construction,844748,Cheque,1,12,0.081934574
+127,Monica Macias,1127,General Liability,8362.132893,8016.765733,63,Technology,5187692,Cheque,4,12,0.195644134
+128,Nicholas Lopez,1128,General Liability,8746.575249,8666.503163,66,Retail,834275,Cheque,0,12,0.03617838
+129,Annette Edwards,1129,General Liability,1062.569175,1049.041449,25,Consulting,6314638,Cheque,2,12,0.159831594
+130,Julia Baker,1130,General Liability,5596.725723,5462.266505,3,Technology,9786427,ACH Transfer,1,12,0.066838543
+131,Michael Fitzgerald,1131,General Liability,4756.699028,4862.973252,72,Retail,9522794,Credit Card,2,12,0.146174069
+132,Kevin Pierce,1132,General Liability,2998.970294,2997.733439,44,Retail,9087114,Cheque,2,12,0.084002201
+133,David Miller,1133,General Liability,2078.788306,1991.696683,97,Technology,5539296,Cheque,3,12,0.115671953
+134,Brenda Frey,1134,General Liability,4038.536543,3925.531506,42,Technology,6294224,ACH Transfer,0,12,0.166522355
+135,Gary Jones,1135,General Liability,9486.187335,9660.030032,99,Retail,9045326,ACH Transfer,2,12,0.160833113
+136,Patrick Brady,1136,General Liability,3908.826388,3743.1433,6,Retail,6124293,Credit Card,4,12,0.173284637
+137,Luke Barker,1137,General Liability,5669.115596,5868.218855,39,Retail,6293367,Credit Card,4,12,0.011923465
+138,Paula Turner,1138,General Liability,7327.17063,7323.614408,52,Technology,5418331,ACH Transfer,3,12,0.138410111
+139,Jordan Smith,1139,General Liability,4272.666421,4264.371713,23,Retail,8841022,Cheque,0,12,0.027997475
+140,Lisa Powers,1140,General Liability,9746.038744,9836.099729,89,Construction,3063944,Cheque,0,12,0.083163714
+141,Andrea Mclaughlin,1141,General Liability,9662.025654,9975.733237,50,Technology,4048401,Cheque,4,12,0.109717683
+142,Scott Hamilton,1142,General Liability,3266.040662,3216.334531,43,Construction,224932,Credit Card,1,12,0.080547897
+143,Nicole Alvarez,1143,General Liability,5475.236553,5572.704608,19,Manufacturing,5334259,Cheque,3,12,0.103922335
+144,William Alexander,1144,General Liability,3707.904788,3732.277575,69,Technology,8756691,Cheque,3,12,0.199305262
+145,Paul Griffith,1145,General Liability,3563.564449,3480.543472,51,Manufacturing,6950807,ACH Transfer,4,12,0.027043463
+146,Zachary Kennedy,1146,General Liability,1331.982526,1382.415379,11,Retail,6380757,Cheque,4,12,0.135091209
+147,Joseph Jackson,1147,General Liability,6486.079006,6678.991873,12,Retail,6884672,ACH Transfer,1,12,0.079200193
+148,Stacy Perry,1148,General Liability,5524.111209,5611.641765,74,Consulting,3977809,Cheque,1,12,0.02660196
+149,Justin Griffin,1149,General Liability,1463.308761,1514.609693,8,Retail,4976709,Credit Card,0,12,0.031747353
+150,Jason Shaw,1150,General Liability,3507.818178,3636.658306,24,Manufacturing,2692316,Cheque,3,12,0.189854621
+151,John Murray,1151,General Liability,9174.392974,9365.553357,92,Retail,5995725,Cheque,3,12,0.175920299
+152,Nancy Sherman MD,1152,General Liability,3156.057016,3262.420344,41,Technology,8777828,ACH Transfer,4,12,0.181408392
+153,John Miller,1153,General Liability,2304.053849,2349.552337,36,Retail,5538757,ACH Transfer,0,12,0.198306555
+154,Rachel Ellis,1154,General Liability,5405.074842,5502.442278,85,Consulting,9883893,ACH Transfer,3,12,0.041663078
+155,Norma King,1155,General Liability,9870.854087,9987.933648,72,Retail,2764749,Cheque,0,12,0.071087867
+156,Michele Wilson,1156,General Liability,3178.497444,3258.823363,55,Manufacturing,6828926,Cheque,0,12,0.133843806
+157,Robert Ford,1157,General Liability,7049.219927,6808.563157,9,Manufacturing,4099453,Credit Card,4,12,0.096760508
+158,Angela Pitts,1158,General Liability,7854.576538,8153.734391,47,Retail,9895586,Cheque,0,12,0.083677907
+159,Tommy Wood,1159,General Liability,3138.737896,3255.449833,15,Manufacturing,7346813,Credit Card,1,12,0.07156225
+160,Edwin Gomez,1160,General Liability,7553.947138,7198.343024,48,Manufacturing,3021989,ACH Transfer,1,12,0.118756126
+161,Richard Cox,1161,General Liability,4310.048194,4450.476784,82,Consulting,1084156,ACH Transfer,2,12,0.115118686
+162,Douglas Hunter,1162,General Liability,6690.752475,6442.43849,42,Technology,3813543,ACH Transfer,4,12,0.032291567
+163,Christopher Nguyen,1163,General Liability,6701.767397,6591.267888,60,Consulting,9352267,Credit Card,2,12,0.094347968
+164,Nina Walker,1164,General Liability,5821.972157,5963.741985,84,Construction,1303920,Cheque,1,12,0.110694355
+165,Joseph Rodriguez,1165,General Liability,1812.60793,1751.117,70,Consulting,3208591,ACH Transfer,2,12,0.114057388
+166,Donna Richards,1166,General Liability,8517.72246,8788.557947,12,Retail,847852,Cheque,4,12,0.042021439
+167,Jennifer Thompson,1167,General Liability,3887.020585,4016.121823,2,Technology,9645226,Cheque,4,12,0.148454278
+168,Dawn Bartlett,1168,General Liability,2678.666594,2680.66695,7,Retail,5396990,ACH Transfer,0,12,0.005039819
+169,Russell Gilbert,1169,General Liability,1366.976274,1299.500394,80,Construction,7028655,Credit Card,3,12,0.070966371
+170,Travis Gibbs,1170,General Liability,6318.036489,6183.486404,3,Technology,9596418,Cheque,0,12,0.15604253
+171,Heather Patterson,1171,General Liability,7098.079257,7181.07491,3,Manufacturing,9300891,ACH Transfer,4,12,0.112778584
+172,Emily Caldwell,1172,General Liability,1149.29046,1204.592729,27,Consulting,1921367,Cheque,1,12,0.052232487
+173,Anthony Williams,1173,General Liability,5608.837525,5682.76959,40,Retail,3472863,Cheque,1,12,0.138990624
+174,Connie Lopez,1174,General Liability,3038.461977,2965.479208,33,Construction,2999033,Cheque,0,12,0.113478189
+175,Susan Prince,1175,General Liability,6806.555114,6897.766834,92,Manufacturing,1678315,Cheque,4,12,0.159248722
+176,Donna Moon,1176,General Liability,2569.297861,2579.571296,1,Consulting,7527210,Cheque,1,12,0.147005037
+177,John Jones,1177,General Liability,7218.439643,7420.444352,8,Manufacturing,8398852,Credit Card,4,12,0.122021584
+178,Christopher Harper,1178,General Liability,4480.618117,4304.52115,32,Consulting,6193073,Credit Card,1,12,0.097635535
+179,Jamie Stanley,1179,General Liability,9430.569899,9676.734087,48,Technology,1449590,ACH Transfer,4,12,0.026636425
+180,Steven Kennedy,1180,General Liability,2237.688497,2246.922672,4,Manufacturing,5466645,Credit Card,2,12,0.052266604
+181,Joseph Davis,1181,General Liability,4069.597159,4258.016254,94,Manufacturing,5729905,Credit Card,4,12,0.083819895
+182,Angela Thompson,1182,General Liability,2021.261691,1989.299918,70,Manufacturing,3145529,Credit Card,4,12,0.119859857
+183,Michael Huffman,1183,General Liability,9322.242565,9445.87591,19,Technology,5540107,Cheque,0,12,0.102741571
+184,Michael Williams,1184,General Liability,8896.05418,9280.388724,32,Construction,7203260,Cheque,2,12,0.057636905
+185,Sean Johnson,1185,General Liability,3321.474649,3189.449263,9,Consulting,7181530,ACH Transfer,3,12,0.001292872
+186,Michael Smith,1186,General Liability,6939.856414,7243.286706,12,Manufacturing,9958401,ACH Transfer,0,12,0.099247844
+187,Donald Carney,1187,General Liability,8354.999802,8511.978319,11,Technology,2997706,ACH Transfer,3,12,0.057125198
+188,James Cabrera,1188,General Liability,5996.807304,5737.647516,46,Construction,8382356,Cheque,1,12,0.14692166
+189,Samuel Franco,1189,General Liability,5766.855205,5652.073776,16,Consulting,3301473,Credit Card,3,12,0.004789253
+190,Pamela Walker,1190,General Liability,3176.670618,3242.800034,1,Technology,9587265,Credit Card,4,12,0.116965562
+191,James Cox,1191,General Liability,1837.92491,1758.4072,63,Consulting,9414823,Cheque,3,12,0.188294848
+192,Sharon Green,1192,General Liability,9074.941822,9149.511036,21,Manufacturing,6607660,ACH Transfer,0,12,0.034881853
+193,Pam Cook,1193,General Liability,9103.762514,8963.45811,30,Construction,1549991,ACH Transfer,0,12,0.094329898
+194,Christopher Mcclure,1194,General Liability,6697.913115,6778.901279,13,Technology,6139523,ACH Transfer,3,12,0.018284398
+195,Lindsey Price,1195,General Liability,4051.268119,3867.236038,34,Construction,5453966,Cheque,0,12,0.125136382
+196,Matthew Anderson,1196,General Liability,4142.886172,4296.809641,4,Manufacturing,6847741,ACH Transfer,0,12,0.110106336
+197,Kevin Cox,1197,General Liability,7533.60111,7890.308812,28,Construction,5268554,ACH Transfer,3,12,0.081473105
+198,Mia Allen,1198,General Liability,9073.99234,9499.451746,95,Construction,524528,Cheque,2,12,0.104275404
+199,Elizabeth Watts,1199,General Liability,8983.777818,9208.059477,59,Retail,8090001,Credit Card,2,12,0.179314932
+200,Natasha Walls,1200,General Liability,8018.879913,7722.250511,27,Construction,9100789,Cheque,1,12,0.03925886
+201,Eric Greer,1201,General Liability,6778.284815,6953.342965,69,Consulting,6550219,Cheque,0,12,0.004512902
+202,Bruce Owens,1202,General Liability,1757.259685,1673.71726,25,Technology,1750824,Cheque,3,12,0.172332977
+203,William Doyle,1203,General Liability,2454.658427,2337.356082,3,Retail,5365481,Cheque,0,12,0.115423416
+204,Stacie Bennett,1204,General Liability,9086.987697,8926.70252,97,Technology,6802692,Credit Card,4,12,0.178131691
+205,David Bradford,1205,General Liability,6457.861537,6450.527467,68,Technology,8627835,ACH Transfer,0,12,0.119389045
+206,Kenneth Cruz,1206,General Liability,1082.773465,1112.052462,25,Manufacturing,1873055,Cheque,0,12,0.162032218
+207,Paul Barnett,1207,General Liability,1913.243886,1948.312762,20,Manufacturing,5292859,Credit Card,2,12,0.085934673
+208,Madison Espinoza,1208,General Liability,6971.515922,6933.801908,34,Retail,9180745,ACH Transfer,3,12,0.149971986
+209,Paul Moore,1209,General Liability,1045.554255,1021.885694,26,Manufacturing,381854,ACH Transfer,0,12,0.182608293
+210,Gerald Davis,1210,General Liability,2447.272463,2568.932373,5,Manufacturing,6762314,ACH Transfer,2,12,0.114424593
+211,Kenneth Harvey,1211,General Liability,5938.604104,5894.766102,99,Manufacturing,5930395,Cheque,1,12,0.03615703
+212,Destiny Mccann,1212,General Liability,7227.056779,7191.923906,61,Technology,9148935,Cheque,2,12,0.053759523
+213,David Adkins,1213,General Liability,6867.651336,6636.639904,92,Retail,1757153,ACH Transfer,2,12,0.039728915
+214,Amy Williams,1214,General Liability,3018.423785,3107.409801,93,Technology,9973863,ACH Transfer,2,12,0.049371406
+215,Daniel Carrillo,1215,General Liability,7409.612992,7553.124026,9,Consulting,7183610,ACH Transfer,0,12,0.06128309
+216,Alexander Russell MD,1216,General Liability,3135.241787,3047.69631,50,Technology,7942680,ACH Transfer,0,12,0.111026757
+217,Casey Green,1217,General Liability,3928.597283,3764.531614,6,Consulting,1906684,ACH Transfer,1,12,0.117598326
+218,Christopher Singh,1218,General Liability,7718.422646,7857.739636,83,Construction,1909858,ACH Transfer,4,12,0.085299949
+219,Wanda Drake,1219,General Liability,6846.696091,6952.485224,60,Construction,579083,Credit Card,4,12,0.123084156
+220,Ashley Martinez,1220,General Liability,8643.010694,8447.038661,44,Consulting,9882924,ACH Transfer,4,12,0.016314985
+221,Tony Lopez,1221,General Liability,6918.516031,7230.446709,11,Consulting,2001740,Cheque,1,12,0.017557647
+222,Sheryl Allen,1222,General Liability,6114.77743,5901.407097,66,Technology,5748393,Cheque,4,12,0.034365892
+223,Sarah Nelson,1223,General Liability,1843.07291,1830.601721,47,Consulting,6384725,Cheque,4,12,0.1036155
+224,Richard Morris,1224,General Liability,4309.442228,4500.615945,73,Retail,7852950,ACH Transfer,2,12,0.042798936
+225,Kenneth Perry,1225,General Liability,3386.821309,3359.634386,85,Construction,6809914,Cheque,0,12,0.056656881
+226,Scott Hughes,1226,General Liability,3195.90679,3240.178392,88,Construction,7495873,Credit Card,0,12,0.080062567
+227,Deborah Farrell,1227,General Liability,9757.094993,9657.176874,98,Consulting,4684946,ACH Transfer,2,12,0.162373225
+228,Katherine Combs,1228,General Liability,4537.879522,4435.421101,86,Manufacturing,8443199,Cheque,2,12,0.002772427
+229,Eric Willis,1229,General Liability,9028.418997,9465.374296,3,Manufacturing,4401400,Credit Card,2,12,0.129875764
+230,Barbara Roy,1230,General Liability,6680.247634,6619.680505,76,Consulting,4741094,Credit Card,0,12,0.133775306
+231,Damon Lee,1231,General Liability,8153.301732,8474.622704,92,Retail,2807184,Cheque,4,12,0.159731156
+232,Dylan Rodriguez,1232,General Liability,5523.733838,5374.56795,30,Manufacturing,7973491,Credit Card,2,12,0.186550588
+233,Benjamin Sweeney,1233,General Liability,6192.134962,6014.485522,90,Consulting,3870771,Cheque,1,12,0.00402757
+234,Patricia Hayes,1234,General Liability,5432.659244,5177.940368,21,Retail,1640724,Credit Card,2,12,0.030756741
+235,Todd Gentry,1235,General Liability,2757.18689,2799.004268,28,Retail,5975293,ACH Transfer,3,12,0.177234259
+236,Ruben Hanson,1236,General Liability,7502.069037,7403.436593,90,Technology,2065730,ACH Transfer,2,12,0.091703712
+237,Madison Carlson,1237,General Liability,3526.951262,3655.458641,62,Retail,7443728,ACH Transfer,0,12,0.112918128
+238,Dylan Davis,1238,General Liability,1218.843698,1215.578404,33,Manufacturing,9164281,ACH Transfer,2,12,0.132605441
+239,Emily Rogers,1239,General Liability,6809.250663,7128.055304,85,Manufacturing,7197037,ACH Transfer,3,12,0.135813321
+240,Melissa Hoffman,1240,General Liability,2593.996115,2512.421556,35,Consulting,4162224,Cheque,1,12,0.186348081
+241,Kyle Johnson,1241,General Liability,9464.127259,9812.996916,52,Consulting,1194316,ACH Transfer,4,12,0.199389883
+242,Tyler Gonzalez,1242,General Liability,9585.357193,9850.485156,34,Retail,4400915,ACH Transfer,2,12,0.144031492
+243,Kayla Holland,1243,General Liability,9233.779512,9483.94277,41,Construction,6860403,ACH Transfer,3,12,0.057444242
+244,Angelica Franco,1244,General Liability,4331.428302,4480.768686,51,Technology,6720241,ACH Transfer,3,12,0.17595048
+245,Jeffery Walker,1245,General Liability,1139.109549,1168.843041,47,Construction,1736675,Credit Card,1,12,0.009844183
+246,Tiffany Winters,1246,General Liability,9354.867063,9472.944496,82,Retail,9195281,ACH Transfer,0,12,0.046216171
+247,Scott Page,1247,General Liability,4853.657335,4674.676234,58,Retail,901849,ACH Transfer,2,12,0.179477143
+248,Rebecca Wagner,1248,General Liability,9699.893371,9246.44875,75,Construction,1261068,Cheque,3,12,0.051238303
+249,Rebecca Wright,1249,General Liability,9672.579794,10079.64823,57,Technology,7470131,Credit Card,1,12,0.044130212
+250,Holly Harvey,1250,General Liability,8677.085099,8778.30357,23,Construction,1135891,Cheque,4,12,0.027625059
+251,Erica Steele,1251,General Liability,3650.040029,3758.277327,48,Consulting,853494,ACH Transfer,3,12,0.171822352
+252,John Ferguson,1252,General Liability,4465.879557,4457.627662,22,Manufacturing,8911785,Cheque,1,12,0.100011652
+253,Judy Jones,1253,General Liability,8660.230044,8328.810132,17,Consulting,9131370,Cheque,0,12,0.134978641
+254,Kevin Wilkerson DDS,1254,General Liability,3852.298046,3707.908442,69,Manufacturing,7711432,ACH Transfer,0,12,0.047813277
+255,James Johnson,1255,General Liability,2525.43472,2572.298022,11,Retail,9256484,Credit Card,3,12,0.151608084
+256,Andrew Bailey,1256,General Liability,6011.211362,5969.316762,94,Technology,3804697,Credit Card,3,12,0.152001109
+257,Rachel Smith,1257,General Liability,9425.392967,9143.125754,15,Construction,5377420,Cheque,2,12,0.062519605
+258,Sarah Walls,1258,General Liability,7264.26817,7258.162223,91,Technology,9694792,ACH Transfer,1,12,0.082136527
+259,Erica King,1259,General Liability,6130.550531,5863.386618,35,Construction,5427580,Cheque,3,12,0.041938055
+260,Henry Richardson,1260,General Liability,1874.588444,1889.954708,33,Consulting,7372003,Cheque,2,12,0.195312205
+261,Jennifer Lynch,1261,General Liability,6535.06504,6384.100728,84,Consulting,1860511,Cheque,2,12,0.129120515
+262,Theodore Smith,1262,General Liability,9910.484651,10205.38014,16,Construction,3641815,ACH Transfer,3,12,0.186908776
+263,Andrea Clark,1263,General Liability,2260.756137,2217.883601,34,Technology,8534610,ACH Transfer,0,12,0.060677109
+264,Kimberly Silva,1264,General Liability,5664.966871,5639.599234,66,Construction,7489844,Credit Card,1,12,0.156378183
+265,Brian Arellano,1265,General Liability,8896.357647,8461.877813,99,Retail,4710146,ACH Transfer,1,12,0.153171729
+266,Richard Harvey,1266,General Liability,7666.91756,7339.116113,40,Consulting,9203947,Cheque,0,12,0.13833113
+267,Paul Herman,1267,General Liability,7273.141669,7194.950709,28,Retail,4239289,Cheque,3,12,0.193127795
+268,Michael Baldwin,1268,General Liability,7322.356756,7307.667255,47,Consulting,5451826,Credit Card,1,12,0.078711067
+269,Tonya Jackson,1269,General Liability,4235.420361,4277.783268,39,Consulting,6490459,ACH Transfer,3,12,0.026143465
+270,Eric Ware,1270,General Liability,3642.326598,3566.443305,70,Manufacturing,1884006,Cheque,3,12,0.134341772
+271,Russell Williams,1271,General Liability,8284.250399,8445.778276,73,Retail,6172310,Credit Card,2,12,0.14586196
+272,Allison Kelley,1272,General Liability,8291.020552,8589.598772,20,Retail,5013478,Credit Card,0,12,0.115012115
+273,Jillian Sims,1273,General Liability,8803.650867,9050.021907,1,Manufacturing,9117497,Cheque,3,12,0.041363579
+274,Ray Gomez,1274,General Liability,9219.164973,8794.731973,72,Technology,8403143,Cheque,4,12,0.100891188
+275,Erica Williams,1275,General Liability,5602.08159,5591.161423,87,Retail,6453300,ACH Transfer,0,12,0.062437947
+276,Andrew Contreras,1276,General Liability,5513.646652,5295.819112,63,Construction,6068333,Credit Card,1,12,0.085493306
+277,Terri Stephens,1277,General Liability,8184.656611,7973.529314,67,Manufacturing,9414387,Cheque,2,12,0.129043715
+278,Sandy Mendoza,1278,General Liability,6849.675377,7183.023455,4,Retail,6310958,Credit Card,1,12,0.149042949
+279,Anthony Warner,1279,General Liability,7317.701895,7056.090791,58,Technology,6701457,ACH Transfer,1,12,0.046444938
+280,Taylor Crane,1280,General Liability,8162.134025,8161.226521,25,Retail,6779155,Cheque,0,12,0.081065072
+281,Aaron Becker,1281,General Liability,9010.048076,9116.506961,47,Consulting,5837580,ACH Transfer,1,12,0.053832314
+282,Ryan Parker,1282,General Liability,4041.956412,4123.79187,38,Construction,5625724,Credit Card,3,12,0.039726323
+283,Nathan Haley,1283,General Liability,4380.246574,4406.374168,15,Manufacturing,6125095,ACH Transfer,1,12,0.156677444
+284,Benjamin Davis,1284,General Liability,1845.837459,1755.349125,63,Consulting,325391,ACH Transfer,2,12,0.181850539
+285,Jacob Baker,1285,General Liability,6204.521269,6096.848819,21,Technology,6798541,Credit Card,2,12,0.074046437
+286,Ryan Robinson,1286,General Liability,1323.480464,1325.824566,99,Consulting,291387,ACH Transfer,4,12,0.150255785
+287,Debbie Larsen,1287,General Liability,5190.382163,4976.469126,57,Consulting,3732632,Credit Card,2,12,0.179399058
+288,Benjamin Mclaughlin,1288,General Liability,5883.801712,5795.913561,53,Technology,4708474,Cheque,1,12,0.169224842
+289,Laurie Mcdowell,1289,General Liability,3578.871269,3411.810671,46,Consulting,9862681,Credit Card,2,12,0.036562678
+290,Jacqueline Austin,1290,General Liability,6317.499345,6051.266338,14,Manufacturing,2635394,Credit Card,0,12,0.191258376
+291,Kimberly Holland,1291,General Liability,1274.502249,1261.365098,76,Retail,5696526,Cheque,2,12,0.075335288
+292,Jessica Sanchez,1292,General Liability,1336.133699,1287.059613,17,Consulting,9913271,Credit Card,3,12,0.067848132
+293,Joseph Lucas,1293,General Liability,8403.405046,8460.162356,39,Manufacturing,3391070,Cheque,0,12,0.012486265
+294,John Oliver,1294,General Liability,4241.715773,4322.081427,9,Retail,786268,Cheque,4,12,0.097234731
+295,Andrew Perez,1295,General Liability,2143.544614,2207.976714,99,Retail,901955,Credit Card,3,12,0.021802723
+296,Jill Collins,1296,General Liability,5700.18934,5529.269302,77,Consulting,9599617,ACH Transfer,1,12,0.049707964
+297,James Maldonado,1297,General Liability,7929.941978,7666.257595,79,Manufacturing,2113148,ACH Transfer,1,12,0.063388524
+298,Elizabeth Manning,1298,General Liability,2942.389247,2826.037714,82,Consulting,6935735,Cheque,1,12,0.161765265
+299,Susan Green,1299,General Liability,6606.014282,6696.1403,97,Technology,4567223,ACH Transfer,3,12,0.17509773
+300,Dr. Maria Williams,1300,General Liability,1768.127185,1804.634719,6,Retail,2544291,ACH Transfer,3,12,0.060493263
+301,Lauren Dunn,1301,General Liability,1465.135491,1396.506514,91,Consulting,247745,Credit Card,3,12,0.171739624
+302,Jacqueline Burke,1302,General Liability,5782.191684,6034.417966,23,Retail,3892824,Cheque,0,12,0.171446187
+303,Jennifer White,1303,General Liability,5865.716094,5602.915169,59,Manufacturing,237686,Cheque,0,12,0.15293019
+304,Trevor Wood,1304,General Liability,6736.869113,6764.689914,91,Construction,5350295,Credit Card,1,12,0.029339023
+305,Michael Bailey,1305,General Liability,7534.822004,7692.345384,98,Consulting,4251923,ACH Transfer,2,12,0.138064569
+306,Michelle Goodwin,1306,General Liability,9782.668715,10145.57552,46,Consulting,5779980,Cheque,1,12,0.189004813
+307,Michelle Mcdonald,1307,General Liability,5646.703135,5767.59167,38,Retail,5249534,ACH Transfer,4,12,0.136508096
+308,Dr. Jennifer Benitez,1308,General Liability,3906.608256,4024.481599,14,Manufacturing,3414344,Cheque,0,12,0.06632337
+309,Erin Ali,1309,General Liability,8156.675753,8025.720481,72,Technology,149976,Cheque,3,12,0.100115863
+310,Jennifer Marks,1310,General Liability,3437.490261,3545.711088,62,Manufacturing,2622620,Cheque,0,12,0.129145009
+311,Rebecca Berry,1311,General Liability,4950.742786,4742.868447,35,Consulting,2127320,Cheque,3,12,0.102114082
+312,Rachael Nelson,1312,General Liability,1706.107432,1773.467395,19,Technology,1912105,ACH Transfer,4,12,0.023990588
+313,William Baker,1313,General Liability,1228.156691,1234.00178,30,Manufacturing,5861703,ACH Transfer,4,12,0.062412809
+314,Tanner Allen,1314,General Liability,9663.835732,9970.467085,78,Construction,2047238,ACH Transfer,0,12,0.160479206
+315,Steven Mcdaniel,1315,General Liability,8523.821085,8483.178043,84,Retail,9884404,ACH Transfer,3,12,0.172283609
+316,Theresa Robinson,1316,General Liability,7263.767855,7368.05936,25,Manufacturing,6430034,Credit Card,4,12,0.027460007
+317,Joseph Patterson,1317,General Liability,4680.5765,4692.934467,40,Manufacturing,4909045,Cheque,1,12,0.19047735
+318,Bobby Foster,1318,General Liability,2559.648881,2618.927667,88,Construction,8697467,Cheque,1,12,0.065764524
+319,Jessica Lewis,1319,General Liability,2407.933384,2307.192671,14,Consulting,6502891,Cheque,3,12,0.132462748
+320,Jordan Nichols,1320,General Liability,3252.186083,3109.2044,26,Retail,7131845,Credit Card,0,12,0.150365029
+321,Larry Mccoy,1321,General Liability,5943.039982,5792.742423,87,Manufacturing,5494418,ACH Transfer,4,12,0.162389247
+322,Kristin Snyder,1322,General Liability,7431.363304,7178.358587,22,Technology,145475,Cheque,0,12,0.18914994
+323,Jennifer Lopez,1323,General Liability,6941.77639,7199.860229,48,Manufacturing,8180552,ACH Transfer,1,12,0.06258391
+324,Lauren Thompson,1324,General Liability,3519.405073,3420.585101,83,Retail,3403364,ACH Transfer,4,12,0.171701291
+325,Dr. Kelly Smith,1325,General Liability,9593.787526,10050.32254,51,Manufacturing,5496364,Credit Card,0,12,0.026337381
+326,Margaret Logan,1326,General Liability,7641.07225,7516.443146,3,Construction,3339254,Credit Card,2,12,0.141008181
+327,Barbara King,1327,General Liability,5989.186473,5798.800965,42,Manufacturing,1199577,ACH Transfer,3,12,0.148395546
+328,Steven Ferguson,1328,General Liability,6505.486716,6693.949695,19,Manufacturing,9332689,Cheque,3,12,0.135544648
+329,Carl Singleton,1329,General Liability,4776.400562,4852.205753,73,Technology,6583485,Cheque,2,12,0.050462947
+330,Jake Riley,1330,General Liability,3229.578906,3228.996198,28,Construction,4723037,Credit Card,1,12,0.174608629
+331,Morgan Davis,1331,General Liability,4203.754108,4227.027583,84,Construction,7059972,Credit Card,4,12,0.033771693
+332,Jonathan Barton,1332,General Liability,7820.614994,7992.044266,45,Manufacturing,7332024,Credit Card,3,12,0.010726958
+333,Kelly Williams,1333,General Liability,1129.541398,1098.869237,71,Technology,1702970,Credit Card,2,12,0.143492998
+334,Daniel Kramer,1334,General Liability,2044.653765,2146.136866,78,Manufacturing,8291922,Credit Card,2,12,0.095095143
+335,Hannah Gallagher DDS,1335,General Liability,1414.023778,1481.16066,63,Manufacturing,8374125,Credit Card,1,12,0.169819604
+336,Caitlin Zimmerman,1336,General Liability,1366.559221,1387.102116,73,Retail,1631064,Credit Card,1,12,0.076679428
+337,Robert Fisher,1337,General Liability,8699.145256,8437.77287,19,Retail,4511887,Cheque,0,12,0.033655718
+338,Tara Rivers,1338,General Liability,7332.920734,7465.080676,47,Technology,8715797,Credit Card,3,12,0.167288438
+339,Katherine Wells,1339,General Liability,5267.564462,5042.217216,14,Consulting,2176198,Credit Card,0,12,0.109781926
+340,Edward Snyder,1340,General Liability,1880.507446,1792.246299,38,Retail,7566511,Cheque,2,12,0.037839158
+341,Debra Cortez,1341,General Liability,5424.542876,5293.09692,53,Consulting,1568919,Cheque,4,12,0.1440768
+342,Madison Richardson,1342,General Liability,5261.245937,5241.580955,61,Construction,3381941,ACH Transfer,4,12,0.102222728
+343,Garrett Salas,1343,General Liability,2558.816829,2653.051018,36,Retail,3510580,Credit Card,1,12,0.120862596
+344,Shane Garcia,1344,General Liability,4904.664843,5016.083658,40,Retail,5099111,Credit Card,4,12,0.092179668
+345,Amber Smith,1345,General Liability,4586.54261,4697.86099,81,Technology,3785104,Credit Card,4,12,0.165741797
+346,Molly Allen,1346,General Liability,6542.650882,6493.903772,30,Consulting,7759791,Credit Card,4,12,0.165912543
+347,Dr. Mark Mason,1347,General Liability,6715.842858,6612.37522,9,Retail,1520858,ACH Transfer,2,12,0.141877764
+348,Barbara Brown,1348,General Liability,1407.736088,1389.581749,64,Retail,1848982,Cheque,4,12,0.021080275
+349,Kristin Padilla,1349,General Liability,4371.513532,4584.690198,33,Technology,6663614,Cheque,4,12,0.167770772
+350,Angela Sims,1350,General Liability,6632.739241,6327.70566,52,Technology,9933673,Credit Card,4,12,0.134202596
+351,Sarah Hall,1351,General Liability,5528.226327,5731.129645,89,Consulting,4996799,Credit Card,0,12,0.139404833
+352,Kimberly Guerra,1352,General Liability,8708.408571,8776.922331,14,Construction,8566685,Credit Card,2,12,0.072596568
+353,Lee Stone,1353,General Liability,6928.242685,6885.713957,75,Construction,7579816,ACH Transfer,1,12,0.175855911
+354,Sabrina Johnson,1354,General Liability,2466.409844,2521.967615,53,Manufacturing,6107509,ACH Transfer,0,12,0.14507432
+355,Carl Leon,1355,General Liability,1635.118727,1632.93894,99,Retail,4545818,Cheque,3,12,0.022518093
+356,Jennifer Galvan,1356,General Liability,6781.773504,7035.020686,59,Consulting,5222964,Credit Card,2,12,0.081555607
+357,Edwin Morris,1357,General Liability,1238.601795,1288.2328,78,Retail,6533636,Credit Card,2,12,0.177276072
+358,Joshua Mccoy,1358,General Liability,6271.980231,6222.883752,94,Consulting,4195077,Credit Card,3,12,0.00943934
+359,Brittany Shaw,1359,General Liability,9462.072173,9250.905024,41,Consulting,9272800,Credit Card,3,12,0.192283324
+360,Patrick Walton,1360,General Liability,6179.267601,6236.33334,68,Consulting,6363998,ACH Transfer,3,12,0.135832514
+361,Shawn Best,1361,General Liability,4493.529336,4678.826015,68,Retail,4730232,Cheque,1,12,0.126275196
+362,Jesus Castro,1362,General Liability,6789.593966,6593.14534,92,Technology,1020114,Cheque,4,12,0.054111851
+363,Ashley Callahan,1363,General Liability,5124.276014,5187.287486,8,Retail,9090499,ACH Transfer,2,12,0.049758358
+364,Justin Anderson,1364,General Liability,5910.551104,5988.310444,2,Consulting,8247047,Credit Card,4,12,0.188411644
+365,Paul Parker,1365,General Liability,9473.183279,9694.015518,86,Manufacturing,2282926,Cheque,4,12,0.059654491
+366,Aaron Clark,1366,General Liability,4474.92374,4310.053089,41,Construction,2585670,Cheque,3,12,0.155101059
+367,Mrs. Jacqueline Lee PhD,1367,General Liability,9650.715074,9859.001598,55,Consulting,3444250,ACH Transfer,1,12,0.07862436
+368,Blake Gregory,1368,General Liability,9148.155778,9522.345099,16,Manufacturing,4123278,Credit Card,0,12,0.027850814
+369,Kristina Velez,1369,General Liability,2762.120213,2673.644837,93,Technology,637977,Cheque,1,12,0.00214306
+370,Bianca Brown,1370,General Liability,1624.251708,1581.622138,62,Consulting,3768280,Credit Card,4,12,0.108851467
+371,Stuart Gray,1371,General Liability,1907.002012,1996.897152,48,Manufacturing,2823408,Cheque,1,12,0.195155764
+372,Shannon Miller,1372,General Liability,1163.996431,1126.862262,30,Consulting,4884808,ACH Transfer,3,12,0.073827239
+373,Christopher Mosley PhD,1373,General Liability,1849.986647,1915.547416,12,Retail,6737640,Credit Card,0,12,0.071438467
+374,Justin Lara,1374,General Liability,7147.060961,7141.541898,35,Manufacturing,6937388,ACH Transfer,3,12,0.068818324
+375,Christopher Simpson,1375,General Liability,1640.697836,1599.226093,11,Retail,4754419,Cheque,0,12,0.104108767
+376,Courtney Knapp,1376,General Liability,3870.780673,4014.289828,64,Retail,8530899,ACH Transfer,4,12,0.088132977
+377,Shannon Fernandez,1377,General Liability,8603.877799,8556.819109,50,Manufacturing,4722580,ACH Transfer,0,12,0.175982925
+378,Adam Santos,1378,General Liability,1209.447422,1211.239503,85,Construction,4689058,ACH Transfer,0,12,0.101104158
+379,Sandra Esparza,1379,General Liability,8330.216343,8212.954695,21,Manufacturing,7345136,Cheque,0,12,0.101551568
+380,Steven King,1380,General Liability,3536.692973,3569.566835,69,Construction,8479966,Credit Card,1,12,0.027674319
+381,Robin Rodriguez,1381,General Liability,2063.483449,1994.052157,48,Consulting,2222827,ACH Transfer,1,12,0.196547908
+382,Megan Horton,1382,General Liability,7270.634488,7191.443855,20,Consulting,7532300,Credit Card,4,12,0.049994578
+383,Cody Wolfe,1383,General Liability,6660.485621,6973.137023,67,Manufacturing,7737174,Cheque,0,12,0.014672813
+384,Katie Smith,1384,General Liability,8897.248122,8682.053436,44,Consulting,808672,Credit Card,2,12,0.13262925
+385,Amanda Ramirez,1385,General Liability,7615.639394,7735.004386,33,Technology,7021154,ACH Transfer,4,12,0.119073274
+386,Erin Vargas,1386,General Liability,8231.328373,8087.436575,73,Retail,8825977,ACH Transfer,0,12,0.083029131
+387,Renee Higgins,1387,General Liability,3538.311153,3635.074454,61,Retail,4607167,ACH Transfer,0,12,0.084438447
+388,Nathan Frazier,1388,General Liability,2596.955894,2501.095412,9,Construction,2327039,ACH Transfer,1,12,0.157012784
+389,Nicole Livingston,1389,General Liability,7755.532765,8119.904016,68,Consulting,396063,ACH Transfer,4,12,0.039142528
+390,Virginia Green,1390,General Liability,8261.512653,8223.335825,35,Construction,1483875,ACH Transfer,0,12,0.164050664
+391,Karen Cunningham,1391,General Liability,9914.546278,9652.852288,81,Retail,6725169,Cheque,0,12,0.129749423
+392,Terry Garcia,1392,General Liability,4713.559092,4512.524264,98,Retail,1976336,Cheque,4,12,0.083793955
+393,Laura Barber,1393,General Liability,4348.162772,4204.568134,88,Consulting,7641586,Cheque,2,12,0.091605723
+394,Mr. Charles Butler DDS,1394,General Liability,7987.716647,8003.511516,96,Technology,4056778,Credit Card,4,12,0.051329441
+395,David Ramos,1395,General Liability,4067.231862,4000.937275,65,Technology,2987757,Credit Card,4,12,0.150422867
+396,Jessica Burns,1396,General Liability,9376.81593,9685.203809,8,Consulting,2568665,Cheque,2,12,0.102574948
+397,Carrie West,1397,General Liability,8725.714767,8665.409191,45,Consulting,6572973,Credit Card,4,12,0.064170909
+398,John Obrien,1398,General Liability,4860.946246,4738.797605,87,Construction,792924,Credit Card,0,12,0.119210023
+399,Ronald Nichols,1399,General Liability,7757.83961,7848.718812,47,Consulting,2670115,ACH Transfer,4,12,0.19914689
+400,Kim Wiley,1400,General Liability,7790.885867,7951.983636,40,Technology,1761655,ACH Transfer,2,12,0.087052456
+401,Charles Allen,1401,General Liability,1928.11482,1863.916676,76,Consulting,7599066,Credit Card,3,12,0.18413828
+402,Alicia Perez,1402,General Liability,9122.97616,8819.745964,54,Construction,4772412,Credit Card,4,12,0.069003368
+403,Breanna Pena,1403,General Liability,5547.271352,5290.25042,76,Construction,3200498,Cheque,1,12,0.010946541
+404,Kathleen Rodriguez,1404,General Liability,8438.117195,8637.595986,46,Construction,9512528,Credit Card,0,12,0.040848421
+405,Barbara Johnson,1405,General Liability,3880.446409,3944.009878,47,Construction,7281479,ACH Transfer,0,12,0.083739029
+406,Gabriel Craig,1406,General Liability,9059.709056,9036.725368,15,Manufacturing,3911666,Credit Card,1,12,0.043926986
+407,Sierra Jennings,1407,General Liability,4502.815109,4657.788698,19,Consulting,3919712,Cheque,1,12,4.54E-05
+408,Jared Ochoa,1408,General Liability,1097.538863,1131.087351,26,Retail,1133668,ACH Transfer,4,12,0.183000308
+409,Joshua Davis DVM,1409,General Liability,9148.437788,9226.523697,52,Consulting,7812079,ACH Transfer,1,12,0.168775882
+410,Mr. David Thompson,1410,General Liability,1821.580091,1888.663654,93,Manufacturing,5704327,ACH Transfer,3,12,0.148458446
+411,Kayla Shelton,1411,General Liability,3873.822738,3759.870837,22,Construction,2573199,ACH Transfer,2,12,0.033562919
+412,Robert Delacruz,1412,General Liability,9550.557703,9179.919297,21,Manufacturing,8371330,Credit Card,1,12,0.024072715
+413,Peter Smith,1413,General Liability,9555.464322,9335.449385,51,Technology,8786283,Cheque,1,12,0.01352095
+414,Stephen Reynolds,1414,General Liability,6160.940993,5888.064819,38,Technology,808175,Credit Card,3,12,0.144805838
+415,Mr. David Burnett Jr.,1415,General Liability,6686.53491,6707.376523,20,Consulting,1967306,Credit Card,0,12,0.185761592
+416,Michael Reynolds,1416,General Liability,5036.009698,5255.884748,29,Consulting,8752233,ACH Transfer,0,12,0.086107164
+417,Alex Curtis,1417,General Liability,3638.896945,3471.268807,51,Retail,942840,Cheque,4,12,0.023828134
+418,James Richardson,1418,General Liability,3957.980908,3808.412734,4,Retail,4494643,ACH Transfer,3,12,0.102478564
+419,Robert Hubbard,1419,General Liability,7052.666105,7018.953675,55,Technology,5989118,Credit Card,2,12,0.069766381
+420,David Johnston,1420,General Liability,7771.370765,8108.551128,71,Construction,5228643,Credit Card,2,12,0.074964985
+421,Christina Copeland,1421,General Liability,8124.211394,7974.852727,92,Manufacturing,225355,ACH Transfer,3,12,0.124266125
+422,Tyler Cohen,1422,General Liability,8106.563285,8112.428229,28,Retail,4322102,Credit Card,2,12,0.143743623
+423,Collin Smith,1423,General Liability,1820.854927,1737.381996,4,Retail,715937,Credit Card,0,12,0.02212072
+424,Caitlyn Guerrero,1424,General Liability,5449.782742,5258.137427,22,Construction,1475607,ACH Transfer,2,12,0.007118046
+425,Chelsea Brock,1425,General Liability,1518.02884,1591.900696,76,Construction,119477,Credit Card,2,12,0.198866061
+426,Amber Pearson,1426,General Liability,5945.759941,6222.308352,45,Consulting,3656210,Cheque,3,12,0.04654567
+427,Dennis Larsen,1427,General Liability,4973.774512,4727.542822,67,Manufacturing,6608856,ACH Transfer,3,12,0.010766105
+428,Allison King,1428,General Liability,8989.337645,9395.486514,86,Construction,2587111,Cheque,2,12,0.037975066
+429,Juan Moore,1429,General Liability,4158.235113,4216.084454,66,Retail,2109606,Credit Card,1,12,0.007791569
+430,Joel Mendoza,1430,General Liability,2053.603148,2129.158965,88,Retail,1659757,Credit Card,3,12,0.078362179
+431,Russell Scott,1431,General Liability,2286.925138,2276.574482,34,Technology,7415830,ACH Transfer,4,12,0.160480357
+432,Andrew Cooper,1432,General Liability,7853.595685,7865.844176,91,Construction,6256738,Credit Card,4,12,0.06824889
+433,Anthony Higgins,1433,General Liability,6563.96257,6556.641507,55,Consulting,3532207,ACH Transfer,0,12,0.088836681
+434,Erica Collier,1434,General Liability,1910.104085,1941.976895,1,Manufacturing,6271638,ACH Transfer,2,12,0.135117355
+435,Veronica Harris,1435,General Liability,1756.961255,1693.649377,72,Consulting,1981297,ACH Transfer,1,12,0.101778814
+436,Monique Jones,1436,General Liability,7308.722183,6965.192938,87,Retail,6183059,ACH Transfer,0,12,0.172289137
+437,William Williams,1437,General Liability,1654.867057,1623.082016,38,Consulting,9312367,ACH Transfer,2,12,0.173207135
+438,Mrs. Alexis Barajas DDS,1438,General Liability,8396.740534,8568.605659,6,Retail,4629275,Cheque,3,12,0.001982139
+439,Mr. Michael Francis,1439,General Liability,7356.180044,7136.858076,86,Retail,8619792,ACH Transfer,4,12,0.155609261
+440,Louis Cole,1440,General Liability,1732.139026,1762.179934,25,Retail,1235627,Cheque,1,12,0.09214672
+441,Hannah Massey,1441,General Liability,1763.539427,1846.410269,82,Retail,345300,Credit Card,4,12,0.197768108
+442,John Walker,1442,General Liability,9879.756207,9478.540014,17,Retail,9072618,ACH Transfer,3,12,0.096646415
+443,Kelly Hayden,1443,General Liability,4368.437162,4443.837313,61,Technology,192036,Credit Card,2,12,0.197379189
+444,Daniel Cannon,1444,General Liability,4335.779324,4311.39066,12,Consulting,6095802,ACH Transfer,3,12,0.150913872
+445,Jeffery Kaufman,1445,General Liability,8315.196105,8621.313609,6,Technology,6539051,Cheque,3,12,0.049720977
+446,Javier Moore,1446,General Liability,9525.237196,9217.714713,90,Technology,953392,Cheque,4,12,0.107678996
+447,Joshua Curtis,1447,General Liability,9874.009574,10064.20862,27,Construction,6115877,Cheque,1,12,0.198427128
+448,Johnathan Carr,1448,General Liability,7780.403667,8043.471011,8,Construction,8770304,Credit Card,3,12,0.171506122
+449,Cheryl Thomas,1449,General Liability,4386.33627,4581.359017,83,Construction,3762340,ACH Transfer,4,12,0.019473379
+450,Alan Moore,1450,General Liability,1751.50645,1783.602461,65,Manufacturing,9679064,Credit Card,1,12,0.141274399
+451,Peggy Oconnell,1451,General Liability,7994.322243,7992.063659,57,Construction,9478637,Cheque,2,12,0.069115917
+452,Amber Torres,1452,General Liability,6025.638248,6096.648731,93,Consulting,254692,Credit Card,2,12,0.001396452
+453,Sara Ray,1453,General Liability,4817.998083,4995.736434,99,Technology,8462101,Cheque,0,12,0.080696194
+454,John Smith,1454,General Liability,9157.189466,9221.848149,40,Consulting,4557335,Cheque,4,12,0.046950884
+455,Dana Carlson,1455,General Liability,2000.777341,1906.818248,14,Construction,1757888,Cheque,1,12,0.163773854
+456,Taylor Mckinney,1456,General Liability,5433.625939,5667.78734,35,Manufacturing,2685917,ACH Transfer,3,12,0.067466122
+457,James Santos,1457,General Liability,1102.182803,1123.072115,48,Manufacturing,8210129,ACH Transfer,2,12,0.165504739
+458,William Hogan,1458,General Liability,5217.945778,5310.049506,84,Technology,6247560,Cheque,1,12,0.000119588
+459,Derrick Mcdonald,1459,General Liability,1506.729481,1463.889418,56,Consulting,8046258,Credit Card,4,12,0.06156383
+460,Brian Garrett,1460,General Liability,2069.361246,2102.24039,49,Retail,7657845,Credit Card,0,12,0.048233043
+461,Andrea Hunter,1461,General Liability,2057.736221,2035.896315,13,Consulting,1924964,ACH Transfer,2,12,0.046713472
+462,Harold Mills,1462,General Liability,6842.892719,6946.379823,61,Construction,7824922,Cheque,1,12,0.013637324
+463,Karen Perez,1463,General Liability,7714.403913,7410.913887,49,Retail,8252513,Credit Card,1,12,0.037424854
+464,Michael Henry,1464,General Liability,6250.318886,6348.977235,46,Manufacturing,9877117,Cheque,1,12,0.111109914
+465,Jennifer Williams,1465,General Liability,9659.552936,10141.96427,62,Technology,6889408,Credit Card,4,12,0.058272215
+466,Christopher Nguyen,1466,General Liability,4373.835216,4176.230606,8,Technology,4864812,ACH Transfer,4,12,0.083478956
+467,Patricia Spence,1467,General Liability,3571.408777,3741.827183,43,Manufacturing,1668146,Cheque,4,12,0.075373376
+468,Brian Williams,1468,General Liability,8817.392154,8735.309252,20,Construction,583455,Cheque,3,12,0.175180985
+469,Sylvia Walton,1469,General Liability,3012.362547,3124.046927,97,Manufacturing,4136405,Credit Card,1,12,0.1810598
+470,Jennifer Brewer,1470,General Liability,9669.002855,9942.04146,90,Construction,9035827,Credit Card,2,12,0.098591394
+471,Laura Davis,1471,General Liability,1109.390272,1116.824991,39,Retail,2286268,Credit Card,4,12,0.06603119
+472,Daryl Rivera,1472,General Liability,9728.90944,9960.894517,85,Manufacturing,4545975,Cheque,4,12,0.021360141
+473,Alex Price,1473,General Liability,1388.439208,1440.993792,49,Construction,2971656,ACH Transfer,1,12,0.190680576
+474,Jessica Perez,1474,General Liability,9020.288023,8933.819832,64,Retail,4808569,ACH Transfer,4,12,0.012045389
+475,Jessica Jenkins,1475,General Liability,5749.309982,5649.865985,62,Manufacturing,3955933,Credit Card,3,12,0.059530056
+476,Gabriel Ellis,1476,General Liability,9936.683165,10103.2154,54,Technology,2426729,ACH Transfer,3,12,0.05961324
+477,Kaitlyn Page,1477,General Liability,1664.169083,1715.399852,9,Manufacturing,6795233,Credit Card,4,12,0.064080257
+478,Cheryl Robinson,1478,General Liability,5984.68856,6141.658044,88,Consulting,8374437,ACH Transfer,1,12,0.032857369
+479,Jose Moreno,1479,General Liability,9723.722821,10013.30856,37,Manufacturing,4007129,Cheque,1,12,0.156632286
+480,Robin Pierce,1480,General Liability,5707.880598,5671.112323,49,Consulting,195556,Credit Card,1,12,0.024499572
+481,Caleb Walters,1481,General Liability,6664.587743,6876.411145,41,Retail,5499869,ACH Transfer,0,12,0.126981332
+482,Jaclyn Calderon,1482,General Liability,7261.738201,6985.94396,17,Manufacturing,3569992,Cheque,4,12,0.024769205
+483,Vincent Johnson,1483,General Liability,5090.869583,5113.518402,88,Retail,6239353,ACH Transfer,1,12,0.014107128
+484,Heather Flores,1484,General Liability,6648.022721,6319.449955,21,Retail,752755,Cheque,3,12,0.181885901
+485,Joseph Clark,1485,General Liability,6258.828807,6149.040081,51,Construction,3766344,Cheque,2,12,0.038025753
+486,Matthew Clark,1486,General Liability,9110.422094,8988.762916,59,Retail,5750352,ACH Transfer,2,12,0.164250031
+487,Robert Murphy,1487,General Liability,1409.017423,1394.387974,39,Retail,843088,ACH Transfer,1,12,0.108926174
+488,Katherine Dickson,1488,General Liability,3528.668706,3597.642608,55,Manufacturing,159778,Cheque,2,12,0.015571304
+489,Maria Jones,1489,General Liability,9553.703357,9447.235072,41,Manufacturing,9583017,Cheque,2,12,0.191089638
+490,Dillon Walls,1490,General Liability,9012.374055,8966.134829,39,Technology,5103361,Cheque,0,12,0.049392233
+491,Robert Chavez,1491,General Liability,5100.910775,4967.034378,13,Construction,8175042,Credit Card,3,12,0.171929069
+492,Samantha Williams,1492,General Liability,6581.19338,6497.777933,64,Retail,7806113,Cheque,3,12,0.033762001
+493,Robert Bryant,1493,General Liability,3496.430647,3401.072363,11,Construction,2273513,Credit Card,0,12,0.170788576
+494,Melissa Miller,1494,General Liability,2693.090438,2578.14824,19,Consulting,9887557,Cheque,0,12,0.002645763
+495,Sean Miller,1495,General Liability,5173.285644,5226.802557,11,Retail,9010762,Credit Card,2,12,0.102356091
+496,Jared Nelson,1496,General Liability,4180.170052,4250.485863,77,Construction,7013462,Cheque,4,12,0.153888516
+497,Molly Campbell,1497,General Liability,6252.905007,6327.621185,46,Technology,1111930,Cheque,2,12,0.186959103
+498,Kelli Richards,1498,General Liability,1699.611733,1693.407138,45,Technology,5962044,Cheque,0,12,0.181840427
+499,Lisa Barrett,1499,General Liability,9769.553269,9652.109347,1,Retail,9568133,ACH Transfer,3,12,0.163924974
+500,Tiffany Campbell,1500,General Liability,9875.8967,10234.72126,40,Consulting,8380083,ACH Transfer,2,12,0.17763827
+501,Alex Mccarty,1501,General Liability,7283.455426,7297.353559,19,Technology,1885818,Cheque,4,12,0.039843937
+502,Sarah Mcmahon,1502,General Liability,5824.867297,5812.741017,76,Technology,3051720,Credit Card,2,12,0.056836859
+503,George Smith,1503,General Liability,3785.748547,3606.168561,72,Consulting,9648725,Credit Card,1,12,0.057793705
+504,Eric Carter,1504,General Liability,8324.155177,8192.007406,72,Construction,2182963,Cheque,2,12,0.075410786
+505,Robert Morales,1505,General Liability,7162.580553,7076.7697,61,Technology,6062859,ACH Transfer,0,12,0.078664134
+506,Anthony Graham,1506,General Liability,2463.552454,2438.626915,12,Manufacturing,4356146,Credit Card,3,12,0.108911065
+507,Justin Munoz,1507,General Liability,9198.34466,9272.089969,61,Technology,9770114,ACH Transfer,3,12,0.031975953
+508,Betty Silva,1508,General Liability,8402.835186,8431.070853,33,Construction,389134,Credit Card,0,12,0.138249333
+509,Anthony Montgomery,1509,General Liability,9548.19922,9651.229152,45,Construction,7732285,Cheque,1,12,0.033513308
+510,Jodi Gardner,1510,General Liability,7531.475575,7730.971757,90,Retail,4424660,ACH Transfer,0,12,0.062061696
+511,Robert King,1511,General Liability,6520.736763,6724.826525,92,Manufacturing,2966069,Credit Card,2,12,0.100669026
+512,Ms. Monica Jordan,1512,General Liability,4764.187327,4868.105246,69,Construction,837090,Cheque,0,12,0.159288112
+513,James Howard,1513,General Liability,9394.55635,9822.500653,8,Consulting,9403173,Cheque,0,12,0.147893847
+514,Thomas Stephens,1514,General Liability,8794.575006,8370.881037,25,Manufacturing,3935598,Cheque,1,12,0.129106871
+515,Anna Arias,1515,General Liability,1406.968031,1364.164966,91,Manufacturing,5082042,ACH Transfer,2,12,0.031154652
+516,Amanda Martinez,1516,General Liability,1237.30277,1176.373389,46,Consulting,1152425,ACH Transfer,4,12,0.109409069
+517,Steven Randolph,1517,General Liability,4388.170302,4452.884718,87,Technology,6403816,Cheque,4,12,0.0174893
+518,Thomas Gardner,1518,General Liability,8294.979977,8625.14552,30,Consulting,877567,ACH Transfer,3,12,0.075472635
+519,Sarah Richardson,1519,General Liability,9885.485164,9631.904969,47,Consulting,2816207,Credit Card,0,12,0.082703306
+520,Jennifer Smith,1520,General Liability,2353.75202,2454.265362,87,Technology,6652901,Cheque,3,12,0.007962288
+521,Julie Carter,1521,General Liability,6347.176438,6068.070392,49,Technology,1849736,Cheque,1,12,0.05479762
+522,Robert Campbell,1522,General Liability,4428.01771,4620.386752,47,Technology,6821635,ACH Transfer,4,12,0.191129893
+523,Jamie Gonzalez,1523,General Liability,9729.22958,9584.869886,84,Technology,151707,Cheque,0,12,0.190726522
+524,Thomas Turner,1524,General Liability,8579.070308,8237.126435,82,Technology,8769441,Credit Card,1,12,0.070465411
+525,Shannon Cooper,1525,General Liability,8544.958342,8532.885819,18,Consulting,9577571,ACH Transfer,1,12,0.008620022
+526,Heather Snyder,1526,General Liability,5218.238438,5091.318652,66,Retail,6204128,ACH Transfer,0,12,0.035818988
+527,Joseph Molina,1527,General Liability,4733.375521,4631.547787,68,Retail,1977145,Cheque,1,12,0.078443559
+528,Marisa Carpenter,1528,General Liability,3460.663647,3393.973186,94,Construction,9323482,Cheque,0,12,0.18955594
+529,David Nunez,1529,General Liability,1507.37947,1553.056972,33,Retail,9378101,Cheque,0,12,0.028239813
+530,Mark Barrett,1530,General Liability,8782.501386,8816.894783,36,Retail,6787666,ACH Transfer,2,12,0.152703169
+531,Jesus Leonard,1531,General Liability,8316.109082,8159.190506,82,Consulting,878799,Cheque,3,12,0.021736508
+532,Katherine Lee,1532,General Liability,9997.45906,10107.76481,19,Technology,7179701,Credit Card,1,12,0.196251515
+533,Kyle Figueroa,1533,General Liability,9969.731534,10185.22795,28,Technology,979459,Cheque,1,12,0.0763233
+534,Hector Smith,1534,General Liability,5998.88535,5862.485095,40,Consulting,8349953,Cheque,2,12,0.155046908
+535,Virginia Parrish,1535,General Liability,7920.886737,7852.409959,84,Retail,1922744,ACH Transfer,2,12,0.068518217
+536,Jonathan Diaz,1536,General Liability,9502.891569,9143.574023,97,Consulting,8267707,Cheque,2,12,0.125533775
+537,Jordan Rodriguez,1537,General Liability,8646.826516,8371.12189,76,Construction,3943139,ACH Transfer,4,12,0.038403217
+538,Kimberly Rice,1538,General Liability,3226.132916,3284.563943,15,Technology,4547395,Cheque,4,12,0.029204204
+539,Paige Frey,1539,General Liability,5054.897218,4893.867577,41,Manufacturing,9340658,Credit Card,4,12,0.187612828
+540,Gabrielle Ramirez,1540,General Liability,2162.434736,2167.876154,39,Construction,2461216,Credit Card,0,12,0.183529456
+541,Wendy White,1541,General Liability,9586.459245,9786.860592,2,Construction,7546153,ACH Transfer,1,12,0.177493788
+542,Sarah Horne,1542,General Liability,6455.57171,6201.788289,63,Consulting,2667587,ACH Transfer,3,12,0.12508669
+543,Brandon Riggs,1543,General Liability,3057.78525,3078.367881,29,Retail,364237,Cheque,0,12,0.161653642
+544,David Patrick,1544,General Liability,7045.30616,6873.797188,74,Technology,4569353,Cheque,1,12,0.013807387
+545,Deborah Williams,1545,General Liability,6563.154164,6866.980209,66,Manufacturing,4940351,Credit Card,1,12,0.066957808
+546,Victoria Mills,1546,General Liability,4223.464462,4216.515025,51,Construction,2614719,Cheque,2,12,0.062740625
+547,Russell Kim,1547,General Liability,2022.01833,2083.890584,75,Manufacturing,2008911,Credit Card,2,12,0.127129064
+548,Anthony Cunningham,1548,General Liability,7044.15876,7079.539134,77,Retail,4102981,ACH Transfer,0,12,0.071191555
+549,Amy Sandoval,1549,General Liability,5682.769308,5423.301184,10,Retail,1519920,Cheque,2,12,0.029701356
+550,Christine Lindsey,1550,General Liability,7950.865526,8056.732394,14,Manufacturing,8460777,ACH Transfer,1,12,0.119293415
+551,Joseph Moreno,1551,General Liability,5681.47151,5937.935033,82,Technology,2279441,Cheque,2,12,0.162876784
+552,Gail Johnson,1552,General Liability,8669.633503,8757.727227,51,Retail,2837946,Credit Card,4,12,0.076424699
+553,Willie Perez,1553,General Liability,5967.161549,6157.626698,73,Manufacturing,9938074,ACH Transfer,2,12,0.026453743
+554,Mark Garza,1554,General Liability,6048.441744,6280.826785,39,Construction,9849844,ACH Transfer,1,12,0.039337639
+555,Melissa Peterson,1555,General Liability,8889.882424,8648.148538,28,Manufacturing,2188062,Cheque,0,12,0.047496661
+556,Jason Williams,1556,General Liability,4631.345796,4497.983804,3,Manufacturing,1934907,ACH Transfer,3,12,0.059979519
+557,Ashley Collins,1557,General Liability,2206.137056,2230.620983,84,Consulting,8452110,Credit Card,2,12,0.128559014
+558,Richard Mitchell,1558,General Liability,1259.044087,1247.842179,70,Retail,3961774,ACH Transfer,1,12,0.120189097
+559,Samuel Harmon,1559,General Liability,7796.235301,8061.19917,27,Technology,3733795,ACH Transfer,3,12,0.139215972
+560,Willie Wood,1560,General Liability,6582.785962,6846.112622,2,Technology,3577084,Cheque,3,12,0.072500397
+561,Michael Wilson,1561,General Liability,7336.717913,7229.177314,93,Consulting,4427802,ACH Transfer,4,12,0.16479953
+562,Cassandra West,1562,General Liability,2916.677454,2839.931083,38,Technology,3499752,Cheque,3,12,0.040817532
+563,Gregory Flores,1563,General Liability,2227.34328,2289.825942,3,Manufacturing,3900986,Cheque,1,12,0.09380815
+564,Mrs. Stacy Sosa,1564,General Liability,1130.901991,1105.434761,16,Consulting,5432889,ACH Transfer,1,12,0.160187744
+565,Terri Griffin,1565,General Liability,4155.288029,4289.343571,94,Construction,823858,Credit Card,2,12,0.03603173
+566,Robert Rivera,1566,General Liability,6309.259182,6261.143669,40,Retail,144816,Cheque,2,12,0.021972623
+567,Karen Mccarthy,1567,General Liability,4530.196406,4606.099801,2,Retail,104138,ACH Transfer,2,12,0.176736794
+568,Brandon Hubbard,1568,General Liability,4937.274298,4737.578988,81,Retail,4263960,Cheque,3,12,0.068585933
+569,Christopher Nelson,1569,General Liability,9137.42825,9250.60382,41,Manufacturing,7181905,Credit Card,3,12,0.136774025
+570,Justin Silva,1570,General Liability,4134.299203,4114.358518,12,Construction,3964044,Credit Card,4,12,0.005069721
+571,Ian Pratt Jr.,1571,General Liability,5625.905402,5674.630505,35,Consulting,6747463,Cheque,2,12,0.138009378
+572,Taylor Garrison,1572,General Liability,8052.877115,7785.533036,65,Consulting,7188166,Credit Card,0,12,0.063220262
+573,Sandra Combs,1573,General Liability,4568.885041,4677.109932,55,Retail,321552,ACH Transfer,4,12,0.011148171
+574,Kaitlin Barnes,1574,General Liability,6598.780302,6838.182123,45,Construction,8532372,ACH Transfer,0,12,0.121962552
+575,Tricia Scott,1575,General Liability,8761.273379,8513.101374,79,Construction,1997951,Cheque,3,12,0.048160763
+576,Leah Jackson,1576,General Liability,9545.685613,9159.767438,90,Construction,5962835,Credit Card,4,12,0.077361448
+577,Kelli Rodriguez,1577,General Liability,2323.661328,2212.971069,85,Technology,8805070,ACH Transfer,4,12,0.016116162
+578,Alexander Craig,1578,General Liability,9339.288626,9471.879908,62,Technology,9378463,ACH Transfer,1,12,0.02943265
+579,Bridget Cobb,1579,General Liability,5429.046638,5487.188489,49,Retail,9903326,ACH Transfer,3,12,0.059595447
+580,Dustin Ramsey,1580,General Liability,3324.199495,3339.722646,95,Construction,2257280,Cheque,3,12,0.0179519
+581,Laura Chase,1581,General Liability,5132.221806,4994.65111,25,Construction,908301,Cheque,4,12,0.182165253
+582,Jacqueline Jones,1582,General Liability,9820.293178,9713.159667,23,Consulting,5576420,ACH Transfer,3,12,0.001209409
+583,Meghan Williamson,1583,General Liability,5433.562846,5484.897156,24,Consulting,6396495,ACH Transfer,4,12,0.096772044
+584,Laura Wallace,1584,General Liability,3958.764493,3957.484568,38,Retail,4446657,Credit Card,1,12,0.024649492
+585,Charles Harris,1585,General Liability,6700.607689,7027.45363,28,Construction,212935,Credit Card,4,12,0.061535818
+586,Judy Burns,1586,General Liability,3161.310569,3046.377884,21,Retail,8300252,Credit Card,3,12,0.185211912
+587,Richard Lowe,1587,General Liability,1682.769953,1715.608292,54,Consulting,9826914,Cheque,3,12,0.032338911
+588,Thomas Lane,1588,General Liability,2159.917497,2139.251141,18,Consulting,2250205,ACH Transfer,4,12,0.193166464
+589,Jose Perez,1589,General Liability,2152.412551,2136.958146,36,Technology,5524441,Cheque,4,12,0.041158875
+590,Kathleen Perkins,1590,General Liability,2367.124242,2418.632336,99,Retail,4380650,ACH Transfer,4,12,0.148313222
+591,Michael Hanson,1591,General Liability,2249.444554,2292.731999,45,Retail,4623535,Credit Card,2,12,0.109335453
+592,Ashley Watson,1592,General Liability,6767.872703,7100.348506,73,Construction,4852989,Credit Card,3,12,0.176895746
+593,Nicole Powell,1593,General Liability,2636.92076,2538.931278,53,Construction,9857999,Credit Card,3,12,0.110798651
+594,Bryan Gordon,1594,General Liability,4111.00555,3948.254807,30,Technology,4410518,Credit Card,2,12,0.106911844
+595,John Wells,1595,General Liability,9071.095689,9274.595577,60,Manufacturing,9341937,ACH Transfer,4,12,0.0390916
+596,Bradley Scott,1596,General Liability,5265.654762,5306.930607,98,Manufacturing,1830085,Credit Card,1,12,0.033245872
+597,Sandra Mathis,1597,General Liability,7008.019647,6849.750998,32,Manufacturing,2126110,ACH Transfer,4,12,0.18329783
+598,William Reynolds,1598,General Liability,2550.878841,2443.593818,67,Retail,5741379,ACH Transfer,4,12,0.06556764
+599,Shelby Holland,1599,General Liability,2730.601169,2617.460962,67,Retail,8925150,Cheque,2,12,0.074416451
+600,Ryan Wu,1600,General Liability,1367.817546,1421.735666,28,Consulting,5619948,Credit Card,3,12,0.151964732
+601,Christopher Savage,1601,General Liability,2520.415568,2442.753328,44,Retail,7028887,Credit Card,4,12,0.067764696
+602,Emma Martinez,1602,General Liability,3507.313051,3445.363929,79,Retail,4666701,Cheque,3,12,0.190412489
+603,Adam Martin,1603,General Liability,2593.094358,2522.213784,41,Retail,8227333,ACH Transfer,0,12,0.147585554
+604,Erica Cole,1604,General Liability,1798.322804,1772.246459,63,Technology,3080672,Credit Card,3,12,0.119485849
+605,Kaitlyn Wilson,1605,General Liability,2085.72284,1995.916587,23,Retail,8336781,ACH Transfer,1,12,0.176179032
+606,Kiara Andrews,1606,General Liability,5147.008912,5156.819004,75,Construction,8915282,Cheque,1,12,0.009921182
+607,Brian Ward,1607,General Liability,2857.003466,2733.470225,48,Construction,5302413,ACH Transfer,4,12,0.051412538
+608,Megan Dixon,1608,General Liability,4278.428749,4406.934141,32,Consulting,182409,Credit Card,3,12,0.093007267
+609,Susan Foster,1609,General Liability,5530.755438,5383.478103,57,Technology,7463280,ACH Transfer,4,12,0.045395708
+610,Andrew Jackson,1610,General Liability,7213.553458,7242.416266,33,Construction,6866886,ACH Transfer,2,12,0.148781037
+611,Brandi Reed,1611,General Liability,1353.809259,1405.264717,24,Technology,8312411,Credit Card,1,12,0.183841606
+612,Brandi Liu,1612,General Liability,8194.69359,8318.332971,39,Technology,5517755,Credit Card,4,12,0.084754024
+613,Mr. Jonathan Martinez MD,1613,General Liability,6651.103505,6673.02407,34,Consulting,5231104,ACH Transfer,2,12,0.06842652
+614,Catherine Lewis,1614,General Liability,1735.831288,1705.338591,56,Technology,3599701,ACH Transfer,4,12,0.192310146
+615,Emily Hunt,1615,General Liability,8862.207617,8714.210445,28,Retail,2027716,Cheque,3,12,0.088970487
+616,Jerry Price,1616,General Liability,9287.851605,9445.268574,37,Technology,9681111,Credit Card,3,12,0.09780968
+617,Michelle Phillips,1617,General Liability,1549.701639,1626.278496,7,Consulting,9622362,ACH Transfer,3,12,0.070329974
+618,Hayden Garrison,1618,General Liability,3491.898833,3548.411441,68,Consulting,5341684,Credit Card,3,12,0.181909695
+619,Troy Lawson,1619,General Liability,8255.811518,8303.516418,37,Consulting,5181857,Cheque,0,12,0.113791097
+620,Stephanie Freeman,1620,General Liability,7734.337213,7912.730096,56,Construction,5859420,ACH Transfer,2,12,0.152434917
+621,Daniel Patterson,1621,General Liability,2660.689174,2651.431469,65,Retail,9934858,ACH Transfer,2,12,0.162361344
+622,Christine Morris,1622,General Liability,2884.14391,2757.282632,65,Construction,5406490,ACH Transfer,3,12,0.068369808
+623,Herbert Wolfe,1623,General Liability,4334.248925,4361.249916,47,Manufacturing,7022981,Credit Card,0,12,0.086738866
+624,Philip Jones,1624,General Liability,5360.706867,5606.026367,20,Retail,7917209,Cheque,3,12,0.169694355
+625,Dr. Melissa Young,1625,General Liability,6564.292944,6351.152283,19,Technology,4993091,Credit Card,0,12,0.07265107
+626,Melissa Clark,1626,General Liability,4320.222756,4402.309101,29,Consulting,3900315,ACH Transfer,3,12,0.158787027
+627,Brianna Kim DDS,1627,General Liability,5162.812445,5008.410118,74,Manufacturing,6569723,Cheque,1,12,0.188198465
+628,Austin King,1628,General Liability,7727.238443,7754.923349,60,Retail,6202545,ACH Transfer,1,12,0.124642075
+629,Rebecca Snyder,1629,General Liability,1330.148826,1276.500791,18,Construction,2352641,ACH Transfer,4,12,0.148325457
+630,Derrick Waters,1630,General Liability,3271.932499,3255.694204,92,Consulting,444126,Credit Card,3,12,0.161019462
+631,Jordan Ryan,1631,General Liability,7420.146273,7610.22321,35,Construction,5207385,ACH Transfer,2,12,0.16900793
+632,Jordan Patrick,1632,General Liability,9056.861539,8918.809179,43,Retail,8174444,Cheque,4,12,0.079010668
+633,Matthew Clark,1633,General Liability,5605.096979,5697.5316,95,Retail,1237411,ACH Transfer,1,12,0.010252692
+634,Melissa Jordan,1634,General Liability,5789.021367,5960.057981,91,Manufacturing,1770357,ACH Transfer,3,12,0.080375254
+635,Sarah Baker,1635,General Liability,1964.548102,2048.46924,11,Technology,6039334,Credit Card,4,12,0.134751246
+636,Christina Rivera,1636,General Liability,5026.711301,4893.323537,49,Construction,6493404,Cheque,3,12,0.090070077
+637,Jennifer Mcdowell,1637,General Liability,5793.555398,5735.223516,38,Manufacturing,3430922,Credit Card,1,12,0.14979263
+638,Stacey Cummings,1638,General Liability,3182.234533,3071.625156,64,Consulting,4255479,ACH Transfer,4,12,0.071396486
+639,Margaret Walsh,1639,General Liability,3423.189079,3591.775493,69,Technology,5809635,Credit Card,1,12,0.126948828
+640,Brandon Jackson,1640,General Liability,4395.557468,4583.248197,8,Manufacturing,8786594,Credit Card,0,12,0.037283961
+641,Victoria George,1641,General Liability,1180.64078,1185.358282,34,Construction,9342213,Credit Card,1,12,0.149873887
+642,Allison Peterson,1642,General Liability,3898.71249,4032.061438,48,Retail,1415823,Credit Card,3,12,0.109139194
+643,Laura Murphy,1643,General Liability,2903.032063,2909.116231,56,Consulting,3533372,ACH Transfer,2,12,0.040812878
+644,John Mullins,1644,General Liability,3947.47617,3996.261325,76,Construction,870692,ACH Transfer,1,12,0.058382235
+645,Joseph Williams,1645,General Liability,2077.859186,1992.485029,65,Technology,5967504,Cheque,2,12,0.149721742
+646,Wendy Murphy,1646,General Liability,9014.745527,9244.865315,31,Technology,8917353,Credit Card,0,12,0.096520247
+647,Sharon Stewart,1647,General Liability,6342.332082,6106.21561,4,Retail,4932091,Credit Card,4,12,0.043206288
+648,Valerie Bell,1648,General Liability,7111.920872,7343.817591,50,Retail,773812,Cheque,4,12,0.193454238
+649,Jason Castro,1649,General Liability,8102.541147,8331.055566,69,Consulting,3032977,Credit Card,2,12,0.143025004
+650,Jasmine Martin,1650,General Liability,5485.97979,5600.49671,30,Consulting,7897698,Cheque,4,12,0.191426967
+651,Michele Potter,1651,General Liability,1782.282593,1699.613265,88,Retail,7082252,ACH Transfer,1,12,0.085421009
+652,Mrs. Brandi Alvarez,1652,General Liability,5833.958876,5719.104769,59,Retail,9846734,Cheque,2,12,0.095020068
+653,Lauren Franklin,1653,General Liability,6281.570062,6132.767563,67,Technology,6716659,Credit Card,3,12,0.179591043
+654,Victoria Kennedy,1654,General Liability,7708.955268,7601.13505,75,Retail,3917042,Cheque,1,12,0.105009868
+655,Donna Mclean,1655,General Liability,4884.935916,4683.50204,45,Manufacturing,4639170,ACH Transfer,1,12,0.141455782
+656,Jamie Hernandez,1656,General Liability,2148.222725,2242.090998,4,Construction,5069411,Credit Card,1,12,0.050434575
+657,Ronald Turner,1657,General Liability,3553.983152,3573.104378,26,Retail,636644,ACH Transfer,3,12,0.089345294
+658,Paul Simpson,1658,General Liability,4267.740668,4184.743487,27,Consulting,752416,ACH Transfer,0,12,0.024689973
+659,Cheyenne Harris,1659,General Liability,6813.255172,6743.066051,46,Manufacturing,5310307,Cheque,4,12,0.041196007
+660,Debra Diaz,1660,General Liability,6137.004742,6104.602916,64,Consulting,8261562,ACH Transfer,2,12,0.000188683
+661,William Garcia,1661,General Liability,4204.870533,4247.169148,91,Manufacturing,1807542,Credit Card,0,12,0.00785301
+662,Christine Murphy,1662,General Liability,9878.637239,9894.126377,51,Retail,4291896,ACH Transfer,2,12,0.195456765
+663,Monica Snyder,1663,General Liability,6451.973374,6722.563959,50,Construction,6186932,ACH Transfer,4,12,0.048470739
+664,Steven Shaw,1664,General Liability,3135.041126,3134.089165,6,Consulting,1574620,Cheque,3,12,0.132662142
+665,Destiny Thompson,1665,General Liability,1916.042254,2010.341809,59,Manufacturing,9663454,ACH Transfer,1,12,0.16781994
+666,Rebecca Williams,1666,General Liability,2375.732253,2459.221413,15,Technology,1949395,Cheque,1,12,0.110132092
+667,Matthew Boyd,1667,General Liability,3213.619555,3119.945924,30,Retail,6723063,Cheque,3,12,0.0306289
+668,Aaron Barber,1668,General Liability,2446.132359,2551.461648,42,Construction,1089336,Credit Card,0,12,0.145623287
+669,Richard Johnson,1669,General Liability,2679.103216,2576.323815,37,Retail,5324237,Credit Card,0,12,0.120050282
+670,John Richardson,1670,General Liability,3565.856518,3679.054529,42,Technology,3238102,Credit Card,2,12,0.146250118
+671,Martin Calhoun,1671,General Liability,2560.362358,2529.797595,35,Construction,5260324,Credit Card,3,12,0.153949325
+672,Kristin Clay,1672,General Liability,9070.888822,9413.745125,87,Technology,7521289,Cheque,0,12,0.195082074
+673,Emily Jones,1673,General Liability,1722.103711,1785.48689,6,Retail,8550361,ACH Transfer,3,12,0.114712656
+674,Karen Cook,1674,General Liability,5720.602506,5895.610267,68,Manufacturing,5747183,Credit Card,4,12,0.068328223
+675,Katrina Alexander,1675,General Liability,4693.571443,4829.6993,18,Retail,5766912,Credit Card,1,12,0.129692911
+676,Nicole Fields,1676,General Liability,9841.407552,9649.184333,73,Retail,9560592,Credit Card,1,12,0.013688142
+677,Jamie Munoz,1677,General Liability,2008.35012,1924.184039,29,Retail,4418420,ACH Transfer,1,12,0.179479464
+678,Gabrielle Russell,1678,General Liability,4580.700391,4536.258518,77,Consulting,5317084,Credit Card,3,12,0.023876202
+679,Joseph Williams,1679,General Liability,9725.233899,9407.728854,59,Technology,9144104,ACH Transfer,3,12,0.065568568
+680,Joshua Johnson,1680,General Liability,8789.564133,8960.917643,47,Technology,3305228,Cheque,2,12,0.163149076
+681,Brendan Wells,1681,General Liability,8353.648639,8225.085758,17,Technology,5399238,Cheque,1,12,0.119462476
+682,Allison Navarro,1682,General Liability,3321.125443,3479.081557,96,Consulting,8982600,Cheque,2,12,0.078727104
+683,Miranda Green,1683,General Liability,2537.988287,2573.766835,22,Manufacturing,6614948,ACH Transfer,1,12,0.094687132
+684,Brett Jones DDS,1684,General Liability,7017.788979,7244.099034,68,Retail,5080137,Credit Card,2,12,0.170909479
+685,Shannon Kim,1685,General Liability,9364.383902,9020.265898,69,Manufacturing,6817526,Credit Card,2,12,0.068000877
+686,Maria Mendoza DVM,1686,General Liability,6010.866037,6228.468093,37,Consulting,8564848,Credit Card,4,12,0.173929937
+687,Daniel Valentine,1687,General Liability,6144.514205,6404.277961,49,Technology,4529899,Credit Card,2,12,0.017626886
+688,Christine Cochran,1688,General Liability,3519.811843,3515.257882,13,Retail,3991151,Credit Card,3,12,0.155359687
+689,Christopher Strickland,1689,General Liability,7925.436399,8009.646489,34,Construction,9815650,ACH Transfer,2,12,0.169509527
+690,Angelica Hill,1690,General Liability,2683.393737,2754.452633,86,Construction,2048061,Cheque,1,12,0.036363531
+691,Sandra Chapman,1691,General Liability,3913.113128,3785.873804,53,Manufacturing,7447000,Credit Card,2,12,0.086069306
+692,Kathleen Watts,1692,General Liability,4828.927948,4830.167087,87,Technology,6681118,Cheque,0,12,0.033099955
+693,Michael Chan,1693,General Liability,5568.493408,5512.063982,51,Construction,5132661,ACH Transfer,1,12,0.141320826
+694,Makayla Oconnor,1694,General Liability,3181.687592,3069.174844,3,Manufacturing,998332,ACH Transfer,0,12,0.107069554
+695,Micheal Clark,1695,General Liability,2033.531423,2006.594131,42,Consulting,9368462,Credit Card,1,12,0.127064669
+696,Matthew Raymond,1696,General Liability,6495.580382,6215.083234,98,Manufacturing,7703876,ACH Transfer,3,12,0.039297393
+697,Natasha Stein,1697,General Liability,3597.674979,3427.077515,32,Manufacturing,4125942,Cheque,3,12,0.042349172
+698,John Jones,1698,General Liability,6231.143993,6003.810854,51,Manufacturing,8651795,Credit Card,3,12,0.008299465
+699,Jeffrey Navarro,1699,General Liability,2389.264437,2499.914884,85,Retail,4803855,Credit Card,0,12,0.064413507
+700,Justin Rice,1700,General Liability,5330.260917,5356.661452,46,Manufacturing,1662518,Cheque,4,12,0.111948932
+701,Michael Jones,1701,General Liability,5793.304893,6063.169874,21,Manufacturing,5348400,Credit Card,1,12,0.171586983
+702,Jennifer Miller DVM,1702,General Liability,1466.411831,1456.51324,44,Retail,8656135,Credit Card,3,12,0.133385489
+703,April Wells,1703,General Liability,4029.438504,3953.610972,11,Retail,2844804,Cheque,1,12,0.087079265
+704,Breanna Castro,1704,General Liability,2209.732092,2211.08928,68,Consulting,8399141,Credit Card,0,12,0.190624023
+705,Daniel Phillips,1705,General Liability,1570.374734,1560.875803,1,Technology,1687819,Credit Card,4,12,0.14384904
+706,Erik White,1706,General Liability,9909.642092,9518.869907,92,Construction,5282101,Cheque,0,12,0.186033041
+707,Scott Mcknight,1707,General Liability,3901.184605,3956.12355,63,Construction,6641600,ACH Transfer,1,12,0.105517595
+708,Joseph Gomez,1708,General Liability,8288.870013,8053.497753,24,Manufacturing,6456381,Cheque,4,12,0.051780855
+709,Donald Goodman,1709,General Liability,3291.765893,3331.131448,99,Consulting,694557,Credit Card,4,12,0.010565337
+710,Shawn White,1710,General Liability,7133.5245,7240.670817,13,Manufacturing,7339914,Cheque,0,12,0.14521697
+711,Tiffany Villegas,1711,General Liability,7842.050739,7569.166863,98,Construction,8454207,Credit Card,3,12,0.0242606
+712,Tiffany Collins,1712,General Liability,6360.748665,6081.734188,11,Retail,1090121,Credit Card,1,12,0.060555026
+713,Lauren Church,1713,General Liability,5244.185697,5391.422286,51,Technology,1825049,Cheque,2,12,0.106494182
+714,Rhonda Clark,1714,General Liability,4706.568227,4687.648023,17,Consulting,7945870,Credit Card,2,12,0.112883318
+715,Dawn Park,1715,General Liability,4139.814399,3956.902411,99,Retail,583442,ACH Transfer,0,12,0.120116639
+716,Carol Walker,1716,General Liability,9365.762298,9829.242328,82,Technology,5372225,Credit Card,1,12,0.033251066
+717,Brandon Torres,1717,General Liability,8475.57467,8100.768283,86,Consulting,4209545,Cheque,1,12,0.075947481
+718,Joseph Escobar,1718,General Liability,9685.242196,9874.138539,24,Consulting,9909435,ACH Transfer,0,12,0.123438845
+719,Katherine Cooke,1719,General Liability,2118.675011,2221.150857,19,Construction,6722766,ACH Transfer,1,12,0.193963773
+720,Charles Brown,1720,General Liability,7577.807277,7380.162986,37,Retail,1851797,Credit Card,3,12,0.145526228
+721,Lawrence Harper,1721,General Liability,9445.064111,9107.166347,85,Consulting,8586014,Cheque,0,12,0.184520751
+722,Lee Noble,1722,General Liability,2631.097595,2531.480278,8,Consulting,3552814,Credit Card,3,12,0.152442412
+723,Angela Thomas,1723,General Liability,1598.466406,1567.0206,28,Technology,6970679,Credit Card,1,12,0.118343394
+724,Brooke Horton,1724,General Liability,7670.085844,7364.084556,5,Construction,8138762,Cheque,0,12,0.038404674
+725,Seth Brown,1725,General Liability,6170.258019,6288.826525,17,Manufacturing,9510044,Cheque,1,12,0.13333713
+726,Mary Baker,1726,General Liability,8576.458991,8201.060346,36,Construction,2991912,Credit Card,0,12,0.124675913
+727,Wayne Macias,1727,General Liability,2257.95139,2260.07886,19,Manufacturing,7455566,ACH Transfer,1,12,0.120493834
+728,Lisa Murphy,1728,General Liability,8157.405807,8562.581587,64,Retail,1709184,Credit Card,3,12,0.097957174
+729,Maria Reynolds,1729,General Liability,2814.64588,2903.017393,91,Retail,8013490,ACH Transfer,3,12,0.105731321
+730,Ashley Tran,1730,General Liability,2472.903486,2501.396141,98,Consulting,4898793,Credit Card,1,12,0.066888505
+731,William Rodriguez,1731,General Liability,2478.392181,2430.37423,11,Retail,7437895,Cheque,0,12,0.103862539
+732,Robert Byrd,1732,General Liability,8331.172482,8434.39224,54,Consulting,2428476,ACH Transfer,2,12,0.039511181
+733,Michael Taylor,1733,General Liability,6986.774986,7005.668249,45,Construction,584273,Cheque,3,12,0.161034879
+734,James Glass,1734,General Liability,5707.588823,5665.400258,47,Retail,7838866,Cheque,3,12,0.037155391
+735,Sylvia Wells,1735,General Liability,4229.474357,4073.284258,12,Construction,5213728,Cheque,2,12,0.016993258
+736,Nicole Griffith,1736,General Liability,8894.804867,9238.681773,21,Construction,5486159,Cheque,1,12,0.087249205
+737,James Phillips,1737,General Liability,4532.005967,4509.24834,11,Retail,9176940,Cheque,0,12,0.131661488
+738,Mrs. Brittany Anderson,1738,General Liability,8349.394955,8094.423229,92,Construction,5746895,Credit Card,1,12,0.087543365
+739,Linda Love,1739,General Liability,4952.214177,4886.725775,5,Retail,826448,ACH Transfer,4,12,0.055350826
+740,Joyce Mathis,1740,General Liability,4392.499865,4354.78136,81,Retail,170463,Credit Card,3,12,0.111634237
+741,Mr. Micheal Johnson,1741,General Liability,5164.118071,5333.262508,56,Retail,5550652,Credit Card,4,12,0.069400467
+742,Marcus Garcia,1742,General Liability,3712.400867,3799.12789,20,Manufacturing,6952902,Credit Card,3,12,0.186573538
+743,Shannon Ward,1743,General Liability,7728.484422,7936.616289,41,Construction,9621791,Cheque,3,12,0.184529028
+744,Paul Dennis,1744,General Liability,5524.483511,5254.353539,46,Technology,2966457,Credit Card,4,12,0.100474364
+745,Anthony Powell,1745,General Liability,3089.914256,3064.006561,12,Retail,2530992,ACH Transfer,4,12,0.065576799
+746,Kelly Hamilton,1746,General Liability,9096.171159,9079.20148,70,Construction,4414380,Credit Card,1,12,0.147426483
+747,Christine Adams,1747,General Liability,4455.020992,4240.820142,17,Consulting,5401572,Cheque,4,12,0.007342589
+748,Jesus Farmer,1748,General Liability,5891.97575,5750.458275,19,Retail,5011408,ACH Transfer,1,12,0.094953801
+749,Dawn Mitchell,1749,General Liability,9158.248999,9396.6289,26,Retail,5216934,ACH Transfer,1,12,0.067264679
+750,Stephanie Haynes,1750,General Liability,6618.141963,6377.976015,48,Technology,9648902,ACH Transfer,1,12,0.184107177
+751,Tommy Moore,1751,General Liability,2052.082366,2059.328296,52,Manufacturing,5695956,ACH Transfer,3,12,0.002400605
+752,Benjamin Massey,1752,General Liability,9458.489113,9189.113113,96,Manufacturing,8525021,Credit Card,3,12,0.110562975
+753,David Anderson,1753,General Liability,6649.372478,6324.963408,70,Retail,8003402,Cheque,4,12,0.148132716
+754,Maria Murphy,1754,General Liability,4014.150532,3910.264901,55,Construction,5990298,ACH Transfer,3,12,0.097003598
+755,Tracy Ruiz,1755,General Liability,2253.448654,2360.684361,75,Consulting,6966684,ACH Transfer,4,12,0.017080606
+756,Jason Wolf,1756,General Liability,8146.226703,8391.865671,33,Consulting,8127522,Cheque,3,12,0.194492278
+757,Cynthia Calderon,1757,General Liability,6580.654803,6883.086329,62,Construction,9053038,Credit Card,0,12,0.103602086
+758,Kurt Barton,1758,General Liability,5801.149828,5794.103777,88,Retail,4960319,ACH Transfer,0,12,0.122837249
+759,Jonathan Barry,1759,General Liability,9045.033247,8692.038342,23,Consulting,9404088,Credit Card,4,12,0.047321957
+760,John Johnston,1760,General Liability,8097.374901,8136.209497,15,Manufacturing,3741141,Credit Card,3,12,0.096699617
+761,Christina Cooper,1761,General Liability,2365.073918,2354.28382,27,Construction,3481915,Credit Card,3,12,0.085829898
+762,Jessica Lawrence,1762,General Liability,3805.49861,3936.54365,75,Technology,8530664,Credit Card,1,12,0.014979168
+763,Johnny Willis,1763,General Liability,3236.402258,3106.325614,64,Retail,2248983,ACH Transfer,2,12,0.021232071
+764,Christian Gomez,1764,General Liability,7695.516633,7686.467581,81,Construction,873952,ACH Transfer,4,12,0.167494504
+765,Shirley Estrada,1765,General Liability,1301.791913,1256.235531,51,Consulting,1008380,Credit Card,2,12,0.04796399
+766,Susan Cantu,1766,General Liability,6129.007164,6021.550914,53,Retail,4720792,Credit Card,2,12,0.038991654
+767,Madison Haynes,1767,General Liability,7862.128172,8048.741348,78,Manufacturing,1437768,Cheque,4,12,0.10098229
+768,Christopher Marshall,1768,General Liability,8890.890731,8869.568712,91,Retail,3190930,Cheque,3,12,0.153749426
+769,Adrienne Baker,1769,General Liability,4078.735738,4028.11385,82,Retail,6959698,Cheque,4,12,0.012389304
+770,Patricia Ross,1770,General Liability,8391.315742,8302.767456,92,Manufacturing,1614101,ACH Transfer,2,12,0.115361584
+771,Sharon Clark,1771,General Liability,1995.685633,1987.592482,51,Manufacturing,1506150,Cheque,3,12,0.023842089
+772,John Lee,1772,General Liability,8618.070626,8863.699896,47,Retail,9013613,ACH Transfer,0,12,0.00729221
+773,Adrian Kirk,1773,General Liability,2147.397961,2231.594147,4,Manufacturing,1329458,ACH Transfer,4,12,0.01054879
+774,David Wilson,1774,General Liability,4575.585615,4783.927899,7,Construction,9655880,ACH Transfer,4,12,0.166832822
+775,Kyle Mccall,1775,General Liability,8175.658292,8410.220697,35,Manufacturing,6396450,ACH Transfer,3,12,0.023594497
+776,Tina Anderson,1776,General Liability,2349.256846,2305.891185,48,Manufacturing,7182122,Cheque,0,12,0.009030273
+777,Daniel Solis DDS,1777,General Liability,3063.262557,3120.893157,73,Retail,6460756,Credit Card,0,12,0.087579977
+778,Logan Young,1778,General Liability,7500.273116,7453.473754,72,Construction,4855997,Credit Card,3,12,0.168798694
+779,Donald Brown,1779,General Liability,7480.328829,7296.814387,45,Technology,1593551,Credit Card,1,12,0.052481675
+780,Trevor Robinson,1780,General Liability,6770.328696,7001.10996,81,Technology,4073313,Cheque,4,12,0.084342524
+781,Leroy Andersen,1781,General Liability,7245.536,6911.10115,81,Consulting,2536831,Credit Card,4,12,0.007984507
+782,Steven Montes,1782,General Liability,5884.51999,6120.937638,97,Manufacturing,8843662,Cheque,2,12,0.089815703
+783,Mason Weeks,1783,General Liability,3266.19153,3253.609332,96,Manufacturing,3939847,Cheque,3,12,0.115522616
+784,Mark Ray,1784,General Liability,4111.263942,4167.67109,72,Construction,1266670,Cheque,2,12,0.114181411
+785,Briana Cortez,1785,General Liability,2634.379451,2676.359321,19,Technology,780667,Credit Card,2,12,0.066485338
+786,John Grant,1786,General Liability,9176.055052,9538.617266,63,Consulting,5419728,Credit Card,0,12,0.063106636
+787,Eric Velasquez,1787,General Liability,6250.526153,6335.951895,38,Construction,5510897,Credit Card,4,12,0.021324724
+788,Brenda Smith,1788,General Liability,4607.662751,4660.159504,67,Manufacturing,2114017,ACH Transfer,2,12,0.073359664
+789,Nichole Heath,1789,General Liability,5158.052233,4934.529092,59,Technology,7184364,Cheque,0,12,0.019898934
+790,Howard Bates,1790,General Liability,9525.550057,9543.08471,69,Consulting,4122261,ACH Transfer,3,12,0.153319189
+791,William Myers,1791,General Liability,2380.162628,2296.897161,13,Retail,4737203,Cheque,2,12,0.19325486
+792,Maurice Williams,1792,General Liability,6276.068488,6425.083548,47,Technology,4775519,Credit Card,4,12,0.194014891
+793,Dr. Steven Hopkins,1793,General Liability,5552.99811,5559.78494,61,Consulting,4994940,Cheque,2,12,0.17301422
+794,Eric Good,1794,General Liability,6503.088119,6620.291832,31,Construction,2099482,Cheque,3,12,0.12015843
+795,Deborah Andrews,1795,General Liability,1162.991654,1109.688595,80,Retail,3749244,ACH Transfer,2,12,0.140173139
+796,Crystal Brooks,1796,General Liability,8849.11518,8481.692853,96,Consulting,4714466,Cheque,4,12,0.057041161
+797,Tim Saunders,1797,General Liability,9389.064542,9592.171968,22,Consulting,5946866,Credit Card,0,12,0.126154084
+798,April Andrews,1798,General Liability,6086.198652,5825.760679,93,Manufacturing,6282719,Cheque,4,12,0.09112991
+799,Danielle Mathews,1799,General Liability,7269.857415,6958.167169,86,Technology,9954523,Cheque,0,12,0.096403468
+800,Hunter Montgomery,1800,General Liability,9302.494431,8848.633611,43,Manufacturing,450067,Cheque,1,12,0.151555312
+801,Robert Young,1801,General Liability,7365.147709,7701.367732,67,Retail,2159385,ACH Transfer,4,12,0.056383671
+802,Rachel Hart,1802,General Liability,2372.851386,2429.20859,54,Consulting,9929854,Cheque,4,12,0.063607922
+803,Angela Johnson DVM,1803,General Liability,6186.595242,6095.807828,10,Manufacturing,7549194,Cheque,3,12,0.184928358
+804,Travis Jordan,1804,General Liability,6460.435417,6328.988544,42,Technology,2467322,ACH Transfer,2,12,0.011244859
+805,Ronnie Lewis,1805,General Liability,4817.176042,4744.775442,64,Retail,1475645,ACH Transfer,0,12,0.09712686
+806,Billy Cordova,1806,General Liability,7627.998121,7837.503783,21,Construction,6662877,ACH Transfer,0,12,0.18256016
+807,Donna Taylor,1807,General Liability,9409.303133,9561.141633,80,Manufacturing,9323048,ACH Transfer,3,12,0.122072602
+808,Samantha Elliott,1808,General Liability,9330.116616,9036.40041,76,Retail,6143995,Credit Card,3,12,0.109281415
+809,Mary Martinez,1809,General Liability,5057.554343,4892.733368,66,Construction,7064705,Credit Card,2,12,0.049948836
+810,Casey Shaffer,1810,General Liability,2019.142413,1938.052775,41,Manufacturing,9188503,Cheque,2,12,0.068655098
+811,Wesley Garcia,1811,General Liability,9863.570791,10021.68651,24,Retail,6732142,Credit Card,4,12,0.170409683
+812,Briana Peterson,1812,General Liability,8550.082778,8776.123593,35,Retail,7756495,Cheque,1,12,0.111843626
+813,Amanda Thompson,1813,General Liability,2121.964131,2072.107826,56,Manufacturing,345144,Credit Card,2,12,0.102948439
+814,Craig Daniels,1814,General Liability,9287.576944,8842.65089,30,Retail,3922727,ACH Transfer,3,12,0.019915943
+815,Mary Woods,1815,General Liability,8829.067259,8460.163814,57,Consulting,1344360,ACH Transfer,2,12,0.003205631
+816,Trevor Miller,1816,General Liability,5669.542514,5934.79775,94,Manufacturing,7325593,Credit Card,0,12,0.192737038
+817,Ms. Ariel Williams,1817,General Liability,6321.478922,6192.169769,47,Retail,5070809,Credit Card,1,12,0.075397233
+818,Michael Hernandez,1818,General Liability,4591.024335,4714.625337,35,Construction,3149316,Cheque,4,12,0.120642612
+819,Tara Merritt,1819,General Liability,1492.854749,1511.465209,19,Construction,6722575,Cheque,0,12,0.015943015
+820,Laura Nguyen,1820,General Liability,4016.775175,3969.352982,8,Consulting,7603276,Cheque,0,12,0.136622857
+821,Eric Johnson,1821,General Liability,8225.681037,7983.588767,26,Manufacturing,9638342,ACH Transfer,1,12,0.186513342
+822,Jared Graves,1822,General Liability,1041.688207,1002.248477,71,Retail,7367807,ACH Transfer,4,12,0.115133051
+823,Richard Cox MD,1823,General Liability,4001.492545,4047.514899,30,Retail,3060883,ACH Transfer,3,12,0.025223064
+824,Michelle Carter,1824,General Liability,4583.518242,4709.397137,7,Construction,1006450,ACH Transfer,4,12,0.116344305
+825,Denise Williams,1825,General Liability,5836.560426,5920.551014,67,Consulting,9971403,Cheque,2,12,0.153269443
+826,Tara Allen,1826,General Liability,9278.700548,9306.81699,65,Construction,382140,ACH Transfer,0,12,0.081283307
+827,Ashley Haley,1827,General Liability,4117.113949,3928.530049,36,Construction,8313062,ACH Transfer,2,12,0.17596755
+828,Diane Sosa,1828,General Liability,4122.578817,4315.717008,25,Consulting,658981,ACH Transfer,3,12,0.129736591
+829,Ann Ochoa,1829,General Liability,7637.511233,7865.654532,37,Manufacturing,8597552,ACH Transfer,2,12,0.179849784
+830,Karen Stone,1830,General Liability,5069.961468,4964.923039,1,Retail,1897519,Credit Card,4,12,0.124701062
+831,Jason Rosales,1831,General Liability,3021.443406,3166.463725,15,Manufacturing,3977590,Cheque,2,12,0.026257594
+832,Adam Davis,1832,General Liability,5071.955645,5123.629536,37,Technology,7783647,Cheque,3,12,0.061938342
+833,Gary Kim,1833,General Liability,2267.713183,2286.404278,13,Technology,3815929,ACH Transfer,3,12,0.04035899
+834,Stephen Pratt,1834,General Liability,2587.482879,2651.671389,8,Technology,4491401,Credit Card,3,12,0.1817653
+835,Andrew Tucker,1835,General Liability,5485.309955,5656.325347,5,Consulting,3028100,Cheque,4,12,0.152080013
+836,Denise Martinez,1836,General Liability,4770.329046,4844.97449,60,Construction,2053341,Cheque,3,12,0.135279674
+837,Laurie Taylor,1837,General Liability,9233.61311,8890.21111,73,Manufacturing,1073737,ACH Transfer,0,12,0.060193264
+838,Whitney Adams,1838,General Liability,4261.545092,4192.62206,1,Retail,9621995,ACH Transfer,3,12,0.036808954
+839,Allison Jordan,1839,General Liability,6225.295153,6491.789854,36,Technology,5533001,Cheque,2,12,0.151290218
+840,Patricia Hess,1840,General Liability,6690.378591,6506.13601,35,Manufacturing,4002908,Cheque,2,12,0.094831589
+841,Stuart Bullock,1841,General Liability,1117.850109,1103.560299,66,Technology,6771628,Credit Card,2,12,0.04515791
+842,Tabitha Berger,1842,General Liability,6971.836348,6924.481463,63,Technology,8003498,Cheque,4,12,0.123324396
+843,Daniel Guerrero,1843,General Liability,2602.323702,2586.554919,23,Retail,6162133,Cheque,2,12,0.00806677
+844,Christopher Boyd,1844,General Liability,9649.632857,9758.615408,9,Consulting,5798618,ACH Transfer,4,12,0.065234051
+845,Meghan Silva,1845,General Liability,2337.96455,2441.55411,34,Construction,7740888,Cheque,4,12,0.093711399
+846,Paul Morrison,1846,General Liability,4731.617114,4608.922833,46,Consulting,9184140,ACH Transfer,3,12,0.029591667
+847,Ashley Conway,1847,General Liability,1768.147013,1701.222892,78,Manufacturing,395866,Cheque,0,12,0.196930896
+848,Diana Caldwell,1848,General Liability,9971.868267,9670.189824,4,Consulting,9285665,Cheque,3,12,0.041819473
+849,Margaret Oliver,1849,General Liability,5519.755093,5733.328162,30,Manufacturing,6336893,Cheque,3,12,0.026070626
+850,Lauren Lowe,1850,General Liability,6358.465156,6451.178453,95,Manufacturing,6922603,Credit Card,4,12,0.040706975
+851,Alfred Villanueva,1851,General Liability,1603.688296,1569.354419,75,Construction,7350569,ACH Transfer,4,12,0.153812227
+852,Roger Conley,1852,General Liability,7749.644234,7994.491871,99,Retail,1905518,Credit Card,2,12,0.085101132
+853,Aaron Nichols,1853,General Liability,2889.150338,2993.555563,72,Construction,3723425,Cheque,2,12,0.113083188
+854,Daniel Blackwell,1854,General Liability,9082.488605,9397.209858,3,Consulting,3699537,Credit Card,3,12,0.004201831
+855,Jennifer Green,1855,General Liability,2846.256764,2965.494012,14,Manufacturing,6621689,ACH Transfer,1,12,0.006886262
+856,Alexa Summers,1856,General Liability,2716.189486,2648.893452,60,Technology,6789558,Cheque,1,12,0.08916511
+857,Pamela Reynolds,1857,General Liability,1328.947011,1362.840732,77,Technology,6398941,Credit Card,2,12,0.163331049
+858,Brian Forbes,1858,General Liability,5248.602506,5227.891257,45,Manufacturing,6110224,Credit Card,1,12,0.177047776
+859,Eric Smith,1859,General Liability,6083.570199,6291.62742,96,Construction,4191685,ACH Transfer,2,12,0.017341314
+860,Jessica Hunt,1860,General Liability,1591.377755,1627.739253,34,Retail,8695960,Credit Card,4,12,0.10767262
+861,Alec Thompson,1861,General Liability,7979.74855,8200.346661,45,Construction,284514,ACH Transfer,3,12,0.182645937
+862,Robert Johnson,1862,General Liability,5079.599513,5158.923472,61,Manufacturing,6836549,Cheque,0,12,0.077594551
+863,Melissa Martin,1863,General Liability,5719.512424,5535.017408,83,Manufacturing,9287266,Cheque,3,12,0.165913166
+864,Nina Fernandez,1864,General Liability,4966.864722,4989.228984,16,Retail,1358624,Credit Card,2,12,0.026739131
+865,Kristin Myers,1865,General Liability,4606.867548,4830.148477,66,Consulting,6029949,Cheque,2,12,0.187078898
+866,Troy Nguyen,1866,General Liability,6036.762982,6300.803791,40,Consulting,7396991,Cheque,3,12,0.150284664
+867,Jerome Sanchez,1867,General Liability,2397.162213,2287.653548,17,Retail,9451060,Credit Card,2,12,0.188266879
+868,Joshua Bowman,1868,General Liability,2637.353174,2548.953003,34,Consulting,4883725,Cheque,1,12,0.135323447
+869,Nathaniel Barnes MD,1869,General Liability,8756.070589,8433.609704,16,Technology,6771203,Credit Card,1,12,0.072680786
+870,Anthony Johnson,1870,General Liability,9515.039159,9730.059928,60,Consulting,2850025,ACH Transfer,2,12,0.187636235
+871,Adam Hunter,1871,General Liability,4359.783847,4498.331381,66,Consulting,7885446,ACH Transfer,2,12,0.055113355
+872,Darlene Webster,1872,General Liability,3436.702058,3338.244451,66,Consulting,5835630,ACH Transfer,1,12,0.066434504
+873,Amy Sheppard,1873,General Liability,6795.995889,6799.973377,90,Technology,3026979,Credit Card,2,12,0.140161684
+874,David Green,1874,General Liability,4678.60754,4838.009115,13,Consulting,2614399,Credit Card,2,12,0.15306326
+875,Wesley Santana,1875,General Liability,1228.477201,1257.07634,56,Technology,1055205,Cheque,3,12,0.185880697
+876,Brandon Juarez,1876,General Liability,2405.373376,2415.533001,31,Retail,6766199,Cheque,0,12,0.040960482
+877,Vanessa Long,1877,General Liability,7443.75006,7511.002622,34,Construction,1066649,Cheque,1,12,0.159599607
+878,Megan Hickman,1878,General Liability,6930.315477,6936.1096,39,Retail,7593971,Cheque,3,12,0.147709211
+879,Ryan Hanson,1879,General Liability,1243.863933,1218.681715,67,Construction,5080939,Cheque,0,12,0.012758911
+880,Carla Johnson,1880,General Liability,2997.749457,3017.241422,8,Retail,9422656,Credit Card,2,12,0.077444628
+881,Arthur Fuller,1881,General Liability,3079.673169,3137.843669,87,Construction,7676126,Credit Card,2,12,0.056553091
+882,Greg Acevedo,1882,General Liability,7047.034692,7310.116646,78,Construction,9916597,ACH Transfer,3,12,0.060898085
+883,Mrs. Sherri Thomas MD,1883,General Liability,1177.39484,1193.441713,55,Manufacturing,5161500,ACH Transfer,2,12,0.196589376
+884,Kara Carroll,1884,General Liability,1936.977238,1987.555885,27,Construction,1300532,ACH Transfer,4,12,0.128555483
+885,Dr. Jack Dominguez,1885,General Liability,8199.244768,7920.529181,93,Construction,7596287,ACH Transfer,3,12,0.143535232
+886,Dawn Lowe,1886,General Liability,2606.901958,2596.880369,53,Manufacturing,5293378,Credit Card,0,12,0.195323527
+887,Melvin Fox,1887,General Liability,6874.714971,6537.394445,39,Consulting,564462,Credit Card,3,12,0.075440356
+888,Gregory Hernandez,1888,General Liability,3143.645029,3064.009857,65,Consulting,4968923,Credit Card,1,12,0.160368034
+889,Claudia Peterson,1889,General Liability,1894.972535,1937.886408,17,Manufacturing,8030221,Cheque,3,12,0.086906193
+890,Thomas Rowe,1890,General Liability,3188.549719,3345.365767,30,Technology,6110554,Cheque,2,12,0.173906734
+891,Christina Bowman,1891,General Liability,7500.402387,7199.769833,53,Construction,4703623,ACH Transfer,2,12,0.036131508
+892,Kenneth Williams,1892,General Liability,8701.268213,8615.555775,13,Construction,8062366,Cheque,4,12,0.189537235
+893,Timothy Crawford,1893,General Liability,8471.978781,8726.198269,21,Manufacturing,374535,Credit Card,4,12,0.043754342
+894,James Alvarez,1894,General Liability,4574.651767,4439.258376,19,Manufacturing,5240709,ACH Transfer,4,12,0.065244101
+895,James Good,1895,General Liability,7012.766229,7051.396016,53,Technology,2580017,ACH Transfer,0,12,0.151238447
+896,Arthur Figueroa,1896,General Liability,2844.858659,2911.164148,19,Consulting,4916129,Cheque,4,12,0.078751028
+897,Craig Rios,1897,General Liability,3638.329572,3680.528902,57,Retail,8307623,ACH Transfer,0,12,0.121642275
+898,Kelsey Carter DDS,1898,General Liability,9067.022367,8784.153696,25,Consulting,1017472,Cheque,4,12,0.0889147
+899,Lisa Francis,1899,General Liability,1117.017312,1100.863518,86,Construction,3749279,Cheque,0,12,0.148473987
+900,Carol Shields,1900,General Liability,1769.576778,1819.795913,31,Manufacturing,5116239,ACH Transfer,3,12,0.04566625
+901,Kathleen Vaughn,1901,General Liability,2870.976296,2886.5446,81,Technology,3321131,Cheque,3,12,0.011691597
+902,Christopher Shaffer,1902,General Liability,1238.789835,1177.498182,55,Consulting,9077182,Cheque,2,12,0.059985879
+903,Danny Willis,1903,General Liability,2632.918916,2701.635667,23,Technology,2534138,Cheque,0,12,0.094861733
+904,Joshua Dixon,1904,General Liability,6247.374049,5957.065671,32,Consulting,8593535,Cheque,1,12,0.03360401
+905,Tanya Parker,1905,General Liability,4792.820955,4910.596758,62,Construction,7883874,ACH Transfer,2,12,0.070959458
+906,Kathryn Roberts,1906,General Liability,9034.0454,8765.264987,74,Retail,6690828,Credit Card,3,12,0.079996604
+907,Christopher Young,1907,General Liability,8356.992056,8739.803699,10,Technology,4317690,Credit Card,0,12,0.011478369
+908,Carrie Rodriguez,1908,General Liability,4076.356165,4022.524112,72,Technology,3749886,Cheque,4,12,0.11666145
+909,Gregory Harris,1909,General Liability,3334.810901,3277.095868,54,Retail,5633326,Cheque,1,12,0.176868686
+910,Gerald Alvarez,1910,General Liability,4417.231674,4262.137391,52,Technology,4546460,Cheque,3,12,0.030348583
+911,Gregory Scott,1911,General Liability,6312.654483,6189.939141,20,Technology,7393708,Credit Card,2,12,0.119561603
+912,Brandon Faulkner,1912,General Liability,3412.572767,3541.107581,32,Consulting,5144080,Cheque,0,12,0.132947841
+913,David Turner,1913,General Liability,6617.340171,6945.781486,14,Consulting,1053122,ACH Transfer,1,12,0.083866936
+914,Andrew West,1914,General Liability,4684.70487,4623.011771,50,Retail,4763754,ACH Transfer,0,12,0.140219517
+915,Nancy York,1915,General Liability,5968.424628,5937.75327,28,Construction,4617562,ACH Transfer,4,12,0.082146309
+916,Kevin Jones,1916,General Liability,4925.138762,5034.511781,53,Technology,6640180,Credit Card,2,12,0.100927458
+917,Theresa Torres,1917,General Liability,3650.191836,3791.160704,24,Construction,8603197,Cheque,0,12,0.001470609
+918,Patricia Mahoney,1918,General Liability,9536.079763,9624.807582,79,Retail,1293982,Cheque,3,12,0.138344023
+919,Bonnie Dillon,1919,General Liability,7872.452147,7787.056272,22,Retail,9107611,Cheque,2,12,0.132268536
+920,Angie Harper,1920,General Liability,2261.018582,2241.262218,30,Consulting,8682447,Credit Card,3,12,0.007680175
+921,Amanda James,1921,General Liability,8816.211783,8988.672884,63,Technology,6754754,Credit Card,0,12,0.073650021
+922,Brenda Rose,1922,General Liability,5386.880784,5119.270385,4,Manufacturing,606453,Credit Card,2,12,0.195806368
+923,Joshua Duncan,1923,General Liability,9050.970042,9159.209993,77,Retail,6648894,Credit Card,3,12,0.084147313
+924,Chad Lee,1924,General Liability,8198.697304,8080.220397,59,Technology,2607743,ACH Transfer,4,12,0.100389081
+925,Katherine Hutchinson,1925,General Liability,4826.92154,4968.928284,87,Construction,1655811,Credit Card,4,12,0.181986032
+926,Debra Browning,1926,General Liability,1202.223775,1153.292142,8,Consulting,5177198,Credit Card,0,12,0.143452375
+927,Brittany Wong,1927,General Liability,3418.096234,3448.244618,82,Construction,6284377,Credit Card,2,12,0.116414026
+928,Ronald Mckay,1928,General Liability,5874.707932,5863.53006,12,Retail,3945474,Cheque,1,12,0.159560936
+929,Jordan Moore,1929,General Liability,6701.303978,6796.68064,31,Retail,4024482,Cheque,2,12,0.172873253
+930,Rebecca Wilson,1930,General Liability,3320.989169,3176.477519,78,Construction,3332452,Cheque,4,12,0.091377614
+931,Mark Vega,1931,General Liability,2254.204667,2272.234649,34,Retail,5047796,ACH Transfer,3,12,0.095021673
+932,Christopher Hardy,1932,General Liability,8514.372131,8566.722397,82,Technology,4390697,ACH Transfer,1,12,0.077210187
+933,Jennifer Merritt,1933,General Liability,9859.619626,9919.428172,98,Retail,6986940,Credit Card,0,12,0.193341228
+934,Laura Olsen,1934,General Liability,5731.211641,5790.522613,75,Consulting,3912010,Cheque,1,12,0.139433251
+935,Jamie Bailey,1935,General Liability,2545.113573,2590.026667,76,Technology,1578081,ACH Transfer,0,12,0.016644613
+936,Christine Bradley,1936,General Liability,3450.765939,3556.010504,49,Manufacturing,1670889,Cheque,1,12,0.172591925
+937,Rachel Graham,1937,General Liability,1165.516089,1138.688324,79,Retail,7473372,ACH Transfer,0,12,0.096111988
+938,Melissa Howard,1938,General Liability,9228.689259,9528.667259,57,Retail,3171640,ACH Transfer,0,12,0.013750781
+939,Eric Bell,1939,General Liability,2059.759746,2059.400458,95,Consulting,5353974,Credit Card,1,12,0.109943451
+940,Kayla Phelps,1940,General Liability,6188.64828,5926.904524,93,Consulting,1050922,Credit Card,1,12,0.083432856
+941,Melissa Mcbride,1941,General Liability,3466.496986,3313.468799,26,Construction,1784449,ACH Transfer,0,12,0.175549881
+942,Sandra Velazquez,1942,General Liability,5987.602023,5888.350525,18,Construction,8954198,Credit Card,4,12,0.040798921
+943,Ray Shepard,1943,General Liability,6862.783495,7058.302122,96,Construction,5853371,ACH Transfer,1,12,0.165292922
+944,Anna Perez,1944,General Liability,8467.676233,8643.533725,86,Consulting,1533284,ACH Transfer,2,12,0.111537738
+945,David White,1945,General Liability,2857.791446,2940.271584,38,Construction,1217374,Cheque,3,12,0.010922061
+946,Daniel Davis,1946,General Liability,1098.962458,1100.860262,81,Construction,3099610,Credit Card,0,12,0.19436906
+947,Lauren Miller,1947,General Liability,2231.970671,2218.623262,87,Manufacturing,2398756,Credit Card,0,12,0.102523049
+948,Nicholas Wade,1948,General Liability,9100.167777,8779.343661,88,Construction,7200052,Credit Card,3,12,0.058175371
+949,James Taylor,1949,General Liability,8865.010698,8712.70339,50,Retail,2888107,Cheque,4,12,0.093881368
+950,Danielle Rivera,1950,General Liability,6376.71792,6334.643931,8,Consulting,8518865,Cheque,3,12,0.171571557
+951,Stephanie Peterson,1951,General Liability,6404.651744,6141.164646,41,Technology,4701731,Cheque,1,12,0.060980625
+952,Melissa Greene,1952,General Liability,6985.330071,6790.168298,6,Manufacturing,7273877,Credit Card,3,12,0.038535279
+953,Hunter Hernandez Jr.,1953,General Liability,2578.341508,2603.667343,69,Consulting,1085257,Credit Card,0,12,0.025814249
+954,James Moreno,1954,General Liability,9229.707513,9447.217675,44,Consulting,1201267,Credit Card,3,12,0.05957188
+955,Laura Estrada,1955,General Liability,4768.934724,5006.593399,64,Retail,518829,Cheque,2,12,0.156009617
+956,Jennifer Collier,1956,General Liability,4448.246754,4640.906251,29,Construction,7140906,Cheque,1,12,0.094325273
+957,Steven Gardner,1957,General Liability,5670.259348,5751.097513,28,Retail,3538780,ACH Transfer,3,12,0.045496321
+958,Jennifer Hinton,1958,General Liability,1422.693701,1411.489711,11,Construction,7617750,Cheque,0,12,0.033237
+959,Matthew Johnson,1959,General Liability,2496.550319,2530.547683,65,Construction,1646933,ACH Transfer,1,12,0.066545895
+960,Stacey Jones,1960,General Liability,7642.302548,7860.606157,19,Consulting,8813937,Credit Card,0,12,0.187984875
+961,Megan Thomas,1961,General Liability,1745.188011,1678.580501,9,Construction,3056151,Cheque,4,12,0.068605343
+962,Keith Cummings,1962,General Liability,6428.368985,6370.452524,27,Manufacturing,1327222,Credit Card,2,12,0.197624815
+963,Jenny Petersen,1963,General Liability,3208.141987,3317.155385,34,Manufacturing,1643812,Credit Card,4,12,0.097046091
+964,Jason Villegas,1964,General Liability,4503.660526,4451.342831,44,Manufacturing,7931038,Credit Card,2,12,0.035832784
+965,Elizabeth Campbell,1965,General Liability,3598.243631,3624.105025,68,Consulting,6935032,Credit Card,3,12,0.178228018
+966,Patricia Young,1966,General Liability,4201.054448,4237.926835,82,Retail,965256,Cheque,1,12,0.092071075
+967,Maria Rodriguez,1967,General Liability,7471.413147,7235.67232,15,Technology,8048745,Credit Card,3,12,0.141934269
+968,George Robles,1968,General Liability,3674.095441,3623.479427,51,Construction,100917,ACH Transfer,2,12,0.196742317
+969,Kevin Grimes,1969,General Liability,6097.641763,5996.732675,13,Technology,7404000,Cheque,2,12,0.01003507
+970,Jill Peterson,1970,General Liability,5284.45362,5034.074468,83,Retail,7250406,Credit Card,2,12,0.019338912
+971,Sabrina Taylor,1971,General Liability,6973.040488,6641.257479,49,Retail,7168931,Cheque,0,12,0.144091348
+972,Dr. James Williams,1972,General Liability,9431.467654,9744.306648,70,Consulting,4573447,ACH Transfer,1,12,0.056365001
+973,Kelly Williams,1973,General Liability,7593.148875,7420.838162,56,Manufacturing,8750699,Credit Card,3,12,0.036860279
+974,Jeffery Dixon,1974,General Liability,2934.463407,2939.768555,76,Manufacturing,8891765,ACH Transfer,3,12,0.007872376
+975,Robert Leon,1975,General Liability,1280.648216,1254.872042,51,Retail,6976913,Credit Card,4,12,0.004369342
+976,Jeffrey Hanna,1976,General Liability,3360.376399,3508.461212,37,Consulting,6239996,ACH Transfer,2,12,0.154897121
+977,Laura Simmons,1977,General Liability,6355.701376,6202.717584,17,Consulting,7657773,Credit Card,2,12,0.026886685
+978,Cynthia Mills,1978,General Liability,1462.832321,1452.542293,58,Construction,8737873,Cheque,2,12,0.093544123
+979,Monica Palmer,1979,General Liability,5467.296225,5671.078894,87,Manufacturing,7837777,Credit Card,3,12,0.121179363
+980,Brian Bradley,1980,General Liability,6371.58564,6589.451541,90,Retail,7654159,Cheque,4,12,0.08567036
+981,Mr. Glenn Sharp MD,1981,General Liability,4008.195017,3882.378344,29,Technology,6665792,Credit Card,0,12,0.00542133
+982,Deborah Jones,1982,General Liability,7938.209834,8178.454444,33,Manufacturing,1484822,Credit Card,1,12,0.156700301
+983,Melissa Baker,1983,General Liability,1959.384278,1951.191483,60,Construction,1907402,ACH Transfer,0,12,0.002102645
+984,Jeremy Johnson,1984,General Liability,1676.240036,1673.38521,91,Consulting,2049902,ACH Transfer,3,12,0.152377979
+985,Shari Greene,1985,General Liability,7553.698806,7276.840616,89,Retail,9623979,ACH Transfer,2,12,0.178660899
+986,Daniel Morgan,1986,General Liability,5459.421846,5230.45452,55,Manufacturing,7605191,Credit Card,1,12,0.086567984
+987,Nicholas Brown,1987,General Liability,7195.621568,7359.638067,10,Technology,8817429,Credit Card,3,12,0.107108495
+988,Kathy Riley,1988,General Liability,4913.446047,4911.707254,47,Construction,9148595,Credit Card,3,12,0.095396679
+989,Madison Allen,1989,General Liability,3217.618299,3197.299266,23,Construction,343877,Cheque,3,12,0.077841724
+990,Kristine Gonzalez,1990,General Liability,8371.920859,8564.063332,85,Manufacturing,3445026,Cheque,1,12,0.177484907
+991,Allison Mitchell,1991,General Liability,8194.742911,8412.323905,21,Technology,1020759,Credit Card,1,12,0.178786702
+992,Samantha Daugherty,1992,General Liability,7252.268238,7004.899292,13,Construction,1861369,ACH Transfer,4,12,0.067163273
+993,William Guzman,1993,General Liability,3449.306235,3487.326265,33,Retail,5886572,ACH Transfer,4,12,0.123013951
+994,Heather Jacobs,1994,General Liability,6312.076002,6081.908727,24,Construction,9955780,ACH Transfer,0,12,0.185381512
+995,Rachael Bradley,1995,General Liability,4248.765072,4355.568441,11,Technology,7662160,Credit Card,1,12,0.1924117
+996,Stephanie Horn,1996,General Liability,1824.23866,1852.871026,17,Consulting,8486369,ACH Transfer,1,12,0.101791808
+997,Robert Ball,1997,General Liability,9255.822179,9678.456553,68,Consulting,1958997,Credit Card,1,12,0.090564961
+998,Mark Sharp,1998,General Liability,2231.367678,2135.186363,47,Manufacturing,5080249,Cheque,4,12,0.055738863
+999,Morgan Mcintosh,1999,General Liability,9552.136184,9129.028822,25,Technology,9907434,ACH Transfer,3,12,0.191774375
+1000,Kim Scott,2000,General Liability,5014.051957,4904.839424,94,Construction,5075467,Cheque,2,12,0.028562861

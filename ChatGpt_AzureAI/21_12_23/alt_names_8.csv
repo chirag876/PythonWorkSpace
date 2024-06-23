@@ -1,0 +1,9 @@
+Target,Alternative
+MGA,Company_Code; Agent; Program Administrator; producer_firm_name; Managing General Agent
+Program Name,Referring Broker/UW
+Issuing Company,Market Co
+Full policy number,Certificate #; POLICY NUMBER; policy_number; Policy_Number; policy number; Fullpolicynumber; Policy #
+Insured Name,Insured_name; insured_name; insured name; Insured; INSURED NAME; Insured Name
+Insured Address,INSURED ADDRESS; LOCATION ADDRESS; insured_address_2; insured address 2; insured address 1; Business_Street; insured address; insured_address_1
+Insured City,INSURED CITY; insured city; Business_City; LOCATION CITY; insured_city; Insured City
+Insured State,State; Business_State; insured_state; insured state; INSURED STATE; LOCATION STATE

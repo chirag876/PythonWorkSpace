@@ -1,0 +1,6 @@
+Data Element,Description,Alternative_names
+MGA,Name of the Program Administrator/MGA,Agent;MGA;Managing General Agent
+Program Name,Name of the program (ABC non admitted auto),Program Name;Admitted
+Issuing Company,TSIC for Non-Admitted and TIC for Admitted,Issuing Company;Market Co
+Full policy number,Automatically assigned number from the TIG policy block including prefix and suffix,Full policy number; Policy #
+Policy Effective Date,Effective Date is a point in time for when a contractual provision commences or goes into effect.,Policy Effective Date;Eff. Date

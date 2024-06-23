@@ -1,0 +1,614 @@
+{
+  "MGA": [
+    "Company_Code",
+    "Agent",
+    "Program Administrator",
+    "producer_firm_name",
+    "Managing General Agent"
+  ],
+  "Program Name": [
+    "Referring Broker/UW"
+  ],
+  "Issuing Company": [
+    "Market Co"
+  ],
+  "Full policy number": [
+    "Certificate #",
+    "POLICY NUMBER",
+    "policy_number",
+    "Policy_Number",
+    "policy number",
+    "Fullpolicynumber",
+    "Policy #"
+  ],
+  "Policy Effective Date": [
+    "Pol_Eff_Date",
+    "policy_effective_date",
+    "Policy Effective Date",
+    "policy effective date",
+    "Eff. Date",
+    "EFFECTIVE DATE"
+  ],
+  "Policy Expiration Date": [
+    "EXPIRATION DATE",
+    "policy expiration date",
+    "Policy Expiration Date",
+    "policy_expiration_date",
+    "Pol_Exp_Date",
+    "Exp. Date"
+  ],
+  "Insured Name": [
+    "Insured_name",
+    "insured_name",
+    "insured name",
+    "Insured",
+    "INSURED NAME",
+    "Insured Name"
+  ],
+  "Insured Address": [
+    "INSURED ADDRESS",
+    "LOCATION ADDRESS",
+    "insured_address_2",
+    "insured address 2",
+    "insured address 1",
+    "Business_Street",
+    "insured address",
+    "insured_address_1"
+  ],
+  "Insured City": [
+    "INSURED CITY",
+    "insured city",
+    "Business_City",
+    "LOCATION CITY",
+    "insured_city",
+    "Insured City"
+  ],
+  "Insured State": [
+    "State",
+    "Business_State",
+    "insured_state",
+    "insured state",
+    "INSURED STATE",
+    "LOCATION STATE"
+  ],
+  "Insured Zip": [
+    "Business_Zip",
+    "insured zip",
+    "LOCATION ZIP",
+    "insured_zip",
+    "INSURED ZIP"
+  ],
+  "Transaction Effective Date": [
+    "transaction_effective_date",
+    "Tran Eff. Date",
+    "transaction effective date",
+    "Trans_Eff_Date",
+    "Transaction Effective Date",
+    "Accounting Effective Date"
+  ],
+  "Transaction Expiration Date": [
+    "Trans_Exp_Date",
+    "transaction expiration date",
+    "transaction_expiration_date",
+    "Exp. Date"
+  ],
+  "Premium": [
+    "Policy Premium",
+    "written_premium_ex_tria_gl",
+    "EXTRA LIABILITY PREMIUMN",
+    "written premium ex tria",
+    "LIABILITY PREMIUM",
+    "Transactional Gross Premium (inc TRIA)",
+    "PROPERTY PREMIUM",
+    "written_premium_ex_tria",
+    "Written_Premium"
+  ],
+  "Terrorism Premium": [
+    "EXTRA LIABILITY TRIA PREMIUM",
+    "PROPERTY TRIA PREMIUM",
+    "LIABILITY TRIA PREMIUM"
+  ],
+  "Total Gross Premium including Terrorism": [
+    "TOTAL PREMIUM"
+  ],
+  "Commission amount": [
+    "Transactional Gross Commission",
+    "commission",
+    "TOTAL COMMISION",
+    "Commissionamount",
+    "TOTAL COMMISSION"
+  ],
+  "Net Premium": [
+    "NET TO ASCOT",
+    "Transactional Net Premium",
+    "TOTAL NET TO ASCOT"
+  ],
+  "Surcharge amount": [
+    "Surcharge2 Amount",
+    "Surcharge1 Amount",
+    "Surcharge charged amount",
+    "Surcharge Amount",
+    "Surcharge-Tax",
+    "admitted_surcharge"
+  ],
+  "Surcharge type": [
+    "Surcharge Type1",
+    "Type of surcharge",
+    "Surcharge Type2"
+  ],
+  "Tax Amount": [
+    "Tax charged amount",
+    "Tax_Amt"
+  ],
+  "Tax Type": [
+    "Type of tax"
+  ],
+  "Fee Amount": [
+    "Policy Fee",
+    "MGA Fee"
+  ],
+  "Fee Type": [
+    "Type of Fee",
+    "Fee Basis"
+  ],
+  "Payment terms": [],
+  "Book or Process Date": [
+    "transaction_effective_date",
+    "transaction effective date",
+    "Process_Date",
+    "Accounting Effective Date",
+    "Book Date"
+  ],
+  "Policy Type": [
+    "policy_type",
+    "transaction_description",
+    "Policy_Term",
+    "Policy Type",
+    "Type_of_Policy"
+  ],
+  "Transaction Type": [
+    "transaction_type",
+    "TRANSACTION TYPE",
+    "Trans Code",
+    "Trans_Type",
+    "Transaction Type",
+    "transaction type"
+  ],
+  "Primary/Excess Indicator": [
+    "Primary Indicator",
+    "'Primary'",
+    "Excess Indicator",
+    "primary_excess",
+    "Primary-TRIA Indicator",
+    "Excess- TRIA Indicator"
+  ],
+  "Attachment Point": [
+    "attachment_point"
+  ],
+  "CM/Occ Indicator": [
+    "claims_basis"
+  ],
+  "Retroactive date": [
+    "rating factor retro date",
+    "Retro_Date"
+  ],
+  "Risk/Location #": [
+    "location number"
+  ],
+  "Risk/Location Address": [
+    "risk_location_address_2",
+    "Risk Address1",
+    "LOCATION ADDRESS",
+    "Risk Address2",
+    "risk_location_address_1",
+    "risk location address 1"
+  ],
+  "Risk/Location City": [
+    "Risk_City",
+    "LOCATION CITY",
+    "Risk City"
+  ],
+  "Risk/Location State": [
+    "risk_state_code",
+    "Risk_State",
+    "risk state code",
+    "Risk State",
+    "LOCATION STATE"
+  ],
+  "Risk/Location Zip": [
+    "Risk_Zip",
+    "LOCATION ZIP",
+    "risk location zip",
+    "Risk Zip",
+    "risk_location_zip"
+  ],
+  "Risk/Location premium": [],
+  "Technical Price": [
+    "technical_premium_gl",
+    "technical premium"
+  ],
+  "IRPM (Individual Risk Premium Modification)": [
+    "IRPM",
+    "Individual Risk Premium Modification"
+  ],
+  "Exposure Type": [
+    "Community Type",
+    "community type",
+    "exposure"
+  ],
+  "Exposure Amount": [
+    "Average Unit Value",
+    "Exposure_Amt"
+  ],
+  "Policy Occurrence Limit": [
+    "limit_occurrence",
+    "limit occurence",
+    "Crime Limit",
+    "Limit_Per_Occ",
+    "limit_occurrence_gl",
+    "Excess Limit",
+    "D&O Limit"
+  ],
+  "Policy Aggregate Limit": [
+    "Excess Agg",
+    "D&O Agg",
+    "limit_aggregate",
+    "limit_aggregate_gl",
+    "Limit_Aggregate",
+    "limit aggregate"
+  ],
+  "SIR/Deductible indicator": [
+    "SIR/Deductible indicator"
+  ],
+  "SIR/Deductible amount": [
+    "Excess Retention",
+    "SIR amount",
+    "Crime Retention",
+    "D&O Retention",
+    "WIND DEDUCTIBLE",
+    "AOP DEDUCTIBLE",
+    "deductible_gl",
+    "Deductible amount",
+    "Ded_Amt",
+    "deductible"
+  ],
+  "SIR/Deductible type": [
+    "Ded_Type",
+    "SIR Deductibletype",
+    "claims_basis",
+    "SIR type",
+    "Deductible Type"
+  ],
+  "NAICS or SIC Code": [
+    "NAICSor SICCode",
+    "NAICS Code",
+    "SIC Code",
+    "risk_industry_code"
+  ],
+  "Annual Statement Line Code": [
+    "ASL Code",
+    "ASL",
+    "GLAnnual Statement Line Code",
+    "asl code"
+  ],
+  "Annual Statement Line Description": [
+    "ASL Code Description"
+  ],
+  "Expiring Policy Number": [
+    "expiring policy number",
+    "Expiring Certificate # (if applicable)",
+    "expiring_policy_number",
+    "EXPIRING POLICY"
+  ],
+  "Issue Date": [
+    "Accounting Effective Date"
+  ],
+  "Policy Event Number": [
+    "Certificate #",
+    "Policy_number",
+    "policy_number",
+    "Policy_Number",
+    "policy number",
+    "POLICY NUMBER"
+  ],
+  "Companion policy number": [],
+  "Carrier %": [
+    "ascot share",
+    "Split %",
+    "ascot_share"
+  ],
+  "Carrier Limit": [
+    "carrier_limit"
+  ],
+  "Broker/Agent": [
+    "broker_name",
+    "Producer",
+    "agent_name",
+    "producer_firm_name",
+    "producer_individual_name"
+  ],
+  "Broker/Agent Address": [
+    "producer_address_1",
+    "Agent Address"
+  ],
+  "Broker/Agent City": [
+    "broker city",
+    "agent city",
+    "Agent State - City",
+    "producer_city"
+  ],
+  "Broker/Agent State": [
+    "broker_state",
+    "producer_state",
+    "agent_state"
+  ],
+  "Broker/Agent Zip": [
+    "Agent Zipcode",
+    "Broker zipcode",
+    "producer_zip"
+  ],
+  "Direct/Assumed": [
+    "'Direct'",
+    "Assumed",
+    "Direct_assumed"
+  ],
+  "Fac?": [
+    "Facultative reinsurance"
+  ],
+  "Fac Reinsurance Attachment point": [
+    "Fac Reinsurance Attachment point"
+  ],
+  "Damage to Premises Rented to you Limit": [],
+  "Medical Expense Limit Included": [],
+  "Medical Expense Limit": [
+    "limit_medpay"
+  ],
+  "Personal and Advertising Injury Limit": [],
+  "Products/Completed Operations Aggregate Limit": [],
+  "2nd Layer Deductible - Per Occurrence": [],
+  "2nd Layer Deductible Aggregate": [],
+  "Stop Gap Limit": [],
+  "Employee Benefits Limit": [
+    "limit_occurrence_employment_benefit"
+  ],
+  "Rate Per Member": [],
+  "Endorsement number": [
+    "ENDORSEMENT NUMBER"
+  ],
+  "Ceded Fac Reinsurance Carrier": [],
+  "Ceded Premium to Fac Reinsurance": [],
+  "Certificate number": [],
+  "Coverage Ceded to Fac Reinsurer": [],
+  "Home State": [],
+  "SL Tax Broker Company": [
+    "Sl_tax_broker_Company"
+  ],
+  "SL Tax Broker Name": [
+    "sl_broker_name"
+  ],
+  "SL Tax Broker Address": [
+    "sl_tax_broker_address"
+  ],
+  "SL Broker City": [
+    "sl_broker_city"
+  ],
+  "SL Broker State": [
+    "sl_broker_state"
+  ],
+  "SL Broker Zip": [
+    "sl_broker_zip"
+  ],
+  "SL License Number": [
+    "surplus lines license number",
+    "surplus_lines_license_number"
+  ],
+  "NJ Transaction Number": [
+    "nj_sla_number",
+    "SLA TRANSACTION NUMBER (NJ only)",
+    "SLA TRANSACTION NUMBER",
+    "NJ TRANSACTION NUMBER"
+  ],
+  "Coverage Code": [
+    "coverage_code"
+  ],
+  "Coverage Sub Code": [
+    "coverage"
+  ],
+  "CA Limit": [],
+  "MTC Limit": [],
+  "APD Limit": [],
+  "CA Deductible Amount": [],
+  "MTC Deductible Amount": [],
+  "APD Deductible Amount": [],
+  "Rating Class Code": [
+    "Rating Class Code"
+  ],
+  "Fleet Indicator": [
+    "rating_fleet_nonfleet",
+    "fleet_nonfleet"
+  ],
+  "Fleet size": [],
+  "Hired Car": [
+    "Hired auto limit"
+  ],
+  "Non Owned": [
+    "Non-owned limit"
+  ],
+  "Drive Other Car": [],
+  "Vehicle Number": [
+    "vechile_number",
+    "vin",
+    "vechile_identification_number"
+  ],
+  "Coverage Symbol": [],
+  "Cost New": [
+    "Cost New"
+  ],
+  "Vehicle Body Type": [
+    "vechile_body_type"
+  ],
+  "Vehicle Type": [
+    "vechile_type",
+    "vehicle_type"
+  ],
+  "Radius Of Use": [
+    "rating_driving_radius"
+  ],
+  "Business Use Class": [
+    "Class of Business"
+  ],
+  "Gross Vehicle Weight": [
+    "rating_gross_vechile_weight",
+    "vechile_weight",
+    "rating_gross_vehicle_weight"
+  ],
+  "Vehicle Make": [
+    "vehicle_make",
+    "vechile_make"
+  ],
+  "Vehicle Model": [
+    "vehicle_model",
+    "vechile_model"
+  ],
+  "Model Year": [
+    "vechile_year",
+    "vehicle_year"
+  ],
+  "Axel count": [
+    "Vechile Driving Wheel Quantity"
+  ],
+  "Vehicle Identification Number": [
+    "vin"
+  ],
+  "Tractor GCW": [],
+  "Cost of Hire": [
+    "Cost Of Hire"
+  ],
+  "Specialized Vehicle Type": [
+    "vechile_type",
+    "vehicle_type"
+  ],
+  "Vehicle Number of Seats, Seating Capacity": [
+    "rating_seating_capacity"
+  ],
+  "Occupancy": [],
+  "Class Code": [
+    "Class_Code",
+    "Property_class_code"
+  ],
+  "Class Code Description": [
+    "Property Class Code Description"
+  ],
+  "100% Limit": [
+    "Full Property Limit"
+  ],
+  "Building Value": [],
+  "Coinsurance": [
+    "Coinsurance"
+  ],
+  "Building Valuation": [],
+  "Agreed Value": [],
+  "Contents Value": [
+    "Content_value"
+  ],
+  "BI/Rental Income Value": [
+    "Business Income Value",
+    "Business Income Value/Limit",
+    "Business Income Limit"
+  ],
+  "Other Structure Limit": [],
+  "TIV": [
+    "Total Insurable Value"
+  ],
+  "Construction": [
+    "Building Type",
+    "CONSTRUCTION CODE"
+  ],
+  "Year Built": [
+    "Year location built",
+    "YEAR BUILT"
+  ],
+  "# of Stories": [
+    "Location stories"
+  ],
+  "Square Footage": [
+    "square_footage",
+    "Comm Sq Feet (if applicable)"
+  ],
+  "AOP Deductible": [
+    "AOP DEDUCTIBLE",
+    "deductible"
+  ],
+  "AOP Limit": [
+    "Policy occurence limit",
+    "Limit"
+  ],
+  "Flood Limit": [
+    "flood_limit"
+  ],
+  "Flood % Deductible": [],
+  "Flood Deducible": [
+    "flood_deductible"
+  ],
+  "Flood Zone": [
+    "flood_zone"
+  ],
+  "Earthquake Limit": [
+    "earthquake_limit"
+  ],
+  "Earthquake % Deductible": [],
+  "Earthquake Deductible": [
+    "earthquake_Deductible"
+  ],
+  "Earthquake Zone": [
+    "earthquake_zone"
+  ],
+  "Wind Limit": [
+    "wind limit"
+  ],
+  "Wind Deductible": [
+    "WIND DEDUCTIBLE",
+    "wind deductible"
+  ],
+  "Wind % Deducible": [
+    "wind percentage deductible"
+  ],
+  "Equipment Breakdown Limit": [
+    "Equipment Breakdown limit"
+  ],
+  "Equipment Breakdown Deductible": [
+    "Equipment Breakdown Deductible"
+  ],
+  "Protection Class": [
+    "Protection Class",
+    "PROTECTION CLASS"
+  ],
+  "100% Smoke Detectors": [
+    "Smoke Detectors"
+  ],
+  "Sprinkler Protection Type Code": [],
+  "Percentage of sprinkler coverage": [
+    "sprinkler coverage"
+  ],
+  "Breach of Privacy Event": [],
+  "Data and software loss": [],
+  "Network service failure liabilities": [],
+  "Business interruption": [],
+  "Contingent Business Interruption": [],
+  "Incident Response Costs": [],
+  "Regulatory and defense coverage": [],
+  "product and operations liability": [],
+  "liability (Tech E&O)": [],
+  "Liability (Professional Services)": [],
+  "Liability (Directors and Officers)": [
+    "Act_or_Omission_code"
+  ],
+  "Media": [],
+  "Financial Theft and fraud": [],
+  "Reputational Damages": [],
+  "Cyber Extortion": [],
+  "Intellectual Property Theft": [],
+  "benchmark_schema_id": [
+    "656f157517416ff12d4761fb"
+  ]
+}

@@ -1,0 +1,23 @@
+# Ping Pong Workflow
+
+Step 1: run() function is the main function of the chatbot which will be called once we run main.py. It takes 'username' as an argument.
+Step 2: inside run() function, get_response() function will be call to get the response of message. It takes 'message' as an argument.
+Step 3: get_response() function call two other functions:
+    1. get_tag() --> This function identify the tag name for which bot has to response. It takes 'message' as an argument.
+    2. check_tag_dependency() --> This functions checks whether a tag has any dependency on previous response or not. It takes 'tag' as an argument.
+
+#########################################
+
+# API Call Workflow
+
+Step 1: add the api to api folders.
+Step 2: add api event in event_trigger.json
+Step 3: add api call in api_adapter.py
+Step 4: whenever user enters a message. Bot calls for get_response() function and this will call get_tag() method
+Step 5: get_tag() retuns tha tag name. if tag name is none then bot will check the last tag
+Step 6: If last is part of event then bot will check if event value is a tag name or api name
+Step 7: If it's tag name then get_tag_response() will be called to get partcular tag's response
+Step 8: If it's an api name then bot will call get_event() function
+Step 9: get_event() function will create an object of api_adapter and call the call_api() function.
+
+#########################################

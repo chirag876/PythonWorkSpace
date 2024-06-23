@@ -1,0 +1,171 @@
+Data Element,Description,Alternative_names
+MGA,Name of the Program Administrator/MGA,Agent;MGA;Managing General Agent
+Program Name,Name of the program (ABC non admitted auto),Program Name;Admitted
+Issuing Company,TSIC for Non-Admitted and TIC for Admitted,Issuing Company;Market Co
+Full policy number,Automatically assigned number from the TIG policy block including prefix and suffix,Full policy number; Policy #
+Policy Effective Date,Effective Date is a point in time for when a contractual provision commences or goes into effect.,Policy Effective Date;Eff. Date
+Policy Expiration Date,"Expiration Date is the year, month, and day when a contractual term or coverage is ended or when a policy expires.",Policy Expiration Date;Exp. Date
+Insured Name,"Name of Insured.  If first and last name, format should be Last Name, First Name, Middle Name",Insured Name;Insured
+Insured Address,Insured address as it appears on the Dec page for mailing,Insured Address
+Insured City,Insured city as it appears on the Dec page,Insured City
+Insured State,Insured state as it appears on the Dec page,Insured State;State
+Insured Zip,Insured zip as it  appears on the Dec page,Insured Zip
+Transaction Effective Date,"Date transaction is effective.  In cases of NB or Ren, the transaction effective date would be the same as the policy effective date.  In cases of endorsement, this is the date the policy change is effective.",Transaction Effective Date;Tran Eff. Date
+Transaction Expiration Date,"Date transaction expires.  In cases of NB or Ren, the transaction expiration date would be the same as the policy expiration date.  In cases of endorsement, this is the date the policy change expires.",Transaction Expiration Date;Exp. Date
+Premium,Policy premium,Premium;Gross Premium
+Terrorism Premium,Accepted terrorism premium,Terrorism Premium
+Total Gross Premium including Terrorism,Policy premium plus accepted terrorism premium,Total Gross Premium including Terrorism
+Commission amount,Direct Commission (GWP * commission %),Commission amount;Gross Comm Amt
+Net Premium,What will be remitted to TIG,Net Premium;(Gross Premium minus Gross Comm Amt) + Broker Fee + Broker Insp Fee + Other Fee Amount + Total Inv Fee + Total Inv Taxes
+Surcharge amount,Surcharge charged amount - Admitted only,Surcharge amount
+Surcharge type,"Type of Surcharge (State Surcharges, WC, Motor Vehicle), separated by type - Admitted only",Surcharge type
+Tax Amount,Tax charged - Admitted only for Non -admitted should include BB&T,Tax Amount;Total INV Taxes
+Tax Type,"Type of tax, needs to be separated by type - Admitted only Non-admitted should include BB&T",Tax Type;Admitted
+Fee Amount,Fee charged amount (policy fees ),Fee Amount;Total INV Fees
+Fee Type,"Type of fee, needs to be separated by type and must include Front fee",Fee Type;Fee Basis
+Payment terms,"Annual, Monthly, Quarterly, Semi Annually, Full Pay",Payment terms
+Book or Process Date,Date transaction is reflected on the books,Book or Process Date;Book Date
+Policy Type,New or Renewal,Policy Type
+Transaction Type,"Endorsement, Extension, Cancellation, Reinstatement, etc.",Transaction Type;Trans Code
+Endorsement number,Endorsment number,
+Primary/Excess Indicator,"Primary = first dollar coverage excluding SIR or Deductible, Excess = risk attaching",Primary/Excess Indicator;'Primary'
+Attachment Point,Required on excess and umbrella policies,Attachment Point
+CM/Occ Indicator,Claims Made or Occurrence policy trigger,CM/Occ Indicator
+Retroactive date,For CM policies only and does not apply to Property,Retroactive date
+Risk/Location #,Only required if there are multiple locations on the policy or 1 location on the policy that differs from the Dec Page,Risk/Location #
+Risk/Location Address,Risk/Location address applicable to Risk/Location number,Risk/Location Address
+Risk/Location City,Risk/Location city applicable to Risk/Location number,Risk/Location City
+Risk/Location State,Risk/Location state applicable to Risk/Location number,Risk/Location State
+Risk/Location Zip,Risk/Location zip applicable to Risk/Location number,Risk/Location Zip
+Risk/Location premium,"If there is no premium available per location, this should either be prorated or all premium should be included in location #1 and all subsequent locations should have $0 (includes premium by peril)",Risk/Location premium
+Technical Price,Base rate through charge price (unmodified premium),Technical Price;Gross Premium
+IRPM (Individual Risk Premium Modification),"Property: Discretionary/Non-Discretionary Debit/Credits (Experience mod, Scheduled mod. etc.) broken down into individual fields and in total Others: Schedule rating",IRPM (Individual Risk Premium Modification)
+Exposure Type,For Property = TIV.  ,Exposure Type
+Exposure Amount,Exposure Amount,Exposure Amount
+Policy Occurrence Limit,Occurrence Limit on the Policy,Policy Occurrence Limit
+Policy Aggregate Limit,Aggregate Limit on the Policy,Policy Aggregate Limit
+SIR/Deductible indicator,Does the policy have an SIR or Deductible?  Property would always be Deductible not SIR,SIR/Deductible indicator
+SIR/Deductible amount,SIR or Deductible amount,SIR/Deductible amount
+SIR/Deductible type,"Per occurrence, per person, per location, etc.",SIR/Deductible type
+NAICS or SIC Code,NAICS and/or SIC Code,NAICS or SIC Code;NAICS Code
+Annual Statement Line Code,ASL Code The number used to report to state agencies (See ASLOB chart),Annual Statement Line Code;'2'
+Annual Statement Line Description,ASL Code description (See ASLOB chart),Annual Statement Line Description;'Allied Lines'
+Expiring Policy Number,Expiring Policy number,Expiring Policy Number
+Issue Date,Date Policy has been issued,Issue Date
+Policy Event Number,Chronologically assigned number to identify order or transaction per policy,Policy Event Number
+Companion policy number,Provide other policy numbers (Primary/Excess) for the same insured,Companion policy number
+Carrier %,Enter carrier % for specific location (should be 100% if it is not a syndicated policy),Carrier %;Split %
+Carrier Limit,Enter carrier limit for specific location (should be calculation of Carrier % multiplied 100% limit),Carrier Limit
+Broker/Agent,Broker or Agent handling account,Broker/Agent;Producer
+Broker/Agent Address,Address of Broker or Agent handling account - used for municipality and CAT reporting,Broker/Agent Address;Agent Address
+Broker/Agent City,City of Broker or  Agent handling account,Broker/Agent City;Agent State - City
+Broker/Agent State,State of Broker or Agent handling account,Broker/Agent State;Agent State - City
+Broker/Agent Zip,Zip of Broker or Agent handling account,Broker/Agent Zip;Agent Zipcode
+Direct/Assumed,Is the policy direct or assumed?,Direct/Assumed;'Direct'
+Fac?,Does the policy have facultative reinsurance placed?,Fac?
+Fac Reinsurance Attachment point,,Fac Reinsurance Attachment point
+Ceded Fac Reinsurance Carrier,,IRPM (Individual Risk Premium Modification);IRPM
+Ceded Premium to Fac Reinsurance,,
+Certificate number,,
+Coverage Ceded to Fac Reinsurer,,
+Home State,SL only - the state where  SL taxes will be paid,
+SL Tax Broker Company,SL only  company of Broker paying Surplus Lines Taxes,
+SL Tax Broker Name,SL only - Address of broker paying SL Taxes,
+SL Tax Broker Address,SL only - Name of the individual SL license broker paying SL Taxes,
+SL Broker City,SL only - city of broker paying SL Taxes,
+SL Broker State,SL only - state of broker paying SL Taxes,
+SL Broker Zip,SL only - zip  of broker paying SL Taxes,
+SL License Number,SL only - SL broker license number,
+NJ Transaction Number,SL only - specific to New Jersey SLA number,
+Coverage Code,,
+Coverage Sub Code,,
+CA Limit,Commercial Auto Liability Limit on the policy,
+MTC Limit,Motor Truck Cargo limit on the policy,
+APD Limit,Auto Physical Damage limit on the policy,
+CA Deductible Amount,Commercial Auto Deductible,
+MTC Deductible Amount,Motor Truck Cargo Deductible,
+APD Deductible Amount,Auto Physical Damage Deductible,
+Rating Class Code,Rating Class Code,
+Fleet Indicator,"""Yes"" if fleet or ""No"" if non-fleet",
+Fleet size,,
+Hired Car,Hired Auto Limit,
+Non Owned,Non-owned limit,
+Drive Other Car,,
+Vehicle Number,# of vehicle on policy schedule,
+Coverage Symbol,Auto Symbol based on Coverage Provided,
+Cost New,Cost New for vehicle,
+Vehicle Body Type,"Type:  ""coupe"", ""sedan"", ""SUV"", ""Truck""",
+Vehicle Type,"""Private"" or ""Commercial""",
+Radius Of Use,Maximum radius vehicle will be driven,
+Business Use Class,"Exempt for hire, private property and Auth. for hire",
+Gross Vehicle Weight,Vehicle weight,
+Vehicle Make,Vehicle Make,
+Vehicle Model,Vehicle Model,
+Model Year,Vehicle Year,
+Axel count,Vehicle Driving Wheel Quantity,
+Vehicle Identification Number,Vehicle Identification Number (VIN),
+Tractor GCW,,
+Cost of Hire,Cost of Hire,
+Specialized Vehicle Type,,
+"Vehicle Number of Seats, Seating Capacity",Total number of seats for vehicle,
+Occupancy,Location Type,
+Class Code,Property Class Code,
+Class Code Description,Property Class Code Description,
+100% Limit,Full Property limit for specific location,
+Building Value,Value of building for specific location,
+Coinsurance,Coinsurance % for specific location,
+Building Valuation,"""RCV"" (Replacement Cost) or ""ACV"" (Actual Cash Value)",
+Agreed Value,"""Yes"" if Agreed Value or ""No"" if not Agreed Value",
+Contents Value,Value of contents for specific location,
+BI/Rental Income Value,Business Income Value/Limit,
+Other Structure Limit,Any limit for other structures not included in the building value,
+TIV,"Total Insurable Value for specific location (sum of building value, contents, business income, and other structures)",
+Construction,"Building type (frame, joisted masonry, non combustible, modified fire resistive, fire resistive)",
+Year Built,Year location built,
+# of Stories,How many stories for specific location,
+Square Footage,Square footage of the location,
+AOP Deductible,Enter All Other Peril Deductible,
+AOP Limit,This will be the Policy Occurrence Limit,
+Flood Limit,"Enter Flood limit.  If limit is full TIV, enter full TIV in this field.  If this is a sub-limit, enter the Flood sublimit",
+Flood % Deductible,"Enter percentage deductible if appliable.  Note, only enter a flood percentage or flood flat deductible - no entry in both fields.",
+Flood Deducible,"Enter Flat deductible amount if applicable.  Note, only enter a flood percentage or flood flat deductible - no entry in both fields.",
+Flood Zone,"Enter defined flood zone for specific location.  Flood hazard areas identified on the Flood Insurance Rate Map are identified as a Special Flood Hazard Area (SFHA). SFHA are defined as the area that will be inundated by the flood event having a 1-percent chance of being equaled or exceeded in any given year. The 1-percent annual chance flood is also referred to as the base flood or 100-year flood. SFHAs are labeled as Zone A, Zone AO, Zone AH, Zones A1-A30, Zone AE, Zone A99, Zone AR, Zone AR/AE, Zone AR/AO, Zone AR/A1-A30, Zone AR/A, Zone V, Zone VE, and Zones V1-V30. Moderate flood hazard areas, labeled Zone B or Zone X (shaded) are also shown on the FIRM, and are the areas between the limits of the base flood and the 0.2-percent-annual-chance (or 500-year) flood. The areas of minimal flood hazard, which are the areas outside the SFHA and higher than the elevation of the 0.2-percent-annual-chance flood, are labeled Zone C or Zone X (unshaded).-FEMA Website 7/8/2020",
+Earthquake Limit,"Enter Earthquake limit.  If limit is full TIV, enter full TIV in this field.  If this is a sub-limit, enter the EQ sublimit",
+Earthquake % Deductible,"Enter percentage deductible if appliable.  Note, only enter a EQ percentage or EQ flat deductible - no entry in both fields.",
+Earthquake Deductible,"Enter Flat deductible amount if applicable.  Note, only enter a flood percentage or flood flat deductible - no entry in both fields.",
+Earthquake Zone,Enter Earthquake zone for specific location,
+Wind Limit,"Enter Wind limit.  If limit is full TIV, enter full TIV in this field.  If this is a sub-limit, enter the Wind sublimit",
+Wind Deductible,"Enter Earthquake limit.  If limit is full TIV, enter full TIV in this field.  If this is a sub-limit, enter the EQ sublimit",
+Wind % Deducible,"Enter percentage deductible if applicable.  Note, only enter a EQ percentage or EQ flat deductible - no entry in both fields.",
+Equipment Breakdown Limit,Enter Equipment Breakdown limit.  ,
+Equipment Breakdown Deductible,Enter Equipment Breakdown Deductible,
+Protection Class,Protection Class (values 1 - 10),
+100% Smoke Detectors,Yes or No,
+Sprinkler Protection Type Code,"None, Full, Partial",
+Percentage of sprinkler coverage,Percentage of sprinkler coverage,
+Breach of Privacy Event,,
+Data and software loss,,
+Network service failure liabilities,,
+Business interruption ,,
+Contingent Business Interruption ,,
+Incident Response Costs,,
+Regulatory and  defense coverage,,
+product and operations liability,,
+liability (Tech E&O),,
+Liability (Professional Services),,
+Liability (Directors and Officers),,
+Media ,,
+Financial Theft and fraud,,
+Reputational Damages,,
+Cyber Extortion,,
+Intellectual Property Theft ,,
+Damage to Premises Rented to you Limit,Enter Limit,
+Medical Expense Limit Included,"Enter ""Yes"" or ""No""",
+Medical Expense Limit,Enter Limit,
+Personal and Advertising Injury Limit,Enter Limit,
+Products/Completed Operations Aggregate Limit,Enter Limit,
+2nd Layer Deductible - Per Occurrence,Enter Occurrence,
+2nd Layer Deductible Aggregate,Enter Aggregate,
+Stop Gap Limit,"Enter ""$0"" if not included otherwise enter limit",
+Employee Benefits Limit,"Enter ""$0"" if not included otherwise enter limit",
+Rate Per Member,Enter Member,

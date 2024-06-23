@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schema Mapping Classification Model</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Set a background color as a fallback */
+        }
+        h1 {
+            text-align: center;
+            background-color:lightgray;
+        }
+        #background-image {
+            display: block;
+            margin: auto;
+            width: 100%;
+            max-width: 800px; /* Set a maximum width for the image if needed */
+        }
+    </style>
+</head>
+<body >
+    <h1 style="color:black">Schema Mapping Classification Model</h1>
+    <style>
+        body {
+          background-image: url('https://apps.eui.eu/EUI_API/EVENTSV2/Images/Image?id=8958');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+    <form method="get" action="/predict" style="text-align: center;color: aliceblue;font-size: xx-large;">
+        <br>
+        <br>
+
+
+        <label style="text-align: center;color: black;">Input Text: </label>
+        <input type="text" name="text">
+        <br>
+        <br>
+
+
+        <input type="submit" id="submit" size="50px">
+
+        <br>
+        <br>
+        <h3 style="font-size: x-large;text-align: left;color: black;background-color: lightgrey;">Result::{{prediction}}</h3>
+    </form>
+</body>
+</html>

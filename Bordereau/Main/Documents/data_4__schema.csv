@@ -1,0 +1,171 @@
+Output Column Name,Input Column Name
+MGA,MGA
+Program Name,Program Name
+Issuing Company,Issuing Company
+Full policy number,Fullpolicynumber
+Policy Effective Date,Policy Effective Date
+Policy Expiration Date,Policy Expiration Date
+Insured Name,Insured Name
+Insured Address,Insured Address
+Insured City,Insured City
+Insured State,Insured State
+Insured Zip,Insured Zip
+Transaction Effective Date,Transaction Effective Dt
+Transaction Expiration Date,Transaction Expiration Date
+Premium,Premium
+Terrorism Premium,Terrorism Premium
+Total Gross Premium including Terrorism,Total Gross Premium Including Terrorism
+Commission amount,Commissionamount
+Net Premium,Net Premium
+Surcharge amount,Surcharge Amount
+Surcharge type,Surcharge Type
+Tax Amount,Tax Amount
+Tax Type,Tax Type
+Fee Amount,Fee Amount
+Fee Type,Fee Type
+Payment terms,Paymentterms
+Book or Process Date,Bookor Process Date
+Policy Type,Policy Type
+Transaction Type,Transaction Type
+Primary/Excess Indicator,PRIMARY Excess Indicator
+Attachment Point,Attachment Point
+CM/Occ Indicator,CM Occ Indicator
+Retroactive date,N/A
+Risk/Location #,Risk Location 
+Risk/Location Address,Risk Location Address
+Risk/Location City,Risk Location City
+Risk/Location State,Risk Location State
+Risk/Location Zip,Risk Location Zip
+Risk/Location premium,Risk Location Premium
+Technical Price,Technical Price
+IRPM (Individual Risk Premium Modification),IRPM
+Exposure Type,Exposure Type
+Exposure Amount,Exposure Amount
+Policy Occurrence Limit,Policy Occurrence Limit
+Policy Aggregate Limit,Policy Aggregate Limit
+SIR/Deductible indicator,SIR Deductible Indicator
+SIR/Deductible amount,SIR Deductible amount
+SIR/Deductible type,SIR Deductibletype
+NAICS or SIC Code,NAICSor SICCode
+Annual Statement Line Code,GLAnnual Statement Line Code
+Annual Statement Line Description,GLAnnual Statement Line Description
+Expiring Policy Number,Expiring Policy Number
+Issue Date,Issue Date
+Policy Event Number,Policy Event Number
+Companion policy number,Companion Policy Number
+Carrier %,Carrier %
+Carrier Limit,Carrier Limit
+Broker/Agent,Broker Agent
+Broker/Agent Address,Broker Agent Address
+Broker/Agent City,SLBroker City
+Broker/Agent State,Broker Agent State
+Broker/Agent Zip,Broker Agent Zip
+Direct/Assumed,Direct Assumed
+Fac?,Fac 
+Fac Reinsurance Attachment point,N/A
+Damage to Premises Rented to you Limit,Damageto Premises Rentedtoyou Limit
+Medical Expense Limit Included,Medical Expense Limit Included
+Medical Expense Limit,Medical Expense Limit
+Personal and Advertising Injury Limit,Personal And Advertising Injury Limit
+Products/Completed Operations Aggregate Limit,Products And Completed Ops Agg Limit
+2nd Layer Deductible - Per Occurrence,N/A
+2nd Layer Deductible Aggregate,N/A
+Stop Gap Limit,N/A
+Employee Benefits Limit,Employee Benefits Premium
+Rate Per Member,N/A
+Endorsement number,Endorsement Number
+Ceded Fac Reinsurance Carrier,N/A
+Ceded Premium to Fac Reinsurance,N/A
+Certificate number,N/A
+Coverage Ceded to Fac Reinsurer,N/A
+Home State,Home State
+SL Tax Broker Company,SLTax Broker Company
+SL Tax Broker Name,SLTax Broker Name
+SL Tax Broker Address,SLTax Broker Address
+SL Broker City,N/A
+SL Broker State,SLBroker State
+SL Broker Zip,SLBroker Zip
+SL License Number,N/A
+NJ Transaction Number,N/A
+Coverage Code,N/A
+Coverage Sub Code,N/A
+CA Limit,N/A
+MTC Limit,N/A
+APD Limit,N/A
+CA Deductible Amount,N/A
+MTC Deductible Amount,N/A
+APD Deductible Amount,N/A
+Rating Class Code,N/A
+Fleet Indicator,N/A
+Fleet size,N/A
+Hired Car,Hired Car
+Non Owned,Non Owned
+Drive Other Car,N/A
+Vehicle Number,N/A
+Coverage Symbol,N/A
+Cost New,N/A
+Vehicle Body Type,N/A
+Vehicle Type,N/A
+Radius Of Use,N/A
+Business Use Class,N/A
+Gross Vehicle Weight,N/A
+Vehicle Make,N/A
+Vehicle Model,N/A
+Model Year,N/A
+Axel count,N/A
+Vehicle Identification Number,N/A
+Tractor GCW,N/A
+Cost of Hire,N/A
+Specialized Vehicle Type,N/A
+"Vehicle Number of Seats, Seating Capacity",N/A
+Occupancy,N/A
+Class Code,N/A
+Class Code Description,N/A
+100% Limit,N/A
+Building Value,N/A
+Coinsurance,N/A
+Building Valuation,N/A
+Agreed Value,N/A
+Contents Value,N/A
+BI/Rental Income Value,N/A
+Other Structure Limit,N/A
+TIV,N/A
+Construction,N/A
+Year Built,N/A
+# of Stories,N/A
+Square Footage,N/A
+AOP Deductible,N/A
+AOP Limit,N/A
+Flood Limit,N/A
+Flood % Deductible,N/A
+Flood Deducible,N/A
+Flood Zone,N/A
+Earthquake Limit,N/A
+Earthquake % Deductible,N/A
+Earthquake Deductible,N/A
+Earthquake Zone,N/A
+Wind Limit,N/A
+Wind Deductible,N/A
+Wind % Deducible,N/A
+Equipment Breakdown Limit,N/A
+Equipment Breakdown Deductible,N/A
+Protection Class,N/A
+100% Smoke Detectors,N/A
+Sprinkler Protection Type Code,N/A
+Percentage of sprinkler coverage,N/A
+Breach of Privacy Event,N/A
+Data and software loss,N/A
+Network service failure liabilities,N/A
+Business interruption,N/A
+Contingent Business Interruption,N/A
+Incident Response Costs,N/A
+Regulatory and defense coverage,N/A
+product and operations liability,N/A
+liability (Tech E&O),N/A
+Liability (Professional Services),N/A
+Liability (Directors and Officers),N/A
+Media,N/A
+Financial Theft and fraud,N/A
+Reputational Damages,N/A
+Cyber Extortion,N/A
+Intellectual Property Theft,N/A

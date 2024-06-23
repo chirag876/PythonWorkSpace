@@ -1,0 +1,119 @@
+{
+  "SubmitGeneralLiabilityQuoteRequest": {
+    "insured": {
+      "address": {
+        "city": "New York",
+        "countryCode": "US",
+        "countryName": "United States",
+        "line1": "123 Main Street",
+        "postalCode": "10001",
+        "stateOrProvinceCode": "NY",
+        "stateOrProvinceName": "New York",
+        "detailAddress": {
+          "preDirectionCode": "",
+          "postDirectionCode": "",
+          "streetName": "Main",
+          "streetNumber": "123",
+          "streetTypeCode": "St"
+        }
+      },
+      "business": {
+        "annualSales": 9999,
+        "businessName": "ABC Company",
+        "id": "123456",
+        "NAICS": "123456",
+        "numberOfEmployeeTotal": 2500,
+        "SIC": "987654"
+      },
+      "contact": {
+        "communication": [
+          {
+            "phoneTypeCode": "phonecode",
+            "phoneNumber": "001-365-6445-897",
+            "websiteURL": "URL"
+          }
+        ],
+        "fullName": "Monica Rivera"
+      }
+    },
+    "location": {
+      "city": "New York",
+      "countryCode": "US",
+      "endDate": "31/12/2023",
+      "line1": "456 Elm Street",
+      "postalCode": "10002",
+      "stateOrProvinceCode": "NY",
+      "startDate": "01/01/2023"
+    },
+    "messageInformation": {
+      "businessPurposeTypeCode": "SubmitGeneralLiabilityQuote",
+      "sequenceNumber": 3456789
+    }
+  },
+  "SubmitGeneralLiabilityQuoteResponse": {
+    "messageInformation": {
+      "businessPurposeTypeCode": "SubmitGeneralLiabilityQuote",
+      "messageStatus": [
+        {
+          "statusCode": "Success"
+        }
+      ]
+    },
+    "quote": {
+      "id": "Q1741",
+      "insured": {
+        "address": {
+          "city": "New York",
+          "countryCode": "US",
+          "countryName": "United States",
+          "line1": "123 Main Street",
+          "postalCode": "10001",
+          "stateOrProvinceCode": "NY",
+          "stateOrProvinceName": "New York",
+          "detailAddress": {
+            "preDirectionCode": "",
+            "postDirectionCode": "",
+            "streetName": "Main",
+            "streetNumber": "123",
+            "streetTypeCode": "St"
+          }
+        },
+        "business": {
+          "annualSales": 9999,
+          "businessName": "ABC Company",
+          "id": "123456",
+          "NAICS": "123456",
+          "numberOfEmployeeTotal": 2500,
+          "SIC": "987654"
+        },
+        "contact": {
+          "communication": [
+            {
+              "phoneTypeCode": "phonecode",
+              "phoneNumber": "001-365-6445-897",
+              "websiteURL": "URL"
+            }
+          ],
+          "fullName": "Monica Rivera"
+        }
+      },
+      "location": {
+        "city": "New York",
+        "countryCode": "US",
+        "endDate": "31/12/2023",
+        "line1": "456 Elm Street",
+        "postalCode": "10002",
+        "stateOrProvinceCode": "NY",
+        "startDate": "01/01/2023"
+      },
+      "premium": {
+        "amount": 5164.11807102645,
+        "currencyCode": "$",
+        "period": {
+          "endDate": "",
+          "startDate": ""
+        }
+      }
+    }
+  }
+}

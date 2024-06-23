@@ -1,0 +1,66 @@
+source_columns,destination_column
+Agent;MGA,MGA
+Program Name;Admitted,Program Name
+Issuing Company;Market Co,Issuing Company
+Full policy number; Policy #,Full policy number
+Policy Effective Date;Eff. Date,Policy Effective Date
+Policy Expiration Date;Exp. Date,Policy Expiration Date
+Insured Name;Insured,Insured Name
+Insured Address,Insured Address
+Insured City,Insured City
+Insured State;State,Insured State
+Insured Zip,Insured Zip
+Transaction Effective Date;Tran Eff. Date,Transaction Effective Date
+Transaction Expiration Date;Exp. Date,Transaction Expiration Date
+Premium;Gross Premium,Premium
+Terrorism Premium,Terrorism Premium
+Total Gross Premium including Terrorism,Total Gross Premium including Terrorism
+Commission amount;Gross Comm Amt,Commission amount
+Net Premium;(Gross Premium minus Gross Comm Amt) + Broker Fee + Broker Insp Fee + Other Fee Amount + Total Inv Fee + Total Inv Taxes,Net Premium
+Surcharge amount,Surcharge amount
+Surcharge type,Surcharge type
+Tax Amount;Total INV Taxes,Tax Amount
+Tax Type;Admitted,Tax Type
+Fee Amount;Total INV Fees,Fee Amount
+Fee Type;Fee Basis,Fee Type
+Payment terms,Payment terms
+Book or Process Date;Book Date,Book or Process Date
+Policy Type,Policy Type
+Transaction Type;Trans Code,Transaction Type
+Primary/Excess Indicator;'Primary',Primary/Excess Indicator
+Attachment Point,Attachment Point
+CM/Occ Indicator,CM/Occ Indicator
+Retroactive date,Retroactive date
+Risk/Location #,Risk/Location #
+Risk/Location Address,Risk/Location Address
+Risk/Location City,Risk/Location City
+Risk/Location State,Risk/Location State
+Risk/Location Zip,Risk/Location Zip
+Risk/Location premium,Risk/Location premium
+Technical Price;Gross Premium,Technical Price
+IRPM (Individual Risk Premium Modification),IRPM (Individual Risk Premium Modification)
+Exposure Type,Exposure Type
+Exposure Amount,Exposure Amount
+Policy Occurrence Limit,Policy Occurrence Limit
+Policy Aggregate Limit,Policy Aggregate Limit
+SIR/Deductible indicator,SIR/Deductible indicator
+SIR/Deductible amount,SIR/Deductible amount
+SIR/Deductible type,SIR/Deductible type
+NAICS or SIC Code;NAICS Code,NAICS or SIC Code
+Annual Statement Line Code;'2',Annual Statement Line Code
+Annual Statement Line Description;'Allied Lines',Annual Statement Line Description
+Expiring Policy Number,Expiring Policy Number
+Issue Date,Issue Date
+Policy Event Number,Policy Event Number
+Companion policy number,Companion policy number
+Carrier %;Split %,Carrier %
+Carrier Limit,Carrier Limit
+Broker/Agent;Producer,Broker/Agent
+Broker/Agent Address;Agent Address,Broker/Agent Address
+Broker/Agent City;Agent State - City,Broker/Agent City
+Broker/Agent State;Agent State - City,Broker/Agent State
+Broker/Agent Zip;Agent Zipcode,Broker/Agent Zip
+Direct/Assumed;'Direct',Direct/Assumed
+Fac?,Fac?
+Fac Reinsurance Attachment point,Fac Reinsurance Attachment point
+IRPM (Individual Risk Premium Modification);IRPM,IRPM (Individual Risk Premium Modification)
