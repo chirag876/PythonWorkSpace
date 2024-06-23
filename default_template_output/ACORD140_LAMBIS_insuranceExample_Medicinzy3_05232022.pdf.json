@@ -1,0 +1,702 @@
+{
+    "Page_1": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "DATE MM DD/YYYY)": "05/12/2022",
+            "PREMISES .": "0",
+            "STREET ADDRESS": "Blanket",
+            "BUILDING #": "0",
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": null,
+            "VALUE REPORTING INFORMA TION Attach ACORD 811": null,
+            "SPOILAGE COVERAGE (Y/N)": "N",
+            "DESCRIPTION OF PROPERTY COVERED": "Office building in suburban New Jersey",
+            "REFRIG MAINT AGREEMENT N / N": "N",
+            "DEDUCTIBLE": "$ 10,000",
+            "POWER OUTAGE": null,
+            "SELLING PRICE": null,
+            "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": null,
+            ". OF OPEN SIDES ON STRUCTURE": "0",
+            "HYDRANT": "500 F1",
+            "FIRE STAT": "3 MI",
+            "BLDG CODE GRADE": "A",
+            "TAX CODE": "A",
+            "ROOF TYPE": "Wood Shake",
+            "OTHER OCCUPANCIES": null,
+            "YR": "2017,2020,2018,2019",
+            "EATING SOURCE INCI WOODBURNING STOVE OR FIREPLACE INSERT": "SELECTED",
+            "DATE INSTALLED": "02/18/2020",
+            "SEM. RESISTIVE": null,
+            "OTHER": null,
+            "RESISTIVE": "SELECTED",
+            "MANUFACTURER": "Heating & Cooling Earth",
+            "BOILER": "SELECTED",
+            "SOLID FUEL": "SELECTED",
+            "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "Y",
+            "CLOCK HOURLY": "SELECTED",
+            "ACORD 45 attached for additional names": null,
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "BANK": null,
+            "CERTIFICATE": null,
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "REFERENCE LOAN": null,
+            "ACORD": "140 (2014/12)"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "AGENCY NAME",
+                    "col_2": "",
+                    "col_3": "CARRIER",
+                    "col_4": "NAIC CODE"
+                },
+                "row_2": {
+                    "col_1": "Lamb Insurance Services",
+                    "col_2": "",
+                    "col_3": "Marketing Only.",
+                    "col_4": "N/A"
+                },
+                "row_3": {
+                    "col_1": "POLICY NUMBER",
+                    "col_2": "EFFECTIVE DATE",
+                    "col_3": "NAMED INSURED(S)",
+                    "col_4": ""
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": "06/02/2022",
+                    "col_3": "Medicinzy",
+                    "col_4": ""
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "BLKT .",
+                    "col_2": "AMOUNT",
+                    "col_3": "TYPE",
+                    "col_4": "BLKT I",
+                    "col_5": "AMOUNT",
+                    "col_6": "TYPE"
+                },
+                "row_2": {
+                    "col_1": "1",
+                    "col_2": "2,949,195",
+                    "col_3": "Type B: SOI: BLNKT",
+                    "col_4": "3",
+                    "col_5": "300,000",
+                    "col_6": "Type T: SOI: BLNKT"
+                },
+                "row_3": {
+                    "col_1": "2",
+                    "col_2": "306,145",
+                    "col_3": "Type C: SOI: BLNKT",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": ""
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "PREMISES . 0",
+                    "col_2": "STREET ADDRESS Blanket"
+                },
+                "row_2": {
+                    "col_1": "BUILDING # 0",
+                    "col_2": "BLDG DESCRIPTION"
+                }
+            },
+            "table_4": {
+                "row_1": {
+                    "col_1": "SUBJECT OF INSURANCE",
+                    "col_2": "AMOUNT",
+                    "col_3": "COINS %",
+                    "col_4": "VALUE ATION",
+                    "col_5": "CAUSES OF LOSS",
+                    "col_6": "INFL ATION GUARD'S",
+                    "col_7": "DED",
+                    "col_8": "DED TYPE",
+                    "col_9": "BLAC .",
+                    "col_10": "FORMS AND CONDITIONS TO APPLY"
+                },
+                "row_2": {
+                    "col_1": "Building",
+                    "col_2": "2,949,195",
+                    "col_3": "",
+                    "col_4": "R",
+                    "col_5": "Special (Including thefth",
+                    "col_6": "",
+                    "col_7": "$5,000",
+                    "col_8": "Dollars",
+                    "col_9": "1",
+                    "col_10": "B"
+                },
+                "row_3": {
+                    "col_1": "Business Personal Property",
+                    "col_2": "306,145",
+                    "col_3": "",
+                    "col_4": "R",
+                    "col_5": "Special (Including theft)",
+                    "col_6": "",
+                    "col_7": "$5,000",
+                    "col_8": "Dollars",
+                    "col_9": "2",
+                    "col_10": "C"
+                },
+                "row_4": {
+                    "col_1": "Business Income w Extra Expense",
+                    "col_2": "300,000",
+                    "col_3": "",
+                    "col_4": "L",
+                    "col_5": "Special (Including theft",
+                    "col_6": "",
+                    "col_7": "72",
+                    "col_8": "Hours",
+                    "col_9": "3",
+                    "col_10": "T"
+                },
+                "row_5": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                },
+                "row_6": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                }
+            },
+            "table_5": {
+                "row_1": {
+                    "col_1": "ADDITIONAL",
+                    "col_2": "COVERAGES,",
+                    "col_3": "",
+                    "col_4": "OPTIONS, RESTRICTIONS",
+                    "col_5": "ENDORSEMENTS",
+                    "col_6": "AND",
+                    "col_7": "RATING",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "INFORMATION",
+                    "col_11": "",
+                    "col_12": "",
+                    "col_13": "",
+                    "col_14": ""
+                },
+                "row_2": {
+                    "col_1": "SPOILAGE",
+                    "col_2": "DESCRIPTION OF",
+                    "col_3": "",
+                    "col_4": "PROPERTY COVERED",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "LIMIT",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": "REFRIG",
+                    "col_12": "MAINT",
+                    "col_13": "",
+                    "col_14": "OPTIONS"
+                },
+                "row_3": {
+                    "col_1": "COVERAGE (Y/N)",
+                    "col_2": "Office building",
+                    "col_3": "in",
+                    "col_4": "suburban New Jersey",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "$",
+                    "col_8": "",
+                    "col_9": "3,000,000",
+                    "col_10": "",
+                    "col_11": "AGREEMENT N / N",
+                    "col_12": "",
+                    "col_13": "",
+                    "col_14": "BREAKDOWN OR CONTAMINATION"
+                },
+                "row_4": {
+                    "col_1": "N",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "$",
+                    "col_8": "DEDUCTIBLE 10,000",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": "N",
+                    "col_12": "",
+                    "col_13": "",
+                    "col_14": "POWER OUTAGE SELLING PRICE"
+                }
+            },
+            "table_6": {
+                "row_1": {
+                    "col_1": "SINKHOLE COVERAGE (Required in Florida)",
+                    "col_2": "",
+                    "col_3": "ACCEPT COVERAGE",
+                    "col_4": "X",
+                    "col_5": "REJECT COVERAGE",
+                    "col_6": "LIMIT:",
+                    "col_7": "450"
+                },
+                "row_2": {
+                    "col_1": "MINE SUBSIDENCE COVERAGE (Required in L. IN KY and WY)",
+                    "col_2": "",
+                    "col_3": "ACCEPT COVERAGE",
+                    "col_4": "X",
+                    "col_5": "REJECT COVERAGE",
+                    "col_6": "LIMIT:",
+                    "col_7": "$"
+                }
+            },
+            "table_7": {
+                "row_1": {
+                    "col_1": "CONSTRUCTION TYPE",
+                    "col_2": "DIST ANCE HYDRANT",
+                    "col_3": "TO FIRE STAT",
+                    "col_4": "FIRE DISTRICT",
+                    "col_5": "CODE NUMBER",
+                    "col_6": "PROT CL",
+                    "col_7": "# STORIES",
+                    "col_8": "BASM'TS",
+                    "col_9": "YR BUILT",
+                    "col_10": "TOTAL AREA"
+                },
+                "row_2": {
+                    "col_1": "Frame",
+                    "col_2": "500 F1",
+                    "col_3": "3 MI",
+                    "col_4": "Moorestown Fire District #2",
+                    "col_5": "10010",
+                    "col_6": "",
+                    "col_7": "2",
+                    "col_8": "",
+                    "col_9": "1950",
+                    "col_10": "5,000"
+                }
+            },
+            "table_8": {
+                "row_1": {
+                    "col_1": "RIGHT EXPOSURE & DISTANCE",
+                    "col_2": "LEFT EXPOSURE & DISTANCE",
+                    "col_3": "FRONT EXPOSURE & DISTANCE",
+                    "col_4": "REAR EXPOSURE & DISTANCE"
+                },
+                "row_2": {
+                    "col_1": "None",
+                    "col_2": "None",
+                    "col_3": "None",
+                    "col_4": "None"
+                }
+            },
+            "table_9": {
+                "row_1": {
+                    "col_1": "BURGLAR ALARM TYPE",
+                    "col_2": "CERTIFICATE#",
+                    "col_3": "EXPIRATION DATE",
+                    "col_4": "",
+                    "col_5": "CENTRAL STATION",
+                    "col_6": "LOCAL GONG"
+                },
+                "row_2": {
+                    "col_1": "Wireless Alarm System",
+                    "col_2": "366540",
+                    "col_3": "02/18/2020",
+                    "col_4": "X",
+                    "col_5": "WITH KEYS",
+                    "col_6": ""
+                }
+            },
+            "table_10": {
+                "row_1": {
+                    "col_1": "BURGLAR ALARM INSTALLED AND SERVICED BY",
+                    "col_2": "EXTENT",
+                    "col_3": "GRADE",
+                    "col_4": "GUARDS WATCHMEN",
+                    "col_5": "X CLOCK HOURLY"
+                },
+                "row_2": {
+                    "col_1": "ADT",
+                    "col_2": "A",
+                    "col_3": "A",
+                    "col_4": "500",
+                    "col_5": ""
+                }
+            },
+            "table_11": {
+                "row_1": {
+                    "col_1": "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2 Chemical Systems",
+                    "col_2": "SPRNK",
+                    "col_3": "FIRE ALARMMANUFACTURER",
+                    "col_4": "X",
+                    "col_5": "CENTRAL STATION"
+                },
+                "row_2": {
+                    "col_1": "Sprinklers",
+                    "col_2": "95",
+                    "col_3": "Siemens",
+                    "col_4": "",
+                    "col_5": "LOCAL GONG"
+                }
+            },
+            "table_12": {
+                "row_1": {
+                    "col_1": "",
+                    "col_2": "INTEREST"
+                },
+                "row_2": {
+                    "col_1": "X",
+                    "col_2": "LOSS PAYEE"
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": "MORTGAGEE"
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": ""
+                },
+                "row_5": {
+                    "col_1": "",
+                    "col_2": ""
+                }
+            },
+            "table_13": {
+                "row_1": {
+                    "col_1": "INTEREST IN",
+                    "col_2": "ITEM NUMBER"
+                },
+                "row_2": {
+                    "col_1": "LOCATION 1",
+                    "col_2": "BUILDING 1"
+                },
+                "row_3": {
+                    "col_1": "ITEM CLASS",
+                    "col_2": "ITEM"
+                },
+                "row_4": {
+                    "col_1": "ITEM DESCRIPTION",
+                    "col_2": ""
+                }
+            }
+        }
+    },
+    "Page_2": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "PREMISES": "1",
+            "STREET ADDRESS": "7536 Indian Spring St. Ste A",
+            "BLDC DESCRIPTION": "Office Building",
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": null,
+            "VALUE REPORTING INFORMATION Attach ACORD 611": null,
+            "SPOILAGE COVERAGE (Y/N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": null,
+            "LIMIT": "$",
+            "BEFRIG MAINT AGREEMENT (Y / N)": null,
+            "BREAKDOWN OR CONTAMINATION": null,
+            "SELLING PRICE": null,
+            "DEDUCTIBLE": "$",
+            "POWER OUTAGE": null,
+            "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": null,
+            ". OF OPEN SIDES ON STRUCTURE": null,
+            "HYDRANT": "FT",
+            "FIRE STAT": "MI",
+            "BLDG CODE GRADE": null,
+            "TAX CODE": null,
+            "ROOF TYPE": null,
+            "OTHER OCCUPANCIES": null,
+            "YR": null,
+            "HEATING SOURCE NCI WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": null,
+            "SEM. RESISTIVE": null,
+            "OTHER": null,
+            "RESISTIVE": null,
+            "MANUFACTURER": null,
+            "BOILER": null,
+            "SOLID FUEL": null,
+            "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null,
+            "IF BOLER is INSURANCE PLACED ELSEWHERE?": null,
+            "CENTRAL STATION": null,
+            "LOCAL GOND": null,
+            "LOCAL GONG": null,
+            "ACORD 45 attached for additional names": null,
+            "NAME AND ADDRESS": null,
+            "BANK": null,
+            "CERTIFICATE": null,
+            "REFERENCE LOAN .": null,
+            "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": null,
+            "ACORD": "140 (2014/12)",
+            "Page": "of 3"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "PREMISES 1",
+                    "col_2": "STREET ADDRESS 7536 Indian Spring St. Ste A"
+                },
+                "row_2": {
+                    "col_1": "BUILDING 1",
+                    "col_2": "BLDC DESCRIPTION Office Building"
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "SUBJECT OF INSURANCE",
+                    "col_2": "AMOUNT",
+                    "col_3": "COINS",
+                    "col_4": "VALUE ATION",
+                    "col_5": "CAUSES OF LOSS",
+                    "col_6": "INFLATION GUARD%",
+                    "col_7": "DED",
+                    "col_8": "000 TYPE",
+                    "col_9": "BLACK #",
+                    "col_10": "FORMS AND CONDITIONS TO APPLY"
+                },
+                "row_2": {
+                    "col_1": "Per Occurrence",
+                    "col_2": "480,000",
+                    "col_3": "25",
+                    "col_4": "ACV",
+                    "col_5": "Fire. Storm. Flood",
+                    "col_6": "1",
+                    "col_7": "$1,500",
+                    "col_8": "Monetary",
+                    "col_9": "1",
+                    "col_10": ""
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                },
+                "row_5": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                },
+                "row_6": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "SINKHOLE COVERAGE (Required in Florida)",
+                    "col_2": "",
+                    "col_3": "ACCEPT COVERAGE",
+                    "col_4": "",
+                    "col_5": "REJECT COVERAGE",
+                    "col_6": "LIMIT:",
+                    "col_7": "$"
+                },
+                "row_2": {
+                    "col_1": "MINE SUBSIDENCE COVERAGE (Required in L. IN KY and WY)",
+                    "col_2": "",
+                    "col_3": "ACCEPT COVERAGE",
+                    "col_4": "",
+                    "col_5": "REJECT COVERAGE",
+                    "col_6": "LIMIT:",
+                    "col_7": "$"
+                }
+            },
+            "table_4": {
+                "row_1": {
+                    "col_1": "CONSTRUCTION TYPE",
+                    "col_2": "DISTANCE HYDRANT",
+                    "col_3": "TO FIRE STAT",
+                    "col_4": "FIRE DISTRICT",
+                    "col_5": "CODE NUMBER",
+                    "col_6": "PROT CL",
+                    "col_7": ". STORIES",
+                    "col_8": "RASM'TS",
+                    "col_9": "YR BUILT",
+                    "col_10": "TOTAL AREA"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "FT",
+                    "col_3": "MI",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": ""
+                }
+            },
+            "table_5": {
+                "row_1": {
+                    "col_1": "RIGHT EXPOSURE & DISTANCE",
+                    "col_2": "LEFT EXPOSURE DISTANCE",
+                    "col_3": "FRONT EXPOSURE . DISTANCE",
+                    "col_4": "REAR EXPOSURE A DISTANCE"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": ""
+                }
+            },
+            "table_6": {
+                "row_1": {
+                    "col_1": "BURGLAR ALARM TYPE",
+                    "col_2": "CERTIFICATE#",
+                    "col_3": "EXPIRATION DATE",
+                    "col_4": "",
+                    "col_5": "CENTRAL LOCAL STATION GOND"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "WITH KEYS"
+                }
+            },
+            "table_7": {
+                "row_1": {
+                    "col_1": "BURGLAR ALARM INSTALLED AND SERVICED BY",
+                    "col_2": "EXTENT",
+                    "col_3": "GRADE",
+                    "col_4": "#GUARDS WATCHMEN",
+                    "col_5": "",
+                    "col_6": "CLOCK HOURLY"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": ""
+                }
+            },
+            "table_8": {
+                "row_1": {
+                    "col_1": "PREMISES FIRE PROTECTION (Sprinklers Standpipos CO2 Chemical Systems",
+                    "col_2": "% SPRNK",
+                    "col_3": "FIRE ALARM MANUF ACTURER",
+                    "col_4": "",
+                    "col_5": "CENTRAL STATION LOCAL GONG"
+                }
+            },
+            "table_9": {
+                "row_1": {
+                    "col_1": "INTEREST IN",
+                    "col_2": "ITEM NUMBER"
+                },
+                "row_2": {
+                    "col_1": "LOCATION",
+                    "col_2": "BUILDING"
+                },
+                "row_3": {
+                    "col_1": "ITEM CLASS",
+                    "col_2": "ITEM"
+                },
+                "row_4": {
+                    "col_1": "M DESCRIPTION",
+                    "col_2": ""
+                }
+            },
+            "table_10": {
+                "row_1": {
+                    "col_1": "",
+                    "col_2": "INTEREST"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "LOSS PAYEE"
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": "MORTGAGEE"
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": ""
+                }
+            }
+        }
+    },
+    "Page_3": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Kacie Murphy",
+            "DATE": "05/23/2022",
+            "ACORD": "140 (2014/12)",
+            "Page": "3 of 3"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "PRODUCER'S SIGNATURE Kiera Contreni",
+                    "col_2": "PRODUCER'S NAME (Please Print) Kiera Contreni",
+                    "col_3": "",
+                    "col_4": "STATE PRODUCER LICENSE NO (Required in Florida)"
+                },
+                "row_2": {
+                    "col_1": "APPLICANT'S SIGNATURE Kacie Murphy",
+                    "col_2": "",
+                    "col_3": "DATE 05/23/2022",
+                    "col_4": "NATIONAL PRODUCER NUMBER"
+                }
+            }
+        }
+    },
+    "File name": "ACORD140_LAMBIS_insuranceExample_Medicinzy3_05232022.pdf",
+    "Page count": 3
+}

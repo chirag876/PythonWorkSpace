@@ -1,0 +1,541 @@
+{
+    "Page_1": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "DATE MM (DD/YYYY)": "06/02/2022",
+            "COMMERCIAL GENERAL LIABILITY": "SELECTED",
+            "GENERAL AGGREGATE": "$ 3,000,000",
+            "CLAIMS MADE": null,
+            "OCCURRENCE": "SELECTED",
+            "POLICY": "SELECTED",
+            "LOCATION": null,
+            "PREMISES/OPERATIONS": "50,000",
+            "OWNER'S & CONTRACTOR'S PROTECTIVE": null,
+            "PROJECT": null,
+            "OTHER": "40,000",
+            "PROPERTY DAMAGE": "$ 4500",
+            "PER CLASS": null,
+            "BODILY INJURY": "$ 4500",
+            "PER OCCURRENCE": "SELECTED",
+            "TOTAL": "135,000",
+            "is NOT AVAILABLE": "SELECTED",
+            "is": null,
+            "1. PROPOSED RETROACTIVE DATE": null,
+            "1. DEDUCTIBLE PER CLAIM": "$ 2,500",
+            "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS": "250",
+            "2. NUMBER OF EMPLOYEES": "250",
+            "4. RETROACTIVE DATE": null,
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "AGENCY",
+                    "col_2": "",
+                    "col_3": "CARRIER",
+                    "col_4": "NAIC CODE"
+                },
+                "row_2": {
+                    "col_1": "Lamb Insurance Services",
+                    "col_2": "",
+                    "col_3": "Marketing Only.",
+                    "col_4": "N/A"
+                },
+                "row_3": {
+                    "col_1": "POLICY NUMBER",
+                    "col_2": "EFFECTIVE DATE",
+                    "col_3": "APPLICANT FIRST NAMED INSURED",
+                    "col_4": ""
+                },
+                "row_4": {
+                    "col_1": "LIS-07311989",
+                    "col_2": "06/02/2022",
+                    "col_3": "Medicinzy",
+                    "col_4": ""
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "PRODUCTS & COMPLETED OPERATIONS AGGREGATE",
+                    "col_2": "$ 3,000,000"
+                },
+                "row_2": {
+                    "col_1": "PERSONAL . ADVERTISING INJURY",
+                    "col_2": "$ 1,000,000"
+                },
+                "row_3": {
+                    "col_1": "EACHOCCURRENCE",
+                    "col_2": "$ 1,000,000"
+                },
+                "row_4": {
+                    "col_1": "DAMAGE TO RENTED PREMISES (each occurrence)",
+                    "col_2": "$ 1,000,000"
+                },
+                "row_5": {
+                    "col_1": "MEDICAL EXPENSE (Any one person)",
+                    "col_2": "$ 20,000"
+                },
+                "row_6": {
+                    "col_1": "EMPLOYEE BENEFITS",
+                    "col_2": "$ 1,000,000"
+                },
+                "row_7": {
+                    "col_1": "",
+                    "col_2": "$"
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "LOC",
+                    "col_2": "HAZ",
+                    "col_3": "CLASSIFICATION",
+                    "col_4": "CLASS",
+                    "col_5": "PREMIUM",
+                    "col_6": "EXPOSURE",
+                    "col_7": "TERR",
+                    "col_8": "RATE",
+                    "col_9": "",
+                    "col_10": "PREMIUM",
+                    "col_11": ""
+                },
+                "row_2": {
+                    "col_1": ",",
+                    "col_2": ",",
+                    "col_3": "",
+                    "col_4": "CODE",
+                    "col_5": "BASIS",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "PREMOPS",
+                    "col_9": "PRODUCTS",
+                    "col_10": "PREMIOPS",
+                    "col_11": "PRODUCTS"
+                },
+                "row_3": {
+                    "col_1": "1",
+                    "col_2": "1",
+                    "col_3": "Healthcare NFP Only",
+                    "col_4": "8842",
+                    "col_5": "A",
+                    "col_6": "4,008",
+                    "col_7": "NJ",
+                    "col_8": "30,000",
+                    "col_9": "35,000",
+                    "col_10": "50,000",
+                    "col_11": "45,000"
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_5": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_6": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_7": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_8": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_9": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                },
+                "row_10": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": "",
+                    "col_8": "",
+                    "col_9": "",
+                    "col_10": "",
+                    "col_11": ""
+                }
+            },
+            "table_4": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES",
+                    "col_2": ""
+                },
+                "row_2": {
+                    "col_1": "1. PROPOSED RETROACTIVE DATE:",
+                    "col_2": ""
+                },
+                "row_3": {
+                    "col_1": "2. ENTRY DATE INTO UNINTERRUPTED CLAIMS MADE COVERAGE",
+                    "col_2": ""
+                },
+                "row_4": {
+                    "col_1": "3. HAS ANY PRODUCT WORK ACCIDENT OR LOCATION BEEN EXCLUDED UNINSURED OR SELF-INSURED FROM ANY PREVIOUS COVERAGE?",
+                    "col_2": "N"
+                },
+                "row_5": {
+                    "col_1": "4. WAS TAIL COVERAGE PURCHASED UNDER ANY PREVIOUS POLICY?",
+                    "col_2": "N"
+                }
+            },
+            "table_5": {
+                "row_1": {
+                    "col_1": "1. DEDUCTIBLE PER CLAIM $ 2,500",
+                    "col_2": "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS 250"
+                },
+                "row_2": {
+                    "col_1": "2. NUMBER OF EMPLOYEES: 250",
+                    "col_2": "4. RETROACTIVE DATE:"
+                }
+            }
+        }
+    },
+    "Page_2": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": null,
+            "SPAID TO SUB- CONTRACTORS": "0",
+            "% OF WORK SUBCONTRACTED": "0",
+            "FULL- TIME STAFF": "0",
+            ". PART. TIME STAFF": "0",
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations",
+                    "col_2": "Y / N"
+                },
+                "row_2": {
+                    "col_1": "1. DOES APPLICANT DRAW PLANS DESIGNS OR SPECIFICATIONS FOR OTHERS?",
+                    "col_2": "N"
+                },
+                "row_3": {
+                    "col_1": "2. DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?",
+                    "col_2": "N"
+                },
+                "row_4": {
+                    "col_1": "3. DO ANY OPERATIONS INCLUDE EXCAVATION TUNNELING UNDERGROUND WORK OR EARTH MOVING?",
+                    "col_2": "N"
+                },
+                "row_5": {
+                    "col_1": "4. DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?",
+                    "col_2": "N"
+                },
+                "row_6": {
+                    "col_1": "5. ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?",
+                    "col_2": "N"
+                },
+                "row_7": {
+                    "col_1": "6. DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?",
+                    "col_2": "N"
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "PRODUCTS",
+                    "col_2": "ANNUAL GROSS SALES",
+                    "col_3": ". OF UNITS",
+                    "col_4": "THE IN MARKET",
+                    "col_5": "EXPECTED LIFE",
+                    "col_6": "INTENDED USE",
+                    "col_7": "PRINCIPAL COMPONENTS"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": ""
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": ""
+                },
+                "row_4": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "",
+                    "col_4": "",
+                    "col_5": "",
+                    "col_6": "",
+                    "col_7": ""
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACH LITERATURE BROCHURES LABELS WARNINGS ETC.",
+                    "col_2": "Y / N"
+                },
+                "row_2": {
+                    "col_1": "1. DOES APPLICANT INSTALL SERVICE OR DEMONSTRATE PRODUCTS?",
+                    "col_2": "N"
+                },
+                "row_3": {
+                    "col_1": "2. FOREIGN PRODUCTS SOLD DISTRIBUTED USED AS COMPONENTS? (If \"YES\" attach ACORD 815)",
+                    "col_2": "N"
+                },
+                "row_4": {
+                    "col_1": "3. RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?",
+                    "col_2": "N"
+                },
+                "row_5": {
+                    "col_1": "4. GUARANTEES WARRANTIES HOLD HARMLESS AGREEMENTS?",
+                    "col_2": "N"
+                },
+                "row_6": {
+                    "col_1": "5. PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?",
+                    "col_2": "N"
+                },
+                "row_7": {
+                    "col_1": "6. PRODUCTS RECALLED DISCONTINUED CHANGED?",
+                    "col_2": "N"
+                },
+                "row_8": {
+                    "col_1": "7. PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?",
+                    "col_2": "N"
+                },
+                "row_9": {
+                    "col_1": "8. PRODUCTS UNDER LABEL OF OTHERS?",
+                    "col_2": "N"
+                },
+                "row_10": {
+                    "col_1": "9. VENDORS COVERAGE REQUIRED?",
+                    "col_2": "N"
+                },
+                "row_11": {
+                    "col_1": "10 DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?",
+                    "col_2": "N"
+                }
+            }
+        }
+    },
+    "Page_3": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "ACORD 45 attached for additional names": null,
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth, NV 59510 REFERENCE LOAN .",
+            "BANK": null,
+            "EVIDENCE": null,
+            "ADDITIONAL INSURED": "SELECTED",
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "EMPLOYEE AS LESSOR": null,
+            "ITEM CLASS": null,
+            "ITEM": null,
+            "ITEM DESCRIPTION": null,
+            "LOSS PAYEE": null,
+            "5. DO YOU RENT OR LOAN EQUIPMENT TO OTHERS?": "N",
+            "6. ANY WATERCRAFT DOCKS FLOATS OWNED HIRED OR LEASED?": "N",
+            "7. ANY PARKING FACILITIES OWNED/RENTED?": "N",
+            "8. IS A FEE CHARGED FOR PARKING?": "N",
+            "9. RECREATION FACILITIES PROVIDED?": "N",
+            "10. ARE THERE ANY LODGING OPERATIONS INCLUDING APARTMENTS? \"YES\" answer the following)": "N",
+            ". APTS": null,
+            "TOTAL APT AREA": "5q FL",
+            "DESCRIBE OTHER LODGING OPERATIONS": null,
+            "APPROVED FENCE": null,
+            "LIMITED ACCESS": null,
+            "DIVING BOARD": null,
+            "SLIDE": null,
+            "ABOVE GROUND": null,
+            "IN GROUND": null,
+            "LIFE GUARD": null,
+            "12. ARE SOCIAL EVENTS SPONSORED?": "Y Has charity fundraise activities to help secure funding.",
+            "13. ARE ATHLETIC TEAMS SPONSORED?": "N",
+            "TYPE OF SPORT": null,
+            "CONTACT SPORT (Y/N)": null,
+            "13-18": null,
+            "12 UNDER": null,
+            "OVER 18": null,
+            "EXTENT OF SPONSORSHIP": "",
+            "14. ANY STRUCTURAL ALTERATIONS CONTEMPLATED?": "N",
+            "15. ANY DEMOLITION EXPOSURE CONTEMPLATED?": "N",
+            "ACORD": "126 (2014/04)",
+            "LIENHOLDER": null,
+            "1. ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?": "Y Doctors on staff.",
+            "MORTGAGEE": "SELECTED"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations",
+                    "col_2": "Y / N"
+                },
+                "row_2": {
+                    "col_1": "1. ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED? Doctors on staff.",
+                    "col_2": "Y"
+                },
+                "row_3": {
+                    "col_1": "2 ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?",
+                    "col_2": "N"
+                },
+                "row_4": {
+                    "col_1": "3. DO/HAVE PAST PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING TREATING DISCHARGING APPLYING DISPOSING OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g landfills wastes fuel tanks etc)",
+                    "col_2": "N"
+                },
+                "row_5": {
+                    "col_1": "4. ANY OPERATIONS SOLD ACQUIRED OR DISCONTINUED IN LAST FIVE (5) YEARS?",
+                    "col_2": "N"
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "EQUIPMENT",
+                    "col_2": "",
+                    "col_3": "TYPE OF",
+                    "col_4": "",
+                    "col_5": "EQUIPMENT",
+                    "col_6": "INSTRUCTION GIVEN (Y/N)"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "SMALL TOOLS",
+                    "col_4": "",
+                    "col_5": "LARGE EQUIPMENT",
+                    "col_6": ""
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": "",
+                    "col_3": "SMALL TOOLS",
+                    "col_4": "",
+                    "col_5": "LARGE EQUIPMENT",
+                    "col_6": ""
+                }
+            }
+        }
+    },
+    "Page_4": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "16. HAS APPLICANT BEEN ACTIVE IN OR IS CURRENTLY ACTIVE IN JOINT VENTURES?": "N",
+            "17. DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": "N",
+            "18. IS THERE A LABOR INTERCHANGE WITH ANY OTHER BUSINESS OR SUBSIDIARIES?": "N",
+            "19. ARE DAY CARE FACILITIES OPERATED OR CONTROLLED?": "N",
+            "20. HAVE ANY CRIMES OCCURRED OR BEEN ATTEMPTED ON YOUR PREMISES WITHIN THE LAST THREE (3) YEARS?": "N",
+            "21. IS THERE A FORMAL WRITTEN SAFETY AND SECURITY POLICY IN EFFECT?": "Y Formal, written safety and security policy attached to policy.",
+            "22 DOES THE BUSINESSES PROMOTIONAL LITERATURE MAKE ANY REPRESENTATIONS ABOUT THE SAFETY OR SECURITY OF THE PREMISES?": "N",
+            "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": "Additional Coverages Include General Liability Enhancement Endorsement Amend Bodily Injury to include Mental Anguish and Emotional Distress",
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Kacie Murphy",
+            "DATE": "06/02/2022",
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "LEASE TO",
+                    "col_2": "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": ""
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": ""
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "LEASE FROM",
+                    "col_2": "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)"
+                },
+                "row_2": {
+                    "col_1": "",
+                    "col_2": ""
+                },
+                "row_3": {
+                    "col_1": "",
+                    "col_2": ""
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "PRODUCER'S SIGNATURE Kiera Contreni",
+                    "col_2": "PRODUCER'S NAME (Please Print) Kiera Contreni",
+                    "col_3": "",
+                    "col_4": "STATE PRODUCER LICENSE NO (Required in Florida"
+                },
+                "row_2": {
+                    "col_1": "APPLICANT'S SIGNATURE Kacie Murphy",
+                    "col_2": "",
+                    "col_3": "DATE 06/02/2022",
+                    "col_4": "NATIONAL PRODUCER NUMBER"
+                }
+            }
+        }
+    },
+    "File name": "ACORD126_LAMBIS_insuranceExample_Medicinzy2_05232022",
+    "Page count": 4
+}

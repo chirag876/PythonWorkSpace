@@ -1,0 +1,131 @@
+{
+    "Page_1": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "PET-05281985",
+            "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": null,
+            "SPAID TO SUB- CONTRACTORS": "0",
+            "% OF WORK SUBCONTRACTED": "0",
+            "FULL TIME STAFF": "24",
+            "PART TIME STAFF": "14",
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations",
+                    "col_2": "Y / N"
+                },
+                "row_2": {
+                    "col_1": "1. DOES APPLICANT DRAW PLANS DESIGNS OR SPECIFICATIONS FOR OTHERS?",
+                    "col_2": "N"
+                },
+                "row_3": {
+                    "col_1": "2. DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?",
+                    "col_2": "N"
+                },
+                "row_4": {
+                    "col_1": "3. DO ANY OPERATIONS INCLUDE EXCAVATION TUNNELING UNDERGROUND WORK OR EARTH MOVING?",
+                    "col_2": "N"
+                },
+                "row_5": {
+                    "col_1": "4. DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?",
+                    "col_2": "N"
+                },
+                "row_6": {
+                    "col_1": "5. ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?",
+                    "col_2": "N"
+                },
+                "row_7": {
+                    "col_1": "6. DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?",
+                    "col_2": "N"
+                }
+            },
+            "table_2": {
+                "row_1": {
+                    "col_1": "PRODUCTS",
+                    "col_2": "ANNUAL GROSS SALES",
+                    "col_3": ". OF UNITS",
+                    "col_4": "THAT IN MARKET",
+                    "col_5": "EXPECTED LIFE",
+                    "col_6": "INTENDED USE",
+                    "col_7": "PRINCIPAL COMPONENTS"
+                },
+                "row_2": {
+                    "col_1": "Dog Food",
+                    "col_2": "5,000,000",
+                    "col_3": "1,000,000",
+                    "col_4": "25",
+                    "col_5": "24",
+                    "col_6": "Consumption",
+                    "col_7": "Dog Food"
+                },
+                "row_3": {
+                    "col_1": "Cat Food",
+                    "col_2": "5,000,000",
+                    "col_3": "1,000,000",
+                    "col_4": "25",
+                    "col_5": "24",
+                    "col_6": "Consumption",
+                    "col_7": "Cat Food"
+                },
+                "row_4": {
+                    "col_1": "Cat Litter",
+                    "col_2": "5,000,000",
+                    "col_3": "1,000,000",
+                    "col_4": "25",
+                    "col_5": "24",
+                    "col_6": "Consumption",
+                    "col_7": "Cat Litter"
+                }
+            },
+            "table_3": {
+                "row_1": {
+                    "col_1": "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.",
+                    "col_2": "Y / N"
+                },
+                "row_2": {
+                    "col_1": "1. DOES APPLICANT INSTALL SERVICE OR DEMONSTRATE PRODUCTS?",
+                    "col_2": "N"
+                },
+                "row_3": {
+                    "col_1": "2. FOREIGN PRODUCTS SOLD DISTRIBUTED USED AS COMPONENTS? (If \"YES\" attach ACORD 815)",
+                    "col_2": "N"
+                },
+                "row_4": {
+                    "col_1": "3. RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?",
+                    "col_2": "n"
+                },
+                "row_5": {
+                    "col_1": "4. GUARANTEES WARRANTIES HOLD HARMLESS AGREEMENTS?",
+                    "col_2": "N"
+                },
+                "row_6": {
+                    "col_1": "5. PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?",
+                    "col_2": "N"
+                },
+                "row_7": {
+                    "col_1": "6. PRODUCTS RECALLED DISCONTINUED CHANGED?",
+                    "col_2": "N"
+                },
+                "row_8": {
+                    "col_1": "7. PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?",
+                    "col_2": "N"
+                },
+                "row_9": {
+                    "col_1": "8. PRODUCTS UNDER LABEL OF OTHERS?",
+                    "col_2": "N"
+                },
+                "row_10": {
+                    "col_1": "9. VENDORS COVERAGE REQUIRED?",
+                    "col_2": "N"
+                },
+                "row_11": {
+                    "col_1": "10. DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?",
+                    "col_2": "N"
+                }
+            }
+        }
+    },
+    "File name": "LAMB_Petopian_05312022_Acord_126_-_Commercial_GL (1)",
+    "Page count": 1
+}
