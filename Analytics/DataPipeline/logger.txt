@@ -1,0 +1,43 @@
+INFO:werkzeug: * Detected change in 'D:\\mongo_data_processing\\IMSTOACORD\\SourceToStage0.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-451-649
+INFO:werkzeug: * Detected change in 'D:\\mongo_data_processing\\IMSTOACORD\\Functions.py', reloading
+INFO:werkzeug: * Restarting with stat
+2024-02-22 19:15:17,854 - INFO - Time taken for the entire flow: 75.98 seconds
+2024-02-26 15:33:38,534 - INFO - Time taken for the entire flow: 328.37 seconds
+2024-02-26 15:39:42,536 - INFO - Time taken for the entire flow: 252.71 seconds
+2024-02-26 15:39:42,536 - INFO - Time taken for the entire flow: 252.71 seconds
+2024-02-26 15:47:19,346 - INFO - Time taken for the entire flow: 256.32 seconds
+2024-02-27 10:41:01,938 - INFO - Time taken for the entire flow: 257.12 seconds
+2024-02-27 10:41:01,938 - INFO - Time taken for the entire flow: 257.12 seconds
+2024-02-27 10:46:23,582 - INFO - Time taken for the entire flow: 258.20 seconds
+2024-02-27 10:46:23,582 - INFO - Time taken for the entire flow: 258.20 seconds
+2024-02-27 10:46:23,582 - INFO - Time taken for the entire flow: 258.20 seconds
+2024-02-27 16:27:59,031 - INFO - Time taken for the entire flow: 146.52 seconds
+2024-02-27 16:32:04,833 - INFO - Time taken for the entire flow: 143.66 seconds
+2024-02-27 16:37:34,332 - INFO - Time taken for the entire flow: 154.61 seconds
+2024-02-27 16:43:51,771 - INFO - Time taken for the entire flow: 141.82 seconds
+2024-02-27 16:48:15,030 - INFO - Time taken for the entire flow: 141.48 seconds
+2024-02-27 16:48:15,030 - INFO - Time taken for the entire flow: 141.48 seconds
+2024-02-27 16:51:41,392 - INFO - Time taken for the entire flow: 142.31 seconds
+2024-02-27 17:07:20,419 - INFO - Time taken for the entire flow: 144.97 seconds
+2024-02-27 17:07:20,419 - INFO - Time taken for the entire flow: 144.97 seconds
+2024-02-27 17:12:58,430 - INFO - Time taken for the entire flow: 73.65 seconds
+2024-02-27 17:22:18,587 - INFO - Time taken for the entire flow: 121.97 seconds
+2024-02-27 17:22:18,587 - INFO - Time taken for the entire flow: 121.97 seconds
+2024-02-27 17:27:48,243 - INFO - Time taken for the entire flow: 132.26 seconds
+2024-02-27 17:27:48,243 - INFO - Time taken for the entire flow: 132.26 seconds
+2024-02-27 17:31:32,742 - INFO - Time taken for the entire flow: 201.48 seconds
+2024-02-27 17:31:32,742 - INFO - Time taken for the entire flow: 201.48 seconds
+2024-02-27 17:31:32,742 - INFO - Time taken for the entire flow: 201.48 seconds
+2024-02-27 17:31:32,742 - INFO - Time taken for the entire flow: 201.48 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 17:34:13,223 - INFO - Time taken for the entire flow: 137.41 seconds
+2024-02-27 18:44:14,147 - INFO - Time taken for the entire flow: 137.88 seconds
+2024-02-27 18:44:14,147 - INFO - Time taken for the entire flow: 137.88 seconds
+2024-02-27 18:53:45,114 - INFO - Time taken for the entire flow: 136.64 seconds

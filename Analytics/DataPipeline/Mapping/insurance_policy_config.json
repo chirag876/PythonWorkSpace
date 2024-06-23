@@ -1,0 +1,229 @@
+{
+	"_id": ["_id","id"],
+	"CorrelationId": ["CorrelationId"],
+	"AuditableRequestId": [
+		"Auditable", "Request_ID"
+	],
+	"AuditableRequestName": [],
+	"AuditableSourceEventName": [],
+	"CreatedBy": [],
+	"CreatedDateTime": [
+		"DateCreated"
+	],
+	"UpdatedBy": [],
+	"UpdatedDateTime": [],
+	"UpdateReason": [],
+	"OwnerId": [],
+	"IsActive": [],
+	"IsDeleted": [],
+	"IsApproved": [],
+	"ApproverId": [],
+	"ApprovedDateTime": [],
+	"IsAuthorized": [],
+	"AuthorizedById": [],
+	"AuthorizedDateTime": [],
+	"SysData": [],
+	"TenantId": [],
+	"SubTenantId": [],
+	"QuoteId": [
+		"QuoteID"
+	],
+	"CancellationDate": [],
+	"CancelReasonDescription": [],
+	"ControllingStateOrProvinceCode": [],
+	"EffectiveDate": [
+		"EffectiveDate"
+	],
+	"ExpirationDate": [
+		"ExpirationDate"
+	],
+	"PolicyId": [],
+	"LineOfBusinessCode": [],
+	"Number": [
+		"PolicyNumber"
+	],
+	"OriginalEffectiveDate": [],
+	"ParentEntityId": [],
+	"ParentEntityTypeName": [],
+	"StatusCode": [],
+	"TotalPremium": [
+		"TargetPremium"
+	],
+	"AgentCode": [],
+	"AccountingDate": [],
+	"ReferalCode": [],
+	"RenewalStatus": [],
+	"TransactionType": [],
+	"address": [
+		{
+			"City": [],
+			"CountryCode": [],
+			"CountryName": [],
+			"Line1": [],
+			"Line2": [],
+			"PostalCode": [],
+			"StateOrProvinceCode": [
+				"StateID"
+			],
+			"StateOrProvinceName": [],
+			"DetailAddress": {
+				"PostDirectionCode": [],
+				"PreDirectionCode": [],
+				"StreetName": [],
+				"StreetNumber": [],
+				"StreetTypeCode": [],
+				"UnitNumber": []
+			},
+			"Reference": []
+		}
+	],
+	"exposure": [
+		{
+			"_id": [],
+			"coverageName": [],
+			"perils": [
+				{
+					"exposureid": [],
+					"name": [],
+					"renewalGroup": [],
+					"characteristics": [
+						{
+							"_id": [],
+							"exposureCharacteristicsid": [],
+							"perilid": [],
+							"indemnityPerItem": [],
+							"indemnityPerEvent": [],
+							"indemnityInAggregate": [],
+							"lumpSumPayment": [],
+							"deductible": []
+						}
+					],
+					"policyholderid": [],
+					"productid": [],
+					"policyid": [],
+					"createdTimestamp": [],
+					"updatedTimestamp": []
+				}
+			]
+		}
+	],
+	"insured": [
+		{
+			"InsuredId": [],
+			"ParentEntityId": [],
+			"ParentEntityTypeName": [],
+			"TypeCode": [],
+			"BirthDate": [],
+			"FullName": [],
+			"GivenName": [
+				"InsuredFirstName"
+			],
+			"Surname": [
+				"InsuredLastName"
+			],
+			"Address": {
+				"City": [
+					"InsuredCity"
+				],
+				"CountryCode": [
+					"InsuredISOCountryCode"
+				],
+				"CountryName": [],
+				"Line1": [
+					"InsuredAddress1"
+				],
+				"Line2": [
+					"InsuredAddress2"
+				],
+				"PostalCode": [
+					"InsuredZipCode"
+				],
+				"StateOrProvinceCode": [],
+				"StateOrProvinceName": [
+					"InsuredState"
+				],
+				"DetailAddress": {
+					"PostDirectionCode": [],
+					"PreDirectionCode": [],
+					"StreetName": [],
+					"StreetNumber": [],
+					"StreetTypeCode": [],
+					"UnitNumber": []
+				},
+				"Reference": []
+			},
+			"CountryCode": [
+				"InsuredISOCountryCode"
+			]
+		}
+	],
+	"producer": {
+		"Branch": [],
+		"_id": [],
+		"Number": [],
+		"ParentEntityId": [],
+		"ParentEntityTypeName": [],
+		"FullName": [
+			"ProducerName"
+		],
+		"GivenName": [],
+		"Surname": []
+	},
+	"reference": [
+		{
+			"AppliesTo": [],
+			"Description": [],
+			"_id": [],
+			"Name": []
+		}
+	],
+	"underwriter": {
+		"_id": [],
+		"ParentEntityId": [],
+		"ParentEntityTypeName": [],
+		"FullName": [],
+		"GivenName": [],
+		"Surname": []
+	},
+	"claim": {
+		"ClaimId": [],
+		"ClaimNo": [],
+		"AccidentDate": [],
+		"ReportedDate": [
+			"DateReported"
+		],
+		"RegisterDate": [],
+		"AccidentZipCode": [],
+		"AccidentLatitude": [],
+		"AccidentLongitude": [],
+		"AccidentMonth": [],
+		"AccidentMonthOrder": [],
+		"ClaimSuffix": [],
+		"TypeOfLoss": [],
+		"Adjuster": [],
+		"AccidentQuarter": [],
+		"AccidentQuarterOrder": [],
+		"Estado": [],
+		"SuffixRegisterDate": [],
+		"IdSuffixStatus": [],
+		"SuffixStatus": [],
+		"FullName": [],
+		"DateOfBirth": [],
+		"LicenseNo": [],
+		"LossDescription": [],
+		"Claimant": [],
+		"ReportedBy": [
+			"ReportedByUserID"
+		],
+		"Litigation": [],
+		"AccidentCity": [],
+		"AccidentCountry": [],
+		"DriverState": [],
+		"FirstClaimIndReserveDate": [],
+		"FirstClaimExpReserveDate": [],
+		"FirstClaimReserveDate": [],
+		"FirstSuffixIndReserveDate": [],
+		"FirstSuffixExpReserveDate": [],
+		"FirstSuffixReserveDate": []
+	}
+}
