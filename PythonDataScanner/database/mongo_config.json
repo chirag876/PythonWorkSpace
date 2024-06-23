@@ -1,0 +1,9 @@
+{
+    "mongo_connection_string":"mongodb://root:wIntEr%40!%23%24@125.20.10.50:27017/?authMechanism=DEFAULT",
+    "database_name": "datapulse0",
+    "pdf_records_collection_name": "pdf_records",
+    "acord_form_collection_name": "acord_form",
+    "ds_file_status_collection_name": "ds_file_status"
+    
+}
+
