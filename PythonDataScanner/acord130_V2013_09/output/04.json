@@ -1,0 +1,592 @@
+{
+    "Page_1": {
+        "DATE (MM/DD/YYYY)": "07/01/2023",
+        "AGENCY NAME AND ADDRESS": "Acme Insurance Services 176 Park Ave Amityville NY 11701",
+        "COMPANY": "Colgate-Palmolive Company",
+        "UNDERWRITER": "Tom Jensen",
+        "APPLICANT NAME": "Colgate-Palmolive Company",
+        "OFFICE PHONE": "800-18882774",
+        "MOBILE PHONE": "800-18882799",
+        "MAILING ADDRESS (including ZIP or Canadian Postal Code)": "300 Park Ave New York NY 10022-7499",
+        "YRS BUS": "1806",
+        "SIC": "2844",
+        "PRODUCER NAME": "Kiera Contreni",
+        "NAICS": "325611",
+        "NAME CS REPRESENTATIVE": null,
+        "WEBSITE ADDRESS": "https://www.colgatepalmolive",
+        "OFFICE PHONE (A/C, No Extra": null,
+        "E-MAIL ADDRESS": "samp@colgatepalmolive.com",
+        "SOLE PROPRIETOR": "",
+        "CORPORATION": "",
+        "LLC": "",
+        "TRUST": "",
+        "UNINCORPORATED ASSOCIATION": "",
+        "FAX (A/C, Not": null,
+        "SUBCHAPTER - CORP": null,
+        "PARTNERSHIP": "SELECTED",
+        "JOINT VENTURE": "",
+        "OTHER": "",
+        "BUREAU NAME CREDIT": null,
+        "ID NUMBER": "109309193",
+        "CODE": "13910391",
+        "SUB CODE": "123456",
+        "FEDERAL EMPLOYER ID NUMBER": "13-1815595",
+        "NCCI RISK ID NUMBER": null,
+        "OTHER RATING BUREAU in OR STATE EMPLOYER REGISTRATION NUMBER": null,
+        "AGENCY CUSTOMER ID": "PIZ-0131202",
+        "STATUS OF SUBMISSION": {
+            "QUOTE": "SELECTED",
+            "ISSUE POLICY": "",
+            "BOUND (Give date and/or attach copy)": "",
+            "ASSIGNED RISK (Attach ACORD 133)": ""
+        },
+        "BILLING / AUDIT INFORMATION": {
+            "BILLING PLAN": {
+                "AGENCY BILL": "SELECTED",
+                "DIRECT BILL": ""
+            },
+            "PAYMENT PLAN": {
+                "ANNUAL": "SELECTED",
+                "SEMI-ANNUAL": "",
+                "QUARTERLY": "",
+                "% DOWN": ""
+            },
+            "AUDIT": {
+                "AT EXPIRATION": "SELECTED",
+                "SEMI-ANNUAL": "",
+                "QUARTERLY": "",
+                "MONTHLY": ""
+            }
+        },
+        "POLICY INFORMATION": {
+            "PROPOSED EFF DATE": "07/09/2023",
+            "PROPOSED EXP DATE": "07/09/2024",
+            "NORMAL ANNIVERSARY RATING DATE": "07/09/2023",
+            "PARTICIPATING": "SELECTED",
+            "RETRO PLAN": "9310393109",
+            "PART 1 - WORKERS COMPENSATION (States)": null,
+            "PART 2 - EMPLOYER'S LIABILITY": {
+                "EACH ACCIDENT": "500,000",
+                "DISEASE-POLICY LIMIT": null,
+                "DISEASE-EACH EMPLOYEE": null
+            },
+            "PART 3 - OTHER STATES INS": null,
+            "DEDUCTIBLES (N / A in WI)": {
+                "MEDICAL": "SELECTED",
+                "INDEMNITY": ""
+            },
+            "AMOUNT / % (N / A in WI)": null,
+            "OTHER COVERAGES": {
+                "U.S.L. & H.": null,
+                "VOLUNTARY COMP": "SELECTED",
+                "FOREIGN COV": "SELECTED",
+                "MANAGED CARE OPTION": "SELECTED"
+            },
+            "DIVIDEND PLAN/SAFETY GROUP": null,
+            "ADDITIONAL COMPANY INFORMATION": "N/A",
+            "SPECIFY ADDITIONAL COVERAGES / ENDORSEMENTS (Attach ACORD 101, Additional Remarks Schedule, if more space is required)": null
+        },
+        "table_data": {
+            "LOCATIONS": [
+                {
+                    "LOC": "1",
+                    "HIGHES FLOOR": "3",
+                    "STREET CITY COUNTY STATE ZIP CODE": "300 Park Ave New York NY, 10022-7499"
+                },
+                {
+                    "LOC": "",
+                    "HIGHES FLOOR": "",
+                    "STREET CITY COUNTY STATE ZIP CODE": ""
+                },
+                {
+                    "LOC": "",
+                    "HIGHES FLOOR": "",
+                    "STREET CITY COUNTY STATE ZIP CODE": ""
+                }
+            ],
+            "CONTACT INFORMATION": [
+                {
+                    "TYPE": "INSPECTION",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singhdpspectraltech.ai"
+                },
+                {
+                    "TYPE": "ACCTNG RECORD",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singh@pspectraltech.ai"
+                },
+                {
+                    "TYPE": "CLAIMS INFO",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singh@pspectraltech.ai"
+                }
+            ],
+            "INDIVIDUALS INCLUDED / EXCLUDED": [
+                {
+                    "STATE": "NY",
+                    "LOC": "1",
+                    "NAME": "Gary Kom",
+                    "DATE OF BIRTH": "01/09/1985",
+                    "TITLE RELATIONSHIP": "Partner",
+                    "OWNER SHIP": "40",
+                    "DUTIES": "Duties",
+                    "INC/EXO": "E",
+                    "CLASS CODE": "31093093",
+                    "REMUNERATIONIPAYROLL": "100,000"
+                },
+                {
+                    "STATE": "NY",
+                    "LOC": "1",
+                    "NAME": "Mary Kom",
+                    "DATE OF BIRTH": "06/09/1987",
+                    "TITLE RELATIONSHIP": "Partner",
+                    "OWNER SHIP": "20",
+                    "DUTIES": "Duties",
+                    "INC/EXO": "E",
+                    "CLASS CODE": "3910193",
+                    "REMUNERATIONIPAYROLL": "100,000"
+                },
+                {
+                    "STATE": "NY",
+                    "LOC": "1",
+                    "NAME": "Jerry Kom",
+                    "DATE OF BIRTH": "02/02/1979",
+                    "TITLE RELATIONSHIP": "Partner",
+                    "OWNER SHIP": "20",
+                    "DUTIES": "Duties",
+                    "INC/EXO": "E",
+                    "CLASS CODE": "2326541",
+                    "REMUNERATIONIPAYROLL": "100,000"
+                },
+                {
+                    "STATE": "NY",
+                    "LOC": "1",
+                    "NAME": "Danielle Fax",
+                    "DATE OF BIRTH": "07/12/1989",
+                    "TITLE RELATIONSHIP": "Partner",
+                    "OWNER SHIP": "20",
+                    "DUTIES": "Duties",
+                    "INC/EXO": "E",
+                    "CLASS CODE": "5156111",
+                    "REMUNERATIONIPAYROLL": "100,000"
+                }
+            ]
+        }
+    },
+    "Page_2": {
+        "AGENCY CUSTOMER ID": "PIZ-0131202",
+        "PREMIUM": {
+            "TOTAL ESTIMATED ANNUAL PREMIUM": "$ 43,750",
+            "MINIMUMPREMIUM": null,
+            "DEPOSIT PREMIUM": "$ 43,750"
+        },
+        "RATING INFORMATION - STATE": "DESCR . EMPLOYEES ESTIMA TED ANNUAL ESTIMATED LOC # CLASS CODE CODE CATEGORIES DUTIES, CLASSIFICATIONS FULL PART SK NAICS REMUNERA TION RATE ANNUAL MANUAL TIME TIME PAYROLL PREMIUM New York Clerical Office Employees Noc 1 8810 1 10 2 7213 812331 100,000 25 2,500 Cosmetics manufacturing-not manufacturing 1 4611 2 ingredients 20 2 7213 812331 500,000 25 12,500 Toilet or towel supply CO & route supervisors 1 2587 1 drivers 11 1 7213 812331 200,000 25 5,000 Toilet tissue manufacturing 1 4279 1 25 3 7213 812331 400,000 25 10,000 Towel or toilet supply CO. & route supervisors 1 2587 1 drivers 29 4 7213 812331 550,000 25 13,750",
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": null,
+        "table_data": {
+            "STATE RATING WORKSHEET": [
+                {
+                    "LOC #": "1",
+                    "CLASS CODE": "8810",
+                    "CODE": "1",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "New York Clerical Office Employees Noc",
+                    "FULL TIME": "10",
+                    "PART TIME": "2",
+                    "SK": "7213",
+                    "NAICS": "812331",
+                    "REMUNERA TION PAYROLL": "100,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "2,500"
+                },
+                {
+                    "LOC #": "1",
+                    "CLASS CODE": "4611",
+                    "CODE": "2",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "Cosmetics manufacturing-not manufacturing ingredients",
+                    "FULL TIME": "20",
+                    "PART TIME": "2",
+                    "SK": "7213",
+                    "NAICS": "812331",
+                    "REMUNERA TION PAYROLL": "500,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "12,500"
+                },
+                {
+                    "LOC #": "1",
+                    "CLASS CODE": "2587",
+                    "CODE": "1",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "Toilet or towel supply CO & route supervisors drivers",
+                    "FULL TIME": "11",
+                    "PART TIME": "1",
+                    "SK": "7213",
+                    "NAICS": "812331",
+                    "REMUNERA TION PAYROLL": "200,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "5,000"
+                },
+                {
+                    "LOC #": "1",
+                    "CLASS CODE": "4279",
+                    "CODE": "1",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "Toilet tissue manufacturing",
+                    "FULL TIME": "25",
+                    "PART TIME": "3",
+                    "SK": "7213",
+                    "NAICS": "812331",
+                    "REMUNERA TION PAYROLL": "400,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "10,000"
+                },
+                {
+                    "LOC #": "1",
+                    "CLASS CODE": "2587",
+                    "CODE": "1",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "Towel or toilet supply CO. & route supervisors drivers",
+                    "FULL TIME": "29",
+                    "PART TIME": "4",
+                    "SK": "7213",
+                    "NAICS": "812331",
+                    "REMUNERA TION PAYROLL": "550,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "13,750"
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC #": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SK": "",
+                    "NAICS": "",
+                    "REMUNERA TION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                }
+            ],
+            "PREMIUM": [
+                {
+                    "STATE NY": "TOTAL",
+                    "FACTOR": "N / A",
+                    "FACTOREDPREMIM": "$ 43,750",
+                    "": "",
+                    "FACTOR.": "",
+                    "FACTORED PREMIUM": "$"
+                },
+                {
+                    "STATE NY": "INCREASED LIMITS",
+                    "FACTOR": "1",
+                    "FACTOREDPREMIM": "$ 15,000",
+                    "": "SCHEDULE RATING",
+                    "FACTOR.": "1.01",
+                    "FACTORED PREMIUM": "$ 1,000"
+                },
+                {
+                    "STATE NY": "DEDUCTIBLE",
+                    "FACTOR": "1",
+                    "FACTOREDPREMIM": "$ 2,000",
+                    "": "CCPAP",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM": "$ 1,000"
+                },
+                {
+                    "STATE NY": "",
+                    "FACTOR": "",
+                    "FACTOREDPREMIM": "$",
+                    "": "STANDARD PREMIUM",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM": "$ 43,750"
+                },
+                {
+                    "STATE NY": "EXPERIENCE OR MERIT MODIFICATION",
+                    "FACTOR": "1.121",
+                    "FACTOREDPREMIM": "$ 2,000",
+                    "": "PREMIUM DISCOUNT",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM": "$ 0"
+                },
+                {
+                    "STATE NY": "",
+                    "FACTOR": "",
+                    "FACTOREDPREMIM": "$",
+                    "": "EXPENSE CONSTANT",
+                    "FACTOR.": "N/A",
+                    "FACTORED PREMIUM": "$"
+                },
+                {
+                    "STATE NY": "ASSIGNED RISK SURCHARGE .",
+                    "FACTOR": "1",
+                    "FACTOREDPREMIM": "$ 5,000",
+                    "": "TAXES ASSESSMENTS",
+                    "FACTOR.": "N/A",
+                    "FACTORED PREMIUM": "$"
+                },
+                {
+                    "STATE NY": "ARAP",
+                    "FACTOR": "1",
+                    "FACTOREDPREMIM": "$ 9,000",
+                    "": "",
+                    "FACTOR.": "",
+                    "FACTORED PREMIUM": "$"
+                }
+            ]
+        }
+    },
+    "Page_3": {
+        "AGENCY CUSTOMER ID": "PIZ-0131202",
+        "NATURE OF BUSINESS / DESCRIPTION OF OPERATIONS": {
+            "GIVE COMMENTS AND DESCRIPTIONS OF BUSINESS OPERATIONS AND PRODUCTS MANUFACTURING RAW MATERIALS PROCESSES PRODUCT EQUIPMENT CONTRACTOR TYPE OF WORK SUB-CONTRACTS MERCANTILE MERCHANDISE CUSTOMERS DELIVERIES SERVICE TYPE LOCATION FARM ACREAGE ANIMALS MACHINERY SUB-CONTRACTS": null
+        },
+        "table_data": {
+            "PRIOR CARRIER INFORMATION / LOSS HISTORY": [
+                {
+                    "YEAR": "2022",
+                    "CARRIER & POLICY NUMBER": "CO Travelers Insurance Company",
+                    "ANNUAL PREMIUM": "73,500",
+                    "MCC": "0.95",
+                    "# CLAIMS": "0",
+                    "AMOUNT PAID": "0",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL * TRV-123457-22",
+                    "ANNUAL PREMIUM": "",
+                    "MCC": "",
+                    "# CLAIMS": "",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2021",
+                    "CARRIER & POLICY NUMBER": "CO Travelers Insurance Company",
+                    "ANNUAL PREMIUM": "",
+                    "MCC": "1.05",
+                    "# CLAIMS": "0",
+                    "AMOUNT PAID": "0",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL * TRV-123458-21",
+                    "ANNUAL PREMIUM": "80,500",
+                    "MCC": "",
+                    "# CLAIMS": "",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2020",
+                    "CARRIER & POLICY NUMBER": "CO Travelers Insurance Company",
+                    "ANNUAL PREMIUM": "79,100",
+                    "MCC": "1.15",
+                    "# CLAIMS": "1",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . TRV-123459-20",
+                    "ANNUAL PREMIUM": "",
+                    "MCC": "",
+                    "# CLAIMS": "",
+                    "AMOUNT PAID": "11,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2019",
+                    "CARRIER & POLICY NUMBER": "CO Travelers Insurance Company",
+                    "ANNUAL PREMIUM": "73,500",
+                    "MCC": "1.13",
+                    "# CLAIMS": "5",
+                    "AMOUNT PAID": "55,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . TRV-123451-19",
+                    "ANNUAL PREMIUM": "",
+                    "MCC": "",
+                    "# CLAIMS": "",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2018",
+                    "CARRIER & POLICY NUMBER": "CO Travelers Insurance Companyy",
+                    "ANNUAL PREMIUM": "70,000",
+                    "MCC": "1.05",
+                    "# CLAIMS": "4",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL * TRV-123452-18",
+                    "ANNUAL PREMIUM": "",
+                    "MCC": "",
+                    "# CLAIMS": "",
+                    "AMOUNT PAID": "49,000",
+                    "RESERVE": ""
+                }
+            ],
+            "GENERAL INFORMATION": {
+                "EXPLAIN ALL 'Y/N' RESPONSES": {
+                    "1. DOES APPLICANT OWN OPERATE OR LEASE AIRCRAFT WATERCRAFT?": "N",
+                    "2. DO HAVE PAST PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING TREATING DISCHARGING APPLYING DISPOSING OR TRANSPORTING OF HAZARDOUS MATERIAL (e 0 landfils wasters fuel tanks etc)": "N",
+                    "3. ANY WORK PERFORMED UNDERGROUND OR ABOVE 15 FEET?": "N",
+                    "4. ANY WORK PERFORMED ON BARGES VESSELS DOCKS BRIDGE OVER WATER?": "N",
+                    "5. IS APPLICANT ENGAGED IN ANY OTHER TYPE OF BUSINESS?": "N",
+                    "6. ARE SUB-CONTRACTORS USED? (If \"YES\". give % of work subcontracted)": "N",
+                    "7. ANY WORK SUBLET WITHOUT CERTIFICATES OF INSURANCE? (I''YES' payroll for this work must be included in the State Rating Worksheet on Page 2)": "N",
+                    "8 IS A WRITTEN SAFETY PROGRAM IN OPERATION?": "N",
+                    "9. ANY GROUP TRANSPORTATION PROVIDED?": "N",
+                    "10. ANY EMPLOYEES UNDER 16 OR OVER 60 YEARS OF AGE?": "N",
+                    "11. ANY SEASONAL EMPLOYEES?": "N",
+                    "12. IS THERE ANY VOLUNTEER OR DONATED LABOR? (II'YES' please specify)": "N",
+                    "13. ANY EMPLOYEES WITH PHYSICAL HANDICAPS?": "Y",
+                    "14. DO EMPLOYEES TRAVEL OUT OF STATE? (II'YES' indicate state(s) of travel and frequency)": "N",
+                    "15. ARE ATHLETIC TEAMS SPONSORED?": "N",
+                    "16. ARE PHYSICALS REQUIRED AFTER OFFERS OF EMPLOYMENT ARE MADE?": "N"
+                }
+            }
+        }
+    },
+    "Page_4": {
+        "AGENCY CUSTOMER ID": "PIZ-0131202",
+        "SIGNATURE": {
+            "Copy of the Notice of information Practices (Privacy) has been given to the applicant (Not required in all states contact your agent or broker for your state's requirements.)": null,
+            "(Applicant's Initials)": "",
+            "PRODUCER'S SIGNATURE": null,
+            "NATIONAL PRODUCER NUMBER": "",
+            "APPLICANT'S SIGNATURE (Must be Officer Owner or Partner)": null,
+            "ACORD": "130 (2013/09)",
+            "DATE": ""
+        },
+        "table_data": {
+            "GENERAL INFORMATION": {
+                "EXPLAIN ALL 'Y/N' RESPONSES": {
+                    "17. ANY OTHER INSURANCE WITH THIS INSURER?": "N",
+                    "18. ANY PRIOR COVERAGE DECLINED o CANCELLED NON-RENEWED IN THE LAST THREE (3) YEARS? (Missouri Applicants Do not answer this question)": "N",
+                    "19. ARE EMPLOYEE HEALTH PLANS PROVIDED?": "N",
+                    "20. DO ANY EMPLOYEES PERFORM WORK FOR OTHER BUSINESSES OR SUBSIDIARIES?": "N",
+                    "21. DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": "N",
+                    "22. DO ANY EMPLOYEES PREDOMINANTLY WORK AT HOME? If \"YES\". # of Employees": "N",
+                    "23. ANY TAX LIENS OR BANKRUPTCY WITHIN THE LAST FIVE (5) YEARS? (II\"YES\" please specify)": "N",
+                    "24 ANY UNDISPUTED AND UNPAID WORKERS COMPENSATION PREMIUM DUE FROM YOU OR ANY COMMONLY MANAGED OR OWNED ENTERPRISES? IF YES, EXPLAIN INCLUDING ENTITY NAME(S) AND POLICY NUMBER(S)": "N"
+                }
+            }
+        }
+    },
+    "File_Name": "04. Colgate-Palmolive Company_Acord130 (1).pdf",
+    "Page_Count": 4
+}

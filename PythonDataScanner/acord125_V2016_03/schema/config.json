@@ -1,0 +1,414 @@
+{
+    "Page_1": {
+        "DATE (MM/DD/YYYY)": "",
+        "AGENCY": "",
+        "CARRIER": "",
+        "NAIC CODE": "",
+        "COMPANY POLICY OR PROGRAM NAME": "",
+        "PROGRAM CODE": "",
+        "POLICY NUMBER": "",
+        "CONTACT NAME": "",
+        "PHONE (A/C. No. Ext)": "",
+        "UNDERWRITER": "",
+        "UNDERWRITER OFFICE": "",
+        "FAX (A/C. No)": "",
+        "E-MAIL ADDRESS": "",
+        "CODE": "",
+        "SUBCODE": "",
+        "AGENCY CUSTOMER ID": "",
+
+        "STATUS OF TRANSACTION": {
+            "QUOTE": "",
+            "ISSUE POLICY": "",
+            "RENEW": "",
+            "BOUND (Give Date and/or Attach Copy)": "",
+            "CHANGE": "",
+            "CANCEL": "",
+            "DATE": "",
+            "TIME": "",
+            "AM": "",
+            "PM": ""
+        },
+
+        "LINE OF BUSINESS": {
+            "BOILER MACHINERY": "",
+            "CYBER AND PRIVACY": "",
+            "YACHT": ",",
+            "BUSINESS AUTO": "",
+            "FIDUCIARY LIABILITY": "",
+            "BUSINESS OWNERS": "",
+            "GARAGE AND DEALERS": "",
+            "COMMERCIAL GENERAL LIABILITY": "",
+            "LIQUOR LIABILITY": "",
+            "COMMERCIAL NLAND MARINE": "",
+            "MOTOR CARRIER": "",
+            "COMMERCIAL PROPERTY": "",
+            "TRUCKERS": "",
+            "CRIME": "",
+            "UMBRELLA": ""
+        },
+
+        "ATTACHMENTS": {
+            "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+            "GLASS AND SIGN SECTION": "",
+            "STATEMENT SCHEDULE OF VALUES": "",
+            "ADDITIONAL INTEREST SCHEDULE": "",
+            "HOTEL MOTEL SUPPLEMENT": "",
+            "STATE SUPPLEMENT (If applicable)": "",
+            "ADDITIONAL PREMISES INFORMATION SCHEDULE": "",
+            "INSTALLATION BUILDERS RISK SECTION": "",
+            "VACANT BUILDING SUPPLEMENT": "",
+            "APARTMENT BUILDING SUPPLEMENT": "",
+            "INTERNATIONAL LIABILITY EXPOSURE SUPPLEMENT": "",
+            "VEHICLE SCHEDULE": "",
+            "CONDO ASSN BYLAWS (for D&O Coverage only)": "",
+            "INTERNATIONAL PROPERTY EXPOSURE SUPPLEMENT": "",
+            "CONTRACTOR SUPPLEMENT": "",
+            "LOSS SUMMARY": "",
+            "COVERAGES SCHEDULE": "",
+            "OPEN CARGO SECTION": "",
+            "DEALERS SECTION": "",
+            "PREMIUM PAYMENT SUPPLEMENT": "",
+            "DRIVER INFORMATION SCHEDULE": "",
+            "PROFESSIONAL LIABILITY SUPPLEMENT": "",
+            "ELECTRONIC DATA PROCESSING SECTION": "",
+            "RESTAURANT TAVERN SUPPLEMENT": ""
+        },
+
+        "POLICY INFORMATION": {
+            "PROPOSED EFF DATE": "",
+            "PROPOSED EXP DATE": "",
+            "PAYMENT PLAN": "",
+            "DEPOSIT": "",
+            "MINISTRA PREMIUM": "",
+            "METHOD OF PAYMENT": "",
+            "AUDIT": "",
+            "POLICY PREMIUM": "",
+            "DIRECT": ""
+        },
+
+        "APPLICANT INFORMATION": {
+            "row_1": {
+                "NAME (First Named Insured) AND MAILING ADDRESS (including ZIP+4)": "",
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR SOC SEC #": "",
+                "BUSINESS PHONE #": "",
+                "WEBSITE ADDRESS": "",
+                "CORPORATION": "",
+                "JOINT VENTURE": "",
+                "NOT FOR PROFIT ORG": "",
+                "SUBCHAPTER \"S\" CORPORATION": "",
+                "NO OF MEMBERS AND MANAGERS": "",
+                "INDIVIDUAL": "",
+                "LLC": "",
+                "PARTNERSHIP": "",
+                "TRUST": ""
+            },
+            "row_2": {
+                "NAME (Other Named Insured) AND MAILING ADDRESS (including ZIP+4)": "",
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR SOC SEC #": "",
+                "BUSINESS PHONE #": "",
+                "WEBSITE ADDRESS": "",
+                "CORPORATION": "",
+                "JOINT VENTURE": "",
+                "NOT FOR PROFIT ORG": "",
+                "SUBCHAPTER \"S\" CORPORATION": "",
+                "NO OF MEMBERS AND MANAGERS": "",
+                "INDIVIDUAL": "",
+                "LLC": "",
+                "PARTNERSHIP": "",
+                "TRUST": ""
+            },
+            "row_3": {
+                "NAME (Other Named Insured) AND MAILING ADDRESS (including ZIP+4)": "",
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR SOC SEC #": "",
+                "BUSINESS PHONE #": "",
+                "WEBSITE ADDRESS": "",
+                "CORPORATION": "",
+                "JOINT VENTURE": "",
+                "NOT FOR PROFIT ORG": "",
+                "SUBCHAPTER \"S\" CORPORATION": "",
+                "NO OF MEMBERS AND MANAGERS": "",
+                "INDIVIDUAL": "",
+                "LLC": "",
+                "PARTNERSHIP": "",
+                "TRUST": ""
+            }
+        }
+    },
+    
+    "Page_2": {
+        "AGENCY CUSTOMER ID": "",
+        "CONTACT INFORMATION": {
+            "col_1": {
+                "CONTACT TYPE": "",
+                "CONTACT NAME": "",
+                "Phone Info": {
+                    "Primary": {
+                        "PRIMARY PHONE #": "",
+                        "SECONDARY PHONE #": "",
+                        "HOME": "",
+                        "BUS": "",
+                        "CELL": ""
+                    },
+                    "Secondary": {
+                        "SECONDARY PHONE #": "",
+                        "HOME": "",
+                        "BUS": "",
+                        "CELL": ""
+                    }
+                },
+                "PRIMARY E-MAIL ADDRESS": "",
+                "SECONDARY E-MAIL ADDRESS": ""
+            },
+            "col_2": {
+                "CONTACT TYPE": "",
+                "CONTACT NAME": "",
+                "Phone Info": {
+                    "Primary": {
+                        "PRIMARY PHONE #": "",
+                        "SECONDARY PHONE #": "",
+                        "HOME": "",
+                        "BUS": "",
+                        "CELL": ""
+                    },
+                    "Secondary": {
+                        "SECONDARY PHONE #": "",
+                        "HOME": "",
+                        "BUS": "",
+                        "CELL": ""
+                    }
+                },
+                "PRIMARY E-MAIL ADDRESS": "",
+                "SECONDARY E-MAIL ADDRESS": ""
+            }
+        },
+        "PREMISES INFORMATION (Attach ACCORD 823 for Additional Premises)": {
+            "table_1": {
+                "LOC #": "",
+                "STREET": "",
+                "CITY LIMITS": {
+                    "INSIDE": "",
+                    "OUTSIDE": ""
+                },
+                "INTEREST": {
+                    "OWNER": "",
+                    "TENANT": ""
+                },
+                "FULL TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "PART TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "DESCRIPTION OF OPERATIONS":"",
+                "ANY AREA LEASED TO OTHERS? Y/N":""
+            },
+            "table_2": {
+                "LOC #": "",
+                "STREET": "",
+                "CITY LIMITS": {
+                    "INSIDE": "",
+                    "OUTSIDE": ""
+                },
+                "INTEREST": {
+                    "OWNER": "",
+                    "TENANT": ""
+                },
+                "FULL TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "PART TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "DESCRIPTION OF OPERATIONS":"",
+                "ANY AREA LEASED TO OTHERS? Y/N":""
+            },
+            "table_3": {
+                "LOC #": "",
+                "STREET": "",
+                "CITY LIMITS": {
+                    "INSIDE": "",
+                    "OUTSIDE": ""
+                },
+                "INTEREST": {
+                    "OWNER": "",
+                    "TENANT": ""
+                },
+                "FULL TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "PART TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "DESCRIPTION OF OPERATIONS":"",
+                "ANY AREA LEASED TO OTHERS? Y/N":""
+            },
+            "table_4": {
+                "LOC #": "",
+                "STREET": "",
+                "CITY LIMITS": {
+                    "INSIDE": "",
+                    "OUTSIDE": ""
+                },
+                "INTEREST": {
+                    "OWNER": "",
+                    "TENANT": ""
+                },
+                "FULL TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "PART TIME EMPLOYEMENT": {
+                    "#FULL TIME EMPL": "",
+                    "ANNUAL REVENUES: $": "",
+                    "OCCUPIED AREA": ""
+                },
+                "DESCRIPTION OF OPERATIONS":"",
+                "ANY AREA LEASED TO OTHERS? Y/N":""
+            }
+        },
+        "NATURE OF BUSINESS":{
+            "APARTMENTS":"",
+            "CONTRACTOR":"",
+            "MANUFACTURING":"",
+            "RESTAURANT":"",
+            "SERVICE":"",
+            "NONPROFIT":"",
+            "DATE OF BUSINESS STARTED (MM/DD/YYYY)":"",
+            "CONDOMINIUMS":"",
+            "INSTITUTIONAL":"",
+            "OFFICE":"",
+            "RETAIL":"",
+            "WHOLESALE":"",
+            "DESCRIPTION OF PRIMARY OPERATIONS": "",
+            "RETAIL STORES OR SERVICE OPERATIONS % OF TOTAL LOSS":{
+                "INSTALLATION, SERVICE OR REPAIR WORK":"",
+                "OFF PREMISES INSTALLATION, SERVICE OR REPAIR WORK":""
+            },
+            "DESCRIPTION OF OPERATIONS OF OTHER NAMED INSUREDS": ""
+
+        },
+        "ADDITIONAL INTEREST (Not all fields apply to all scenarios-provide only the neccessary data)":{
+            "INTEREST":{
+                "ADDITIONAL INSURED":"",
+                "LIENHOLDER":"",
+                "BREACH OF WARRANTY":"",
+                "LOSS PAYEE":"",
+                "CO-OWNER":"",
+                "MORTRAGEE":"",
+                "EMPLOYEE AS LESSOR":"",
+                "LEASEBACK":"",
+                "REGISTRANT":"",
+                "OWNER":"",
+                "TRUSTEE":"",
+                "LENDER'S LOSS PAYABLE":""
+            },  
+            "NAME AND ADDRESS":"",
+            "RANK":"",
+            "EVIDENCE":"",
+            "CERTIFICATE":"",
+            "POLICY":"",
+            "SEND BILL":"",
+            "REFERENCE/LOAN #":"",
+            "INTEREST END DATE":"",
+            "LIEN AMOUNT":"",
+            "PHONE (A/C No, Ext)":"",
+            "INTEREST IN ITEM NUMBER":{
+                "LOCATION":"",
+                "BUILDING":"",
+                "VEHICLE":"",
+                "BOAT":"",
+                "AIRPORT":"",
+                "AIRCRAFT":"",
+                "ITEM CLASS":"",
+                "ITEM":"",
+                "ITEM DESCRIPTION":"",
+                "FAX (A/C No)":""
+            },
+            "E-MAIL ADDRESS":"",
+            "REASON FOR INTEREST":""
+        }
+
+    },
+    "Page_3": {
+        "GENERAL INFORMATION":{
+            "1a. IS THE APPLICANT A SUBSIDIARY OF ANOTHER ENTITY ,": "",
+            "1b. DOES THE APPLICANT HAVE ANY SUBSIDIARIES": "",
+            "2.":{
+                "is A FORMAL SAFETY PROGRAM IN OPERATION?": "",
+                "SAFETY MANUAL": "",
+                "SAFETY POSITION": "",
+                "OSHA": "",
+                "MONTHLY MEETINGS": ""
+            },
+            "3. ANY EXPOSURE TO FLAMMABLES EXPLOSIVES CHEMICALS?": "",
+            "4, ANY OTHER INSURANCE WITH THIS COMPANY? (List policy numbers)": "",
+            "5.":{
+                "ANY POLICY OR COVERAGE DECLINED CANCELLED OR NON RENEWED DURING THE PRIOR THREE (3) YEARS FOR ANY PREMISES OR OPERATIONS? (Missouri Applicants Do not answer this question)": "",
+                "AGENT NO LONGER REPRESENTS CARRIER": "",
+                "CONDITION CORRECTED (Describe)": "",
+                "": "",
+                "NON-PAYMENT": "",
+                "NON-RENEWAL": "",
+                "UNDERWRITING": ""        
+            },
+            "6 ANY PAST LOSSES OR CLAIMS RELATING TO SEXUAL ABUSE OR MOLESTATION ALLEGATIONS DISCRIMINATION OR NEGLIGENT HIRING?": "",
+            "7. DURING THE LAST FIVE YEARS (TEN IN RII. HAS ANY APPLICANT BEEN INDICTED FOR OR CONVICTED OF ANY DEGREE OF THE CRIME OF FRAUD BRIBERY ARSON OR ANY OTHER ARSON-RELATED CRIME IN CONNECTION WITH THIS OR ANY OTHER PROPERTY? (In RI this question must be answered by any applicant for property insurance Failure to disclose the existence of an arson conviction is a misdemeanor punishable by , sentence of up to one year of imprisonment)": "",
+            "8. ANY UNCORRECTED FIRE AND/OR SAFETY CODE VIOLATIONS?": "",
+            "9. HAS APPLICANT HAD A FORECLOSURE REPOSSESSION BANKRUPTCY OR FILED FOR BANKRUPTCY DURING THE LAST FIVE (5) YEARS?": "",
+            "10. HAS APPLICANT HAD A JUDGEMENT OR LIEN DURING THE LAST FIVE (5) YEARS?": "",
+            "11. HAS BUSINESS BEEN PLACED IN A TRUST? NAME OF TRUST": "",
+            "12 ANY FOREIGN OPERATIONS FOREIGN PRODUCTS DISTRIBUTED IN USA OR US PRODUCTS SOLD / DISTRIBUTED IN FOREIGN COUNTRIES? (If \"YES\". attach ACORD 815 for Liability Exposure and/or ACORD 816 for Property Exposure)": "",
+            "13. DOES APPLICANT HAVE OTHER BUSINESS VENTURES FOR WHICH COVERAGE IS NOT REQUESTED?": "",
+            "14. DOES APPLICANT OWN / LEASE / OPERATE ANY DRONES? (If \"YES\". describe use)": "",
+            "15. DOES APPLICANT HIRE OTHERS TO OPERATE DRONES? (If \"YES\" describe use)": ""
+        },
+        "ACORD": "",
+        "AGENCY CUSTOMER ID": "",
+        "REMARKS / PROCESSING INSTRUCTIONS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": ""
+
+
+
+    },
+    "Page_4": {
+        "AGENCY CUSTOMER ID": "",
+        "OTHER": "",
+        "LOSS HISTORY":{
+            "Check if none (Attach Loss Summary for Additional Loss Information)": "",
+            "ENTER ALL CLAIMS OR LOSSES (REGARDLESS OF FAULT AND WHETHER OR NOT INSURED OR OCCURRENCES THAT MAY GIVE RISE TO CLAIMS FOR THE LAST YEARS": "",
+            "TOTAL LOSSES": ""
+        },
+        "SIGNATURE":{
+            "Copy of the Notice of Information Practices (Privacy) has been given to the applicant (Not required in all states contact your agent or broker for your state's requirements.)": "",
+            "(Applicant's Initials)": "",
+            "PRODUCER'S SIGNATURE": "",
+            "PRODUCER'S NAME (Please Print)": "",
+            "STATE PRODUCER LICENCE NO (Required in Florida)":"",
+            "APPLICANT'S SIGNATURE": "",
+            "DATE":"",
+            "NATIONAL PROOUCER NUMBER":""
+        }
+    }
+}

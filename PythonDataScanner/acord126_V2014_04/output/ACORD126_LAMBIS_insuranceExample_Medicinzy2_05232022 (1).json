@@ -1,0 +1,494 @@
+{
+    "COMMERCIAL GENERAL LIABILITY SECTION": {
+        "FILE NAME": "",
+        "PAGE COUNT": "",
+        "AGENCY CUSTOMER ID": "MEDICI-073189",
+        "DATE (MM/DD/YYYY)": "",
+        "AGENCY": "Lamb Insurance Services",
+        "CARRIER": "Marketing Only.",
+        "NAIC CODE": "N/A",
+        "POLICY NUMBER": "LIS-07311989",
+        "EFFECTIVE DATE": "06/02/2022",
+        "APPLICANT / FIRST NAMED INSURED": "",
+        "COVERAGES": {
+            "COMMERCIAL GENERAL LIABILITY": "SELECTED",
+            "CLAIMS MADE": "",
+            "OCCURRENCE": "SELECTED",
+            "OWNER'S & CONTRACTOR'S PROTECTIVE": ""
+        },
+        "DEDUCTIBLES": {
+            "PROPERTY DAMAGE": "$ 4500",
+            "BODILY INJURY": "$ 4500",
+            "PER CLAIM": "",
+            "PER OCCURRENCE": "SELECTED"
+        },
+        "LIMITS": {
+            "GENERAL AGGREGATE": "$ 3,000,000",
+            "LIMIT APPLIES PER": {
+                "POLICY": "SELECTED",
+                "PROJECT": "",
+                "LOCATION": "",
+                "OTHER": "40,000"
+            }
+        },
+        "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "$ 3,000,000",
+        "PERSONAL & ADVERTISING INJURY": "",
+        "EACH OCCURRENCE": "",
+        "DAMAGE TO RENTED PREMISES (each occurrence)": "$ 1,000,000",
+        "MEDICAL EXPENSE (Any one person)": "$ 20,000",
+        "EMPLOYEE BENEFITS": "$ 1,000,000",
+        "PREMIUMS": {
+            "PREMISES/OPERATIONS": "50,000",
+            "PRODUCTS": "45,000",
+            "OTHER": "40,000",
+            "TOTAL": "135,000"
+        },
+        "OTHER COVERAGES, RESTRICTIONS AND/OR ENDORSEMENTS (For hired/non-owned auto coverages attach the applicable state Business Auto Section, ACORD 137)": "",
+        "APPLICABLE ONLY IN WISCONSIN: IF NON-OWNED ONLY AUTO COVERAGE IS TO BE PROVIDED UNDER THE POLICY:": {
+            "1. UM / UIM COVERAGE": {
+                "IS": "",
+                "IS NOT AVAILABLE": ""
+            },
+            "2. MEDICAL PAYMENTS COVERAGE": {
+                "IS": "",
+                "IS NOT AVAILABLE": ""
+            }
+        },
+        "SCHEDULE OF HAZARDS": [
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": "PRODUCTS"
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "Healthcare NFP Only",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "4,008",
+                "TERR": "NJ",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": "35,000"
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            },
+            {
+                "LOC": "",
+                "HAZ": "",
+                "CLASSIFICATION": "",
+                "CLASS CODE": "",
+                "PREMIUM BASIS": "",
+                "EXPOSURE": "",
+                "TERR": "",
+                "RATE": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": {}
+                },
+                "PREMIUM": {
+                    "PREM/OPS": {},
+                    "PRODUCTS": ""
+                }
+            }
+        ],
+        "CLAIMS MADE (Explain all 'Yes' responses)": {
+            "EXPLAIN ALL 'YES' RESPONSES": {
+                "1": {
+                    "PROPOSED RETROACTIVE DATE": "",
+                    "Y / N": ""
+                },
+                "2": {
+                    "ENTRY DATE INTO UNINTERRUPTED CLAIMS MADE COVERAGE": "",
+                    "Y / N": ""
+                },
+                "3": {
+                    "HAS ANY PRODUCT, WORK, ACCIDENT, OR LOCATION BEEN EXCLUDED, UNINSURED OR SELF-INSURED FROM ANY PREVIOUS COVERAGE?": "",
+                    "Y / N": ""
+                },
+                "4": {
+                    "WAS TAIL COVERAGE PURCHASED UNDER ANY PREVIOUS POLICY?": "N",
+                    "Y / N": "N"
+                }
+            }
+        },
+        "EMPLOYEE BENEFITS LIABILITY": {
+            "1. DEDUCTIBLE PER CLAIM": "$ 2,500",
+            "2. NUMBER OF EMPLOYEES": "250",
+            "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS": "250",
+            "4. RETROACTIVE DATE": ""
+        },
+        "CONTRACTORS": {
+            "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "1": {
+                    "DOES APPLICANT DRAW PLANS, DESIGNS, OR SPECIFICATIONS FOR OTHERS?": "N",
+                    "Y / N": "N"
+                },
+                "2": {
+                    "DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?": "N",
+                    "Y / N": "N"
+                },
+                "3": {
+                    "DO ANY OPERATIONS INCLUDE EXCAVATION, TUNNELING, UNDERGROUND WORK OR EARTH MOVING?": "",
+                    "Y / N": ""
+                },
+                "4": {
+                    "DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?": "N",
+                    "Y / N": "N"
+                },
+                "5": {
+                    "ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?": "N",
+                    "Y / N": "N"
+                },
+                "6": {
+                    "DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?": "N",
+                    "Y / N": "N"
+                }
+            }
+        },
+        "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": {
+            "$ PAID TO SUBCONTRACTORS": "0",
+            "% OF WORK SUBCONTRACTED": "0",
+            "# FULL TIME STAFF": "",
+            "# PARTTIME STAFF": ""
+        },
+        "PRODUCTS / COMPLETED OPERATIONS": [
+            {
+                "PRODUCTS": "",
+                "ANNUAL GROSS SALES": "",
+                "# OF UNITS": "",
+                "TIME IN MARKET": "",
+                "EXPECTED LIFE": "",
+                "INTENDED USE": "",
+                "PRINCIPAL COMPONENTS": ""
+            },
+            {
+                "PRODUCTS": "",
+                "ANNUAL GROSS SALES": "",
+                "# OF UNITS": "",
+                "TIME IN MARKET": "",
+                "EXPECTED LIFE": "",
+                "INTENDED USE": "",
+                "PRINCIPAL COMPONENTS": ""
+            },
+            {
+                "PRODUCTS": "",
+                "ANNUAL GROSS SALES": "",
+                "# OF UNITS": "",
+                "TIME IN MARKET": "",
+                "EXPECTED LIFE": "",
+                "INTENDED USE": "",
+                "PRINCIPAL COMPONENTS": ""
+            }
+        ],
+        "EXPLAIN ALL 'YES' RESPONSES (For all past or present products or operations) PLEASE ATTACH LITERATURE, BROCHURES, LABELS, WARNINGS, ETC.": {
+            "1": {
+                "DOES APPLICANT INSTALL, SERVICE OR DEMONSTRATE PRODUCTS?": "",
+                "Y / N": ""
+            },
+            "2": {
+                "FOREIGN PRODUCTS SOLD, DISTRIBUTED, USED AS COMPONENTS? (If 'YES', attach ACORD 815)": "",
+                "Y / N": ""
+            },
+            "3": {
+                "RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?": "N",
+                "Y / N": "N"
+            },
+            "4": {
+                "GUARANTEES, WARRANTIES, HOLD HARMLESS AGREEMENTS?": "",
+                "Y / N": ""
+            },
+            "5": {
+                "PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?": "N",
+                "Y / N": "N"
+            },
+            "6": {
+                "PRODUCTS RECALLED, DISCONTINUED, CHANGED?": "",
+                "Y / N": ""
+            },
+            "7": {
+                "PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?": "N",
+                "Y / N": "N"
+            },
+            "8": {
+                "PRODUCTS UNDER LABEL OF OTHERS?": "N",
+                "Y / N": "N"
+            },
+            "9": {
+                "VENDORS COVERAGE REQUIRED?": "N",
+                "Y / N": "N"
+            },
+            "10": {
+                "DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?": "",
+                "Y / N": ""
+            }
+        },
+        "ADDITIONAL INTEREST / CERTIFICATE RECIPIENT": "",
+        "INTEREST": {
+            "ADDITIONAL INSURED": "SELECTED",
+            "EMPLOYEE AS LESSOR": "",
+            "LIENHOLDER": "",
+            "LOSS PAYEE": "",
+            "MORTGAGEE": "SELECTED"
+        },
+        "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth, NV 59510 REFERENCE LOAN .",
+        "RANK": "",
+        "EVIDENCE": "",
+        "CERTIFICATE": "",
+        "REFERENCE / LOAN #": "",
+        "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "ITEM CLASS": "",
+            "ITEM": "",
+            "ITEM DESCRIPTION": ""
+        },
+        "GENERAL INFORMATION": {
+            "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "1": {
+                    "ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?": "Y Doctors on staff.",
+                    "Y / N": "Y Doctors on staff."
+                },
+                "2": {
+                    "ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?": "",
+                    "Y / N": ""
+                },
+                "3": {
+                    "DO/HAVE PAST, PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING, TREATING, DISCHARGING, APPLYING, DISPOSING, OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g. landfills, wastes, fuel tanks, etc)": "",
+                    "Y / N": ""
+                },
+                "4": {
+                    "ANY OPERATIONS SOLD, ACQUIRED, OR DISCONTINUED IN LAST FIVE (5) YEARS?": "",
+                    "Y / N": ""
+                },
+                "5": {
+                    "DO YOU RENT OR LOAN EQUIPMENT TO OTHERS?": {
+                        "EQUIPMENT": "",
+                        "TYPE OF EQUIPMENT": {
+                            "SMALL TOOLS": "",
+                            "LARGE EQUIPMENT": ""
+                        },
+                        "INSTRUCTION GIVEN (Y/N)": ""
+                    },
+                    "Y / N": ""
+                },
+                "6": {
+                    "ANY WATERCRAFT, DOCKS, FLOATS OWNED, HIRED OR LEASED?": "",
+                    "Y / N": ""
+                },
+                "7": {
+                    "ANY PARKING FACILITIES OWNED/RENTED?": "N",
+                    "Y / N": "N"
+                },
+                "8": {
+                    "IS A FEE CHARGED FOR PARKING?": "N",
+                    "Y / N": "N"
+                },
+                "9": {
+                    "RECREATION FACILITIES PROVIDED?": "N",
+                    "Y / N": "N"
+                },
+                "10": {
+                    "ARE THERE ANY LODGING OPERATIONS INCLUDING APARTMENTS? (If 'YES', answer the following):": {
+                        "# APTS": "",
+                        "TOTAL APT AREA": "5q FL",
+                        "DESCRIBE OTHER LODGING OPERATIONS": ""
+                    },
+                    "Y / N": ""
+                },
+                "11": {
+                    "IS THERE A SWIMMING POOL ON PREMISES? (Check all that apply)": {
+                        "APPROVED FENCE": "",
+                        "LIMITED ACCESS": "",
+                        "DIVING BOARD": "",
+                        "SLIDE": "",
+                        "ABOVE GROUND": "",
+                        "IN GROUND": "",
+                        "LIFE GUARD": ""
+                    },
+                    "Y / N": ""
+                },
+                "12": {
+                    "ARE SOCIAL EVENTS SPONSORED?": "Y Has charity fundraise activities to help secure funding.",
+                    "Y / N": "Y Has charity fundraise activities to help secure funding."
+                },
+                "13": {
+                    "ARE ATHLETIC TEAMS SPONSORED?": {
+                        "TYPE OF SPORT": "",
+                        "CONTACT SPORT (Y/N)": "",
+                        "AGE GROUP": {
+                            "12 & UNDER": "",
+                            "13 - 18": "",
+                            "OVER 18": ""
+                        },
+                        "EXTENT OF SPONSORSHIP": ""
+                    },
+                    "Y / N": "N"
+                },
+                "14": {
+                    "ANY STRUCTURAL ALTERATIONS CONTEMPLATED?": "N",
+                    "Y / N": "N"
+                },
+                "15": {
+                    "ANY DEMOLITION EXPOSURE CONTEMPLATED?": "N",
+                    "Y / N": "N"
+                },
+                "16": {
+                    "HAS APPLICANT BEEN ACTIVE IN OR IS CURRENTLY ACTIVE IN JOINT VENTURES?": "N",
+                    "Y / N": "N"
+                },
+                "17": {
+                    "DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": {
+                        "LEASE TO": "",
+                        "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": ""
+                    },
+                    "Y / N": ""
+                },
+                "18": {
+                    "IS THERE A LABOR INTERCHANGE WITH ANY OTHER BUSINESS OR SUBSIDIARIES?": "N",
+                    "Y / N": "N"
+                },
+                "19": {
+                    "ARE DAY CARE FACILITIES OPERATED OR CONTROLLED?": "N",
+                    "Y / N": "N"
+                },
+                "20": {
+                    "HAVE ANY CRIMES OCCURRED OR BEEN ATTEMPTED ON YOUR PREMISES WITHIN THE LAST THREE (3) YEARS?": "N",
+                    "Y / N": "N"
+                },
+                "21": {
+                    "IS THERE A FORMAL, WRITTEN SAFETY AND SECURITY POLICY IN EFFECT?": "",
+                    "Y / N": ""
+                },
+                "22": {
+                    "DOES THE BUSINESSES' PROMOTIONAL LITERATURE MAKE ANY REPRESENTATIONS ABOUT THE SAFETY OR SECURITY OF THE PREMISES?": "",
+                    "Y / N": ""
+                }
+            }
+        },
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": "",
+        "PRODUCER'S SIGNATURE": "Kiera Contreni",
+        "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+        "STATE PRODUCER LICENSE NO (Required on Florida)": "",
+        "APPLICANT'S SIGNATURE": "Kacie Murphy",
+        "DATE": "06/02/2022",
+        "NATIONAL PRODUCER NUMBER": ""
+    }
+}

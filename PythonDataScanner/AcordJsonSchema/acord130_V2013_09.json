@@ -1,0 +1,401 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "acord130_V2013_09",
+  "type": "object",
+  "properties": {
+    "Page_1": {
+      "type": "object",
+      "properties": {
+        "DATE (MM/DD/YYYY)": {
+          "type": "string"
+        },
+        "AGENCY NAME AND ADDRESS": {
+          "type": "string"
+        },
+        "COMPANY": {
+          "type": "string"
+        },
+        "UNDERWRITER": {
+          "type": "string"
+        },
+        "APPLICANT NAME": {
+          "type": "string"
+        },
+        "OFFICE PHONE": {
+          "type": "string"
+        },
+        "MOBILE PHONE": {
+          "type": "string"
+        },
+        "MAILING ADDRESS (including ZIP or Canadian Postal Code)": {
+          "type": "string"
+        },
+        "YRS BUS": {
+          "type": "number"
+        },
+        "SIC": {
+          "type": "string"
+        },
+        "PRODUCER NAME": {
+          "type": "string"
+        },
+        "NAICS": {
+          "type": "string"
+        },
+        "NAME CS REPRESENTATIVE": {
+          "type": "string"
+        },
+        "WEBSITE ADDRESS": {
+          "type": "string"
+        },
+        "OFFICE PHONE (A/C, No Extra": {
+          "type": "string"
+        },
+        "E-MAIL ADDRESS": {
+          "type": "string"
+        },
+        "SOLE PROPRIETOR": {
+          "type": "string"
+        },
+        "CORPORATION": {
+          "type": "string"
+        },
+        "LLC": {
+          "type": "string"
+        },
+        "TRUST": {
+          "type": "string"
+        },
+        "UNINCORPORATED ASSOCIATION": {
+          "type": "string"
+        },
+        "FAX (A/C, Not": {
+          "type": "string"
+        },
+        "SUBCHAPTER - CORP": {
+          "type": "string"
+        },
+        "PARTNERSHIP": {
+          "type": "string"
+        },
+        "JOINT VENTURE": {
+          "type": "string"
+        },
+        "OTHER": {
+          "type": "string"
+        },
+        "BUREAU NAME CREDIT": {
+          "type": "string"
+        },
+        "ID NUMBER": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "SUB CODE": {
+          "type": "string"
+        },
+        "FEDERAL EMPLOYER ID NUMBER": {
+          "type": "number"
+        },
+        "NCCI RISK ID NUMBER": {
+          "type": "number"
+        },
+        "OTHER RATING BUREAU in OR STATE EMPLOYER REGISTRATION NUMBER": {
+          "type": "number"
+        },
+        "AGENCY CUSTOMER ID": {
+          "type": "string"
+        },
+        "STATUS OF SUBMISSION": {
+          "type": "object",
+          "properties": {
+            "QUOTE": {
+              "type": "string"
+            },
+            "ISSUE POLICY": {
+              "type": "string"
+            },
+            "BOUND (Give date and/or attach copy)": {
+              "type": "string"
+            },
+            "ASSIGNED RISK (Attach ACORD 133)": {
+              "type": "string"
+            }
+          },
+          "required": [
+            
+          ]
+        },
+        "BILLING / AUDIT INFORMATION": {
+          "type": "object",
+          "properties": {
+            "BILLING PLAN": {
+              "type": "object",
+              "properties": {
+                "AGENCY BILL": {
+                  "type": "string"
+                },
+                "DIRECT BILL": {
+                  "type": "string"
+                }
+              },
+              "required": [
+               
+              ]
+            },
+            "PAYMENT PLAN": {
+              "type": "object",
+              "properties": {
+                "ANNUAL": {
+                  "type": "string"
+                },
+                "SEMI-ANNUAL": {
+                  "type": "string"
+                },
+                "QUARTERLY": {
+                  "type": "string"
+                },
+                "% DOWN": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            },
+            "AUDIT": {
+              "type": "object",
+              "properties": {
+                "AT EXPIRATION": {
+                  "type": "string"
+                },
+                "SEMI-ANNUAL": {
+                  "type": "string"
+                },
+                "QUARTERLY": {
+                  "type": "string"
+                },
+                "MONTHLY": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            }
+          },
+          "required": [
+            
+          ]
+        },
+        "POLICY INFORMATION": {
+          "type": "object",
+          "properties": {
+            "PROPOSED EFF DATE": {
+              "type": "string"
+            },
+            "PROPOSED EXP DATE": {
+              "type": "string"
+            },
+            "NORMAL ANNIVERSARY RATING DATE": {
+              "type": "string"
+            },
+            "PARTICIPATING": {
+              "type": "string"
+            },
+            "RETRO PLAN": {
+              "type": "string"
+            },
+            "PART 1 - WORKERS COMPENSATION (States)": {
+              "type": "string"
+            },
+            "PART 2 - EMPLOYER'S LIABILITY": {
+              "type": "object",
+              "properties": {
+                "EACH ACCIDENT": {
+                  "type": "string"
+                },
+                "DISEASE-POLICY LIMIT": {
+                  "type": "string"
+                },
+                "DISEASE-EACH EMPLOYEE": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            },
+            "PART 3 - OTHER STATES INS": {
+              "type": "string"
+            },
+            "DEDUCTIBLES (N / A in WI)": {
+              "type": "object",
+              "properties": {
+                "MEDICAL": {
+                  "type": "string"
+                },
+                "INDEMNITY": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            },
+            "AMOUNT / % (N / A in WI)": {
+              "type": "number"
+            },
+            "OTHER COVERAGES": {
+              "type": "object",
+              "properties": {
+                "U.S.L. & H.": {
+                  "type": "string"
+                },
+                "VOLUNTARY COMP": {
+                  "type": "string"
+                },
+                "FOREIGN COV": {
+                  "type": "string"
+                },
+                "MANAGED CARE OPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                
+              ]
+            },
+            "DIVIDEND PLAN/SAFETY GROUP": {
+              "type": "string"
+            },
+            "ADDITIONAL COMPANY INFORMATION": {
+              "type": "string"
+            },
+            "SPECIFY ADDITIONAL COVERAGES / ENDORSEMENTS (Attach ACORD 101, Additional Remarks Schedule, if more space is required)": {
+              "type": "string"
+            }
+          },
+          "required": [
+            
+          ]
+        },
+        "table_data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        
+      ]
+    },
+    "Page_2": {
+      "type": "object",
+      "properties": {
+        "AGENCY CUSTOMER ID": {
+          "type": "string"
+        },
+        "PREMIUM": {
+          "type": "object",
+          "properties": {
+            "TOTAL ESTIMATED ANNUAL PREMIUM": {
+              "type": "number"
+            },
+            "MINIMUMPREMIUM": {
+              "type": "number"
+            },
+            "DEPOSIT PREMIUM": {
+              "type": "number"
+            }
+          },
+          "required": [
+            
+          ]
+        },
+        "RATING INFORMATION - STATE": {
+          "type": "string"
+        },
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": {
+          "type": "string"
+        },
+        "table_data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        
+      ]
+    },
+    "Page_3": {
+      "type": "object",
+      "properties": {
+        "AGENCY CUSTOMER ID": {
+          "type": "string"
+        },
+        "NATURE OF BUSINESS / DESCRIPTION OF OPERATIONS": {
+          "type": "object",
+          "properties": {
+            "GIVE COMMENTS AND DESCRIPTIONS OF BUSINESS OPERATIONS AND PRODUCTS MANUFACTURING RAW MATERIALS PROCESSES PRODUCT EQUIPMENT CONTRACTOR TYPE OF WORK SUB-CONTRACTS MERCANTILE MERCHANDISE CUSTOMERS DELIVERIES SERVICE TYPE LOCATION FARM ACREAGE ANIMALS MACHINERY SUB-CONTRACTS": {
+              "type": "string"
+            }
+          },
+          "required": [
+          ]
+        },
+        "table_data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        
+      ]
+    },
+    "Page_4": {
+      "type": "object",
+      "properties": {
+        "AGENCY CUSTOMER ID": {
+          "type": "string"
+        },
+        "SIGNATURE": {
+          "type": "object",
+          "properties": {
+            "Copy of the Notice of information Practices (Privacy) has been given to the applicant (Not required in all states contact your agent or broker for your state's requirements.)": {
+              "type": "string"
+            },
+            "(Applicant's Initials)": {
+              "type": "string"
+            },
+            "PRODUCER'S SIGNATURE": {
+              "type": "string"
+            },
+            "NATIONAL PRODUCER NUMBER": {
+              "type": "string"
+            },
+            "APPLICANT'S SIGNATURE (Must be Officer Owner or Partner)": {
+              "type": "string"
+            },
+            "ACORD": {
+              "type": "string"
+            },
+            "DATE": {
+              "type": "string"
+            }
+          },
+          "required": [
+            
+          ]
+        },
+        "table_data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        
+      ]
+    }
+  },
+  "required": [
+   
+  ]
+}

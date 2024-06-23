@@ -1,0 +1,589 @@
+{
+   "Page_1": {
+            "AGENCY CUSTOMER ID": "",
+            "DATE (MM/DD/YYYY)": "",
+            "AGENCY": "",
+            "CARRIER": "",
+            "NAIC CODE": "",
+            "POLICY NUMBER": "",
+            "EFFECTIVE DATE": "",
+            "NAMED INSURED(S)": "",
+            "COVERAGES/LIMITS" : {
+                "USE ACORD 137 FOR YOUR STATE TO PROVIDE COVERAGES/LIMITS INFORMATION":"",
+                "ACORD 163 attached for additional drivers": ""
+            },
+            "GENERAL INFORMATION":{
+                "EXPLAIN ALL 'YES' RESPONSES":{
+                               "1. WITH THE EXCEPTION OF ANY ENCUMBRANCES ARE ANY VEHICLES FOR WHICH INSURANCE IS REQUESTED NOT SOLELY OWNED BY AND REGISTERED TO THE APPLICANT?":[
+                                {
+                                    "VEH": "",
+                                    "NAME OF OTHER OWNER": ""
+                               },
+                               {
+                                "VEH": "",
+                                "NAME OF OTHER OWNER": ""
+                           }
+                               ],
+                                "2. DO OVER 50% OF THE EMPLOYEES USE THEIR AUTOS IN THE BUSINESS?": "",
+                                "3. IS THERE A VEHICLE MAINTENANCE PROGRAM IN OPERATION?": "",
+                                "4. ARE ANY VEHICLES LEASED TO OTHERS?": "",
+                                "5. ANY CAR MODIFIED / SPECIAL EQUIPMENT? (Include customized vans / pickups)":[
+                                     {
+                                    "VEH": "",
+                                    "DESCRIPTION": "",
+                                    "COST": ""
+                                },
+                                {
+                                    "VEH": "",
+                                    "DESCRIPTION": "",
+                                    "COST": ""
+                                }
+                            ],
+                                "6. ARE ICC, PUC OR OTHER FILINGS REQUIRED? (if \"YES\" attach ACORD 194": "",
+                                "7. DO OPERATIONS INVOLVE TRANSPORTING HAZARDOUS MATERIAL?": ""
+                }
+            },
+            "table_data": {
+                "DRIVER INFORMATION": [
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    },
+                    {
+                        "DRIVER #": "",
+                        "NAME (include address if required": "",
+                        "MAR STAT": "",
+                        "SEX":"",
+                        "DATE OF BIRTH": "",
+                        "YRS EXP": "",
+                        "YEAR LIC": "",
+                        "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "",
+                        "STATE LIC": "",
+                        "DATE HIRE": "",
+                        "BROADEN NO-FAULT": "",
+                        "DOC": "",
+                        "USE VEH #": "",
+                        "% USE": ""
+                    }
+                ]
+            }
+    },
+    "Page_2": {
+            "AGENCY CUSTOMER ID": "",
+            "GENERAL INFORMATION (CONTINUED)":{
+                "EXPLAIN ALL 'YES' RESPONSES":{
+                    "B. ANY HOLD HARMLESS AGREEMENTS?": "",
+                    "9. ANY VEHICLES USED BY FAMILY MEMBERS? IF so, IDENTIFY": "",
+                    "10. DOES THE APPLICANT OBTAIN MVR VERIFICATIONS?": "",
+                    "11. DOES THE APPLICANT HAVE A SPECIFIC DRIVER RECRUITING METHOD?": "",
+                    "12 ARE ANY DRIVERS NOT COVERED BY WORKERS COMPENSATION?": "",
+                    "13 ANY VEHICLES OWNED BUT NOT SCHEDULED ON THIS APPLICATION?": "",
+                    "14 ANY DRIVERS WITH CONVICTIONS FOR MOVING TRAFFIC VIOLATIONS? APPLICABLE ONLY IN KANSAS UNDER KANGAS LAW THE FOLLOWING TRAFFIC VIOLATIONS ARE NOT REQUIRED TO BE REPORTED TO INSURERS 1. A speeding violation of up to six (6) mph that occurs in an area with maximum posted speed limit from 30 mph through 54 mph, or 2. A speeding violation of up to ten (10) mph that occurs in an area with - maximum posted speed limit from 55 mph through 70 mph.": {
+                        "DRV #": "",
+                        "DATE (MM/DD/YYYY)": "",
+                        "TYPE": "",
+                        "PLACE CITY, STATE)": "",
+                        "# YRS REV": ""
+                    },
+            
+                    "15. HAS AGENT INSPECTED VEHICLES?": "",
+                    "16. ARE ALL VEHICLES TO BE INCLUDED IN THIS POLICY PART OF A FLEET?": "",
+                    "DESCRIPTION OF GARAGE STORAGE LOCATIONS": "",
+                    "MAXIMUM DOLLAR VALU SUBJECT TO LOSS": "$"
+                },
+            "ADDITIONAL INTEREST/CERTIFICATE RECIPIENT":{
+                "ACORD 45 attached for additional names": "",
+                "INTEREST":{
+                    "ADDITIONAL INSURED":"",
+                    "EMPLOYEE AS LESSOR":"",
+                    "LIENHOLDER": "",
+                    "LOSS PAYEE":"",
+                    "OWNER":"",
+                    "REGISTRANT":""
+                },
+                "NAME AND ADDRESS RANK": "",
+                "EVIDANCE": "",
+                "CERTIFICATE": "",
+                "INTEREST IN ITEM NUMBER": {
+                    "VEHICLE": "",
+                    "LOCATION": ""
+                }
+            },
+            "REMARKS (Attach ACORD 101 Additional Remarks Schedule, if more space is required)": ""
+        },
+        "table_data": ""
+    },
+    "Page_3": {
+            "AGENCY CUSTOMER ID": "",
+            "ACORD 129 attached for additional vehicles": "",
+            "VEHICLE DESCRIPTION":[
+                {
+                    "VEH": "",
+                    "YEAR": "",
+                    "MAKE": "",
+                    "BODY TYPE": "",
+                    "MODEL":"",
+                    "VIN":"",
+                    "VEHICLE TYPE":{
+                        "PP": "",
+                        "SPEC": "",
+                        "COML": ""
+                    },
+                    "SYM AGE": "",
+                    "COMPT OTC SYM": "",
+                    "COLL SYM": "",
+                    "GARAGING ADDRESS":"",
+                    "STREET (Required in KY)": "",
+                    "CITY": "",
+                    "COUNTY": "",
+                    "STATE": "",
+                    "ZIP": "",
+                    "LIC STATE": "",
+                    "TERR": "",
+                    "GVW GCW": "",
+                    "CLASS": "",
+                    "SIC": "",
+                    "FACTOR": "",
+                    "SEAT CP": "",
+                    "RADIUS": "",
+                    "FARTHEST TERMINAL": "",
+                    "COST NEW": "",
+                    "USE":{
+                        "PLEASURE":"",
+                        "RETAIL": "",
+                        "COMMEL": "",
+                        "SERVICE": "",
+                        "FARM":"",
+                        "FOR HIRE": ""
+                    },
+                    "CHECK COVERAGES":{
+                        "LIAB":"",
+                        "NO-FAULT":"",
+                        "ADD'L NO- FAULT":"",
+                        "MED PAY": "",
+                        "UNDRINS MOTOR": "",
+                        "TOWING & LABOR":"",
+                        "SPEC C OF L":"",
+                        "F": "",
+                        "FT": "",
+                        "FTW": "",
+                        "LSP": "",
+                        "COMP OTC": "",
+                        "COLL":"",
+                        "RENT REMB": "",
+                        "FG": ""
+                    },
+                    "DEDUCTIBLES": {
+                        "AA": "",
+                        "ACV": "",
+                        "ST AMT": ""
+                    },
+                    "COMP OTC": "",
+                    "SPEC COFI": "",
+                    "COLL": "",
+                    "DRIVE TO WORK/SCHOOL":{
+                        "> 15 MILES": "",
+                        "15 MILES +": ""
+                    },
+                    "NET VEH PRICE": "",
+                    "TOTAL PREM":""
+                },
+                {
+
+                    "VEH": "",
+                    "YEAR": "",
+                    "MAKE": "",
+                    "BODY TYPE": "",
+                    "MODEL":"",
+                    "VIN":"",
+                    "VEHICLE TYPE":{
+                                    "PP": "",
+                                    "SPEC": "",
+                                    "COML": ""
+                                    },
+                    "SYM AGE": "",
+                    "COMPT OTC SYM": "",
+                    "COLL SYM": "",
+                    "GARAGING ADDRESS":"",
+                    "STREET (Required in KY)": "",
+                    "CITY": "",
+                    "COUNTY": "",
+                    "STATE": "",
+                    "ZIP": "",
+                    "LIC STATE": "",
+                    "TERR": "",
+                    "GVW GCW": "",
+                    "CLASS": "",
+                    "SIC": "",
+                    "FACTOR": "",
+                    "SEAT CP": "",
+                    "RADIUS": "",
+                    "FARTHEST TERMINAL": "",
+                    "COST NEW": "",
+                    "USE":{
+                            "PLEASURE":"",
+                            "RETAIL": "",
+                            "COMMEL": "",
+                            "SERVICE": "",
+                            "FARM":"",
+                            "FOR HIRE": ""
+                        },
+                    "CHECK COVERAGES":{
+                        "LIAB":"",
+                        "NO-FAULT":"",
+                        "ADD'L NO- FAULT":"",
+                        "MED PAY": "",
+                        "UNDRINS MOTOR": "",
+                        "TOWING & LABOR":"",
+                        "SPEC C OF L":"",
+                        "F": "",
+                        "FT": "",
+                        "FTW": "",
+                        "LSP": "",
+                        "COMP OTC": "",
+                        "COLL":"",
+                        "RENT REMB": "",
+                        "FG": ""
+                    },
+                    "DEDUCTIBLES": {
+                        "AA": "",
+                        "ACV": "",
+                        "ST AMT": ""
+                    },
+                    "COMP OTC": "",
+                    "SPEC COFI": "",
+                    "COLL": "",
+                    "DRIVE TO WORK/SCHOOL":{
+                        "> 15 MILES": "",
+                        "15 MILES +": ""
+                    },
+                    "NET VEH PRICE": "",
+                    "TOTAL PREM":""
+                },
+                {
+
+                "VEH": "",
+                "YEAR": "",
+                "MAKE": "",
+                "BODY TYPE": "",
+                "MODEL":"",
+                "VIN":"",
+                "VEHICLE TYPE":{
+                    "PP": "",
+                    "SPEC": "",
+                    "COML": ""
+                },
+                "SYM AGE": "",
+                "COMPT OTC SYM": "",
+                "COLL SYM": "",
+                "GARAGING ADDRESS":"",
+                "STREET (Required in KY)": "",
+                "CITY": "",
+                "COUNTY": "",
+                "STATE": "",
+                "ZIP": "",
+                "LIC STATE": "",
+                "TERR": "",
+                "GVW GCW": "",
+                "CLASS": "",
+                "SIC": "",
+                "FACTOR": "",
+                "SEAT CP": "",
+                "RADIUS": "",
+                "FARTHEST TERMINAL": "",
+                "COST NEW": "",
+                "USE":{
+                    "PLEASURE":"",
+                    "RETAIL": "",
+                    "COMMEL": "",
+                    "SERVICE": "",
+                    "FARM":"",
+                    "FOR HIRE": ""
+                },
+                "CHECK COVERAGES":{
+                    "LIAB":"",
+                    "NO-FAULT":"",
+                    "ADD'L NO- FAULT":"",
+                    "MED PAY": "",
+                    "UNDRINS MOTOR": "",
+                    "TOWING & LABOR":"",
+                    "SPEC C OF L":"",
+                    "F": "",
+                    "FT": "",
+                    "FTW": "",
+                    "LSP": "",
+                    "COMP OTC": "",
+                    "COLL":"",
+                    "RENT REMB": "",
+                    "FG": ""
+                },
+                "DEDUCTIBLES": {
+                    "AA": "",
+                    "ACV": "",
+                    "ST AMT": ""
+                },
+                "COMP OTC": "",
+                "SPEC COFI": "",
+                "COLL": "",
+                "DRIVE TO WORK/SCHOOL":{
+                    "> 15 MILES": "",
+                    "15 MILES +": ""
+                },
+                "NET VEH PRICE": "",
+                "TOTAL PREM":""
+                },
+            {
+                "VEH": "",
+                "YEAR": "",
+                "MAKE": "",
+                "BODY TYPE": "",
+                "MODEL":"",
+                "VIN":"",
+                "VEHICLE TYPE":{
+                    "PP": "",
+                    "SPEC": "",
+                    "COML": ""
+                },
+                "SYM AGE": "",
+                "COMPT OTC SYM": "",
+                "COLL SYM": "",
+                "GARAGING ADDRESS":"",
+                "STREET (Required in KY)": "",
+                "CITY": "",
+                "COUNTY": "",
+                "STATE": "",
+                "ZIP": "",
+                "LIC STATE": "",
+                "TERR": "",
+                "GVW GCW": "",
+                "CLASS": "",
+                "SIC": "",
+                "FACTOR": "",
+                "SEAT CP": "",
+                "RADIUS": "",
+                "FARTHEST TERMINAL": "",
+                "COST NEW": "",
+                "USE":{
+                    "PLEASURE":"",
+                    "RETAIL": "",
+                    "COMMEL": "",
+                    "SERVICE": "",
+                    "FARM":"",
+                    "FOR HIRE": ""
+                },
+                "CHECK COVERAGES":{
+                    "LIAB":"",
+                    "NO-FAULT":"",
+                    "ADD'L NO- FAULT":"",
+                    "MED PAY": "",
+                    "UNDRINS MOTOR": "",
+                    "TOWING & LABOR":"",
+                    "SPEC C OF L":"",
+                    "F": "",
+                    "FT": "",
+                    "FTW": "",
+                    "LSP": "",
+                    "COMP OTC": "",
+                    "COLL":"",
+                    "RENT REMB": "",
+                    "FG": ""
+                },
+                "DEDUCTIBLES": {
+                    "AA": "",
+                    "ACV": "",
+                    "ST AMT": ""
+                },
+                "COMP OTC": "",
+                "SPEC COFI": "",
+                "COLL": "",
+                "DRIVE TO WORK/SCHOOL":{
+                    "> 15 MILES": "",
+                    "15 MILES +": ""
+                },
+                "NET VEH PRICE": "",
+                "TOTAL PREM":""
+            }
+        ],
+            "PRODUCER'S SIGNATURE": "",
+            "PRODUCER'S NAME (Please Print)": "",
+            "STATE PRODUCER LICENSE NO (Required in Florida|": "",
+            "APPLICANT'S SIGNATURE": "",
+            "DATE": "",
+            "NATIONAL PRODUCER NUMBER": "",
+        
+        "table_data":""
+        
+    }
+}

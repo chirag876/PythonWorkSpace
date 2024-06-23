@@ -1,0 +1,586 @@
+{
+    "Page_1": {
+        "AGENCY CUSTOMER ID": "FIRSCHU-04 RBENNETT",
+        "DATE (MM/DD/YYYY)": "10/17/2023",
+        "AGENCY": "Integrated Insurance Services",
+        "CARRIER": "Convelo Insurance Group LLC",
+        "NAIC CODE": "",
+        "POLICY NUMBER": "",
+        "EFFECTIVE DATE": "11/07/2023",
+        "NAMED INSURED(S)": "First Church of God",
+        "COVERAGES/LIMITS": {
+            "USE ACORD 137 FOR YOUR STATE TO PROVIDE COVERAGES/LIMITS INFORMATION": null,
+            "ACORD 163 attached for additional drivers": "SELECTED"
+        },
+        "GENERAL INFORMATION": {
+            "EXPLAIN ALL 'YES' RESPONSES": {
+                "1. WITH THE EXCEPTION OF ANY ENCUMBRANCES ARE ANY VEHICLES FOR WHICH INSURANCE IS REQUESTED NOT SOLELY OWNED BY AND REGISTERED TO THE APPLICANT?": [
+                    {
+                        "VEH": "",
+                        "NAME OF OTHER OWNER": ""
+                    },
+                    {
+                        "VEH": null,
+                        "NAME OF OTHER OWNER": null
+                    }
+                ],
+                "2. DO OVER 50% OF THE EMPLOYEES USE THEIR AUTOS IN THE BUSINESS?": "",
+                "3. IS THERE A VEHICLE MAINTENANCE PROGRAM IN OPERATION?": null,
+                "4. ARE ANY VEHICLES LEASED TO OTHERS?": "",
+                "5. ANY CAR MODIFIED / SPECIAL EQUIPMENT? (Include customized vans / pickups)": [
+                    {
+                        "VEH": null,
+                        "DESCRIPTION": "",
+                        "COST": "$"
+                    },
+                    {
+                        "VEH": null,
+                        "DESCRIPTION": null,
+                        "COST": null
+                    }
+                ],
+                "6. ARE ICC, PUC OR OTHER FILINGS REQUIRED? (if \"YES\" attach ACORD 194": null,
+                "7. DO OPERATIONS INVOLVE TRANSPORTING HAZARDOUS MATERIAL?": ""
+            }
+        },
+        "table_data": {
+            "DRIVER INFORMATION": [
+                {
+                    "DRIVER": "2",
+                    "NAME (include address if required)": "Brian Bredshow",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "04/30/1970",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "D082109599OK",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "3",
+                    "NAME (include address if required)": "Vicky Condray",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "05/21/1963",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "F081261367OK",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "5",
+                    "NAME (include address if required)": "Lori Bredshow",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "10/31/1973",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "L080419629OK",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "10",
+                    "NAME (include address if required)": "Mk Fuller",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "08/03/1951",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "L081907758",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "11",
+                    "NAME (include address if required)": "Zachary Kemp",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "07/24/1979",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "L081415572",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "14",
+                    "NAME (include address if required)": "Andrew Rehbein",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "12/15/1982",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "T082006232",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "15",
+                    "NAME (include address if required)": "Courtney Rehbein",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "02/17/1981",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "J082006226",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "16",
+                    "NAME (include address if required)": "Melass Brown",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "10/02/1980",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "M083847820",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "17",
+                    "NAME (include address if required)": "Meagan Keirsey",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "12/14/1985",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "S080494001",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "19",
+                    "NAME (include address if required)": "Andrew Oldham",
+                    "SEN": "M",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "07/28/1982",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "011246788",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "20",
+                    "NAME (include address if required)": "Alexander Mobley",
+                    "SEN": "F",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "09/06/1991",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "M07658051",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                },
+                {
+                    "DRIVER": "22",
+                    "NAME (include address if required)": "Bruce Yoder",
+                    "SEN": "U",
+                    "MAR STAT": "U",
+                    "DATE OF BIRTH": "12/08/1958",
+                    "YRS EXP": "",
+                    "YEAR LIC": "",
+                    "DRIVERS LICENSE NUMBER SOCIAL SECURITY NUMBER": "W080939043",
+                    "STATE LIC": "",
+                    "DATE HRE": "",
+                    "BROADEN NO PAULT": "",
+                    "DOC": "",
+                    "USE VEH": "",
+                    "USE": ""
+                }
+            ]
+        }
+    },
+    "Page_2": {
+        "AGENCY CUSTOMER ID": "FIRSCHU-04 RBENNETT",
+        "GENERAL INFORMATION (CONTINUED)": {
+            "EXPLAIN ALL 'YES' RESPONSES": {
+                "B. ANY HOLD HARMLESS AGREEMENTS?": "",
+                "9. ANY VEHICLES USED BY FAMILY MEMBERS? IF so, IDENTIFY": "",
+                "10. DOES THE APPLICANT OBTAIN MVR VERIFICATIONS?": "",
+                "11. DOES THE APPLICANT HAVE A SPECIFIC DRIVER RECRUITING METHOD?": "",
+                "12 ARE ANY DRIVERS NOT COVERED BY WORKERS COMPENSATION?": "",
+                "13 ANY VEHICLES OWNED BUT NOT SCHEDULED ON THIS APPLICATION?": "",
+                "14 ANY DRIVERS WITH CONVICTIONS FOR MOVING TRAFFIC VIOLATIONS? APPLICABLE ONLY IN KANSAS UNDER KANGAS LAW THE FOLLOWING TRAFFIC VIOLATIONS ARE NOT REQUIRED TO BE REPORTED TO INSURERS 1. A speeding violation of up to six (6) mph that occurs in an area with maximum posted speed limit from 30 mph through 54 mph, or 2. A speeding violation of up to ten (10) mph that occurs in an area with - maximum posted speed limit from 55 mph through 70 mph.": {
+                    "DRV #": null,
+                    "DATE (MM/DD/YYYY)": null,
+                    "TYPE": "",
+                    "PLACE CITY, STATE)": null,
+                    "# YRS REV": null
+                },
+                "15. HAS AGENT INSPECTED VEHICLES?": "",
+                "16. ARE ALL VEHICLES TO BE INCLUDED IN THIS POLICY PART OF A FLEET?": null,
+                "DESCRIPTION OF GARAGE STORAGE LOCATIONS": "",
+                "MAXIMUM DOLLAR VALU SUBJECT TO LOSS": null
+            },
+            "ADDITIONAL INTEREST/CERTIFICATE RECIPIENT": {
+                "ACORD 45 attached for additional names": "",
+                "INTEREST": {
+                    "ADDITIONAL INSURED": "",
+                    "EMPLOYEE AS LESSOR": "",
+                    "LIENHOLDER": "",
+                    "LOSS PAYEE": "",
+                    "OWNER": "",
+                    "REGISTRANT": ""
+                },
+                "NAME AND ADDRESS RANK": null,
+                "EVIDANCE": null,
+                "CERTIFICATE": "",
+                "INTEREST IN ITEM NUMBER": {
+                    "VEHICLE": "",
+                    "LOCATION": ""
+                }
+            },
+            "REMARKS (Attach ACORD 101 Additional Remarks Schedule, if more space is required)": null
+        },
+        "table_data": {}
+    },
+    "Page_3": {
+        "AGENCY CUSTOMER ID": "FIRSCHU-04 RBENNETT",
+        "ACORD 129 attached for additional vehicles": "",
+        "VEHICLE DESCRIPTION": [
+            {
+                "VEH": "1",
+                "YEAR": "2007",
+                "MAKE": "Ford",
+                "BODY TYPE": null,
+                "MODEL": "Ecoline",
+                "VIN": "1FBSS31L87DA87098",
+                "VEHICLE TYPE": {
+                    "PP": "",
+                    "SPEC": "",
+                    "COML": ""
+                },
+                "SYM AGE": "",
+                "COMPT OTC SYM": null,
+                "COLL SYM": "",
+                "GARAGING ADDRESS": null,
+                "STREET (Required in KY)": "",
+                "CITY": "Pryor",
+                "COUNTY": "Mayes",
+                "STATE": "OK",
+                "ZIP": "74361",
+                "LIC STATE": "OK",
+                "TERR": "",
+                "GVW GCW": "",
+                "CLASS": "",
+                "SIC": "",
+                "FACTOR": "0.00",
+                "SEAT CP": "15",
+                "RADIUS": "50",
+                "FARTHEST TERMINAL": "",
+                "COST NEW": "$ 29,000",
+                "USE": {
+                    "PLEASURE": "",
+                    "RETAIL": "",
+                    "COMMEL": "",
+                    "SERVICE": "",
+                    "FARM": "",
+                    "FOR HIRE": ""
+                },
+                "CHECK COVERAGES": {
+                    "LIAB": "SELECTED",
+                    "NO-FAULT": null,
+                    "ADD'L NO- FAULT": null,
+                    "MED PAY": "SELECTED",
+                    "UNDRINS MOTOR": "",
+                    "TOWING & LABOR": "",
+                    "SPEC C OF L": null,
+                    "F": "",
+                    "FT": "",
+                    "FTW": "",
+                    "LSP": "",
+                    "COMP OTC": "SELECTED",
+                    "COLL": "SELECTED",
+                    "RENT REMB": "",
+                    "FG": ""
+                },
+                "DEDUCTIBLES": {
+                    "AA": "",
+                    "ACV": "",
+                    "ST AMT": null
+                },
+                "COMP OTC": null,
+                "SPEC COFI": "",
+                "COLL": "$",
+                "DRIVE TO WORK/SCHOOL": {
+                    "> 15 MILES": null,
+                    "15 MILES +": null
+                },
+                "NET VEH PRICE": null,
+                "TOTAL PREM": "$"
+            },
+            {
+                "VEH": "2",
+                "YEAR": "2013",
+                "MAKE": "Chevy",
+                "BODY TYPE": null,
+                "MODEL": "Express G3500",
+                "VIN": "1GAZG1FG3D1101068",
+                "VEHICLE TYPE": {
+                    "PP": null,
+                    "SPEC": null,
+                    "COML": null
+                },
+                "SYM AGE": null,
+                "COMPT OTC SYM": null,
+                "COLL SYM": null,
+                "GARAGING ADDRESS": null,
+                "STREET (Required in KY)": null,
+                "CITY": null,
+                "COUNTY": null,
+                "STATE": null,
+                "ZIP": null,
+                "LIC STATE": null,
+                "TERR": null,
+                "GVW GCW": null,
+                "CLASS": null,
+                "SIC": null,
+                "FACTOR": null,
+                "SEAT CP": "12",
+                "RADIUS": null,
+                "FARTHEST TERMINAL": null,
+                "COST NEW": "$ 34,030",
+                "USE": {
+                    "PLEASURE": null,
+                    "RETAIL": null,
+                    "COMMEL": null,
+                    "SERVICE": null,
+                    "FARM": null,
+                    "FOR HIRE": null
+                },
+                "CHECK COVERAGES": {
+                    "LIAB": null,
+                    "NO-FAULT": null,
+                    "ADD'L NO- FAULT": null,
+                    "MED PAY": null,
+                    "UNDRINS MOTOR": null,
+                    "TOWING & LABOR": null,
+                    "SPEC C OF L": null,
+                    "F": null,
+                    "FT": null,
+                    "FTW": null,
+                    "LSP": null,
+                    "COMP OTC": null,
+                    "COLL": null,
+                    "RENT REMB": null,
+                    "FG": null
+                },
+                "DEDUCTIBLES": {
+                    "AA": null,
+                    "ACV": null,
+                    "ST AMT": null
+                },
+                "COMP OTC": null,
+                "SPEC COFI": null,
+                "COLL": null,
+                "DRIVE TO WORK/SCHOOL": {
+                    "> 15 MILES": null,
+                    "15 MILES +": null
+                },
+                "NET VEH PRICE": null,
+                "TOTAL PREM": "1"
+            },
+            {
+                "VEH": null,
+                "YEAR": null,
+                "MAKE": null,
+                "BODY TYPE": null,
+                "MODEL": null,
+                "VIN": null,
+                "VEHICLE TYPE": {
+                    "PP": null,
+                    "SPEC": null,
+                    "COML": null
+                },
+                "SYM AGE": null,
+                "COMPT OTC SYM": null,
+                "COLL SYM": null,
+                "GARAGING ADDRESS": null,
+                "STREET (Required in KY)": null,
+                "CITY": null,
+                "COUNTY": null,
+                "STATE": null,
+                "ZIP": null,
+                "LIC STATE": null,
+                "TERR": null,
+                "GVW GCW": null,
+                "CLASS": null,
+                "SIC": null,
+                "FACTOR": null,
+                "SEAT CP": null,
+                "RADIUS": null,
+                "FARTHEST TERMINAL": null,
+                "COST NEW": "$",
+                "USE": {
+                    "PLEASURE": null,
+                    "RETAIL": null,
+                    "COMMEL": null,
+                    "SERVICE": null,
+                    "FARM": null,
+                    "FOR HIRE": null
+                },
+                "CHECK COVERAGES": {
+                    "LIAB": null,
+                    "NO-FAULT": null,
+                    "ADD'L NO- FAULT": null,
+                    "MED PAY": null,
+                    "UNDRINS MOTOR": null,
+                    "TOWING & LABOR": null,
+                    "SPEC C OF L": null,
+                    "F": null,
+                    "FT": null,
+                    "FTW": null,
+                    "LSP": null,
+                    "COMP OTC": null,
+                    "COLL": null,
+                    "RENT REMB": null,
+                    "FG": null
+                },
+                "DEDUCTIBLES": {
+                    "AA": null,
+                    "ACV": null,
+                    "ST AMT": null
+                },
+                "COMP OTC": null,
+                "SPEC COFI": null,
+                "COLL": null,
+                "DRIVE TO WORK/SCHOOL": {
+                    "> 15 MILES": null,
+                    "15 MILES +": null
+                },
+                "NET VEH PRICE": null,
+                "TOTAL PREM": null
+            },
+            {
+                "VEH": null,
+                "YEAR": null,
+                "MAKE": null,
+                "BODY TYPE": null,
+                "MODEL": null,
+                "VIN": null,
+                "VEHICLE TYPE": {
+                    "PP": null,
+                    "SPEC": null,
+                    "COML": null
+                },
+                "SYM AGE": null,
+                "COMPT OTC SYM": null,
+                "COLL SYM": null,
+                "GARAGING ADDRESS": null,
+                "STREET (Required in KY)": null,
+                "CITY": null,
+                "COUNTY": null,
+                "STATE": null,
+                "ZIP": null,
+                "LIC STATE": null,
+                "TERR": null,
+                "GVW GCW": null,
+                "CLASS": null,
+                "SIC": null,
+                "FACTOR": null,
+                "SEAT CP": null,
+                "RADIUS": null,
+                "FARTHEST TERMINAL": null,
+                "COST NEW": null,
+                "USE": {
+                    "PLEASURE": null,
+                    "RETAIL": null,
+                    "COMMEL": null,
+                    "SERVICE": null,
+                    "FARM": null,
+                    "FOR HIRE": null
+                },
+                "CHECK COVERAGES": {
+                    "LIAB": null,
+                    "NO-FAULT": null,
+                    "ADD'L NO- FAULT": null,
+                    "MED PAY": null,
+                    "UNDRINS MOTOR": null,
+                    "TOWING & LABOR": null,
+                    "SPEC C OF L": null,
+                    "F": null,
+                    "FT": null,
+                    "FTW": null,
+                    "LSP": null,
+                    "COMP OTC": null,
+                    "COLL": null,
+                    "RENT REMB": null,
+                    "FG": null
+                },
+                "DEDUCTIBLES": {
+                    "AA": null,
+                    "ACV": null,
+                    "ST AMT": null
+                },
+                "COMP OTC": null,
+                "SPEC COFI": null,
+                "COLL": null,
+                "DRIVE TO WORK/SCHOOL": {
+                    "> 15 MILES": null,
+                    "15 MILES +": null
+                },
+                "NET VEH PRICE": null,
+                "TOTAL PREM": null
+            }
+        ],
+        "PRODUCER'S SIGNATURE": "14br",
+        "PRODUCER'S NAME (Please Print)": "KRB House",
+        "STATE PRODUCER LICENSE NO (Required in Florida|": null,
+        "APPLICANT'S SIGNATURE": null,
+        "DATE": "",
+        "NATIONAL PRODUCER NUMBER": "",
+        "table_data": {}
+    },
+    "File_Name": "ACORD_127_Business_Auto.pdf",
+    "Page_Count": 3
+}

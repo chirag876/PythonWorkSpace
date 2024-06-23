@@ -1,0 +1,299 @@
+{
+    "Page_1":{
+        "AGENCY CUSTOMER ID": "",
+        "DATE MM DD/YYYY)": "",
+        "AGENCY NAME": "",
+        "CARRIER": "",
+        "NAIC CODE": "",
+        "POLICY NUMBER": "",
+        "EFFECTIVE DATE": "",
+        "NAMED INSURED(S)": "",
+        "PREMISES INFORMATION":{
+                            "PREMISES .": "",
+                            "STREET ADDRESS": "",
+                            "BUILDING #": "",
+                            "BLDG DESCRIPTION": ""
+                            },
+        "ADDITIONAL INFORMATION":{
+                            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": "",
+                            "VALUE REPORTING INFORMA TION Attach ACORD 811": ""
+                              },
+        "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION":{
+            
+                "SPOILAGE COVERAGE (Y / N)":"",
+                "DESCRIPTION OF PROPERTY COVERED":"",
+                "LIMIT":"",
+                "DEDUCTIBLE":"",
+                "REFRIG MAINT AGREEMENT (Y / N)":"",
+                "OPTIONS":
+                {
+                   "BREAKDOWN OR CONTAMINATION":"",
+                   "POWER OUTAGE":"",
+                    "SELLING PRICE":""
+                },
+                "SINKHOLE COVERAGE (Required in Florida)":
+                    {
+                        "ACCEPT COVERAGE":"",
+                        "REJECT COVERAGE":"",
+                        "LIMIT":""
+                    },
+                "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)":
+                    {
+                    "ACCEPT COVERAGE":"",
+                    "REJECT COVERAGE":"",
+                    "LIMIT":""
+                    },
+                "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": "",
+                "# OF OPEN SIDES ON STRUCTURE": "",
+                "CONSTRUCTION TYPE": "",
+                "DISTANCE TO":{
+                                "HYDRANT": "",
+                                "FIRE STAT": ""
+                            },
+                "FIRE DISTRICT": "",
+                "CODE NUMBER": "",
+                "PROT CL": "",
+                "# STORIES": "",
+                "# BASM'TS": "",
+                "YR BUILT": "",
+                "TOTAL AREA": "",
+                "BUILDING IMPROVEMENTS":
+                    [{
+                        "WIRING":"",
+                        "YR":""
+                    
+                    },
+                    {
+                        "PLUMBING":"",
+                        "YR":""
+                    
+                    },
+                    {
+                        "HEATING":"",
+                        "YR":""
+                    },
+                    {
+                        "ROOFING":"",
+                        "YR":""
+                    },
+                    {
+                        "OTHER":"",
+                        "YR":""
+                    }
+                    ],
+                
+                "BLDG CODE GRADE": "",
+                "TAX CODE": "",
+                "ROOF TYPE": "",
+                "OTHER OCCUPANCIES": "",
+                "WIND CLASS":{
+                    "SEMI-RESISTIVE": "",
+                    "RESISTIVE": ""},
+                "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": "",
+                "DATE INSTALLED": "",
+                "MANUFACTURER": "",
+                "PRIMARY HEAT":{
+                    "BOILER": "",
+                    "SOLID FUEL": "",
+                    "IF BOILER IS INSURANCE PLACED ELSEWHERE?": ""
+                    },
+                "SECONDARY HEAT":{
+                    "BOILER": "",
+                    "SOLID FUEL": "",
+                    "IF BOILER IS INSURANCE PLACED ELSEWHERE?": ""
+                    },
+                "RIGHT EXPOSURE & DISTANCE": "",
+                "LEFT EXPOSURE & DISTANCE": "",
+                "FRONT EXPOSURE & DISTANCE": "",
+                "REAR EXPOSURE & DISTANCE": "",
+                "BURGLAR ALARM TYPE": "",
+                "CERTIFICATE#": "",
+                "EXPIRATION DATE": "",
+                "CENTRAL STATION": "",
+                "LOCAL GONG": "",
+                "WITH KEYS": "",
+                "BURGLAR ALARM INSTALLED AND SERVICED BY": "",
+                "EXTENT": "",
+                "GRADE": "",
+                "# GUARDS / WATCHMEN": "",
+                "CLOCK HOURLY": "",
+                "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": "",
+                "% SPRNK": "",
+                "FIRE ALARM MANUFACTURER": "",
+                "ACORD 45 attached for additional names": "",
+                "NAME AND ADDRESS": "",
+                "RANK": "",
+                "CERTIFICATE": "",
+                "REFERENCE LOAN": ""
+                },
+        "ADDITIONAL INTEREST":
+                {
+                "INTEREST":
+                {
+                    "LOSS PAYEE":"",
+                    "MORTGAGEE":""}  
+                },
+        "INTEREST IN ITEM NUMBER":
+                {
+                    "LOCATION":"",
+                    "BUILDING":"",
+                    "ITEM CLASS":"",
+                    "ITEM":"",
+                    "ITEM DESCRIPTION":""
+                },
+        
+            "ACORD": "",
+            "table_data":""
+        },     
+        
+    "Page_2":{
+        "AGENCY CUSTOMER ID": "",
+        "ADDITIONAL PREMISES INFORMATION":{
+            "PREMISES": "",
+            "STREET ADDRESS": "",
+            "BUILDING": "",
+            "BLDC DESCRIPTION": ""},
+        "ADDITIONAL INFORMATION":{
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": "",
+            "VALUE REPORTING INFORMATION Attach ACORD 611": ""
+            },
+        "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION":{
+            
+                "SPOILAGE COVERAGE (Y / N)":"",
+                "DESCRIPTION OF PROPERTY COVERED":"",
+                "LIMIT":"",
+                "DEDUCTIBLE":"",
+                "REFRIG MAINT AGREEMENT (Y / N)":"",
+                "OPTIONS":
+                {
+                   "BREAKDOWN OR CONTAMINATION":"",
+                   "POWER OUTAGE":"",
+                    "SELLING PRICE":""
+                },
+                "SINKHOLE COVERAGE (Required in Florida)":
+                    {
+                        "ACCEPT COVERAGE":"",
+                        "REJECT COVERAGE":"",
+                        "LIMIT":""
+                    },
+                "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)":
+                    {
+                    "ACCEPT COVERAGE":"",
+                    "REJECT COVERAGE":"",
+                    "LIMIT":""
+                    },
+                "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": "",
+                "# OF OPEN SIDES ON STRUCTURE": "",
+                "CONSTRUCTION TYPE": "",
+                "DISTANCE TO":{
+                                "HYDRANT": "",
+                                "FIRE STAT": ""
+                            },
+                "FIRE DISTRICT": "",
+                "CODE NUMBER": "",
+                "PROT CL": "",
+                "# STORIES": "",
+                "# BASM'TS": "",
+                "YR BUILT": "",
+                "TOTAL AREA": "",
+                "BUILDING IMPROVEMENTS":
+                    [{
+                        "WIRING":"",
+                        "YR":""
+                    
+                    },
+                    {
+                        "PLUMBING":"",
+                        "YR":""
+                    
+                    },
+                    {
+                        "HEATING":"",
+                        "YR":""
+                    },
+                    {
+                        "ROOFING":"",
+                        "YR":""
+                    },
+                    {
+                        "OTHER":"",
+                        "YR":""
+                    }
+                    ],
+                
+                "BLDG CODE GRADE": "",
+                "TAX CODE": "",
+                "ROOF TYPE": "",
+                "OTHER OCCUPANCIES": "",
+                "WIND CLASS":{
+                    "SEMI-RESISTIVE": "",
+                    "RESISTIVE": ""},
+                "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": "",
+                "DATE INSTALLED": "",
+                "MANUFACTURER": "",
+                "PRIMARY HEAT":{
+                    "BOILER": "",
+                    "SOLID FUEL": "",
+                    "IF BOILER IS INSURANCE PLACED ELSEWHERE?": ""
+                    },
+                "SECONDARY HEAT":{
+                    "BOILER": "",
+                    "SOLID FUEL": "",
+                    "IF BOILER IS INSURANCE PLACED ELSEWHERE?": ""
+                    },
+                "RIGHT EXPOSURE & DISTANCE": "",
+                "LEFT EXPOSURE & DISTANCE": "",
+                "FRONT EXPOSURE & DISTANCE": "",
+                "REAR EXPOSURE & DISTANCE": "",
+                "BURGLAR ALARM TYPE": "",
+                "CERTIFICATE#": "",
+                "EXPIRATION DATE": "",
+                "CENTRAL STATION": "",
+                "LOCAL GONG": "",
+                "WITH KEYS": "",
+                "BURGLAR ALARM INSTALLED AND SERVICED BY": "",
+                "EXTENT": "",
+                "GRADE": "",
+                "# GUARDS / WATCHMEN": "",
+                "CLOCK HOURLY": "",
+                "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": "",
+                "% SPRNK": "",
+                "FIRE ALARM MANUFACTURER": "",
+                "ACORD 45 attached for additional names": "",
+                "NAME AND ADDRESS": "",
+                "RANK": "",
+                "CERTIFICATE": "",
+                "REFERENCE LOAN": ""
+            },
+        "ADDITIONAL INTEREST":
+                {
+                "INTEREST":
+                {
+                    "LOSS PAYEE":"",
+                    "MORTGAGEE":""}  
+                },
+        "INTEREST IN ITEM NUMBER":
+                {
+                    "LOCATION":"",
+                    "BUILDING":"",
+                    "ITEM CLASS":"",
+                    "ITEM":"",
+                    "ITEM DESCRIPTION":""
+                },
+            "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": "",
+            "ACORD": "",
+        "table_data":""
+    },
+    "Page_3":{
+        "AGENCY CUSTOMER ID": "",
+        "SIGNATURE":{
+            "STATE PRODUCER LICENSE NO (Required in Florida)": "",
+            "PRODUCER'S SIGNATURE": "",
+            "PRODUCER'S NAME (Please Print)": "",
+            "APPLICANT'S SIGNATURE": "",
+            "DATE": "",
+            "NATIONAL PRODUCER NUMBER": "",
+            "ACORD": ""
+        }
+    }
+}

@@ -1,0 +1,592 @@
+{
+    "Page_1": {
+        "DATE (MM/DD/YYYY)": "06/07/2022",
+        "AGENCY NAME AND ADDRESS": "Acme Insurance Services 234 E Pine Street Missoula, MT 59802",
+        "COMPANY": "BuffetOne",
+        "UNDERWRITER": "Tom Jensen",
+        "APPLICANT NAME": "BuffetOne",
+        "OFFICE PHONE": "460-123-9999",
+        "MOBILE PHONE": "460-123-9999",
+        "MAILING ADDRESS (including ZIP or Canadian Postal Code)": "1140 1st Avenue N Billings, MT 59101",
+        "YRS BUS": "29",
+        "SIC": "N/A",
+        "PRODUCER NAME": "Kiera Contreni",
+        "NAICS": "N/A",
+        "NAME CS REPRESENTATIVE": "Ravendra Singh",
+        "WEBSITE ADDRESS": "http://www.buffetone.com",
+        "OFFICE PHONE (A/C, No Extra": "732-999-1234",
+        "E-MAIL ADDRESS": "info@bufletone.com",
+        "SOLE PROPRIETOR": "SELECTED",
+        "CORPORATION": "",
+        "LLC": "",
+        "TRUST": "",
+        "UNINCORPORATED ASSOCIATION": "",
+        "FAX (A/C, Not": "888-999-1234",
+        "SUBCHAPTER - CORP": "",
+        "PARTNERSHIP": "",
+        "JOINT VENTURE": "",
+        "OTHER": "",
+        "BUREAU NAME CREDIT": "Experian",
+        "ID NUMBER": "109309193",
+        "CODE": "13910391",
+        "SUB CODE": "123456",
+        "FEDERAL EMPLOYER ID NUMBER": "9999999999",
+        "NCCI RISK ID NUMBER": "30393013903",
+        "OTHER RATING BUREAU in OR STATE EMPLOYER REGISTRATION NUMBER": "10390391093",
+        "AGENCY CUSTOMER ID": "PIZ-0131202",
+        "STATUS OF SUBMISSION": {
+            "QUOTE": "SELECTED",
+            "ISSUE POLICY": "",
+            "BOUND (Give date and/or attach copy)": "",
+            "ASSIGNED RISK (Attach ACORD 133)": ""
+        },
+        "BILLING / AUDIT INFORMATION": {
+            "BILLING PLAN": {
+                "AGENCY BILL": "SELECTED",
+                "DIRECT BILL": ""
+            },
+            "PAYMENT PLAN": {
+                "ANNUAL": "SELECTED",
+                "SEMI-ANNUAL": "",
+                "QUARTERLY": "",
+                "% DOWN": ""
+            },
+            "AUDIT": {
+                "AT EXPIRATION": "SELECTED",
+                "SEMI-ANNUAL": "",
+                "QUARTERLY": "",
+                "MONTHLY": ""
+            }
+        },
+        "POLICY INFORMATION": {
+            "PROPOSED EFF DATE": "06/06/2022",
+            "PROPOSED EXP DATE": "06/06/2023",
+            "NORMAL ANNIVERSARY RATING DATE": "06/06/2023",
+            "PARTICIPATING": "SELECTED",
+            "RETRO PLAN": "9310393109",
+            "PART 1 - WORKERS COMPENSATION (States)": "MT WY ID",
+            "PART 2 - EMPLOYER'S LIABILITY": {
+                "EACH ACCIDENT": "500,000",
+                "DISEASE-POLICY LIMIT": "500,000",
+                "DISEASE-EACH EMPLOYEE": "$ 500,000"
+            },
+            "PART 3 - OTHER STATES INS": "NO SD",
+            "DEDUCTIBLES (N / A in WI)": {
+                "MEDICAL": "SELECTED",
+                "INDEMNITY": ""
+            },
+            "AMOUNT / % (N / A in WI)": "25",
+            "OTHER COVERAGES": {
+                "U.S.L. & H.": "SELECTED",
+                "VOLUNTARY COMP": "SELECTED",
+                "FOREIGN COV": "SELECTED",
+                "MANAGED CARE OPTION": "SELECTED"
+            },
+            "DIVIDEND PLAN/SAFETY GROUP": "Dividend Plan",
+            "ADDITIONAL COMPANY INFORMATION": "N/A",
+            "SPECIFY ADDITIONAL COVERAGES / ENDORSEMENTS (Attach ACORD 101, Additional Remarks Schedule, if more space is required)": "N/A"
+        },
+        "table_data": {
+            "LOCATIONS": [
+                {
+                    "LOC": "1",
+                    "HIGHES FLOOR": "1",
+                    "STREET CITY COUNTY STATE ZIP CODE": "1140 1st Avenue N Billings, Yellowstone MT 59101"
+                },
+                {
+                    "LOC": "2",
+                    "HIGHES FLOOR": "1",
+                    "STREET CITY COUNTY STATE ZIP CODE": "2073 N 2nd St Lander. Fremont WY 82520"
+                },
+                {
+                    "LOC": "3",
+                    "HIGHES FLOOR": "1",
+                    "STREET CITY COUNTY STATE ZIP CODE": "1558 Normal Ave Burley Cassia, ID 83318"
+                }
+            ],
+            "CONTACT INFORMATION": [
+                {
+                    "TYPE": "INSPECTION",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singh@spectraltech.a"
+                },
+                {
+                    "TYPE": "ACCTNG RECORD",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singh@spectraltech.ai"
+                },
+                {
+                    "TYPE": "CLAIMS INEO",
+                    "NAME": "Ravendra Singh",
+                    "OFFICE PHONE": "732-999-1234",
+                    "MOBILE PHONE": "856-999-1234",
+                    "E-MAIL": "ravendra.singh@spectraltech.ai"
+                }
+            ],
+            "INDIVIDUALS INCLUDED / EXCLUDED": [
+                {
+                    "STATE": "WI",
+                    "LOC": "1",
+                    "NAME": "Marcela Sweeney",
+                    "DATE OF BIRTH": "05/01/1983",
+                    "TITLE RELATIONSHIP": "CEO",
+                    "OWNER SHIP": "25",
+                    "DUTIES": "Duties",
+                    "INCIEXO": "E",
+                    "CLASS CODE": "31093093",
+                    "REMUNERATION/PAYROLL": "500.000"
+                },
+                {
+                    "STATE": "WI",
+                    "LOC": "1",
+                    "NAME": "Madge Landry",
+                    "DATE OF BIRTH": "06/02/1972",
+                    "TITLE RELATIONSHIP": "CMO",
+                    "OWNER SHIP": "25",
+                    "DUTIES": "Duties",
+                    "INCIEXO": "E",
+                    "CLASS CODE": "3910193",
+                    "REMUNERATION/PAYROLL": "300.000"
+                },
+                {
+                    "STATE": "WI",
+                    "LOC": "1",
+                    "NAME": "Chadwick Padilla",
+                    "DATE OF BIRTH": "08/01/1976",
+                    "TITLE RELATIONSHIP": "CIO",
+                    "OWNER SHIP": "25",
+                    "DUTIES": "Duties",
+                    "INCIEXO": "E",
+                    "CLASS CODE": "39301390",
+                    "REMUNERATION/PAYROLL": "300.000"
+                },
+                {
+                    "STATE": "WI",
+                    "LOC": "1",
+                    "NAME": "Irene Ponce",
+                    "DATE OF BIRTH": "02/03/1972",
+                    "TITLE RELATIONSHIP": "VP",
+                    "OWNER SHIP": "25",
+                    "DUTIES": "Duties",
+                    "INCIEXO": "E",
+                    "CLASS CODE": "30913930",
+                    "REMUNERATION/PAYROLL": "300,000"
+                }
+            ]
+        }
+    },
+    "Page_2": {
+        "AGENCY CUSTOMER ID": "ELEC-01312022",
+        "PREMIUM": {
+            "TOTAL ESTIMATED ANNUAL PREMIUM": "$ 33,500",
+            "MINIMUMPREMIUM": "$ 33,500",
+            "DEPOSIT PREMIUM": "$ 33,500"
+        },
+        "RATING INFORMATION - STATE": "DESCR EMPLOYEES ESTIMATED ANNUAL ESTIMATED LOC . CLASS CODE CODE CATEGORIES DUTIES, CLASSIFICATIONS FULL PART SIC NAICS REMUNERATION RATE ANNUAL MANUAL TIME TIME PAYROLL PREMIUM Restaurant 1 391039031 1 30 20 N/A N/A 1,000,000 25 1,000,000",
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": "",
+        "table_data": {
+            "STATE RATING WORKSHEET": [
+                {
+                    "LOC .": "1",
+                    "CLASS CODE": "391039031",
+                    "CODE": "1",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "Restaurant",
+                    "FULL TIME": "30",
+                    "PART TIME": "20",
+                    "SIC": "N/A",
+                    "NAICS": "N/A",
+                    "REMUNERATION PAYROLL": "1,000,000",
+                    "RATE": "25",
+                    "ANNUAL MANUAL PREMIUM": "1,000,000"
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                },
+                {
+                    "LOC .": "",
+                    "CLASS CODE": "",
+                    "CODE": "",
+                    "CATEGORIES DUTIES, CLASSIFICATIONS": "",
+                    "FULL TIME": "",
+                    "PART TIME": "",
+                    "SIC": "",
+                    "NAICS": "",
+                    "REMUNERATION PAYROLL": "",
+                    "RATE": "",
+                    "ANNUAL MANUAL PREMIUM": ""
+                }
+            ],
+            "PREMIUM": [
+                {
+                    "STATE": "TOTAL",
+                    "FACTOR": "N/A",
+                    "FACTORED PREMIUM": "$ 11,000",
+                    "": "",
+                    "FACTOR.": "",
+                    "FACTORED PREMIUM.": "1"
+                },
+                {
+                    "STATE": "INCREASED LIMITS",
+                    "FACTOR": "1",
+                    "FACTORED PREMIUM": "$ 5,000",
+                    "": "SCHEDULE RATING",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM.": "1 1,000"
+                },
+                {
+                    "STATE": "DEDUCTIBLE",
+                    "FACTOR": "1",
+                    "FACTORED PREMIUM": "$ 1,000",
+                    "": "CCPAP",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM.": "$ 1,000"
+                },
+                {
+                    "STATE": "",
+                    "FACTOR": "",
+                    "FACTORED PREMIUM": "$",
+                    "": "STANDARDPREMIUM",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM.": "$"
+                },
+                {
+                    "STATE": "EXPERIENCE OR MERIT MODIFICATION",
+                    "FACTOR": "1",
+                    "FACTORED PREMIUM": "$ 16,500",
+                    "": "PREMIUM DISCOUNT",
+                    "FACTOR.": "1",
+                    "FACTORED PREMIUM.": "$ 0"
+                },
+                {
+                    "STATE": "",
+                    "FACTOR": "",
+                    "FACTORED PREMIUM": "$",
+                    "": "EXPENSE CONSTANT",
+                    "FACTOR.": "N/A",
+                    "FACTORED PREMIUM.": "$ 0"
+                },
+                {
+                    "STATE": "ASSIGNED RISK SURCHARGE .",
+                    "FACTOR": "1",
+                    "FACTORED PREMIUM": "$ 5,000",
+                    "": "TAXES /ASSESSMENTS",
+                    "FACTOR.": "N/A",
+                    "FACTORED PREMIUM.": "$ 0"
+                },
+                {
+                    "STATE": "ARAP",
+                    "FACTOR": "1",
+                    "FACTORED PREMIUM": "$ 10,000",
+                    "": "",
+                    "FACTOR.": "",
+                    "FACTORED PREMIUM.": "$"
+                }
+            ]
+        }
+    },
+    "Page_3": {
+        "AGENCY CUSTOMER ID": "PIZ-01312022",
+        "NATURE OF BUSINESS / DESCRIPTION OF OPERATIONS": {
+            "GIVE COMMENTS AND DESCRIPTIONS OF BUSINESS OPERATIONS AND PRODUCTS MANUFACTURING RAW MATERIALS PROCESSES PRODUCT EQUIPMENT CONTRACTOR TYPE OF WORK SUB-CONTRACTS MERCANTILE MERCHANDISE CUSTOMERS DELIVERIES SERVICE TYPE LOCATION FARM ACREAGE ANIMALS MACHINERY SUB-CONTRACTS": "Buffet restaurant"
+        },
+        "table_data": {
+            "PRIOR CARRIER INFORMATION / LOSS HISTORY": [
+                {
+                    "YEAR": "2021",
+                    "CARRIER & POLICY NUMBER": "CO Rock Solid Insurance",
+                    "ANNUAL PREMIUM": "",
+                    "MCD": "",
+                    "CLAIMS": "",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . RSI-123456-21",
+                    "ANNUAL PREMIUM": "75,000",
+                    "MCD": "1",
+                    "CLAIMS": "1",
+                    "AMOUNT PAID": "10,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2020",
+                    "CARRIER & POLICY NUMBER": "CO Rock Solid Insurance",
+                    "ANNUAL PREMIUM": "75,000",
+                    "MCD": "1",
+                    "CLAIMS": "2",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . RSI-123456-20",
+                    "ANNUAL PREMIUM": "",
+                    "MCD": "",
+                    "CLAIMS": "",
+                    "AMOUNT PAID": "20,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2019",
+                    "CARRIER & POLICY NUMBER": "CO Rock Solid Insurance",
+                    "ANNUAL PREMIUM": "75,000",
+                    "MCD": "1",
+                    "CLAIMS": "3",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . RSI-123456-19",
+                    "ANNUAL PREMIUM": "",
+                    "MCD": "",
+                    "CLAIMS": "",
+                    "AMOUNT PAID": "30,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2018",
+                    "CARRIER & POLICY NUMBER": "CO Rock Solid Insurance",
+                    "ANNUAL PREMIUM": "75,000",
+                    "MCD": "1",
+                    "CLAIMS": "4",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "POL . RSI-123456-18",
+                    "ANNUAL PREMIUM": "",
+                    "MCD": "",
+                    "CLAIMS": "",
+                    "AMOUNT PAID": "40,000",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "",
+                    "CARRIER & POLICY NUMBER": "CO Rock Solid Insurance",
+                    "ANNUAL PREMIUM": "",
+                    "MCD": "",
+                    "CLAIMS": "",
+                    "AMOUNT PAID": "",
+                    "RESERVE": ""
+                },
+                {
+                    "YEAR": "2017",
+                    "CARRIER & POLICY NUMBER": "POL RSI-123456-17",
+                    "ANNUAL PREMIUM": "75,000",
+                    "MCD": "1",
+                    "CLAIMS": "5",
+                    "AMOUNT PAID": "50,000",
+                    "RESERVE": ""
+                }
+            ],
+            "GENERAL INFORMATION": {
+                "EXPLAIN ALL 'Y/N' RESPONSES": {
+                    "1. DOES APPLICANT OWN OPERATE OR LEASE AIRCRAFT WATERCRAFT?": "N",
+                    "2. DO HAVE PAST PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING TREATING DISCHARGING APPLYING DISPOSING OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g. landfills wastes, fuel tanks etc)": "N",
+                    "3. ANY WORK PERFORMED UNDERGROUND OR ABOVE 15 FEET?": "N",
+                    "4. ANY WORK PERFORMED ON BARGES VESSELS DOCKS BRIDGE OVER WATER?": "N",
+                    "5. IS APPLICANT ENGAGED N ANY OTHER TYPE OF BUSINESS?": "N",
+                    "6. ARE SUB-CONTRACTORS USED? (If \"YES\", give % of work subcontracted": "N",
+                    "7. ANY WORK SUBLET WITHOUT CERTIFICATES OF INSURANCE? (If \"YES\" payroll for this work must be included in the State Rating Worksheet on Page 2)": "N",
+                    "8. is A WRITTEN SAFETY PROGRAM IN OPERATION?": "N",
+                    "9. ANY GROUP TRANSPORTATION PROVIDED?": "N",
+                    "10. ANY EMPLOYEES UNDER 16 OR OVER 60 YEARS OF AGE?": "N",
+                    "11. ANY SEASONAL EMPLOYEES?": "N",
+                    "12 is THERE ANY VOLUNTEER OR DONATED LABOR? (If \"YES\". please specify)": "N",
+                    "13. ANY EMPLOYEES WITH PHYSICAL HANDICAPS?": "N",
+                    "14. DO EMPLOYEES TRAVEL OUT OF STATE? (If \"YES\" indicate state(s) of travel and frequency)": "N",
+                    "15. ARE ATHLETIC TEAMS SPONSORED?": "N",
+                    "16. ARE PHYSICALS REQUIRED AFTER OFFERS OF EMPLOYMENT ARE MADE?": "N"
+                }
+            }
+        }
+    },
+    "Page_4": {
+        "AGENCY CUSTOMER ID": "PIZ-01312022",
+        "SIGNATURE": {
+            "Copy of the Notice of information Practices (Privacy) has been given to the applicant (Not required in all states contact your agent or broker for your state's requirements.)": "",
+            "(Applicant's Initials)": "",
+            "PRODUCER'S SIGNATURE": "",
+            "NATIONAL PRODUCER NUMBER": "",
+            "APPLICANT'S SIGNATURE (Must be Officer Owner or Partner)": "",
+            "ACORD": "130 (2013/09)",
+            "DATE": ""
+        },
+        "table_data": {
+            "GENERAL INFORMATION": {
+                "EXPLAIN ALL 'Y/N' RESPONSES": {
+                    "17. ANY OTHER INSURANCE WITH THIS INSURER?": "N",
+                    "18. ANY PRIOR COVERAGE DECLINED CANCELLED NON-RENEWED IN THE LAST THREE (3) YEARS? (Missouri Applicants Do not answer this question)": "N",
+                    "19. ARE EMPLOYEE HEALTH PLANS PROVIDED?": "N",
+                    "20. DO ANY EMPLOYEES PERFORM WORK FOR OTHER BUSINESSES OR SUBSIDIARIES?": "N",
+                    "21. DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": "N",
+                    "22 DO ANY EMPLOYEES PREDOMINANTLY WORK AT HOME? If \"YES\" . of Employees": "N",
+                    "23. ANY TAX LIENS OR BANKRUPTCY WITHIN THE LAST FIVE (5) YEARS? (II'YES' please specify)": "N",
+                    "24 ANY UNDISPUTED AND UNPAID WORKERS COMPENSATION PREMIUM DUE FROM YOU OR ANY COMMONLY MANAGED OR OWNED ENTERPRISES? IF YES, EXPLAIN INCLUDING ENTITY NAME(S) AND POLICY NUMBER(S).": "N"
+                }
+            }
+        }
+    },
+    "File_Name": "BuffetOne_12052022_acord-130_WC_noneditable.pdf",
+    "Page_Count": 4
+}

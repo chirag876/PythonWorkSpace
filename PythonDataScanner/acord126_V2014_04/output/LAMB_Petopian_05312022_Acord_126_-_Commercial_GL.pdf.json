@@ -1,0 +1,437 @@
+{
+    "Page_1": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "PET-05281985",
+            "DATE MM DD/YYYY)": "06/02/2022",
+            "AGENCY": "Acme Insurance Services",
+            "CARRIER": "Marketing Only.",
+            "NAIC CODE": "N/A",
+            "POLICY NUMBER": "SC-123456",
+            "EFFECTIVE DATE": "07/04/2022",
+            "APPLICANT FIRST NAMED INSURED": "Petopian",
+            "COMMERCIAL GENERAL LIABILITY": "SELECTED",
+            "GENERAL AGGREGATE": "$ 250,000",
+            "CLAIMS MADE": "SELECTED",
+            "OCCURRENCE": "",
+            "POLICY": "SELECTED",
+            "LOCATION": "",
+            "PREMISES/OPERATIONS": "250,000",
+            "OWNER'S & CONTRACTOR'S PROTECTIVE": "SELECTED",
+            "PROJECT": "",
+            "OTHER": "250,000",
+            "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "$ 2,500,000",
+            "PRODUCTS": "250,000",
+            "PERSONAL & ADVERTISING INJURY": "$ 2,500,000",
+            "PROPERTY DAMAGE": "$ 2,500,000",
+            "EACHOCCURRENCE": "$ 2,500,000",
+            "PER CLASS": "SELECTED",
+            "BODILY INJURY": "$ 2,500,000",
+            "DAMAGE TO RENTED PREMISES (each occurrence)": "$ 2,500,000",
+            "PER OCCURRENCE": "",
+            "MEDICAL EXPENSE (Any one person)": "$ 2,500,000",
+            "TOTAL": "750,000",
+            "EMPLOYEE BENEFITS": "$ 2,500,000",
+            ". NOT AVAILABLE": "",
+            "1. PROPOSED RETROACTIVE DATE": "07/01/2022",
+            "2. ENTRY DATE INTO UNINTERRUPTED CLAIMS MADE COVERAGE": "07/01/2022",
+            "3. HAS ANY PRODUCT WORK ACCIDENT OR LOCATION BEEN EXCLUDED UNINSURED OR SELF-INSURED FROM ANY PREVIOUS COVERAGE?": "N",
+            "4. WAS TAIL COVERAGE PURCHASED UNDER ANY PREVIOUS POLICY?": "N",
+            "1. DEDUCTIBLE PER CLAIM": "$ 250,000",
+            "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS": "31",
+            "2. NUMBER OF EMPLOYEES": "42",
+            "4. RETROACTIVE DATE": "07/01/2022",
+            "ACORD": "126 (2014/04)",
+            "IS NOT AVAILABLE": "",
+            "is": "",
+            ".": ""
+        },
+        "table_data": {
+            "table_1": [
+                {
+                    "AGENCY": "Acme Insurance Services",
+                    "CARRIER": "",
+                    "NAIC CODE": "Marketing Only."
+                },
+                {
+                    "AGENCY": "POLICY NUMBER",
+                    "CARRIER": "EFFECTIVE DATE",
+                    "NAIC CODE": "APPLICANT FIRST NAMED INSURED"
+                },
+                {
+                    "AGENCY": "SC-123456",
+                    "CARRIER": "07/04/2022",
+                    "NAIC CODE": "Petopian"
+                }
+            ],
+            "table_2": [
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "PERSONAL & ADVERTISING INJURY",
+                    "$ 2,500,000": "$ 2,500,000"
+                },
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "EACHOCCURRENCE",
+                    "$ 2,500,000": "$ 2,500,000"
+                },
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "DAMAGE TO RENTED PREMISES (each occurrence)",
+                    "$ 2,500,000": "$ 2,500,000"
+                },
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "MEDICAL EXPENSE (Any one person)",
+                    "$ 2,500,000": "$ 2,500,000"
+                },
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "EMPLOYEE BENEFITS",
+                    "$ 2,500,000": "$ 2,500,000"
+                },
+                {
+                    "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": "",
+                    "$ 2,500,000": "$"
+                }
+            ],
+            "table_3": [
+                {
+                    ".": "1",
+                    ",": "1",
+                    "CODE": "Bicycle Mig Not Motorized",
+                    "BASIS": "51370",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "2",
+                    ",": "1",
+                    "CODE": "Motorcycle Moped, or Motor",
+                    "BASIS": "57202",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "3",
+                    ",": "1",
+                    "CODE": "Bicycle Stores Sales and S",
+                    "BASIS": "10150",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "4",
+                    ",": "1",
+                    "CODE": "Bicycles Rented to Others",
+                    "BASIS": "10151",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "5",
+                    ",": "1",
+                    "CODE": "Amuesement Centers",
+                    "BASIS": "10015",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "6",
+                    ",": "1",
+                    "CODE": "Amuesement Parks",
+                    "BASIS": "10020",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "7",
+                    ",": "1",
+                    "CODE": "Antique Stores",
+                    "BASIS": "10026",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                },
+                {
+                    ".": "8",
+                    ",": "1",
+                    "CODE": "Anhydrous Ammonia Dealers",
+                    "BASIS": "10036",
+                    "EXPOSURE": "S",
+                    "PREMOPS": "10,000,000",
+                    "PRODUCTS": "25%",
+                    "PREMIOPS": "25%"
+                }
+            ]
+        }
+    },
+    "Page_2": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "PET-05281985",
+            "1. DOES APPLICANT DRAW PLANS DESIGNS OR SPECIFICATIONS FOR OTHERS?": "N",
+            "2. DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?": "N",
+            "3. DO ANY OPERATIONS INCLUDE EXCAVATION TUNNELING UNDERGROUND WORK OR EARTH MOVING?": "N",
+            "4. DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?": "N",
+            "5. ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?": "N",
+            "6. DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?": "N",
+            "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": "",
+            "SPAID TO SUB- CONTRACTORS": "0",
+            "% OF WORK SUBCONTRACTED": "0",
+            "FULL TIME STAFF": "24",
+            "PART TIME STAFF": "14",
+            "1. DOES APPLICANT INSTALL SERVICE OR DEMONSTRATE PRODUCTS?": "N",
+            "2. FOREIGN PRODUCTS SOLD DISTRIBUTED USED AS COMPONENTS? (If \"YES\" attach ACORD 815)": "N",
+            "3. RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?": "n",
+            "4. GUARANTEES WARRANTIES HOLD HARMLESS AGREEMENTS?": "N",
+            "5. PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?": "N",
+            "6. PRODUCTS RECALLED DISCONTINUED CHANGED?": "N",
+            "7. PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?": "N",
+            "8. PRODUCTS UNDER LABEL OF OTHERS?": "N",
+            "9. VENDORS COVERAGE REQUIRED?": "N",
+            "10. DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?": "N",
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": [
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "1. DOES APPLICANT DRAW PLANS DESIGNS OR SPECIFICATIONS FOR OTHERS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "2. DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "3. DO ANY OPERATIONS INCLUDE EXCAVATION TUNNELING UNDERGROUND WORK OR EARTH MOVING?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "4. DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "5. ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "6. DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?",
+                    "Y / N": "N"
+                }
+            ],
+            "table_2": [
+                {
+                    "PRODUCTS": "Dog Food",
+                    "ANNUAL GROSS SALES": "5,000,000",
+                    ". OF UNITS": "1,000,000",
+                    "THAT IN MARKET": "25",
+                    "EXPECTED LIFE": "24",
+                    "INTENDED USE": "Consumption",
+                    "PRINCIPAL COMPONENTS": "Dog Food"
+                },
+                {
+                    "PRODUCTS": "Cat Food",
+                    "ANNUAL GROSS SALES": "5,000,000",
+                    ". OF UNITS": "1,000,000",
+                    "THAT IN MARKET": "25",
+                    "EXPECTED LIFE": "24",
+                    "INTENDED USE": "Consumption",
+                    "PRINCIPAL COMPONENTS": "Cat Food"
+                },
+                {
+                    "PRODUCTS": "Cat Litter",
+                    "ANNUAL GROSS SALES": "5,000,000",
+                    ". OF UNITS": "1,000,000",
+                    "THAT IN MARKET": "25",
+                    "EXPECTED LIFE": "24",
+                    "INTENDED USE": "Consumption",
+                    "PRINCIPAL COMPONENTS": "Cat Litter"
+                }
+            ],
+            "table_3": [
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "1. DOES APPLICANT INSTALL SERVICE OR DEMONSTRATE PRODUCTS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "2. FOREIGN PRODUCTS SOLD DISTRIBUTED USED AS COMPONENTS? (If \"YES\" attach ACORD 815)",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "3. RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?",
+                    "Y / N": "n"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "4. GUARANTEES WARRANTIES HOLD HARMLESS AGREEMENTS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "5. PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "6. PRODUCTS RECALLED DISCONTINUED CHANGED?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "7. PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "8. PRODUCTS UNDER LABEL OF OTHERS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "9. VENDORS COVERAGE REQUIRED?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For at past or present products or operations) PLEASE ATTACHLITERATURE BROCHURES LABELS WARNINGS ETC.": "10. DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?",
+                    "Y / N": "N"
+                }
+            ]
+        }
+    },
+    "Page_3": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "PET-05281985",
+            "ACORD 45 attached for additional names": "",
+            "NAME AND ADDRESS": "State of Ohio Department of Taxation 180 E Broad St Ste 16 Columbus OH 43215 REFERENCE LOAN 131153513",
+            "BANK": "AA",
+            "EVIDENCE": "SELECTED",
+            "ADDITIONAL INSURED": "SELECTED",
+            "LOCATION": "1",
+            "BUILDING": "2",
+            "EMPLOYEE AS LESSOR": "",
+            "ITEM CLASS": "3",
+            "ITEM": "4",
+            "ITEM DESCRIPTION": "",
+            "LOSS PAYEE": "",
+            "3. DO/HAVE PAST PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING TREATING DISCHARGING APPLYING DISPOSING OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g landfills wastes fuel tanks etc)": "N",
+            "4. ANY OPERATIONS SOLD ACQUIRED OR DISCONTINUED IN LAST FIVE (5) YEARS?": "N",
+            "5. DO YOU RENT OR LOAN EQUIPMENT TO OTHERS?": "N",
+            "SMALL TOOLS": "",
+            "LARGE EQUIPMENT": "",
+            "6. ANY WATERCRAFT DOCKS FLOATS OWNED HIRED OR LEASED?": "N",
+            "7. ANY PARKING FACILITIES OWNED/RENTED?": "N",
+            "8. IS A FEE CHARGED FOR PARKING?": "N",
+            "9. RECREATION FACILITIES PROVIDED?": "N",
+            "10. ARE THERE ANY LODGING OPERATIONS INCLUDING APARTMENTS (If \"YES\" answer the following)": "N",
+            ". APTS": "",
+            "TOTAL APT AREA": "5q FL",
+            "DESCRIBE OTHER LODGING OPERATIONS": "",
+            "APPROVED FENCE": "",
+            "LIMITED ACCESS": "",
+            "DIVING BOARD": "",
+            "SLIDE": "",
+            "ABOVE GROUND": "",
+            "IN GROUND": "",
+            "LIFE GUARD": "",
+            "12. ARE SOCIAL EVENTS SPONSORED?": "N",
+            "13. ARE ATHLETIC TEAMS SPONSORED?": "N",
+            "TYPE OF SPORT": "",
+            "CONTACT SPORT (Y/N)": "",
+            "13-18": "",
+            "13.18": "",
+            "12 UNDER": "",
+            "OVER 18": "",
+            "EXTENT OF SPONSORSHIP": "",
+            "14. ANY STRUCTURAL ALTERATIONS CONTEMPLATED?": "n",
+            "15. ANY DEMOLITION EXPOSURE CONTEMPLATED?": "N",
+            "ACORD": "126 (2014/04)",
+            "2. ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?": "N",
+            "LIENHOLDER": "",
+            "1. ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?": "N",
+            "MORTGAGEE": ""
+        },
+        "table_data": {
+            "table_1": [
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "1. ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "2. ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "3. DO/HAVE PAST PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING TREATING DISCHARGING APPLYING DISPOSING OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g landfills wastes fuel tanks etc)",
+                    "Y / N": "N"
+                },
+                {
+                    "EXPLAIN ALL \"YES\" RESPONSES (For all past or present operations": "4. ANY OPERATIONS SOLD ACQUIRED OR DISCONTINUED IN LAST FIVE (5) YEARS?",
+                    "Y / N": "N"
+                }
+            ],
+            "table_2": [
+                {
+                    "EQUIPMENT": "SMALL TOOLS",
+                    "TYPE OF": "",
+                    "INSTRUCTION GIVEN (Y/N)": ""
+                },
+                {
+                    "EQUIPMENT": "SMALL TOOLS",
+                    "TYPE OF": "",
+                    "INSTRUCTION GIVEN (Y/N)": ""
+                }
+            ]
+        }
+    },
+    "Page_4": {
+        "all_kvs": {
+            "AGENCY CUSTOMER ID": "PET-05281985",
+            "16. HAS APPLICANT BEEN ACTIVE IN OR IS CURRENTLY ACTIVE IN JOINT VENTURES": "N",
+            "17. DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": "N",
+            "18. IS THERE A LABOR INTERCHANGE WITH ANY OTHER BUSINESS OR SUBSIDIARIES?": "n",
+            "19. ARE DAY CARE FACILITIES OPERATED OR CONTROLLED?": "N",
+            "20. HAVE ANY CRIMES OCCURRED OR BEEN ATTEMPTED ON YOUR PREMISES WITHIN THE LAST THREE (3) YEARS?": "N",
+            "21. IS THERE A FORMAL WRITTEN SAFETY AND SECURITY POLICY IN EFFECT?": "N",
+            "22 DOES THE BUSINESSES PROMOTIONAL LITERATURE MAKE ANY REPRESENTATIONS ABOUT THE SAFETY OR SECURITY OF THE PREMISES?": "N",
+            "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": "",
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "STATE PRODUCER LICENSE NO (Required in Florida": "",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Ravendra Singh",
+            "DATE": "06/02/2022",
+            "NATIONAL PRODUCER NUMBER": "",
+            "ACORD": "126 (2014/04)"
+        },
+        "table_data": {
+            "table_1": [
+                {
+                    "LEASE FROM": "",
+                    "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": ""
+                },
+                {
+                    "LEASE FROM": "",
+                    "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": ""
+                }
+            ],
+            "table_2": [
+                {
+                    "LEASE TO": "",
+                    "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": ""
+                },
+                {
+                    "LEASE TO": "",
+                    "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": ""
+                }
+            ],
+            "table_3": {
+                "PRODUCER'S SIGNATURE Kiera Contreni": "APPLICANT'S SIGNATURE Ravendra Singh",
+                "PRODUCER'S NAME (Please Print) Kiera Contreni": "",
+                "": "DATE 06/02/2022",
+                "STATE PRODUCER LICENSE NO (Required in Florida": "NATIONAL PRODUCER NUMBER"
+            }
+        }
+    },
+    "File name": "LAMB_Petopian_05312022_Acord_126_-_Commercial_GL.pdf",
+    "Page count": 4
+}

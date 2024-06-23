@@ -1,0 +1,1056 @@
+{
+    "Page_1": {
+        "COMMERCIAL GENERAL LIABILITY SECTION": {
+            "AGENCY CUSTOMER ID": "MEDICI-073189",
+            "DATE (MM/DD/YYYY)": "05/23/2022",
+            "AGENCY": "Lamb Insurance Services 1385 Hwy 35 PMB 170 Middletown, NJ 07748",
+            "CARRIER": "Marketing Only.",
+            "NAIC CODE": "N/A",
+            "POLICY NUMBER": "ME07311989",
+            "EFFECTIVE DATE": null,
+            "APPLICANT / FIRST NAMED INSURED": null,
+            "COVERAGES": {
+                "COMMERCIAL GENERAL LIABILITY": "$",
+                "CLAIMS MADE": null,
+                "OCCURRENCE": null,
+                "OWNER'S & CONTRACTOR'S PROTECTIVE": null
+            },
+            "DEDUCTIBLES": {
+                "PROPERTY DAMAGE": null,
+                "BODILY INJURY": null,
+                "PER CLAIM": null,
+                "PER OCCURRENCE": null
+            },
+            "LIMITS": {
+                "GENERAL AGGREGATE": null,
+                "LIMIT APPLIES PER": {
+                    "POLICY": null,
+                    "PROJECT": null,
+                    "LOCATION": null,
+                    "OTHER": null
+                }
+            },
+            "PRODUCTS & COMPLETED OPERATIONS AGGREGATE": null,
+            "PERSONAL & ADVERTISING INJURY": null,
+            "EACH OCCURRENCE": null,
+            "DAMAGE TO RENTED PREMISES (each occurrence)": null,
+            "MEDICAL EXPENSE (Any one person)": null,
+            "EMPLOYEE BENEFITS": null,
+            "PREMIUMS": {
+                "PREMISES/OPERATIONS": null,
+                "PRODUCTS": null,
+                "OTHER": null,
+                "TOTAL": null
+            },
+            "OTHER COVERAGES, RESTRICTIONS AND/OR ENDORSEMENTS (For hired/non-owned auto coverages attach the applicable state Business Auto Section, ACORD 137)": null,
+            "APPLICABLE ONLY IN WISCONSIN: IF NON-OWNED ONLY AUTO COVERAGE IS TO BE PROVIDED UNDER THE POLICY:": {
+                "1. UM / UIM COVERAGE": {
+                    "IS": null,
+                    "IS NOT AVAILABLE": null
+                },
+                "2. MEDICAL PAYMENTS COVERAGE": {
+                    "IS": null,
+                    "IS NOT AVAILABLE": null
+                }
+            },
+            "SCHEDULE OF HAZARDS": {
+                "LOC": null,
+                "HAZ": null,
+                "CLASSIFICATION": null,
+                "CLASS CODE": null,
+                "PREMIUM BASIS": null,
+                "EXPOSURE": null,
+                "TERR": null,
+                "RATE": {
+                    "PREM/OPS": null,
+                    "PRODUCTS": null
+                },
+                "PREMIUM": {
+                    "PREM/OPS": null,
+                    "PRODUCTS": null
+                }
+            },
+            "CLAIMS MADE (Explain all 'Yes' responses)": {
+                "EXPLAIN ALL 'YES' RESPONSES": {
+                    "1": {
+                        "PROPOSED RETROACTIVE DATE": null,
+                        "Y / N": null
+                    },
+                    "2": {
+                        "ENTRY DATE INTO UNINTERRUPTED CLAIMS MADE COVERAGE": null,
+                        "Y / N": null
+                    },
+                    "3": {
+                        "HAS ANY PRODUCT, WORK, ACCIDENT, OR LOCATION BEEN EXCLUDED, UNINSURED OR SELF-INSURED FROM ANY PREVIOUS COVERAGE?": null,
+                        "Y / N": null
+                    },
+                    "4": {
+                        "WAS TAIL COVERAGE PURCHASED UNDER ANY PREVIOUS POLICY?": null,
+                        "Y / N": null
+                    }
+                }
+            },
+            "EMPLOYEE BENEFITS LIABILITY": {
+                "1. DEDUCTIBLE PER CLAIM": null,
+                "2. NUMBER OF EMPLOYEES": null,
+                "3. NUMBER OF EMPLOYEES COVERED BY EMPLOYEE BENEFITS PLANS": null,
+                "4. RETROACTIVE DATE": null
+            },
+            "table_data": null
+        },
+        "table_data": {
+            "table_1": {
+                "CARRIER": "Marketing Only.",
+                "NAIC CODE": "N/A"
+            },
+            "table_2": {
+                "COMPANY POLICY OR PROGRAM NAME": "Basic Business Coverage",
+                "PROGRAM CODE": "BB0731"
+            },
+            "table_3": [
+                {
+                    "X": "STATUS OF TRANSACTION",
+                    "QUOTE": "",
+                    "ISSUE": "BOUND (Give Date",
+                    "POLICY": "and/or",
+                    "RENEW": "Attach"
+                },
+                {
+                    "X": "",
+                    "QUOTE": "",
+                    "ISSUE": "CHANGE DATE",
+                    "POLICY": "",
+                    "RENEW": ""
+                },
+                {
+                    "X": "",
+                    "QUOTE": "",
+                    "ISSUE": "CANCEL",
+                    "POLICY": "",
+                    "RENEW": ""
+                }
+            ],
+            "table_4": [
+                {
+                    "YACHT": "",
+                    ",": ""
+                },
+                {
+                    "YACHT": "",
+                    ",": ""
+                },
+                {
+                    "YACHT": "",
+                    ",": ""
+                },
+                {
+                    "YACHT": "",
+                    ",": ""
+                },
+                {
+                    "YACHT": "",
+                    ",": ""
+                },
+                {
+                    "YACHT": "",
+                    ",": ""
+                }
+            ],
+            "table_5": [
+                {
+                    "INDICATE LINES OF BUSINESS": "",
+                    "PREMIUM": "BOILER MACHINERY"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "",
+                    "PREMIUM": "BUSINESS AUTO"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "",
+                    "PREMIUM": "BUSINESS OWNERS"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "X",
+                    "PREMIUM": "COMMERCIAL GENERAL LIABILITY"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "",
+                    "PREMIUM": "COMMERCIAL NLAND MARINE"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "X",
+                    "PREMIUM": "COMMERCIAL PROPERTY"
+                },
+                {
+                    "INDICATE LINES OF BUSINESS": "X",
+                    "PREMIUM": "CRIME"
+                }
+            ],
+            "table_6": [
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "FIDUCIARY LIABILITY"
+                },
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "GARAGE AND DEALERS"
+                },
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "LIQUOR LIABILITY"
+                },
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "MOTOR CARRIER"
+                },
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "TRUCKERS"
+                },
+                {
+                    "CYBER AND PRIVACY": "",
+                    "$": "UMBRELLA"
+                }
+            ],
+            "table_7": [
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "ADDITIONAL INTEREST SCHEDULE",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "ADDITIONAL PREMISES INFORMATION SCHEDULE",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "APARTMENT BUILDING SUPPLEMENT",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "CONDO ASSN BYLAWS (for D&O Coverage only)",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "CONTRACTOR SUPPLEMENT",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "COVERAGES SCHEDULE",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "DEALERS SECTION",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "DRIVER INFORMATION SCHEDULE",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                },
+                {
+                    "ACCOUNTS RECEIVABLE VALUABLE PAPERS": "",
+                    "GLASS AND SIGN SECTION": "ELECTRONIC DATA PROCESSING SECTION",
+                    "STATEMENT SCHEDULE OF VALUES": ""
+                }
+            ],
+            "table_8": {
+                "PROPOSED EFF DATE": "06/02/2022",
+                "PROPOSED EXP DATE": "06/02/2023",
+                "BILLING": "X DIRECT",
+                "": "",
+                "PLAN": "AGENCY",
+                "PAYMENT PLAN": "",
+                "METHOD OF PAYMENT": "",
+                "AUDIT": "",
+                "DEPOSIT": "$",
+                "MINISTRA PREMIUM": "$",
+                "POLICY PREMIUM": "$"
+            },
+            "table_9": {
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR SOC SEC .": "22-1918501"
+            },
+            "table_10": {
+                "": "",
+                "CORPORATION": "INDIVIDUAL",
+                "JOINT VENTURE": "NO OF MEMBERS LLC AND MANAGERS",
+                "X": "",
+                "NOT FOR PROFIT ORG": "PARTNERSHIP",
+                "SUBCHAPTER \"s\" CORPORATION": "TRUST"
+            },
+            "table_11": {
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR 500 SEC .": ""
+            },
+            "table_12": {
+                "X": "",
+                "CORPORATION": "INDIVIDUAL",
+                "": "",
+                "JOINT VENTURE": "NO OF MEMBERS LLC AND MANAGERS",
+                "NOT FOR PROFIT ORG": "PARTNERSHIP",
+                "SUBCHAPTER \"s\" CORPORATION": "TRUST"
+            },
+            "table_13": {
+                "GL CODE": "",
+                "SIC": "",
+                "NAICS": "",
+                "FEIN OR SOC SEC .": ""
+            },
+            "table_14": {
+                "": "",
+                "CORPORATION": "INDIVIDUAL",
+                "JOINT VENTURE": "NO OF MEMBERS LLC AND MANAGERS",
+                "NOT FOR PROFIT ORG": "PARTNERSHIP",
+                "SUBCHAPTER 's' CORPORATION": "TRUST"
+            }
+        }
+    },
+    "Page_2": {
+        "CONTRACTORS": {
+            "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "1": {
+                    "DOES APPLICANT DRAW PLANS, DESIGNS, OR SPECIFICATIONS FOR OTHERS?": null,
+                    "Y / N": null
+                },
+                "2": {
+                    "DO ANY OPERATIONS INCLUDE BLASTING OR UTILIZE OR STORE EXPLOSIVE MATERIAL?": null,
+                    "Y / N": null
+                },
+                "3": {
+                    "DO ANY OPERATIONS INCLUDE EXCAVATION, TUNNELING, UNDERGROUND WORK OR EARTH MOVING?": null,
+                    "Y / N": null
+                },
+                "4": {
+                    "DO YOUR SUBCONTRACTORS CARRY COVERAGES OR LIMITS LESS THAN YOURS?": null,
+                    "Y / N": null
+                },
+                "5": {
+                    "ARE SUBCONTRACTORS ALLOWED TO WORK WITHOUT PROVIDING YOU WITH A CERTIFICATE OF INSURANCE?": null,
+                    "Y / N": null
+                },
+                "6": {
+                    "DOES APPLICANT LEASE EQUIPMENT TO OTHERS WITH OR WITHOUT OPERATORS?": null,
+                    "Y / N": null
+                }
+            }
+        },
+        "DESCRIBE THE TYPE OF WORK SUBCONTRACTED": {
+            "$ PAID TO SUBCONTRACTORS": null,
+            "% OF WORK SUBCONTRACTED": null,
+            "# FULL TIME STAFF": null,
+            "# PARTTIME STAFF": null
+        },
+        "PRODUCTS / COMPLETED OPERATIONS": {
+            "PRODUCTS": null,
+            "ANNUAL GROSS SALES": null,
+            "# OF UNITS": null,
+            "TIME IN MARKET": null,
+            "EXPECTED LIFE": null,
+            "INTENDED USE": null,
+            "PRINCIPAL COMPONENTS": null
+        },
+        "EXPLAIN ALL 'YES' RESPONSES (For all past or present products or operations) PLEASE ATTACH LITERATURE, BROCHURES, LABELS, WARNINGS, ETC.": {
+            "1": {
+                "DOES APPLICANT INSTALL, SERVICE OR DEMONSTRATE PRODUCTS?": null,
+                "Y / N": null
+            },
+            "2": {
+                "FOREIGN PRODUCTS SOLD, DISTRIBUTED, USED AS COMPONENTS? (If 'YES', attach ACORD 815)": null,
+                "Y / N": null
+            },
+            "3": {
+                "RESEARCH AND DEVELOPMENT CONDUCTED OR NEW PRODUCTS PLANNED?": null,
+                "Y / N": null
+            },
+            "4": {
+                "GUARANTEES, WARRANTIES, HOLD HARMLESS AGREEMENTS?": null,
+                "Y / N": null
+            },
+            "5": {
+                "PRODUCTS RELATED TO AIRCRAFT/SPACE INDUSTRY?": null,
+                "Y / N": null
+            },
+            "6": {
+                "PRODUCTS RECALLED, DISCONTINUED, CHANGED?": null,
+                "Y / N": null
+            },
+            "7": {
+                "PRODUCTS OF OTHERS SOLD OR RE-PACKAGED UNDER APPLICANT LABEL?": null,
+                "Y / N": null
+            },
+            "8": {
+                "PRODUCTS UNDER LABEL OF OTHERS?": null,
+                "Y / N": null
+            },
+            "9": {
+                "VENDORS COVERAGE REQUIRED?": null,
+                "Y / N": null
+            },
+            "10": {
+                "DOES ANY NAMED INSURED SELL TO OTHER NAMED INSUREDS?": null,
+                "Y / N": null
+            }
+        },
+        "table_data": {
+            "table_1": {
+                "CONTACT TYPE": "CONTACT NAME",
+                "": ""
+            },
+            "table_2": {
+                "PRIMARY E-MAIL ADDRESS": "SECONDARY E-MAIL ADDRESS",
+                "kacie.murphy@medicinzy.org": ""
+            },
+            "table_3": [
+                {
+                    "LOC": "1",
+                    "STREET 7536 Indian Spring St.": "Suite A",
+                    "CITY": "",
+                    "LIMITS": "X",
+                    "INTEREST": "INSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "OWNER"
+                },
+                {
+                    "LOC": "BLD",
+                    "STREET 7536 Indian Spring St.": "CITY: Somerset",
+                    "CITY": "STATE: NJ",
+                    "LIMITS": "",
+                    "INTEREST": "OUTSIDE",
+                    ". FULL TIME EMPL": "X",
+                    "ANNUAL REVENUES $": "TENANT"
+                },
+                {
+                    "LOC": "1",
+                    "STREET 7536 Indian Spring St.": "COUNTY: Somerset County",
+                    "CITY": "ZIP-08837",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "DESCRIPTION",
+                    "STREET 7536 Indian Spring St.": "OF OPERATIONS",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "LOC",
+                    "STREET 7536 Indian Spring St.": "STREET",
+                    "CITY": "",
+                    "LIMITS": "CITY",
+                    "INTEREST": "LIMITS",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "INTEREST"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "INSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "OWNER"
+                },
+                {
+                    "LOC": "BLD",
+                    "STREET 7536 Indian Spring St.": "CITY:",
+                    "CITY": "STATE:",
+                    "LIMITS": "",
+                    "INTEREST": "OUTSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "TENANT"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "COUNTY:",
+                    "CITY": "ZIP",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "DESCRIPTION",
+                    "STREET 7536 Indian Spring St.": "OF OPERATIONS:",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "LOC",
+                    "STREET 7536 Indian Spring St.": "STREET",
+                    "CITY": "",
+                    "LIMITS": "CITY",
+                    "INTEREST": "LIMITS",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "INTEREST"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "INSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "OWNER"
+                },
+                {
+                    "LOC": "BLD",
+                    "STREET 7536 Indian Spring St.": "CITY:",
+                    "CITY": "STATE",
+                    "LIMITS": "",
+                    "INTEREST": "OUTSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "TENANT"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "COUNTY",
+                    "CITY": "ZIP",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "DESCRIPTION",
+                    "STREET 7536 Indian Spring St.": "OF OPERATIONS",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "LOC",
+                    "STREET 7536 Indian Spring St.": "STREET",
+                    "CITY": "",
+                    "LIMITS": "CITY",
+                    "INTEREST": "LIMITS",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "INTEREST"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "INSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "OWNER"
+                },
+                {
+                    "LOC": "BLD",
+                    "STREET 7536 Indian Spring St.": "CITY:",
+                    "CITY": "STATE",
+                    "LIMITS": "",
+                    "INTEREST": "OUTSIDE",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": "TENANT"
+                },
+                {
+                    "LOC": "",
+                    "STREET 7536 Indian Spring St.": "COUNTY",
+                    "CITY": "ZIP",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                },
+                {
+                    "LOC": "DESCRIPTION",
+                    "STREET 7536 Indian Spring St.": "OF OPERATIONS",
+                    "CITY": "",
+                    "LIMITS": "",
+                    "INTEREST": "",
+                    ". FULL TIME EMPL": "",
+                    "ANNUAL REVENUES $": ""
+                }
+            ],
+            "table_4": {
+                "APARTMENTS": "CONDOMINIUMS",
+                "": "",
+                "CONTRACTOR": "INSTITUTIONAL",
+                "MANUFACTURING": "OFFICE",
+                "RESTAURANT": "RETAIL",
+                "SERVICE": "WHOLESALE",
+                "X": "",
+                "Nonprofit": "",
+                "DATE BUSINESS STARTED (MM/DD/YYYY)": "07/31/1989"
+            },
+            "table_5": {
+                "INSTALLATION SERVICE OR REPAIR WORK": "%",
+                "OFF PREMISES INSTALLATION SERVICE OR REPAIR WORK": "%"
+            },
+            "table_6": [
+                {
+                    "INTEREST IN": "LOCATION:",
+                    "ITEM NUMBER": "BUILDING"
+                },
+                {
+                    "INTEREST IN": "VEHICLE:",
+                    "ITEM NUMBER": "BOAT"
+                },
+                {
+                    "INTEREST IN": "AIRPORT",
+                    "ITEM NUMBER": "AIRCRAFT"
+                },
+                {
+                    "INTEREST IN": "ITEM CLASS:",
+                    "ITEM NUMBER": "ITEM"
+                }
+            ],
+            "table_7": [
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "BREACH OF WARRANTY",
+                    "LIENHOLDER": ""
+                },
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "CO-OWNER",
+                    "LIENHOLDER": "X"
+                },
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "EMPLOYEE SLESSOR",
+                    "LIENHOLDER": ""
+                },
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "LEASEBACK OWNER",
+                    "LIENHOLDER": ""
+                },
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "LENDER'S LOGS PAYABLE",
+                    "LIENHOLDER": ""
+                },
+                {
+                    "X": "",
+                    "ADDITIONAL INSURED": "",
+                    "LIENHOLDER": ""
+                }
+            ],
+            "table_8": {
+                "REFERENCE LOAN #: 07311989": "LIEN AMOUNT $4,500",
+                "INTEREST END DATE:": "PHONE (A/C. No. EXI:"
+            }
+        }
+    },
+    "Page_3": {
+        "ADDITIONAL INTEREST / CERTIFICATE RECIPIENT": null,
+        "INTEREST": {
+            "ADDITIONAL INSURED": null,
+            "EMPLOYEE AS LESSOR": null,
+            "LIENHOLDER": null,
+            "LOSS PAYEE": null,
+            "MORTGAGEE": null
+        },
+        "NAME AND ADDRESS": null,
+        "RANK": null,
+        "EVIDENCE": null,
+        "CERTIFICATE": null,
+        "REFERENCE / LOAN #": null,
+        "INTEREST IN ITEM NUMBER": {
+            "LOCATION": null,
+            "BUILDING": null,
+            "ITEM CLASS": null,
+            "ITEM": null,
+            "ITEM DESCRIPTION": null
+        },
+        "GENERAL INFORMATION": {
+            "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "1": {
+                    "ANY MEDICAL FACILITIES PROVIDED OR MEDICAL PROFESSIONALS EMPLOYED OR CONTRACTED?": null,
+                    "Y / N": null
+                },
+                "2": {
+                    "ANY EXPOSURE TO RADIOACTIVE/NUCLEAR MATERIALS?": null,
+                    "Y / N": null
+                },
+                "3": {
+                    "DO/HAVE PAST, PRESENT OR DISCONTINUED OPERATIONS INVOLVE(D) STORING, TREATING, DISCHARGING, APPLYING, DISPOSING, OR TRANSPORTING OF HAZARDOUS MATERIAL? (e.g. landfills, wastes, fuel tanks, etc)": null,
+                    "Y / N": null
+                },
+                "4": {
+                    "ANY OPERATIONS SOLD, ACQUIRED, OR DISCONTINUED IN LAST FIVE (5) YEARS?": null,
+                    "Y / N": null
+                },
+                "5": {
+                    "DO YOU RENT OR LOAN EQUIPMENT TO OTHERS?": {
+                        "EQUIPMENT": null,
+                        "TYPE OF EQUIPMENT": {
+                            "SMALL TOOLS": "",
+                            "LARGE EQUIPMENT": ""
+                        },
+                        "INSTRUCTION GIVEN (Y/N)": null
+                    },
+                    "Y / N": null
+                },
+                "6": {
+                    "ANY WATERCRAFT, DOCKS, FLOATS OWNED, HIRED OR LEASED?": null,
+                    "Y / N": null
+                },
+                "7": {
+                    "ANY PARKING FACILITIES OWNED/RENTED?": null,
+                    "Y / N": null
+                },
+                "8": {
+                    "IS A FEE CHARGED FOR PARKING?": null,
+                    "Y / N": null
+                },
+                "9": {
+                    "RECREATION FACILITIES PROVIDED?": null,
+                    "Y / N": null
+                },
+                "10": {
+                    "ARE THERE ANY LODGING OPERATIONS INCLUDING APARTMENTS? (If 'YES', answer the following):": {
+                        "# APTS": null,
+                        "TOTAL APT AREA": null,
+                        "DESCRIBE OTHER LODGING OPERATIONS": null
+                    },
+                    "Y / N": null
+                },
+                "11": {
+                    "IS THERE A SWIMMING POOL ON PREMISES? (Check all that apply)": {
+                        "APPROVED FENCE": null,
+                        "LIMITED ACCESS": null,
+                        "DIVING BOARD": null,
+                        "SLIDE": null,
+                        "ABOVE GROUND": null,
+                        "IN GROUND": null,
+                        "LIFE GUARD": null
+                    },
+                    "Y / N": null
+                },
+                "12": {
+                    "ARE SOCIAL EVENTS SPONSORED?": null,
+                    "Y / N": null
+                },
+                "13": {
+                    "ARE ATHLETIC TEAMS SPONSORED?": {
+                        "TYPE OF SPORT": null,
+                        "CONTACT SPORT (Y/N)": null,
+                        "AGE GROUP": {
+                            "12 & UNDER": "",
+                            "13 - 18": "",
+                            "OVER 18": ""
+                        },
+                        "EXTENT OF SPONSORSHIP": null
+                    },
+                    "Y / N": null
+                },
+                "14": {
+                    "ANY STRUCTURAL ALTERATIONS CONTEMPLATED?": null,
+                    "Y / N": null
+                },
+                "15": {
+                    "ANY DEMOLITION EXPOSURE CONTEMPLATED?": null,
+                    "Y / N": null
+                }
+            },
+            "table_data": null
+        },
+        "table_data": {
+            "table_1": {
+                "PARENT COMPANY NAME": "",
+                "RELATIONSHIP DESCRIPTION": "",
+                "% OWNED": ""
+            },
+            "table_2": {
+                "SUBSIDIARY COMPANY NAME": "",
+                "RELATIONSHIP DESCRIPTION": "",
+                "% OWNED": ""
+            },
+            "table_3": [
+                {
+                    "LINE OF BUSINESS": "",
+                    "POLICY NUMBER": ""
+                },
+                {
+                    "LINE OF BUSINESS": "",
+                    "POLICY NUMBER": ""
+                }
+            ],
+            "table_4": [
+                {
+                    "LINE OF BUSINESS": "",
+                    "POLICY NUMBER": ""
+                },
+                {
+                    "LINE OF BUSINESS": "",
+                    "POLICY NUMBER": ""
+                }
+            ],
+            "table_5": [
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                },
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                }
+            ],
+            "table_6": [
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                },
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                }
+            ],
+            "table_7": [
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                },
+                {
+                    "OCCUR DATE": "",
+                    "EXPLANATION": "",
+                    "RESOLUTION": "",
+                    "RESOLVE DATE": ""
+                }
+            ],
+            "table_8": [
+                {
+                    "YEAR": "",
+                    "CATEGORY": "CARRIER",
+                    "GENERAL LIABILITY": "Washington Mutual",
+                    "AUTOMOBILE": "Washington Mutual",
+                    "PROPERTY": "Washington Mutual",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "POLICY NUMBER",
+                    "GENERAL LIABILITY": "WAMU073189-21",
+                    "AUTOMOBILE": "WAMU073189-21",
+                    "PROPERTY": "WAMU073189-21",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "2021",
+                    "CATEGORY": "PREMIUM",
+                    "GENERAL LIABILITY": "$ 45,000",
+                    "AUTOMOBILE": "s 50,000",
+                    "PROPERTY": "$ 55,000",
+                    "OTHER": "$"
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EFFECTIVE DATE",
+                    "GENERAL LIABILITY": "07/31/2021",
+                    "AUTOMOBILE": "07/31/2021",
+                    "PROPERTY": "07/31/2022",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EXPIRATION DATE",
+                    "GENERAL LIABILITY": "07/31/2022",
+                    "AUTOMOBILE": "07/31/2022",
+                    "PROPERTY": "07/31/2022",
+                    "OTHER": ""
+                }
+            ]
+        }
+    },
+    "Page_4": {
+        "GENERAL INFORMATION": {
+            "EXPLAIN ALL 'YES' RESPONSES (For all past or present operations)": {
+                "16": {
+                    "HAS APPLICANT BEEN ACTIVE IN OR IS CURRENTLY ACTIVE IN JOINT VENTURES?": null,
+                    "Y / N": null
+                },
+                "17": {
+                    "DO YOU LEASE EMPLOYEES TO OR FROM OTHER EMPLOYERS?": {
+                        "LEASE TO": null,
+                        "WORKERS COMPENSATION COVERAGE CARRIED (Y/N)": null
+                    },
+                    "Y / N": null
+                },
+                "18": {
+                    "IS THERE A LABOR INTERCHANGE WITH ANY OTHER BUSINESS OR SUBSIDIARIES?": null,
+                    "Y / N": null
+                },
+                "19": {
+                    "ARE DAY CARE FACILITIES OPERATED OR CONTROLLED?": null,
+                    "Y / N": null
+                },
+                "20": {
+                    "HAVE ANY CRIMES OCCURRED OR BEEN ATTEMPTED ON YOUR PREMISES WITHIN THE LAST THREE (3) YEARS?": null,
+                    "Y / N": null
+                },
+                "21": {
+                    "IS THERE A FORMAL, WRITTEN SAFETY AND SECURITY POLICY IN EFFECT?": null,
+                    "Y / N": null
+                },
+                "22": {
+                    "DOES THE BUSINESSES' PROMOTIONAL LITERATURE MAKE ANY REPRESENTATIONS ABOUT THE SAFETY OR SECURITY OF THE PREMISES?": null,
+                    "Y / N": null
+                }
+            }
+        },
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": null,
+        "PRODUCER'S SIGNATURE": "Kiera Contreni",
+        "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+        "STATE PRODUCER LICENSE NO (Required on Florida)": "",
+        "APPLICANT'S SIGNATURE": "Kacie Murphy",
+        "DATE": "05/23/2022",
+        "NATIONAL PRODUCER NUMBER": null,
+        "table_data": {
+            "table_1": [
+                {
+                    "YEAR": "",
+                    "CATEGORY": "CARRIER",
+                    "GENERAL LIABILITY": "Washington Mutual",
+                    "AUTOMOBILE": "Washington Mutual",
+                    "PROPERTY": "Washington Mutual",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "POLICY NUMBER",
+                    "GENERAL LIABILITY": "WAMU073189-20",
+                    "AUTOMOBILE": "WAMU073189-20",
+                    "PROPERTY": "WAMU073189-20",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "2020",
+                    "CATEGORY": "PREMIUM",
+                    "GENERAL LIABILITY": "$ 30,000",
+                    "AUTOMOBILE": "$ 35,000",
+                    "PROPERTY": "$ 40,000",
+                    "OTHER": "$"
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EFFECTIVE DATE",
+                    "GENERAL LIABILITY": "07/31/2020",
+                    "AUTOMOBILE": "07/31/2020",
+                    "PROPERTY": "07/31/2020",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EXPIRATION DATE",
+                    "GENERAL LIABILITY": "07/31/2021",
+                    "AUTOMOBILE": "07/31/2021",
+                    "PROPERTY": "07/31/2021",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "CARRIER",
+                    "GENERAL LIABILITY": "Washington Mutual",
+                    "AUTOMOBILE": "Washington Mutual",
+                    "PROPERTY": "Washington Mutual",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "POLICY NUMBER",
+                    "GENERAL LIABILITY": "WAMU073189-19",
+                    "AUTOMOBILE": "WAMU073189-19",
+                    "PROPERTY": "WAMU073189-19",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "2019",
+                    "CATEGORY": "PREMIUM",
+                    "GENERAL LIABILITY": "$ 15,000",
+                    "AUTOMOBILE": "$ 20,000",
+                    "PROPERTY": "$ 25,000",
+                    "OTHER": "$"
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EFFECTIVE DATE",
+                    "GENERAL LIABILITY": "07/31/2019",
+                    "AUTOMOBILE": "07/31/2019",
+                    "PROPERTY": "07/31/2019",
+                    "OTHER": ""
+                },
+                {
+                    "YEAR": "",
+                    "CATEGORY": "EXPIRATION DATE",
+                    "GENERAL LIABILITY": "07/31/2020",
+                    "AUTOMOBILE": "07/31/2020",
+                    "PROPERTY": "07/31/2020",
+                    "OTHER": ""
+                }
+            ],
+            "table_2": [
+                {
+                    "DATE OF OCCURRENCE": "",
+                    "LINE": "",
+                    "DESCRIPTION OF OCCURRENCE OR CLAIM": "",
+                    "DATE OF CLAIM": "",
+                    "AMOUNT PAID": "",
+                    "AMOUNT RESERVED": "",
+                    "SUBRO GATION Y / N": "",
+                    "CLAIM OPEN Y/N": ""
+                },
+                {
+                    "DATE OF OCCURRENCE": "",
+                    "LINE": "",
+                    "DESCRIPTION OF OCCURRENCE OR CLAIM": "",
+                    "DATE OF CLAIM": "",
+                    "AMOUNT PAID": "",
+                    "AMOUNT RESERVED": "",
+                    "SUBRO GATION Y / N": "",
+                    "CLAIM OPEN Y/N": ""
+                },
+                {
+                    "DATE OF OCCURRENCE": "",
+                    "LINE": "",
+                    "DESCRIPTION OF OCCURRENCE OR CLAIM": "",
+                    "DATE OF CLAIM": "",
+                    "AMOUNT PAID": "",
+                    "AMOUNT RESERVED": "",
+                    "SUBRO GATION Y / N": "",
+                    "CLAIM OPEN Y/N": ""
+                }
+            ],
+            "table_3": {
+                "PRODUCER'S SIGNATURE Kiera Contreni": "APPLICANT'S SIGNATURE Kacie Murphy",
+                "PRODUCER'S NAME (Please Print) Kiera Contreni": "",
+                "": "DATE 05/23/2022",
+                "STATE PRODUCER LICENSE NO (Required in Florida)": "NATIONALPROOUCERNUMBER"
+            }
+        }
+    },
+    "File_Name": "ACORD125_LAMBIS_InsuranceExample_Medicinzy1_05232022",
+    "Page_Count": 4
+}

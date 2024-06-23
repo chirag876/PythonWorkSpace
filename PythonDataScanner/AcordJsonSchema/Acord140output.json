@@ -1,0 +1,1411 @@
+{
+  "_id": {
+    "$oid": "660bf645035fce89076f4bba"
+  },
+  "input_file_name": "Acord 140 Test1__input_240402121252.pdf",
+  "output_file_name": "Acord 140 Test1__output_240402121252.zip",
+  "status": "APPROVAL PENDING",
+  "benchmark_schema_id": "660ab1af4dc21951494f90f1",
+  "error_record": [],
+  "log_record": [],
+  "output": [
+    {
+      "ACORD140(2014/12)": {
+        "Page_1": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "DATE MM DD/YYYY)": null,
+          "AGENCY NAME": "Lamb Insurance Services",
+          "CARRIER": "Marketing Only.",
+          "NAIC CODE": "N/A",
+          "POLICY NUMBER": "",
+          "EFFECTIVE DATE": "06/02/2022",
+          "NAMED INSURED(S)": "Medicinzy",
+          "PREMISES INFORMATION": {
+            "PREMISES .": null,
+            "STREET ADDRESS": "Blanket",
+            "BUILDING #": "0",
+            "BLDG DESCRIPTION": ""
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": "SELECTED",
+            "VALUE REPORTING INFORMA TION Attach ACORD 811": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Office building in suburban New Jersey",
+            "LIMIT": "19,000 8,000",
+            "DEDUCTIBLE": "$ 10,000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": "SELECTED"
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": "SELECTED",
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": "Frame",
+            "DISTANCE TO": {
+              "HYDRANT": "500",
+              "FIRE STAT": "3 M"
+            },
+            "FIRE DISTRICT": "Moorestown Fire District #2",
+            "CODE NUMBER": "10010",
+            "PROT CL": null,
+            "# STORIES": null,
+            "# BASM'TS": null,
+            "YR BUILT": "1950",
+            "TOTAL AREA": "5,000",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2019"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2018"
+              },
+              {
+                "HEATING": null,
+                "YR": "2020"
+              },
+              {
+                "ROOFING": null,
+                "YR": null
+              },
+              {
+                "OTHER": "Heating",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": "A",
+            "TAX CODE": "A",
+            "ROOF TYPE": "Wood Shake",
+            "OTHER OCCUPANCIES": "",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "02/18/2020",
+            "MANUFACTURER": "Heating & Cooling Earth",
+            "PRIMARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "SECONDARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": "None",
+            "FRONT EXPOSURE & DISTANCE": null,
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "Wireless Alarm System",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "02/18/2020",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": null,
+            "EXTENT": "A",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "95",
+            "FIRE ALARM MANUFACTURER": "Siemens",
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "4",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": null
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "ITEM CLASS": "2",
+            "ITEM": "2",
+            "ITEM DESCRIPTION": null
+          },
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "INFORMATION": {
+              "AGENCY NAME": "Lamb Insurance Services",
+              "CARRIER": "Marketing Only.",
+              "NAIC CODE": "N/A",
+              "EFFECTIVE DATE": "06/02/2022",
+              "NAMED INSURED(S)": "Medicinzy"
+            },
+            "BLANKET SUMMARY": [
+              {
+                "BLTK #": "1",
+                "AMOUNT": "2,949,195",
+                "TYPE": "Type B. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "3",
+                "AMOUNT": "300,000",
+                "TYPE": "Type T. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "2",
+                "AMOUNT": "306,145",
+                "TYPE": "Type C; SOI: BLNKT"
+              },
+              {
+                "BLTK #": "4",
+                "AMOUNT": "600,000",
+                "TYPE": "Type S: SOIBBNNT"
+              }
+            ],
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "2,949,195",
+                "COINS": "67",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including than",
+                "NET ATION GUARD": "76",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "B"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Personal Property",
+                "AMOUNT": "306,145",
+                "COINS": "54",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including theft)",
+                "NET ATION GUARD": "87",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Income w Extra Expense",
+                "AMOUNT": "300,000",
+                "COINS": "78",
+                "VALU- ATION": "L",
+                "CAUSES OF LOSS": "Special (Including thatt",
+                "NET ATION GUARD": "89",
+                "DED": "$2,000",
+                "DED TYPE": "Hours",
+                "BLKT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "T"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "900,000",
+                "COINS": "43",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "78",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "87,0000",
+                "COINS": "98",
+                "VALU- ATION": "",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "89",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "R"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONSTRUCTION TYPE": "Frame",
+              "DISTANCE HYDRANT": "500",
+              "TO FIRE STAT": "3 M",
+              "FIRE DISTRICT": "Moorestown Fire District #2",
+              "CODE NUMBER": "10010",
+              "PROT ou": "",
+              "STORIES": "2",
+              "RASM'TE": "",
+              "YR BUILT": "1950",
+              "TOTAL AREA": "5,000"
+            }
+          }
+        },
+        "Page_2": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "ADDITIONAL PREMISES INFORMATION": {
+            "PREMISES": "1",
+            "STREET ADDRESS": "7536 Indian Spring St. Ste A",
+            "BUILDING": "1",
+            "BLDC DESCRIPTION": null
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": null,
+            "VALUE REPORTING INFORMATION Attach ACORD 611": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Description",
+            "LIMIT": "$ 67888",
+            "DEDUCTIBLE": "$ 8000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": null
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "20,000"
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "17,000"
+            },
+            "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": null,
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": null,
+            "DISTANCE TO": {
+              "HYDRANT": "657",
+              "FIRE STAT": "484 MI"
+            },
+            "FIRE DISTRICT": "HR",
+            "CODE NUMBER": "73840",
+            "PROT CL": "1",
+            "# STORIES": null,
+            "# BASM'TS": "1",
+            "YR BUILT": "2022",
+            "TOTAL AREA": "82738",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2017"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2019"
+              },
+              {
+                "HEATING": null,
+                "YR": "2018"
+              },
+              {
+                "ROOFING": null,
+                "YR": "2020"
+              },
+              {
+                "OTHER": "OTR",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": null,
+            "TAX CODE": "38798",
+            "ROOF TYPE": "TYPE",
+            "OTHER OCCUPANCIES": "OTHERS",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "09/07/2021",
+            "MANUFACTURER": "Landmark",
+            "PRIMARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "SECONDARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": null,
+            "FRONT EXPOSURE & DISTANCE": "8979",
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "TYPE2",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "09/08/2021",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": "label",
+            "EXTENT": "EXT",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "45",
+            "FIRE ALARM MANUFACTURER": null,
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "3",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": "8478748"
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "NY",
+            "BUILDING": "B",
+            "ITEM CLASS": "A",
+            "ITEM": "Item1",
+            "ITEM DESCRIPTION": "Resistive"
+          },
+          "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": null,
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Per Occurrence",
+                "AMOUNT": "480,000",
+                "COINS %": "25",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Fire. Storm, Flood",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,500",
+                "need TYPE": "Monetary",
+                "BURT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "Condition"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject2",
+                "AMOUNT": "450,000",
+                "COINS %": "34",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Earthquake",
+                "RELATION GUARD'S": "1",
+                "DED": "$2,900",
+                "need TYPE": "Mone",
+                "BURT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "Condition2"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject3",
+                "AMOUNT": "240,000",
+                "COINS %": "35",
+                "VALUE ATION": "VBH",
+                "CAUSES OF LOSS": "Fire",
+                "RELATION GUARD'S": "2",
+                "DED": "$3,090",
+                "need TYPE": "Mone",
+                "BURT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "Condition3"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject4",
+                "AMOUNT": "139,000",
+                "COINS %": "78",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Flood",
+                "RELATION GUARD'S": "3",
+                "DED": "$2,980",
+                "need TYPE": "Mone",
+                "BURT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "Condition4"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject5",
+                "AMOUNT": "760,000",
+                "COINS %": "45",
+                "VALUE ATION": "ACB",
+                "CAUSES OF LOSS": "Storm",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,908",
+                "need TYPE": "Mone",
+                "BURT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "Condition5"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONS TRUCTION TYPE": "Type",
+              "DIST ANCE HYDRANT": "657",
+              "TO FIRE STAT": "484 MI",
+              "FIRE DISTRICT": "HR",
+              "CODE NUMBER": "73840",
+              "PROT CL": "1",
+              "STORIES": "1",
+              "# BASM'TS": "1",
+              "YR BUILT": "2022",
+              "TOTAL AREA": "82738"
+            }
+          }
+        },
+        "Page_3": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "SIGNATURE": {
+            "STATE PRODUCER LICENSE NO (Required in Florida)": null,
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Kacie Murphy",
+            "DATE": "05/23/2022",
+            "NATIONAL PRODUCER NUMBER": "2897EHIEHD",
+            "ACORD": "140 (2014/12)"
+          },
+          "table_data": {}
+        },
+        "File_Name": "Acord140Test1__input_240402121252.pdf",
+        "Page_Count": 3
+      }
+    },
+    {
+      "ACORD140(2014/12)": {
+        "Page_1": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "DATE MM DD/YYYY)": null,
+          "AGENCY NAME": "Lamb Insurance Services",
+          "CARRIER": "Marketing Only.",
+          "NAIC CODE": "N/A",
+          "POLICY NUMBER": "",
+          "EFFECTIVE DATE": "06/02/2022",
+          "NAMED INSURED(S)": "Medicinzy",
+          "PREMISES INFORMATION": {
+            "PREMISES .": null,
+            "STREET ADDRESS": "Blanket",
+            "BUILDING #": "0",
+            "BLDG DESCRIPTION": ""
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": "SELECTED",
+            "VALUE REPORTING INFORMA TION Attach ACORD 811": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Office building in suburban New Jersey",
+            "LIMIT": "19,000 8,000",
+            "DEDUCTIBLE": "$ 10,000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": "SELECTED"
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": "SELECTED",
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": "Frame",
+            "DISTANCE TO": {
+              "HYDRANT": "500",
+              "FIRE STAT": "3 M"
+            },
+            "FIRE DISTRICT": "Moorestown Fire District #2",
+            "CODE NUMBER": "10010",
+            "PROT CL": null,
+            "# STORIES": null,
+            "# BASM'TS": null,
+            "YR BUILT": "1950",
+            "TOTAL AREA": "5,000",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2019"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2018"
+              },
+              {
+                "HEATING": null,
+                "YR": "2020"
+              },
+              {
+                "ROOFING": null,
+                "YR": null
+              },
+              {
+                "OTHER": "Heating",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": "A",
+            "TAX CODE": "A",
+            "ROOF TYPE": "Wood Shake",
+            "OTHER OCCUPANCIES": "",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "02/18/2020",
+            "MANUFACTURER": "Heating & Cooling Earth",
+            "PRIMARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "SECONDARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": "None",
+            "FRONT EXPOSURE & DISTANCE": null,
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "Wireless Alarm System",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "02/18/2020",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": null,
+            "EXTENT": "A",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "95",
+            "FIRE ALARM MANUFACTURER": "Siemens",
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "4",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": null
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "ITEM CLASS": "2",
+            "ITEM": "2",
+            "ITEM DESCRIPTION": null
+          },
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "INFORMATION": {
+              "AGENCY NAME": "Lamb Insurance Services",
+              "CARRIER": "Marketing Only.",
+              "NAIC CODE": "N/A",
+              "EFFECTIVE DATE": "06/02/2022",
+              "NAMED INSURED(S)": "Medicinzy"
+            },
+            "BLANKET SUMMARY": [
+              {
+                "BLTK #": "1",
+                "AMOUNT": "2,949,195",
+                "TYPE": "Type B. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "3",
+                "AMOUNT": "300,000",
+                "TYPE": "Type T. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "2",
+                "AMOUNT": "306,145",
+                "TYPE": "Type C; SOI: BLNKT"
+              },
+              {
+                "BLTK #": "4",
+                "AMOUNT": "600,000",
+                "TYPE": "Type S: SOIBBNNT"
+              }
+            ],
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "2,949,195",
+                "COINS": "67",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including than",
+                "NET ATION GUARD": "76",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "B"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Personal Property",
+                "AMOUNT": "306,145",
+                "COINS": "54",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including theft)",
+                "NET ATION GUARD": "87",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Income w Extra Expense",
+                "AMOUNT": "300,000",
+                "COINS": "78",
+                "VALU- ATION": "L",
+                "CAUSES OF LOSS": "Special (Including thatt",
+                "NET ATION GUARD": "89",
+                "DED": "$2,000",
+                "DED TYPE": "Hours",
+                "BLKT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "T"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "900,000",
+                "COINS": "43",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "78",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "87,0000",
+                "COINS": "98",
+                "VALU- ATION": "",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "89",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "R"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONSTRUCTION TYPE": "Frame",
+              "DISTANCE HYDRANT": "500",
+              "TO FIRE STAT": "3 M",
+              "FIRE DISTRICT": "Moorestown Fire District #2",
+              "CODE NUMBER": "10010",
+              "PROT ou": "",
+              "STORIES": "2",
+              "RASM'TE": "",
+              "YR BUILT": "1950",
+              "TOTAL AREA": "5,000"
+            }
+          }
+        },
+        "Page_2": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "ADDITIONAL PREMISES INFORMATION": {
+            "PREMISES": "1",
+            "STREET ADDRESS": "7536 Indian Spring St. Ste A",
+            "BUILDING": "1",
+            "BLDC DESCRIPTION": null
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": null,
+            "VALUE REPORTING INFORMATION Attach ACORD 611": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Description",
+            "LIMIT": "$ 67888",
+            "DEDUCTIBLE": "$ 8000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": null
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "20,000"
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "17,000"
+            },
+            "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": null,
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": null,
+            "DISTANCE TO": {
+              "HYDRANT": "657",
+              "FIRE STAT": "484 MI"
+            },
+            "FIRE DISTRICT": "HR",
+            "CODE NUMBER": "73840",
+            "PROT CL": "1",
+            "# STORIES": null,
+            "# BASM'TS": "1",
+            "YR BUILT": "2022",
+            "TOTAL AREA": "82738",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2017"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2019"
+              },
+              {
+                "HEATING": null,
+                "YR": "2018"
+              },
+              {
+                "ROOFING": null,
+                "YR": "2020"
+              },
+              {
+                "OTHER": "OTR",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": null,
+            "TAX CODE": "38798",
+            "ROOF TYPE": "TYPE",
+            "OTHER OCCUPANCIES": "OTHERS",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "09/07/2021",
+            "MANUFACTURER": "Landmark",
+            "PRIMARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "SECONDARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": null,
+            "FRONT EXPOSURE & DISTANCE": "8979",
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "TYPE2",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "09/08/2021",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": "label",
+            "EXTENT": "EXT",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "45",
+            "FIRE ALARM MANUFACTURER": null,
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "3",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": "8478748"
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "NY",
+            "BUILDING": "B",
+            "ITEM CLASS": "A",
+            "ITEM": "Item1",
+            "ITEM DESCRIPTION": "Resistive"
+          },
+          "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": null,
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Per Occurrence",
+                "AMOUNT": "480,000",
+                "COINS %": "25",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Fire. Storm, Flood",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,500",
+                "need TYPE": "Monetary",
+                "BURT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "Condition"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject2",
+                "AMOUNT": "450,000",
+                "COINS %": "34",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Earthquake",
+                "RELATION GUARD'S": "1",
+                "DED": "$2,900",
+                "need TYPE": "Mone",
+                "BURT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "Condition2"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject3",
+                "AMOUNT": "240,000",
+                "COINS %": "35",
+                "VALUE ATION": "VBH",
+                "CAUSES OF LOSS": "Fire",
+                "RELATION GUARD'S": "2",
+                "DED": "$3,090",
+                "need TYPE": "Mone",
+                "BURT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "Condition3"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject4",
+                "AMOUNT": "139,000",
+                "COINS %": "78",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Flood",
+                "RELATION GUARD'S": "3",
+                "DED": "$2,980",
+                "need TYPE": "Mone",
+                "BURT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "Condition4"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject5",
+                "AMOUNT": "760,000",
+                "COINS %": "45",
+                "VALUE ATION": "ACB",
+                "CAUSES OF LOSS": "Storm",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,908",
+                "need TYPE": "Mone",
+                "BURT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "Condition5"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONS TRUCTION TYPE": "Type",
+              "DIST ANCE HYDRANT": "657",
+              "TO FIRE STAT": "484 MI",
+              "FIRE DISTRICT": "HR",
+              "CODE NUMBER": "73840",
+              "PROT CL": "1",
+              "STORIES": "1",
+              "# BASM'TS": "1",
+              "YR BUILT": "2022",
+              "TOTAL AREA": "82738"
+            }
+          }
+        },
+        "Page_3": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "SIGNATURE": {
+            "STATE PRODUCER LICENSE NO (Required in Florida)": null,
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Kacie Murphy",
+            "DATE": "05/23/2022",
+            "NATIONAL PRODUCER NUMBER": "2897EHIEHD",
+            "ACORD": "140 (2014/12)"
+          },
+          "table_data": {}
+        },
+        "File_Name": "Acord140Test1__input_240402121252.pdf",
+        "Page_Count": 3
+      }
+    },
+    {
+      "ACORD140(2014/12)": {
+        "Page_1": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "DATE MM DD/YYYY)": null,
+          "AGENCY NAME": "Lamb Insurance Services",
+          "CARRIER": "Marketing Only.",
+          "NAIC CODE": "N/A",
+          "POLICY NUMBER": "",
+          "EFFECTIVE DATE": "06/02/2022",
+          "NAMED INSURED(S)": "Medicinzy",
+          "PREMISES INFORMATION": {
+            "PREMISES .": null,
+            "STREET ADDRESS": "Blanket",
+            "BUILDING #": "0",
+            "BLDG DESCRIPTION": ""
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD 810": "SELECTED",
+            "VALUE REPORTING INFORMA TION Attach ACORD 811": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Office building in suburban New Jersey",
+            "LIMIT": "19,000 8,000",
+            "DEDUCTIBLE": "$ 10,000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": "SELECTED"
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": null
+            },
+            "PROPERTY HAS BEEN DESIGNATED AN HISTORICAL LANDMARK": "SELECTED",
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": "Frame",
+            "DISTANCE TO": {
+              "HYDRANT": "500",
+              "FIRE STAT": "3 M"
+            },
+            "FIRE DISTRICT": "Moorestown Fire District #2",
+            "CODE NUMBER": "10010",
+            "PROT CL": null,
+            "# STORIES": null,
+            "# BASM'TS": null,
+            "YR BUILT": "1950",
+            "TOTAL AREA": "5,000",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2019"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2018"
+              },
+              {
+                "HEATING": null,
+                "YR": "2020"
+              },
+              {
+                "ROOFING": null,
+                "YR": null
+              },
+              {
+                "OTHER": "Heating",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": "A",
+            "TAX CODE": "A",
+            "ROOF TYPE": "Wood Shake",
+            "OTHER OCCUPANCIES": "",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "02/18/2020",
+            "MANUFACTURER": "Heating & Cooling Earth",
+            "PRIMARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "SECONDARY HEAT": {
+              "BOILER": "SELECTED",
+              "SOLID FUEL": "SELECTED",
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": "N"
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": "None",
+            "FRONT EXPOSURE & DISTANCE": null,
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "Wireless Alarm System",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "02/18/2020",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": null,
+            "EXTENT": "A",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "95",
+            "FIRE ALARM MANUFACTURER": "Siemens",
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "4",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": null
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "1",
+            "BUILDING": "1",
+            "ITEM CLASS": "2",
+            "ITEM": "2",
+            "ITEM DESCRIPTION": null
+          },
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "INFORMATION": {
+              "AGENCY NAME": "Lamb Insurance Services",
+              "CARRIER": "Marketing Only.",
+              "NAIC CODE": "N/A",
+              "EFFECTIVE DATE": "06/02/2022",
+              "NAMED INSURED(S)": "Medicinzy"
+            },
+            "BLANKET SUMMARY": [
+              {
+                "BLTK #": "1",
+                "AMOUNT": "2,949,195",
+                "TYPE": "Type B. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "3",
+                "AMOUNT": "300,000",
+                "TYPE": "Type T. SOI: BLNKT"
+              },
+              {
+                "BLTK #": "2",
+                "AMOUNT": "306,145",
+                "TYPE": "Type C; SOI: BLNKT"
+              },
+              {
+                "BLTK #": "4",
+                "AMOUNT": "600,000",
+                "TYPE": "Type S: SOIBBNNT"
+              }
+            ],
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "2,949,195",
+                "COINS": "67",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including than",
+                "NET ATION GUARD": "76",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "B"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Personal Property",
+                "AMOUNT": "306,145",
+                "COINS": "54",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Special (Including theft)",
+                "NET ATION GUARD": "87",
+                "DED": "$5,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Business Income w Extra Expense",
+                "AMOUNT": "300,000",
+                "COINS": "78",
+                "VALU- ATION": "L",
+                "CAUSES OF LOSS": "Special (Including thatt",
+                "NET ATION GUARD": "89",
+                "DED": "$2,000",
+                "DED TYPE": "Hours",
+                "BLKT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "T"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "900,000",
+                "COINS": "43",
+                "VALU- ATION": "R",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "78",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "C"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Building",
+                "AMOUNT": "87,0000",
+                "COINS": "98",
+                "VALU- ATION": "",
+                "CAUSES OF LOSS": "Broad",
+                "NET ATION GUARD": "89",
+                "DED": "$9,000",
+                "DED TYPE": "Dollars",
+                "BLKT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "R"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONSTRUCTION TYPE": "Frame",
+              "DISTANCE HYDRANT": "500",
+              "TO FIRE STAT": "3 M",
+              "FIRE DISTRICT": "Moorestown Fire District #2",
+              "CODE NUMBER": "10010",
+              "PROT ou": "",
+              "STORIES": "2",
+              "RASM'TE": "",
+              "YR BUILT": "1950",
+              "TOTAL AREA": "5,000"
+            }
+          }
+        },
+        "Page_2": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "ADDITIONAL PREMISES INFORMATION": {
+            "PREMISES": "1",
+            "STREET ADDRESS": "7536 Indian Spring St. Ste A",
+            "BUILDING": "1",
+            "BLDC DESCRIPTION": null
+          },
+          "ADDITIONAL INFORMATION": {
+            "BUSINESS INCOME EXTRA EXPENSE Attach ACORD B10": null,
+            "VALUE REPORTING INFORMATION Attach ACORD 611": null
+          },
+          "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+            "SPOILAGE COVERAGE (Y / N)": null,
+            "DESCRIPTION OF PROPERTY COVERED": "Description",
+            "LIMIT": "$ 67888",
+            "DEDUCTIBLE": "$ 8000",
+            "REFRIG MAINT AGREEMENT (Y / N)": null,
+            "OPTIONS": {
+              "BREAKDOWN OR CONTAMINATION": "SELECTED",
+              "POWER OUTAGE": "SELECTED",
+              "SELLING PRICE": null
+            },
+            "SINKHOLE COVERAGE (Required in Florida)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "20,000"
+            },
+            "MINE SUBSIDENCE COVERAGE (Required in IL, IN, KY and WV)": {
+              "ACCEPT COVERAGE": "SELECTED",
+              "REJECT COVERAGE": "SELECTED",
+              "LIMIT": "17,000"
+            },
+            "PROPERTY HAS DESIGNATED AN HISTORICAL LANDMARK": null,
+            "# OF OPEN SIDES ON STRUCTURE": null,
+            "CONSTRUCTION TYPE": null,
+            "DISTANCE TO": {
+              "HYDRANT": "657",
+              "FIRE STAT": "484 MI"
+            },
+            "FIRE DISTRICT": "HR",
+            "CODE NUMBER": "73840",
+            "PROT CL": "1",
+            "# STORIES": null,
+            "# BASM'TS": "1",
+            "YR BUILT": "2022",
+            "TOTAL AREA": "82738",
+            "BUILDING IMPROVEMENTS": [
+              {
+                "WIRING": null,
+                "YR": "2017"
+              },
+              {
+                "PLUMBING": null,
+                "YR": "2019"
+              },
+              {
+                "HEATING": null,
+                "YR": "2018"
+              },
+              {
+                "ROOFING": null,
+                "YR": "2020"
+              },
+              {
+                "OTHER": "OTR",
+                "YR": null
+              }
+            ],
+            "BLDG CODE GRADE": null,
+            "TAX CODE": "38798",
+            "ROOF TYPE": "TYPE",
+            "OTHER OCCUPANCIES": "OTHERS",
+            "WIND CLASS": {
+              "SEMI-RESISTIVE": null,
+              "RESISTIVE": "SELECTED"
+            },
+            "HEATING SOURCE INCL WOODBURNING STOVE OR FIREPLACE INSERT": null,
+            "DATE INSTALLED": "09/07/2021",
+            "MANUFACTURER": "Landmark",
+            "PRIMARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "SECONDARY HEAT": {
+              "BOILER": null,
+              "SOLID FUEL": null,
+              "IF BOILER IS INSURANCE PLACED ELSEWHERE?": null
+            },
+            "RIGHT EXPOSURE & DISTANCE": null,
+            "LEFT EXPOSURE & DISTANCE": null,
+            "FRONT EXPOSURE & DISTANCE": "8979",
+            "REAR EXPOSURE & DISTANCE": null,
+            "BURGLAR ALARM TYPE": "TYPE2",
+            "CERTIFICATE#": null,
+            "EXPIRATION DATE": "09/08/2021",
+            "CENTRAL STATION": "SELECTED",
+            "LOCAL GONG": "SELECTED",
+            "WITH KEYS": "SELECTED",
+            "BURGLAR ALARM INSTALLED AND SERVICED BY": "label",
+            "EXTENT": "EXT",
+            "GRADE": "A",
+            "# GUARDS / WATCHMEN": null,
+            "CLOCK HOURLY": "SELECTED",
+            "PREMISES FIRE PROTECTION (Sprinklers, Standpipes CO2/ Chemical Systems)": null,
+            "% SPRNK": "45",
+            "FIRE ALARM MANUFACTURER": null,
+            "ACORD 45 attached for additional names": "SELECTED",
+            "NAME AND ADDRESS": "Financely 83352 Smitham Circles Suite 480 Diannamouth NV 59510",
+            "RANK": "3",
+            "CERTIFICATE": "SELECTED",
+            "REFERENCE LOAN": "8478748"
+          },
+          "ADDITIONAL INTEREST": {
+            "INTEREST": {
+              "LOSS PAYEE": "SELECTED",
+              "MORTGAGEE": "SELECTED"
+            }
+          },
+          "INTEREST IN ITEM NUMBER": {
+            "LOCATION": "NY",
+            "BUILDING": "B",
+            "ITEM CLASS": "A",
+            "ITEM": "Item1",
+            "ITEM DESCRIPTION": "Resistive"
+          },
+          "REMARKS (ACORD 101, Additional Remarks Schedule. may be attached if more space is required)": null,
+          "ACORD": "140 (2014/12)",
+          "table_data": {
+            "PREMISES INFORMATION": [
+              {
+                "SUBJECT OF INSURANCE": "Per Occurrence",
+                "AMOUNT": "480,000",
+                "COINS %": "25",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Fire. Storm, Flood",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,500",
+                "need TYPE": "Monetary",
+                "BURT .": "1",
+                "FORMS AND CONDITIONS TO APPLY": "Condition"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject2",
+                "AMOUNT": "450,000",
+                "COINS %": "34",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Earthquake",
+                "RELATION GUARD'S": "1",
+                "DED": "$2,900",
+                "need TYPE": "Mone",
+                "BURT .": "2",
+                "FORMS AND CONDITIONS TO APPLY": "Condition2"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject3",
+                "AMOUNT": "240,000",
+                "COINS %": "35",
+                "VALUE ATION": "VBH",
+                "CAUSES OF LOSS": "Fire",
+                "RELATION GUARD'S": "2",
+                "DED": "$3,090",
+                "need TYPE": "Mone",
+                "BURT .": "3",
+                "FORMS AND CONDITIONS TO APPLY": "Condition3"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject4",
+                "AMOUNT": "139,000",
+                "COINS %": "78",
+                "VALUE ATION": "ACV",
+                "CAUSES OF LOSS": "Flood",
+                "RELATION GUARD'S": "3",
+                "DED": "$2,980",
+                "need TYPE": "Mone",
+                "BURT .": "4",
+                "FORMS AND CONDITIONS TO APPLY": "Condition4"
+              },
+              {
+                "SUBJECT OF INSURANCE": "Subject5",
+                "AMOUNT": "760,000",
+                "COINS %": "45",
+                "VALUE ATION": "ACB",
+                "CAUSES OF LOSS": "Storm",
+                "RELATION GUARD'S": "1",
+                "DED": "$1,908",
+                "need TYPE": "Mone",
+                "BURT .": "5",
+                "FORMS AND CONDITIONS TO APPLY": "Condition5"
+              }
+            ],
+            "ADDITIONAL COVERAGES, OPTIONS, RESTRICTIONS, ENDORSEMENTS AND RATING INFORMATION": {
+              "CONS TRUCTION TYPE": "Type",
+              "DIST ANCE HYDRANT": "657",
+              "TO FIRE STAT": "484 MI",
+              "FIRE DISTRICT": "HR",
+              "CODE NUMBER": "73840",
+              "PROT CL": "1",
+              "STORIES": "1",
+              "# BASM'TS": "1",
+              "YR BUILT": "2022",
+              "TOTAL AREA": "82738"
+            }
+          }
+        },
+        "Page_3": {
+          "AGENCY CUSTOMER ID": "MEDICI-073189",
+          "SIGNATURE": {
+            "STATE PRODUCER LICENSE NO (Required in Florida)": null,
+            "PRODUCER'S SIGNATURE": "Kiera Contreni",
+            "PRODUCER'S NAME (Please Print)": "Kiera Contreni",
+            "APPLICANT'S SIGNATURE": "Kacie Murphy",
+            "DATE": "05/23/2022",
+            "NATIONAL PRODUCER NUMBER": "2897EHIEHD",
+            "ACORD": "140 (2014/12)"
+          },
+          "table_data": {}
+        },
+        "File_Name": "Acord140Test1__input_240402121252.pdf",
+        "Page_Count": 3
+      }
+    }
+  ]
+}

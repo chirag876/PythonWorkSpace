@@ -1,0 +1,665 @@
+{
+    "Page_1": {
+        "AGENCY CUSTOMER ID:": "00001024",
+        "LOC #": "",
+        "BLDG #": "",
+        "AGENCY": "Legacy Insurance Professionals LLC",
+        "CARRIER": "Ministry Assistance Program Declarations",
+        "DATE (MM/DD/YYYY)": "10/26/2023",
+        "NAIC CODE": "",
+        "POLICY NUMBER": "400202672",
+        "EFFECTIVE DATE": "10/01/2023",
+        "APPLICANT(FIRST NAMED INSURED)": "God's Bible School & College & Missionary Training Home",
+        "BASIS FOR COVERAGE": {
+            "DISCOVERY": "",
+            "LOSS SUSTAINED": ""
+        },
+        "COVERAGE ENDORSEMENTS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": "",
+        "ERISA EMPLOYEE THEFT - ADDITIONAL INFORMATION": {
+            "NAME OF PLAN": "",
+            "PLAN ADMINISTRATOR ADDRESS": "",
+            "NUMBER OF TRUSTEES,EMPLOYEES, ETC HANDLING PLAN ASSETS": "",
+            "NUMBER OF PLAN PARTICIPANTS": "",
+            "IS THERE A LICENSED SECURITIES FIRM RESPONSIBLE FOR INVESTING OF FUNDS UNDER PLAN(S)? (Y / N)": ""
+        },
+        "GENERAL INFORMATION": {
+            "EXPLAIN ALL 'YES' RESPONSES": {
+                "1": {
+                    "ARE VOLUNTEERS USED? (If 'YES', # of volunteers):": "",
+                    "Y / N": null
+                },
+                "2": {
+                    "ANY EMPLOYEES LEASED TO OTHERS? (If 'YES', give number and explain) # OF EMPLOYEES LEASED TO OTHERS:": "",
+                    "Y / N": null
+                },
+                "3": {
+                    "ANY EMPLOYEES LEASED FROM OTHERS? (If 'YES', give number and explain) # OF EMPLOYEES LEASED FROM OTHERS:": "",
+                    "Y / N": null
+                },
+                "4": {
+                    "ANY EMPLOYEES PERFORM MONEY INVESTING OR TRADING?": "",
+                    "Y / N": null
+                },
+                "5": {
+                    "ANY EMPLOYEES RECEIVE OR ISSUE WAREHOUSE RECEIPTS?": "",
+                    "Y / N": null
+                },
+                "6": {
+                    "ANY EMPLOYEE(S) BEEN CANCELLED FOR CRIME COVERAGE BY ANY INSURER? (Missouri Applicants - Do not answer this question)": "",
+                    "Y / N": null
+                },
+                "7": {
+                    "DOES APPLICANT HAVE ANY WRITTEN AGREEMENTS WITH CLIENTS?": "",
+                    "Y / N": null
+                },
+                "8": {
+                    "DOES APPLICANT TRANSFER ANY FUNDS VIA PHONE OR FAX?": "",
+                    "Y / N": null
+                },
+                "9": {
+                    "ANY EXPOSURE FROM LOSS TO GUEST PROPERTY?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "table_data": {
+            "COVERAGE TABLE 1": [
+                {
+                    "COVERAGE": "EMPLOYEE THEFT",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "X BLANKET  SCHEDULE",
+                    "LIMIT": "$50,000",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "ERISA  PER OCCURRENCE",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": "N/A"
+                },
+                {
+                    "COVERAGE": "AGGREGATE",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": "N/A"
+                },
+                {
+                    "COVERAGE": "ERISA EXCESS AMOUNT  OVER BLANKET LIMIT",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": "N/A"
+                },
+                {
+                    "COVERAGE": "TOTAL ASSET VALUE",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": "N/A"
+                },
+                {
+                    "COVERAGE": "TOTAL  ASSET VALUE (Per Plan",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": "N/A"
+                },
+                {
+                    "COVERAGE": "EMPLOYEE THEFT GOVERNMENTAL CRIME",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "BLANKET  SCHEDULE",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "PERLOSS  PER EMPLOYEE",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "FORGERY OR ALTERATION",
+                    "LIMIT": "$50,000",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "INSIDE THE PREMBES THEFT OF MONEY AND BLANKET  SECURITIES SCHEDULE",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": ""
+                }
+            ],
+            "COVERAGE TABLE 2": [
+                {
+                    "COVERAGE": "INSIDE THE PREMISES ROBBERY OR BURGLARY OF OTHER PROPERTY",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "X BLANKET SCHEDULE",
+                    "LIMIT": "$10,000",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "X OUTSIDE THE PREMISES MONEY AND SECURITIES OTHER PROPERTY BLANKET SCHEDULE",
+                    "LIMIT": "$10,0000 $",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "COMPUTER FRAUD",
+                    "LIMIT": "$50,000",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "FUNDS TRANSFER FRAUD",
+                    "LIMIT": "$50,000",
+                    "DEDUCTIBLE": "500"
+                },
+                {
+                    "COVERAGE": "MONEY ORDERS AND COUNTERFEIT PAPER CURRENCY",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "COVERAGE": "",
+                    "LIMIT": "$",
+                    "DEDUCTIBLE": ""
+                }
+            ]
+        },
+        "ACORD": "141 (2016/03)"
+    },
+    "Page_2": {
+        "CLASSIFICATION OF EMPLOYEES / LOCATIONS": {
+            "LIST ALL OFFICERS AND EMPLOYEES (Including those construed to be employees by endorsement), OTHER THAN AGENTS AND PARTNERS, WHO HANDLE OR HAVE CUSTODY OF MONEY, SECURITIES OR OTHER PROPERTY, INCLUDING, IN ANY EVENT, THE POSITIONS LISTED BELOW:": {
+                "NUMBER OF:": {
+                    "ACCOUNTANTS AND ASSTS": "",
+                    "ADJUSTERS": "",
+                    "ADMINISTRATORS AND ASSTS": "",
+                    "APPRAISERS AND CLERKS ACTING AS APPRAISERS": "",
+                    "ATTORNEYS": "",
+                    "AUDITORS AND ASSTS": "",
+                    "BOOKKEEPERS": "",
+                    "BUS DRIVERS": "",
+                    "BUYERS AND ASSTS": "",
+                    "CANVASEERS(Door-to-door salespeople": "",
+                    "CASHIERS AND ASSTS": "",
+                    "CHAIRPERSONS": "",
+                    "CHEFS WHO ORDER FOOD": "",
+                    "COLLECTORS": "",
+                    "COMPUTER PROGRAMMERS": "",
+                    "COMPTROLLERS AND ASSTS": "",
+                    "CREDIT CLERKS AND MANAGERS": "",
+                    "CUSTODIANS": "",
+                    "DELIVERY PERSONS": "",
+                    "DEMONSTRATORS": "",
+                    "DIETITIANS WHO ORDER FOOD": "",
+                    "DRIVERS AND DRIVERS' HELPERS": "",
+                    "FOOD INSPECTORS": "",
+                    "HEAD PHARMACISTS": "",
+                    "INSTRUCTORS HAVING CUSTODY OF MONEY OR SECURITIES": "",
+                    "JANITORS": "",
+                    "LOCKER ROOM ATTENDANTS": "",
+                    "MAITRE D'S AND ASSTS": "",
+                    "MANAGERS AND ASSTS": "",
+                    "MEDICAL DIRECTORS": "",
+                    "MESSENGERS, OUTSIDE": "",
+                    "PAYROLL DISTRIBUTORS": "",
+                    "PURCHASING AGENTS AND ASSTS": "",
+                    "RECEIVING CLERKS": "",
+                    "REFINERY GAUGERS OF OIL COS HANDLING REFINED  GASOLINE& OILS": null,
+                    "SALESPEOPLE": "",
+                    "SECURITY PERSONNEL": "",
+                    "SERVICE STATION ATTENDANTS": "",
+                    "SHIPPING CLERKS": "",
+                    "STOCK CLERKS": "",
+                    "STOREKEEPERS": "",
+                    "STOREROOM PERSONNEL": "",
+                    "SUPERINTENDENTS AND ASSTS": "",
+                    "SUPERVISORS AND ASSTS": "",
+                    "TAXI DRIVERS": "",
+                    "TEACHERS HAVING CUSTODY OF MONEY OR SECURITIES": "",
+                    "TIMEKEEPERS AND ASSTS": "",
+                    "TRUCK DRIVERS": "",
+                    "WAREHOUSE PERSONNEL": "",
+                    "WINE CELLAR PERSONNEL": "",
+                    "WINE STEWARDS/ESSES": "",
+                    "ALL OTHER OFFICERS AND EMPLOYEES NOT LISTED ABOVE": ""
+                },
+                "NUMBER OF OFFICERS:": null,
+                "TOTAL NUMBER OF OTHER EMPLOYEES": "",
+                "MANUFACTURERS, PROCESSORS, WHOLESALERS OR DISTRIBUTORS; NUMBER OF RETAIL LOCATIONS:": "",
+                "ALL OTHER CLASSES; NUMBER OF LOCATIONS OTHER THAN HOME OR HEAD OFFICES:": ""
+            }
+        },
+        "HIRING PRACTICES": {
+            "NO EXPLANATION REQUIRED": {
+                "1": {
+                    "IS PRIOR EMPLOYER HISTORY CHECKED?": "",
+                    "Y / N": null
+                },
+                "2": {
+                    "IS EDUCATION AND TRAINING VERIFIED?": "",
+                    "Y / N": null
+                },
+                "3": {
+                    "IS DRUG TESTING CONDUCTED?": "",
+                    "Y / N": null
+                },
+                "4": {
+                    "IS A FORMAL TRAINING PROGRAM ESTABLISHED AND FOLLOWED?": "",
+                    "Y / N": null
+                },
+                "5": {
+                    "ARE CREDIT CHECKS SECURED FOR EMPLOYEES WITH ACCESS TO FINANCIAL TRANSACTIONS?": "",
+                    "Y / N": null
+                },
+                "6": {
+                    "ARE SOCIAL SECURITY NUMBERS VERIFIED?": "",
+                    "Y / N": null
+                },
+                "7": {
+                    "IS CRIMINAL HISTORY CHECKED?": "",
+                    "Y / N": null
+                },
+                "8": {
+                    "ARE MANAGERS PROVIDED WITH NAMES AND SALARIES OF ALL ASSIGNED EMPLOYEES?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "CONTROLS AND AUDIT PROCEDURES - AUDITS": {
+            "NO EXPLANATION REQUIRED UNLESS STATED OTHERWISE": {
+                "1": {
+                    "AUDIT IS PERFORMED BY:": {
+                        "CPA": "",
+                        "PUBLIC ACCOUNTANT": "",
+                        "STAFF": ""
+                    },
+                    "Y / N": null
+                },
+                "2": {
+                    "NAME AND ADDRESS OF PERSON OR FIRM PERFORMING AUDIT": ""
+                },
+                "3": {
+                    "DATE OF COMPLETION OF LAST AUDIT OF CASH & ACCOUNTS:": null,
+                    "DATE OF COMPLETION OF LAST AUDIT OF INVENTORY:": ""
+                },
+                "4": {
+                    "AUDIT FREQUENCY?": {
+                        "ANNUAL": "",
+                        "SEMI-ANNUAL": null,
+                        "QUARTERLY": ""
+                    }
+                },
+                "5": {
+                    "AUDIT REPORT IS RENDERED TO:": {
+                        "OWNER": "",
+                        "PARTNERS": "",
+                        "BOARD OF DIRECTORS": ""
+                    }
+                },
+                "6": {
+                    "FINANCIAL FORMAT IS:": {
+                        "AUDIT": "",
+                        "REVIEW": "",
+                        "COMPILATION": "",
+                        "TAX RETURN ONLY": ""
+                    }
+                },
+                "7": {
+                    "ARE ALL LOCATIONS AUDITED?": "",
+                    "Y / N": null
+                },
+                "8": {
+                    "IS AUDIT MADE IN ACCORDANCE WITH GENERALLY ACCEPTED AUDITING STANDARDS AND SO CERTIFIED? (If 'NO', explain scope of audit)": "",
+                    "Y / N": null
+                },
+                "9": {
+                    "WERE ANY DISCREPANCIES OR LOOSE PRACTICES COMMENTED UPON IN THIS AUDIT? (If 'YES', submit a copy of the audit and auditor's comments).": "",
+                    "Y / N": null
+                },
+                "10": {
+                    "DOES AUDIT INCLUDE INVENTORY?": "",
+                    "Y / N": null
+                },
+                "11": {
+                    "ARE REFERENCES OF ALL NEW HIRES CHECKED WITH RESPECT TO EMPLOYMENT HISTORY?": "",
+                    "Y / N": null
+                },
+                "12": {
+                    "DOES AUDIT DEPARTMENT HAVE A PROGRAM TO DETECT GHOST EMPLOYEES?": "",
+                    "Y / N": null
+                },
+                "13": {
+                    "IS PAYROLL SYSTEM AUDITED ANNUALLY?": "",
+                    "Y / N": null
+                },
+                "14": {
+                    "IS A COMPLETE PHYSICAL INVENTORY MADE? (If 'YES', how often):": "",
+                    "Y / N": null
+                },
+                "15": {
+                    "IS INVENTORY MADE BY PERSONS WHO DO NOT HAVE CUSTODY CONTROL?": "",
+                    "Y / N": null
+                },
+                "16": {
+                    "IS A REQUISITION / SHIPPING ORDER REQUIRED FOR REMOVAL OF GOODS FROM STOREROOM / WAREHOUSE?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "table_data": {},
+        "ACORD": "141 (2016/03)"
+    },
+    "Page_3": {
+        "CONTROLS AND AUDIT PROCEDURES- BANKING/OTHER": {
+            "NO EXPLANATION REQUIRED UNLESS STATED OTHERWISE": {
+                "1": {
+                    "ARE BANK ACCOUNTS RECONCILED BY SOMEONE NOT AUTHORIZED TO DEPOSIT OR WITHDRAW?": "",
+                    "Y / N": null
+                },
+                "2": {
+                    "IS COUNTERSIGNATURE OF CHECKS REQUIRED? IF NOT, WHO SIGNS CONTROLS?:": "",
+                    "Y / N": null
+                },
+                "3": {
+                    "WILL SECURITIES BE SUBJECT TO JOINT CONTROL OF TWO OR MORE RESPONSIBLE EMPLOYEES?": "",
+                    "Y / N": null
+                },
+                "4": {
+                    "ARE ALL OFFICERS AND EMPLOYEES REQUIRED TO TAKE ANNUAL VACATIONS OF AT LEAST FIVE CONSECUTIVE BUSINESS DAYS?": "",
+                    "Y / N": null
+                },
+                "5": {
+                    "IS THERE A WRITTEN POLICY REGARDING EFTS?": "",
+                    "Y / N": null
+                },
+                "6": {
+                    "WHAT IS THE LARGEST SINGLE AMOUNT THAT CAN BE TRANSFERRED?: $": "$",
+                    "Y / N": null
+                },
+                "7": {
+                    "PRIOR TO FUNDS TRANSFER, DOES FINANCIAL INSTITUTION VERIFY AUTHENTICITY WITH ANOTHER EMPLOYEE?": "",
+                    "Y / N": null
+                },
+                "8": {
+                    "ARE HARD COPIES OF FUNDS TRANSFER CONFIRMATIONS RECEIVED AND RECONCILED?": "",
+                    "Y / N": null
+                },
+                "9": {
+                    "ARE DETAILED RECORDS OF BANK DEPOSITS MAINTAINED?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "PURCHASING / RECEIVING CONTROLS": {
+            "NO EXPLANATION REQUIRED": {
+                "1": {
+                    "ARE DUTIES SEGREGATED?": "",
+                    "Y / N": null
+                },
+                "2": {
+                    "ARE DEPARTMENTS SUPERVISED BY SOMEONE NOT AUTHORIZED TO PAY BILLS?:": "",
+                    "Y / N": null
+                },
+                "3": {
+                    "IS RESPONSIBILITY FOR CHECKING MERCHANDISE RECEIVED / CONTROLLED BY MORE THAN ONE INDIVIDUAL?": "",
+                    "Y / N": null
+                },
+                "4": {
+                    "IS ACTUAL RECEIPT OF MERCHANDISE VERIFIED BEFORE PAYMENT IS MADE?": "",
+                    "Y / N": null
+                },
+                "5": {
+                    "IS A NUMBERED PURCHASE ORDER SYSTEM IMPLEMENTED AND FOLLOWED?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "COMPUTER FRAUD CONTROLS": {
+            "NO EXPLANATION REQUIRED": {
+                "1": {
+                    "DO INTERNAL AUDIT PROCEDURES INCLUDE COMPUTER OPERATIONS?": "",
+                    "Y / N": null
+                },
+                "2": {
+                    "IS THERE AN EMPLOYEE OR DEPARTMENT WHOSE SOLE DUTY IS SECURITY?": "",
+                    "Y / N": null
+                },
+                "3": {
+                    "ARE SUSPICIOUS TRANSACTIONS REVIEWED AND INVESTIGATED?": "",
+                    "Y / N": null
+                },
+                "4": {
+                    "IS PHYSICAL ACCESS TO COMPUTER ROOM AND EQUIPMENT RESTRICTED TO AUTHORIZED PERSONNEL?": "",
+                    "Y / N": null
+                }
+            }
+        },
+        "PROPERTY": {
+            "DESCRIPTION OF PROPERTY, MERCHANDISE, STOCK, ETC.": "",
+            "MAXIMUM VALUE": ""
+        },
+        "MISCELLANEOUS INFORMATION": {
+            "BUSINESS HOURS": {
+                "Start:": "",
+                "Close:": ""
+            },
+            "AVG # EMPLOYEES ON DUTY": "",
+            "CHECKS STAMPED FOR DEPOSIT ONLY(Y / N)": "",
+            "FREQUENCY OF DEPOSIT": {
+                "DAILY": ""
+            },
+            "NIGHT DEPOSITORY USED(Y / N)": "",
+            "ANNUAL GROSS SALES OR RECEIPTS FOR LAST FISCAL YEAR": "",
+            "DOES PREMISES HAVE DOUBLE CYLINDER DOOR LOCKS(Y / N)": "",
+            "OTHER INFORMATION": ""
+        },
+        "table_data": {
+            "MONEY - SECURITIES": [
+                {
+                    "TYPE": "INSIDE",
+                    "MONEY": "$",
+                    "CHECKS FOR DEPOSIT": "$",
+                    "CHECKS FOR ACCOUNTSPAYABLE": "$",
+                    "PAYROLL CHECKS": "$",
+                    "MONEY OVERNIGHT": "$",
+                    "SECURITIES ON BANK SAFE DEPOSIT)": "$"
+                },
+                {
+                    "TYPE": "MESSENGER #1",
+                    "MONEY": "$",
+                    "CHECKS FOR DEPOSIT": "$",
+                    "CHECKS FOR ACCOUNTSPAYABLE": "$",
+                    "PAYROLL CHECKS": "$",
+                    "MONEY OVERNIGHT": "$",
+                    "SECURITIES ON BANK SAFE DEPOSIT)": ""
+                },
+                {
+                    "TYPE": "MESSENGER #2",
+                    "MONEY": "1",
+                    "CHECKS FOR DEPOSIT": "$",
+                    "CHECKS FOR ACCOUNTSPAYABLE": "$",
+                    "PAYROLL CHECKS": "I",
+                    "MONEY OVERNIGHT": "$",
+                    "SECURITIES ON BANK SAFE DEPOSIT)": ""
+                }
+            ]
+        },
+        "ACORD": "141 (2016/03)"
+    },
+    "Page_4": {
+        "SAFE / VAULT": {
+            "MANUFACTURER": "",
+            "LABEL": {
+                "UL": "",
+                "SMNA": null
+            },
+            "CLASS": "",
+            "DOOR TYPE": {
+                "ROUND": "",
+                "SQAURE": null
+            },
+            "COMBINATION LOCKS": {
+                "OUTER": "",
+                "INNER": "",
+                "CHEST": ""
+            },
+            "THICKNESS": {
+                "DOOR(EXCL BOLTWORK)": null,
+                "WALL": null
+            }
+        },
+        "MESSENGER PROTECTION": {
+            "# OF MESSENGERS": "",
+            "# OF GAURDS PER MESSENGER": "",
+            "# OF ARMORED VEHICLES": null,
+            "PRIVATE CONVEYANCE USED?(Y / N)": null,
+            "SAFETY SATCHEL USED?(Y / N)": null
+        },
+        "PREMISES / SAFE PROTECTION": {
+            "ALARM TYPE": {
+                "HOLD-UP": "",
+                "PREMISES": "",
+                "SAFE": ""
+            },
+            "CERTIFICATE NUMBER": "",
+            "EXPIRATION DATE": "",
+            "ALARM DESCRIPTION": {
+                "LOCAL GONG": "",
+                "CENTRAL STATION": "",
+                "POLICE CONNECT": "",
+                "WITH KEYS": ""
+            },
+            "GRADE": "",
+            "EXTENT OF PROTECTION": {
+                "SAFE / VAULT": {
+                    "PARTIAL": null,
+                    "COMPLETE": ""
+                },
+                "PREMISES": {
+                    "1": "",
+                    "2": null,
+                    "3": null
+                }
+            },
+            "ACCESSIBLE OPENINGS & PROTECTION": "",
+            "ALARM INSTALLED AND SERVICED BY": "",
+            "# GUARDS": "",
+            "# WATCH PERSONS": "",
+            "WATCHPERSONS": {
+                "RPT/CENT ST": null,
+                "CLOCL HRLY": "",
+                "DON'T SIGNAL": ""
+            },
+            "OTHER PROTECTION (Fences, Floodlights, etc)": ""
+        },
+        "table_data": {
+            "EMPLOYEE SCHEDULE (Complete if required)": [
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                },
+                {
+                    "NAME OF EMPLOYEES TO BE COVEREDTITLE": "",
+                    "LIMIT": "",
+                    "DEDUCTIBLE": ""
+                }
+            ]
+        },
+        "ACORD": "141 (2016/03)"
+    },
+    "Page_5": {
+        "REMARKS (ACORD 101, Additional Remarks Schedule, may be attached if more space is required)": "",
+        "SIGNATURE": {
+            "PRODUCER'S SIGNATURE": "",
+            "PRODUCER'S NAME (Please Print)": "",
+            "STATE PRODUCER LICENSE NO(Required in Florida)": "",
+            "APPLICANT'S SIGNATURE": "",
+            "DATE": "",
+            "NATIONAL PRODUCER NUMBER": ""
+        },
+        "table_data": {},
+        "ACORD": "141 (2016/03)"
+    },
+    "File_Name": "ACORD_141_Crime.pdf",
+    "Page_Count": 5
+}

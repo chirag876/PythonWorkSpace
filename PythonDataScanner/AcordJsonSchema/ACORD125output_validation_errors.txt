@@ -1,0 +1,1 @@
+Data type mismatch for property 'AGENCY'. Expected type '<class 'str'>', but found '<class 'list'>'./nData type mismatch for property 'PHONE (A/C. No. Ext)'. Expected type '(<class 'int'>, <class 'float'>)', but found '<class 'str'>'./nData type mismatch for property 'FAX (A/C. No)'. Expected type '(<class 'int'>, <class 'float'>)', but found '<class 'str'>'./n
