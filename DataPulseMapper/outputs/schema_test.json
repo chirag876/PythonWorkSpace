@@ -1,0 +1,258 @@
+[
+  {
+    "output_column": "MGA",
+    "input_column": "PRODUCER_FIRM_NAME"
+  },
+  {
+    "output_column": "FULL POLICY NUMBER",
+    "input_column": "POLICY_NUMBER"
+  },
+  {
+    "output_column": "POLICY EFFECTIVE DATE",
+    "input_column": "POLICY_EFFECTIVE_DATE"
+  },
+  {
+    "output_column": "POLICY EXPIRATION DATE",
+    "input_column": "POLICY_EXPIRATION_DATE"
+  },
+  {
+    "output_column": "INSURED NAME",
+    "input_column": "INSURED_NAME"
+  },
+  {
+    "output_column": "INSURED ADDRESS",
+    "input_column": "INSURED_ADDRESS_1"
+  },
+  {
+    "output_column": "INSURED CITY",
+    "input_column": "INSURED_CITY"
+  },
+  {
+    "output_column": "INSURED STATE",
+    "input_column": "INSURED_STATE"
+  },
+  {
+    "output_column": "INSURED ZIP",
+    "input_column": "INSURED_ZIP"
+  },
+  {
+    "output_column": "TRANSACTION EFFECTIVE DATE",
+    "input_column": "TRANSACTION_EFFECTIVE_DATE"
+  },
+  {
+    "output_column": "TRANSACTION EXPIRATION DATE",
+    "input_column": "TRANSACTION_EXPIRATION_DATE"
+  },
+  {
+    "output_column": "PREMIUM",
+    "input_column": "WRITTEN_PREMIUM_EX_TRIA"
+  },
+  {
+    "output_column": "COMMISSION AMOUNT",
+    "input_column": "COMMISSION"
+  },
+  {
+    "output_column": "BOOK OR PROCESS DATE",
+    "input_column": "TRANSACTION_EFFECTIVE_DATE"
+  },
+  {
+    "output_column": "POLICY TYPE",
+    "input_column": "TRANSACTION_DESCRIPTION"
+  },
+  {
+    "output_column": "TRANSACTION TYPE",
+    "input_column": "TRANSACTION_TYPE"
+  },
+  {
+    "output_column": "PRIMARY/EXCESS INDICATOR",
+    "input_column": "PRIMARY_EXCESS"
+  },
+  {
+    "output_column": "CM/OCC INDICATOR",
+    "input_column": "CLAIMS_BASIS"
+  },
+  {
+    "output_column": "RISK/LOCATION ADDRESS",
+    "input_column": "RISK_LOCATION_ADDRESS_1"
+  },
+  {
+    "output_column": "RISK/LOCATION STATE",
+    "input_column": "RISK_STATE_CODE"
+  },
+  {
+    "output_column": "RISK/LOCATION ZIP",
+    "input_column": "RISK_LOCATION_ZIP"
+  },
+  {
+    "output_column": "EXPOSURE TYPE",
+    "input_column": "EXPOSURE"
+  },
+  {
+    "output_column": "POLICY OCCURRENCE LIMIT",
+    "input_column": "LIMIT_OCCURRENCE"
+  },
+  {
+    "output_column": "POLICY AGGREGATE LIMIT",
+    "input_column": "LIMIT_AGGREGATE"
+  },
+  {
+    "output_column": "SIR/DEDUCTIBLE AMOUNT",
+    "input_column": "DEDUCTIBLE"
+  },
+  {
+    "output_column": "SIR/DEDUCTIBLE TYPE",
+    "input_column": "CLAIMS_BASIS"
+  },
+  {
+    "output_column": "EXPIRING POLICY NUMBER",
+    "input_column": "EXPIRING_POLICY_NUMBER"
+  },
+  {
+    "output_column": "POLICY EVENT NUMBER",
+    "input_column": "POLICY_NUMBER"
+  },
+  {
+    "output_column": "CARRIER %",
+    "input_column": "ASCOT_SHARE"
+  },
+  {
+    "output_column": "BROKER/AGENT",
+    "input_column": "PRODUCER_INDIVIDUAL_NAME"
+  },
+  {
+    "output_column": "BROKER/AGENT ADDRESS",
+    "input_column": "PRODUCER_ADDRESS_1"
+  },
+  {
+    "output_column": "BROKER/AGENT CITY",
+    "input_column": "PRODUCER_CITY"
+  },
+  {
+    "output_column": "BROKER/AGENT STATE",
+    "input_column": "PRODUCER_STATE"
+  },
+  {
+    "output_column": "BROKER/AGENT ZIP",
+    "input_column": "PRODUCER_ZIP"
+  },
+  {
+    "output_column": "MEDICAL EXPENSE LIMIT",
+    "input_column": "LIMIT_MEDPAY"
+  },
+  {
+    "output_column": "PERSONAL AND ADVERTISING INJURY LIMIT",
+    "input_column": "LIMIT_PIP"
+  },
+  {
+    "output_column": "RATE PER MEMBER",
+    "input_column": "RATE"
+  },
+  {
+    "output_column": "NJ TRANSACTION NUMBER",
+    "input_column": "TRANSACTION_NUMBER"
+  },
+  {
+    "output_column": "COVERAGE CODE",
+    "input_column": "COVERAGE"
+  },
+  {
+    "output_column": "COVERAGE SUB CODE",
+    "input_column": "COVERAGE"
+  },
+  {
+    "output_column": "FLEET INDICATOR",
+    "input_column": "RATING_FLEET_NONFLEET"
+  },
+  {
+    "output_column": "VEHICLE NUMBER",
+    "input_column": "VIN"
+  },
+  {
+    "output_column": "RADIUS OF USE",
+    "input_column": "RATING_DRIVING_RADIUS"
+  },
+  {
+    "output_column": "GROSS VEHICLE WEIGHT",
+    "input_column": "RATING_GROSS_VEHICLE_WEIGHT"
+  },
+  {
+    "output_column": "VEHICLE MAKE",
+    "input_column": "VEHICLE_MAKE"
+  },
+  {
+    "output_column": "VEHICLE IDENTIFICATION NUMBER",
+    "input_column": "VIN"
+  },
+  {
+    "output_column": "VEHICLE NUMBER OF SEATS, SEATING CAPACITY",
+    "input_column": "RATING_SEATING_CAPACITY"
+  },
+  {
+    "output_column": "AOP DEDUCTIBLE",
+    "input_column": "DEDUCTIBLE"
+  },
+  {
+    "output_column": "ATTACHMENT POINT",
+    "input_column": "ATTACHMENT_POINT"
+  },
+  {
+    "output_column": "VEHICLE MODEL",
+    "input_column": "VEHICLE_MODEL"
+  },
+  {
+    "output_column": "MODEL YEAR",
+    "input_column": "VEHICLE_YEAR"
+  },
+  {
+    "output_column": "VEHICLE TYPE",
+    "input_column": "VEHICLE_TYPE"
+  },
+  {
+    "output_column": "_ID",
+    "input_column": "UPLOADID"
+  },
+  {
+    "output_column": "TOTAL GROSS PREMIUM INCLUDING TERRORISM",
+    "input_column": "REPORTING_PERIOD"
+  },
+  {
+    "output_column": "SURCHARGE AMOUNT",
+    "input_column": "MGA_PARTICIPATION"
+  },
+  {
+    "output_column": "ANNUAL STATEMENT LINE DESCRIPTION",
+    "input_column": "LINE_OF_BUSINESS"
+  },
+  {
+    "output_column": "PROGRAM NAME",
+    "input_column": "ADMITTED_NONADMITTED"
+  },
+  {
+    "output_column": "TAX AMOUNT",
+    "input_column": "PRODUCER_INDIVIDUAL_LICENSE_NUMBER"
+  },
+  {
+    "output_column": "FEE AMOUNT",
+    "input_column": "PRODUCER_FIRM_LICENSE_NUMBER"
+  },
+  {
+    "output_column": "RISK/LOCATION #",
+    "input_column": "RATING_FACTOR_BASE_RATE"
+  },
+  {
+    "output_column": "RISK/LOCATION PREMIUM",
+    "input_column": "RATING_FACTOR_EXPERIENCE"
+  },
+  {
+    "output_column": "TECHNICAL PRICE",
+    "input_column": "HISTORICAL_LOSS_YEARS"
+  },
+  {
+    "output_column": "IRPM (INDIVIDUAL RISK PREMIUM MODIFICATION)",
+    "input_column": "HISTORICAL_LOSS_COUNT"
+  },
+  {
+    "output_column": "EXPOSURE AMOUNT",
+    "input_column": "HISTORICAL_LOSS_AMOUNT"
+  }
+]

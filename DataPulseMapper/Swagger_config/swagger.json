@@ -1,0 +1,88 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "DataPulse Py",
+    "description": "API for managing DataPulse records",
+    "version": "1.0"
+  },
+  "paths": {
+    "/readinputfile": {
+      "post": {
+        "summary": "Upload files",
+        "consumes": ["multipart/form-data"],
+        "parameters": [
+          {
+            "name": "source",
+            "in": "formData",
+            "type": "string",
+            "required": true,
+            "description": "The file to upload"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "CSV files added successfully"
+          }
+        }
+      }
+    },
+    "/approvefileschema": {
+      "post": {
+        "summary": "Upload files",
+        "consumes": ["multipart/form-data"],
+        "parameters": [
+          {
+            "name": "file_schema_id",
+            "in": "formData",
+            "type": "string",
+            "required": true,
+            "description": "The file id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Completed"
+          }
+        }
+      }
+    },
+    "/heartbeat": {
+      "get": {
+        "summary": "Check API heartbeat",
+        "responses": {
+          "200": {
+            "description": "API is working"
+          }
+        }
+      },
+      "post": {
+        "summary": "Check API heartbeat",
+        "responses": {
+          "200": {
+            "description": "API is working"
+          }
+        }
+      }
+    },
+    "/cleanfileschema": {
+      "post": {
+        "summary": "Upload files",
+        "consumes": ["multipart/form-data"],
+        "parameters": [
+          {
+            "name": "file_schema_id",
+            "in": "formData",
+            "type": "string",
+            "required": true,
+            "description": "The file id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Completed"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "mongo_connection_string": "mongodb://localhost:27017",
+    "database_name": "datapulse0",
+    "benchmark_schema_collection_name": "benchmark_schema",
+    "benchmark_data_collection_name": "benchmark_data",
+    "file_status_collection_name": "file_status",
+    "file_schema_collection_name":"file_schema"
+
+
+}

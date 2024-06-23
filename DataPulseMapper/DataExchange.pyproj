@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ea392cc9-83d5-4d14-aaf6-78dcb39afe72}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>app.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env_data_exchange|$(MSBuildProjectFullPath)</InterpreterId>
+    <Name>DataExchange</Name>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="requirements.txt" />
+    <Content Include="requirements1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ai_schema_generator.py" />
+    <Compile Include="app.py" />
+    <Compile Include="app_level.py" />
+    <Compile Include="calculatenetpremium.py" />
+    <Compile Include="calculatetotalpremium.py" />
+    <Compile Include="database\mongoconnection.py" />
+    <Compile Include="file_mapping.py" />
+    <Compile Include="Kafka_config\kafka_config.py" />
+    <Compile Include="rule_field_map.py" />
+    <Compile Include="s3downloader.py" />
+    <Compile Include="s3uploader.py" />
+    <Compile Include="service_api\read_input_file.py" />
+    <Compile Include="service_api\upload_files.py" />
+    <Compile Include="service_api\user_approval_files.py" />
+    <Compile Include="Swagger_config\swagger_configuration.py" />
+    <Compile Include="uploads\test.py" />
+    <Compile Include="wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="database" />
+    <Folder Include="Kafka_config" />
+    <Folder Include="service_api" />
+    <Folder Include="Swagger_config" />
+    <Folder Include="uploads" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env_data_exchange\">
+      <Id>env_data_exchange</Id>
+      <Version>3.8</Version>
+      <Description>env_data_exchange (Python 3.8 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
