@@ -1,0 +1,245 @@
+SNo.,Calculated_Fields,Formula,Required_Fields
+1,Closed Lost Opportunities,"Closed Lost Opportunities = CALCULATE(
+    COUNT('Original_Data(34728)'[Opportunity_Id]),
+    FILTER('Original_Data(34728)', 
+        'Original_Data(34728)'[Is_Won] = 0 
+       
+    )
+)",Opportunity_Id
+,,,Is_Won
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+2,Closed Won Opportunities,"Closed Won Opportunities = CALCULATE(
+    COUNT('Original_Data(34728)'[Opportunity_Id]),
+    FILTER('Original_Data(34728)', 
+        'Original_Data(34728)'[Is_Won] = 1 
+       
+    )
+)",Opportunity_Id
+,,,Is_Won
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+3,AnnualRevenueSlab,"AnnualRevenueSlab = SWITCH(TRUE(),
+    ISBLANK([Annual_Revenue]), BLANK(),
+    [Annual_Revenue] >= 0 && [Annual_Revenue] < 100000, ""<100K"",
+    [Annual_Revenue] >= 100000 && [Annual_Revenue] < 200000, ""100k-200k"",
+    [Annual_Revenue] >= 200000 && [Annual_Revenue] < 400000, ""200K-400K"",
+    [Annual_Revenue] >= 400000 && [Annual_Revenue] < 800000, ""400K-800K"",
+    [Annual_Revenue] >= 800000 && [Annual_Revenue] < 1600000, ""800K-1600K"",
+    [Annual_Revenue] >= 1600000, ""1600K+"",
+    BLANK()
+)",Annual_Revenue
+,,,
+4,EmployeeSlab,"EmployeeSlab =SWITCH(TRUE(),
+    ISBLANK([Number_Of_Employees]), BLANK(),
+    [Number_Of_Employees] >= 0 && [Number_Of_Employees] <= 3, ""0-3"",
+    [Number_Of_Employees] >= 4 && [Number_Of_Employees] <= 6, ""4-6"",
+    [Number_Of_Employees] >= 7 && [Number_Of_Employees] <= 9, ""7-9"",
+    [Number_Of_Employees] >= 10 && [Number_Of_Employees] <= 12, ""10-12"",
+    [Number_Of_Employees] >= 13, ""13+"",
+    BLANK()
+)",Number_of employees
+,,,
+5,Opportunity Loss Rate,"Opportunity Loss Rate = 
+DIVIDE(
+    COUNTROWS(FILTER('Original_Data(34728)', 'Original_Data(34728)'[Is_Won] = 0)),
+    COUNTROWS('Original_Data(34728)'),
+    0
+)",Is_Won
+,,,
+6,Opportunity Win Rate,"Opportunity Win Rate = 
+DIVIDE(
+    COUNTROWS(FILTER('Original_Data(34728)', 'Original_Data(34728)'[Is_Won] = 1)),
+    COUNTROWS('Original_Data(34728)'),
+    0
+) ",Is_Won
+,,,
+7,Title Range,Title Range = RELATED(Sheet1[Column1]),
+,,,
+8,Year,Year = Year('Original_Data(34728)'[Last_Modified_Date]),Last_Modified_Date
+,,,
+9,Is converted true,"Is converted true = CALCULATE(COUNT('Lead(45553)'[IsConverted]), FILTER('Lead(45553)', 'Lead(45553)'[IsConverted]=1)",IsConverted
+,,,
+10,Conversion_Ratio_by_Slab,"Conversion_Ratio_by_Slab = 
+CALCULATE(
+    AVERAGE('acc_opp_merged_220923'[IsWon]),
+    FILTER('acc_opp_merged_220923', NOT(ISBLANK('acc_opp_merged_220923'[IsWon])))
+)
+",IsWon
+,,,
+11,Ratio_Slab,"Ratio_Slab = 
+VAR Ratio = [Amount_to_AnnualRevenue_Ratio]
+RETURN
+    SWITCH(
+        TRUE(),
+        Ratio < 0.15, ""<0.15"",
+        Ratio >= 0.15 && Ratio < 0.3, ""0.15-0.3"",
+        Ratio >= 0.3 && Ratio < 0.45, ""0.3-0.45"",
+        Ratio >= 0.45 && Ratio < 0.6, ""0.45-0.6"",
+        Ratio >= 0.6 && Ratio < 0.75, ""0.6-0.75"",
+        Ratio >= 0.75 && Ratio < 0.9, ""0.75-0.9"",
+        TRUE(), "">=0.9""
+    )",
+,,,
+12,Lead Conversion Rate,"Lead Conversion Rate = 
+
+DIVIDE(
+    COUNTROWS(FILTER('Lead', 'Lead'[IsConverted] = 1)),  -- Count of converted leads
+   COUNTROWS(ALL('Lead')),                                 -- Count of all leads
+    0                                               -- Value to return if the denominator is zero (to avoid errors)
+) 
+",IsConverted
+,,,
+13,Lead Growth Rate,"Lead Growth Rate = 
+VAR CurrentYear = YEAR(MAX('Lead'[CreatedDate]))
+VAR PreviousYear1 =
+    CALCULATE(
+        MAX('Lead'[YearColumn]),  // Replace 'YearColumn' with the actual column name for the year in your data
+        FILTER(ALL('Lead'), 'Lead'[YearColumn] < CurrentYear)
+    )
+VAR CurrentLead =
+    SUMX(FILTER('Lead', YEAR('Lead'[CreatedDate]) = CurrentYear), 'Lead'[Total Leads])
+VAR PreviousLead =
+    SUMX(FILTER('Lead', YEAR('Lead'[CreatedDate]) = PreviousYear1), 'Lead'[Total Leads])
+VAR GrowthRate =
+    IF(
+        ISBLANK(PreviousLead),
+        BLANK(),
+        (CurrentLead - PreviousLead) / PreviousLead
+    )
+RETURN
+    IF(
+        ISBLANK(GrowthRate),
+        BLANK(),
+        ABS(GrowthRate)
+    )","Year, CreatedDate"
+,,,
+14,Average Conversion Time,"Average Conversion Time = 
+AVERAGEX(
+    FILTER(
+        'Lead', --  the name of table
+        NOT(ISBLANK([ConvertedDate]))  -- Filter out records where ConvertedDate is blank
+    ),
+    DATEDIFF([CreatedDate], [ConvertedDate], DAY)  -- Calculate the difference in days
+)
+
+","CreatedDate, ConvertedDate"
+,,,
+15,Opportunity Win Rate,"Opportunity Win Rate = 
+DIVIDE(
+    COUNTROWS(FILTER(Opportunity, Opportunity[StageName] = ""Closed Won"")),
+    COUNTROWS(Opportunity),
+    0
+) ",Stage Name
+,,,
+16,Opportunity Growth Rate,"Opportunity Growth Rate = 
+VAR CurrentYear = YEAR(MAX('Opportunity'[CreatedDate]))
+VAR PreviousYear1 =
+    CALCULATE(
+        MAX('Opportunity'[YearColumn]),  // Replace 'YearColumn' with the actual column name for the year in your data
+        FILTER(ALL('Opportunity'), 'Opportunity'[YearColumn] < CurrentYear)
+    )
+VAR CurrentOpportunity =
+    SUMX(FILTER('Opportunity', YEAR('Opportunity'[CreatedDate]) = CurrentYear), 'Opportunity'[OverallOpportunity])
+VAR PreviousOpportunity =
+    SUMX(FILTER('Opportunity', YEAR('Opportunity'[CreatedDate]) = PreviousYear1), 'Opportunity'[OverallOpportunity])
+VAR GrowthRate =
+    IF(
+        ISBLANK(PreviousOpportunity),
+        BLANK(),
+        (CurrentOpportunity - PreviousOpportunity) / PreviousOpportunity
+    )
+RETURN
+    IF(
+        ISBLANK(GrowthRate),
+        BLANK(),
+        ABS(GrowthRate)
+    )
+
+","Created Date, YearColumn"
+,,,
+17,Average Conversion Time For Opportunity,"Average Conversion Time For Opportunity = 
+AVERAGEX(
+    FILTER(
+        'Opportunity', --  the name of table
+        NOT(ISBLANK([CloseDate]))  -- Filter out records where CloseDate is blank
+        &&YEAR(Opportunity[CloseDate])>=2012 && YEAR(Opportunity[CloseDate])<=2023
+    ),
+    DATEDIFF([CreatedDate], [CloseDate], DAY)  -- Calculate the difference in days
+)
+","Close Date, Created Date"
+,,,
+18,Amount_to_AnnualRevenue_Ratio,"Amount_to_AnnualRevenue_Ratio = DIVIDE(acc_opp_merged_220923[Amount], acc_opp_merged_220923[AnnualRevenue])
+","Amount, AnnualRevenue"
+,,,
+19,Total_Accounts_by_Slab,"Total_Accounts_by_Slab = 
+VAR SelectedSlab = SELECTEDVALUE('acc_opp_merged_220923'[Ratio_Slab])
+RETURN
+    COUNTROWS(
+        FILTER('acc_opp_merged_220923', 'acc_opp_merged_220923'[Ratio_Slab] = SelectedSlab)
+    )
+
+",Ratio_Slab (calculated_field)
+,,,
+20,YearColumn,YearColumn = YEAR(Account_masked[CreatedDate]),CreatedDate
+,,,
+21,Lead Growth,"Lead Growth = 
+CALCULATE(
+    COUNTROWS('Lead'),   -- 
+    FILTER(ALL('Lead'[CreatedDate]), 'Lead'[CreatedDate] <= MAX('Calendar'[Date]))
+    --ALL('Lead'[CreatedDate]) -- 
+)
+
+",CreatedDate
+,,,
+22,Total Leads,Total Leads = CALCULATE(COUNTROWS('Lead')),
+,,,
+23,Total Opportunities,"Total Opportunities = CALCULATE(COUNTROWS(FILTER('Lead', 'Lead'[IsConverted]=1)))",IsConverted
+,,,
+24,Average Conversion Time From Lead To Opportunity,"Average Conversion Time From Lead To Opportunity = 
+AVERAGEX(
+    FILTER(
+        'Opportunity', --  the name of table
+        NOT(ISBLANK([CloseDate]))  -- Filter out records where CloseDate is blank
+        &&YEAR(Opportunity[CloseDate])>=2012 && YEAR(Opportunity[CloseDate])<=2023
+        && YEAR(Lead[CreatedDate])>=2012 && YEAR(Lead[CreatedDate])<=2023
+    ),
+    DATEDIFF([CreatedDate], [CloseDate], DAY)  -- Calculate the difference in days
+)","Close Date, Created Date"
+,,,
+25,Opportunity Growth,"Opportunity Growth = 
+CALCULATE(
+    COUNTROWS('Opportunity'),   
+     FILTER(ALL('Opportunity'[CreatedDate]), 'Opportunity'[CreatedDate] <= MAX('Calendar'[Date]))
+    --ALL('Opportunity'[CreatedDate]) 
+)",Created Date
+,,,
+26,OverallOpportunity,OverallOpportunity = COUNTROWS(ALL('Opportunity'[Id])),Opportunity_Id
+,,,
+27,Total Amount for Year Range,"Total Amount for Year Range = 
+SUMX(
+    FILTER(
+        Opportunity,  
+        'Opportunity'[StageName]=""Closed Won"" && 'Opportunity'[YearColumn]
+    ),
+    Opportunity[Amount]  
+)
+","StageName,YearColumn, Amount"
+,,,
+28,Total Closed Won Opportunities,"Total Closed Won Opportunities = 
+CALCULATE(
+    COUNTROWS('Opportunity'),  -- Count the number of rows in the 'Opportunity' table
+    'Opportunity'[StageName] = ""Closed Won""  -- Filter by the 'StageName' column
+)",Stage Name
+,,,
+29,Year(Table),"Year = INTERSECT(VALUES('Lead'[YearColumn]),VALUES(Opportunity[YearColumn]))",YearColumn
+,,,
+30,Calendar,"Calendar = CALENDAR(DATE(2012, 1, 1), DATE(2023, 12, 31))",
