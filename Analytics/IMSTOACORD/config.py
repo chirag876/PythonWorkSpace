@@ -1,0 +1,7 @@
+mongodb_uri='mongodb://localhost:27017/'
+db='stage_0'
+connectionstring='DefaultEndpointsProtocol=https;AccountName=staiblobstorage;AccountKey=tLuUgLKixZwC6oTfmRAB0kZpaOTieFiXCd+Gn5NdBSu98h88AJKynR03M1t670+RzrJy1QA4+Miy+AStICcicA==;EndpointSuffix=core.windows.net'
+containername = 'csvcontainer'
+sourcetostage0configs='./MongoDB_Configs'
+stage0toazureconfigs='./Blob_Configs'
+csvfilepath='./MongoDB_tables'

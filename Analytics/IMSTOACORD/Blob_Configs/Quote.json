@@ -1,0 +1,65 @@
+{
+    "Auditable": [
+        "AuditableRequestId"
+    ],
+    "DateCreated": [
+        "CreatedDateTime"
+    ],
+    "EffectiveDate": [
+        "EffectiveDate"
+    ],
+    "ExpirationDate": [
+        "ExpirationDate"
+    ],
+    "InsuredAddress1": [
+        "insured.Address.Line1"
+    ],
+    "InsuredAddress2": [
+        "insured.Address.Line2"
+    ],
+    "InsuredCity": [
+        "insured.Address.City"
+    ],
+    "InsuredFirstName": [
+        "insured.GivenName"
+    ],
+    "InsuredISOCountryCode": [
+        "insured.CountryCode",
+        "insured.Address.CountryCode"
+    ],
+    "InsuredLastName": [
+        "insured.Surname"
+    ],
+    "InsuredPhone": [
+        "insured.Contact.Communication.PhoneNumber"
+    ],
+    "InsuredState": [
+        "insured.Address.StateOrProvinceName"
+    ],
+    "InsuredZipCode": [
+        "insured.Address.PostalCode"
+    ],
+    "NAICSCode": [
+        "insured.Business.NAICS"
+    ],
+    "PolicyNumber": [
+        "Number"
+    ],
+    "ProducerName": [
+        "producer.FullName"
+    ],
+    "QuoteID": [
+        "QuoteId",
+        "quoteId"
+    ],
+    "SIC_Code": [
+        "insured.Business.SIC"
+    ],
+    "StateID": [
+        "address.StateOrProvinceCode",
+        "location.StateOrProvinceCode"
+    ],
+    "TargetPremium": [
+        "TotalPremium"
+    ]
+}
