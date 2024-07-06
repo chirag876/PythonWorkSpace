@@ -44,7 +44,7 @@ To get started with the repository, follow these steps:
    pip install -r requirements.txt
    ```
 # Power BI Dashboards
-This repository showcases our Power BI dashboards. Here are some glimpses of their features and capabilities ![Power Bi Dashboards](Analytics/Dashboard).
+This repository showcases our Power BI dashboards. Here are some glimpses of their features and capabilities [Power Bi Dashboards](Analytics/Dashboard).
 
 ## Analytics Dashboard
 ![Conversion Business](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20(Business).png)
