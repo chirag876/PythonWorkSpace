@@ -69,6 +69,6 @@ To use the dashboard, follow these steps:
 2. Customize the visuals and reports as needed.
 3. Publish the dashboard to Power BI Service for sharing and collaboration.
 
-**Note:** You can find the .pbix file here - ![Power Bi Dashboards](Analytics/Dashboard)
+**Note:** You can find the .pbix file here ![Power Bi Dashboards](Analytics/Dashboard)
 
 5. **Note:** This repository contains multiple projects, each serving a different purpose. Ensure that you navigate to the specific project folder you want to build and run.
