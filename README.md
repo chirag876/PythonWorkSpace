@@ -27,25 +27,24 @@ To get started with the repository, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/chirag876/.NETWorkSpace.git
+    https://github.com/chirag876/PythonWorkSpace.git
     ```
 
 2. **Navigate to the Project Directory:**
     ```bash
-    cd .NETWorkSpace
+    cd PythonWorkSpace
     ```
 
-3. **Build the Project:**
+3. **Create the virtual environment:**
     ```bash
-    dotnet build
+    python -m env myenv
     ```
-
-4. **Run the Project:**
-    ```bash
-    dotnet run
-    ```
+4. **Download the libraries for specific project in this repo using requirements.txt file if available**
+   ```bash
+   pip install -r requirements.txt
+   ```
 # Power BI Dashboards
-Here are some screenshots of our Power BI dashboards:
+This repository showcases our Power BI dashboards. Here are some glimpses of their features and capabilities.
 
 ## Analytics Dashboard
 ![Conversion Business](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20(Business).png)
@@ -60,7 +59,16 @@ Here are some screenshots of our Power BI dashboards:
 
 ![Opprtunities Won](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Opportunities%20Win.png)
 
-5. **Note:** This repository contains multiple projects, each serving a different purpose. Ensure that you navigate to the specific project folder you want to build and run.
+## IMS Pipeline Dashboard
+![IMS Quote](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/IMS%20Pipeline%20Dashboard/IMS%20Quote.png)
 
-=
-    
+## Usage
+To use the dashboard, follow these steps:
+
+1. Load your data sources in Power BI Desktop.
+2. Customize the visuals and reports as needed.
+3. Publish the dashboard to Power BI Service for sharing and collaboration.
+
+**Note:** You can find the .pbix file here - ![Power Bi Dashboards](Analytics/Dashboard)
+
+5. **Note:** This repository contains multiple projects, each serving a different purpose. Ensure that you navigate to the specific project folder you want to build and run.
