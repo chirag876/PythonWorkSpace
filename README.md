@@ -62,6 +62,9 @@ This repository showcases our Power BI dashboards. Here are some glimpses of the
 ## IMS Pipeline Dashboard
 ![IMS Quote](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/IMS%20Pipeline%20Dashboard/IMS%20Quote.png)
 
+## FastAPI
+![FastAPI Doc](https://github.com/chirag876/PythonWorkSpace/blob/main/Python%20FastAPI_Db/Fast%20API.png)
+
 ## Usage
 To use the dashboard, follow these steps:
 
