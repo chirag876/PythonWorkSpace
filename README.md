@@ -1,14 +1,14 @@
 <div align="center">
-      <h1><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="300px" style="vertical-align: middle;" />
+      <h1><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="400px" style="vertical-align: middle;" />
         <br/>Python WorkSpace</h1>
      </div>
 <p align="center"> <a href="https://www.linkedin.com/in/chiraggupta1706" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
 # Description
-Welcome to the Python Projects Repository. This repository encompasses all the Python work I have completed and am currently engaged in. It will be continually updated with new projects and enhancements. Feel free to clone the repository and utilize the code as needed.
+Welcome to the Python Projects Repository. This repository showcases the Python projects I have developed and am currently working on. It will be regularly updated with new projects, improvements, and enhancements. You are encouraged to clone the repository and utilize the code for learning, reference, or development purposes.
 
 # Features
-The repository includes a variety of Python projects covering different aspects of application development. These projects serve as practical examples and can be used for learning, development, or as a reference for your own projects.
+The repository features a diverse collection of Python projects, each demonstrating various aspects of application development. These projects serve as practical examples, offering valuable insights for learning, development, or as a reference to enhance and accelerate your own projects.
 
 Key Features:
 
@@ -104,11 +104,6 @@ After completing these steps, you're ready to explore the projects within this r
 ## IMS Pipeline Dashboard
 ![IMS Quote](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/IMS%20Pipeline%20Dashboard/IMS%20Quote.png)
 
-## FastAPI
-🔗 Dive into a hands-on project showcasing SQLite database integration with FastAPI and a Command-Line Interface for efficient CRUD operations: [FastAPI Project Repository](Python%20FastAPI_Db)
-
-![FastAPI Doc](https://github.com/chirag876/PythonWorkSpace/blob/main/Python%20FastAPI_Db/Fast%20API.png)
-
 ## Usage
 To use the dashboard, follow these steps:
 
@@ -116,4 +111,7 @@ To use the dashboard, follow these steps:
 2. Customize the visuals and reports as needed.
 3. Publish the dashboard to Power BI Service for sharing and collaboration.
 
-5. **Note:** This repository contains multiple projects, each serving a different purpose. Ensure that you navigate to the specific project folder you want to build and run.
+## FastAPI
+🔗 Dive into a hands-on project showcasing SQLite database integration with FastAPI and a Command-Line Interface for efficient CRUD operations: [FastAPI Project Repository](Python%20FastAPI_Db)
+
+![FastAPI Doc](https://github.com/chirag876/PythonWorkSpace/blob/main/Python%20FastAPI_Db/Fast%20API.png)
