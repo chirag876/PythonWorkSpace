@@ -27,8 +27,6 @@ Key Features:
 * [Installation](#installation)
 * [Project Setup](#project-setup)
 * [Next Steps](#next-steps)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Prerequisites
 
