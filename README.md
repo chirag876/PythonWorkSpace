@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed:
     Open your terminal or command prompt and clone the repository:
 
     ```bash
-    git clone [https://github.com/chirag876/PythonWorkSpace.git](https://github.com/chirag876/PythonWorkSpace.git)
+    git clone https://github.com/chirag876/PythonWorkSpace.git
     cd PythonWorkSpace
     ```
 
