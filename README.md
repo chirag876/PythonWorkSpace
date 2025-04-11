@@ -44,7 +44,7 @@ To get started with the repository, follow these steps:
    pip install -r requirements.txt
    ```
 # Power BI Dashboards
-This repository showcases our Power BI dashboards. Here are some glimpses of their features and capabilities [Power Bi Dashboards](Analytics/Dashboard).
+📊 This repository highlights our Power BI dashboards, showcasing interactive visualizations and insightful analytics. Explore the features and capabilities here: [Power BI Dashboards](Analytics/Dashboard)
 
 ## Analytics Dashboard
 ![Conversion Business](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20(Business).png)
@@ -63,7 +63,8 @@ This repository showcases our Power BI dashboards. Here are some glimpses of the
 ![IMS Quote](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/IMS%20Pipeline%20Dashboard/IMS%20Quote.png)
 
 ## FastAPI
-Checkout the SQLite Database Connection and CRUD Operations with FastAPI and Command-Line Interface [FastAPI](Python%20FastAPI_Db)
+🔗 Dive into a hands-on project showcasing SQLite database integration with FastAPI and a Command-Line Interface for efficient CRUD operations: [FastAPI Project Repository](Python%20FastAPI_Db)
+
 ![FastAPI Doc](https://github.com/chirag876/PythonWorkSpace/blob/main/Python%20FastAPI_Db/Fast%20API.png)
 
 ## Usage
