@@ -2,7 +2,7 @@
       <h1><img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="400px" style="vertical-align: middle;" />
         <br/>Python WorkSpace</h1>
      </div>
-<p align="center"> <a href="https://www.linkedin.com/in/chiraggupta1706" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
+<p align="center"> <a href="https://www.linkedin.com/in/chiraggupta1706" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=medium&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
 # Description
 Welcome to the Python Projects Repository. This repository showcases the Python projects I have developed and am currently working on. It will be regularly updated with new projects, improvements, and enhancements. You are encouraged to clone the repository and utilize the code for learning, reference, or development purposes.
