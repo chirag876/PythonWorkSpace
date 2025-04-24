@@ -27,6 +27,7 @@ Key Features:
 * [Installation](#installation)
 * [Project Setup](#project-setup)
 * [Next Steps](#next-steps)
+* [FastAPI](#fastapi)
 
 ## Prerequisites
 
@@ -84,8 +85,6 @@ Before you begin, ensure you have the following installed:
 
 ## Next Steps
 After completing these steps, you're ready to explore the projects within this repository.  Refer to individual project directories for specific instructions.
-
-* [FastAPI](#fastapi)
 
 # Power BI Dashboards
 📊 This repository highlights our Power BI dashboards, showcasing interactive visualizations and insightful analytics. Explore the features and capabilities here: [Power BI Dashboards](Analytics/Dashboard)
