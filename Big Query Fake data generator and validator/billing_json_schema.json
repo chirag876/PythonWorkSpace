@@ -1,0 +1,242 @@
+{
+  "type": "object",
+  "properties": {
+    "billing_account_id": {
+      "type": "string"
+    },
+    "service": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "sku": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "usage_start_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "usage_end_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "project": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "ancestry_numbers": {
+          "type": "string"
+        },
+        "ancestors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "resource_name": {
+                "type": "string"
+              },
+              "display_name": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "system_labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "zone": {
+          "type": "string"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "inherited": {
+            "type": "boolean"
+          },
+          "namespace": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transaction_type": {
+      "type": "string"
+    },
+    "seller_name": {
+      "type": "string"
+    },
+    "export_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "currency_conversion_rate": {
+      "type": "number"
+    },
+    "usage": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "amount_in_pricing_units": {
+          "type": "number"
+        },
+        "pricing_unit": {
+          "type": "string"
+        }
+      }
+    },
+    "credits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "number"
+          },
+          "full_name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "invoice": {
+      "type": "object",
+      "properties": {
+        "month": {
+          "type": "string"
+        },
+        "publisher_type": {
+          "type": "string"
+        }
+      }
+    },
+    "cost_type": {
+      "type": "string"
+    },
+    "adjustment_info": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "cost_at_list": {
+      "type": "number"
+    }
+  },
+  "required": []
+}
