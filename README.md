@@ -14,8 +14,6 @@ Key Features:
 
 • Comprehensive Projects: The repository contains a diverse range of projects demonstrating various Python functionalities.
 
-• Regular Updates: New projects and updates will be added continuously, ensuring the repository remains current.
-
 • Free to Use: All code in this repository is available for you to clone and use freely.
 
 # Tech Used
