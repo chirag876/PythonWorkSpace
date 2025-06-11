@@ -251,4 +251,72 @@ You have successfully set up your Firebase project with Authentication, Firestor
 - Start integrating Firebase services into your backend code.
 
 ---
+# 🧠 Mostly AI Challenge - [Flat Data Synthetic Generation](https://github.com/chirag876/PythonWorkSpace/tree/main/SyntheticDataProject)
+## 🚀 Challenge Overview
 
+The **Flat Data Challenge** by Mostly AI is focused on generating high-quality synthetic tabular data that closely mimics the structure and patterns of a real dataset.
+
+- **Dataset**: `flat-training.csv`
+- **Records**: 100,000
+- **Columns**: 80 total → 60 numeric, 20 categorical
+- **Goal**: Generate a synthetic dataset that maintains:
+  - **Data utility** (preserves useful patterns)
+  - **Privacy** (doesn’t leak individual records)
+  - **Statistical fidelity** (distributions match well)
+
+**Evaluation Metrics**:
+- Overall Accuracy  
+- DCR (Distance to Closest Record)  
+- NNDR (Nearest Neighbor Distance Ratio)
+
+---
+
+## 📈 My Approach
+
+| Step | Description |
+|------|-------------|
+| 1. Data Acquisition | Downloaded the `flat-training.csv` file and verified the shape and structure. |
+| 2. Data Exploration | Performed exploratory data analysis using `pandas`, `matplotlib`, and `jupyter`. Checked distributions, missing values, and data types. |
+| 3. Model Selection | Selected `CTGAN` from the `sdv` library, optimized for mixed-type tabular data. |
+| 4. Model Training | Trained the `CTGAN` model on the dataset. Tuned parameters like `epochs` for better performance. |
+| 5. Synthetic Data Generation | Generated a new synthetic dataset using the trained model with the same schema and row count. |
+| 6. Visualizing Distribution Comparison of Real and Synthetic Data | Compared distributions of real and synthetic data for the first five columns using overlaid histograms.|
+| 7. Generating a Synthetic Data Quality Report | Generated a quality report comparing real and synthetic datasets, saving it as formatted text and Html files.|
+| 8. Submission Preparation | Exported the synthetic data to CSV format per submission guidelines and uploaded it to the Mostly AI platform. |
+
+---
+
+## 📦 Libraries & Tools Used
+
+Installed via pip:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib jupyter
+pip install sdv
+````
+
+| Library      | Purpose                               |
+| ------------ | ------------------------------------- |
+| pandas       | Data manipulation and cleaning        |
+| numpy        | Numerical operations                  |
+| matplotlib   | Data visualization                    |
+| scikit-learn | Preprocessing (if needed)             |
+| jupyter      | Interactive development and analysis  |
+| sdv          | Synthetic data generation using CTGAN |
+
+---
+
+## 🧠 Sample Insights from EDA
+
+* Numeric columns had varying scales — **normalization wasn’t strictly needed** due to CTGAN’s internal handling.
+* Categorical columns had **distinct and non-overlapping values**, helping the model learn categories effectively.
+* Data was **clean and had no missing values**, so **no imputation** was required.
+
+---
+
+## 💡 What I Learned
+
+* `CTGAN` is **highly capable** when working with complex tabular data including both numerical and categorical features.
+* Simple EDA using `pandas` and `matplotlib` provides powerful insights to shape training decisions.
+* The quality of synthetic data depends on how well the generator captures **statistical patterns** in the original data.
+* **Privacy metrics** like DCR and NNDR are more advanced than just comparing basic feature distributions.
