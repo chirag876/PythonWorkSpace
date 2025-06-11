@@ -1,0 +1,245 @@
+{
+    "columns": {
+        "dog": {
+            "sdtype": "numerical"
+        },
+        "cat": {
+            "sdtype": "categorical"
+        },
+        "rabbit": {
+            "sdtype": "numerical"
+        },
+        "deer": {
+            "sdtype": "numerical"
+        },
+        "panda": {
+            "sdtype": "numerical"
+        },
+        "koala": {
+            "sdtype": "categorical"
+        },
+        "otter": {
+            "sdtype": "categorical"
+        },
+        "hedgehog": {
+            "sdtype": "numerical"
+        },
+        "squirrel": {
+            "sdtype": "categorical"
+        },
+        "dolphin": {
+            "sdtype": "categorical"
+        },
+        "penguin": {
+            "sdtype": "categorical"
+        },
+        "turtle": {
+            "sdtype": "numerical"
+        },
+        "elephant": {
+            "sdtype": "numerical"
+        },
+        "giraffe": {
+            "sdtype": "categorical"
+        },
+        "lamb": {
+            "sdtype": "categorical"
+        },
+        "goat": {
+            "sdtype": "categorical"
+        },
+        "cow": {
+            "sdtype": "numerical"
+        },
+        "horse": {
+            "sdtype": "numerical"
+        },
+        "donkey": {
+            "sdtype": "categorical"
+        },
+        "pony": {
+            "sdtype": "categorical"
+        },
+        "llama": {
+            "sdtype": "categorical"
+        },
+        "mouse": {
+            "sdtype": "numerical"
+        },
+        "hamster": {
+            "sdtype": "categorical"
+        },
+        "guinea": {
+            "sdtype": "numerical"
+        },
+        "duck": {
+            "sdtype": "categorical"
+        },
+        "chicken": {
+            "sdtype": "numerical"
+        },
+        "sparrow": {
+            "sdtype": "categorical"
+        },
+        "parrot": {
+            "sdtype": "numerical"
+        },
+        "finch": {
+            "sdtype": "categorical"
+        },
+        "canary": {
+            "sdtype": "numerical"
+        },
+        "bee": {
+            "sdtype": "numerical"
+        },
+        "butterfly": {
+            "sdtype": "categorical"
+        },
+        "ladybug": {
+            "sdtype": "numerical"
+        },
+        "snail": {
+            "sdtype": "numerical"
+        },
+        "frog": {
+            "sdtype": "numerical"
+        },
+        "cricket": {
+            "sdtype": "categorical"
+        },
+        "tamarin": {
+            "sdtype": "categorical"
+        },
+        "wallaby": {
+            "sdtype": "categorical"
+        },
+        "wombat": {
+            "sdtype": "numerical"
+        },
+        "zebra": {
+            "sdtype": "categorical"
+        },
+        "flamingo": {
+            "sdtype": "numerical"
+        },
+        "peacock": {
+            "sdtype": "categorical"
+        },
+        "bat": {
+            "sdtype": "categorical"
+        },
+        "fox": {
+            "sdtype": "categorical"
+        },
+        "beaver": {
+            "sdtype": "numerical"
+        },
+        "monkey": {
+            "sdtype": "categorical"
+        },
+        "seal": {
+            "sdtype": "numerical"
+        },
+        "robin": {
+            "sdtype": "categorical"
+        },
+        "loon": {
+            "sdtype": "numerical"
+        },
+        "swan": {
+            "sdtype": "categorical"
+        },
+        "goldfish": {
+            "sdtype": "numerical"
+        },
+        "minnow": {
+            "sdtype": "categorical"
+        },
+        "mole": {
+            "sdtype": "categorical"
+        },
+        "shrew": {
+            "sdtype": "numerical"
+        },
+        "puffin": {
+            "sdtype": "numerical"
+        },
+        "owl": {
+            "sdtype": "categorical"
+        },
+        "bunny": {
+            "sdtype": "categorical"
+        },
+        "bear": {
+            "sdtype": "numerical"
+        },
+        "chipmunk": {
+            "sdtype": "categorical"
+        },
+        "cub": {
+            "sdtype": "numerical"
+        },
+        "acorn": {
+            "sdtype": "numerical"
+        },
+        "leaf": {
+            "sdtype": "categorical"
+        },
+        "cloud": {
+            "sdtype": "numerical"
+        },
+        "rainbow": {
+            "sdtype": "numerical"
+        },
+        "puddle": {
+            "sdtype": "categorical"
+        },
+        "berry": {
+            "sdtype": "numerical"
+        },
+        "apple": {
+            "sdtype": "numerical"
+        },
+        "honey": {
+            "sdtype": "categorical"
+        },
+        "pumpkin": {
+            "sdtype": "numerical"
+        },
+        "teddy": {
+            "sdtype": "categorical"
+        },
+        "blanket": {
+            "sdtype": "categorical"
+        },
+        "button": {
+            "sdtype": "numerical"
+        },
+        "whistle": {
+            "sdtype": "numerical"
+        },
+        "marble": {
+            "sdtype": "categorical"
+        },
+        "wagon": {
+            "sdtype": "numerical"
+        },
+        "storybook": {
+            "sdtype": "numerical"
+        },
+        "candle": {
+            "sdtype": "categorical"
+        },
+        "clover": {
+            "sdtype": "numerical"
+        },
+        "bubble": {
+            "sdtype": "categorical"
+        },
+        "cookie": {
+            "sdtype": "categorical"
+        }
+    },
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1"
+}
