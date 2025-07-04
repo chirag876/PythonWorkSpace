@@ -320,3 +320,9 @@ pip install sdv
 * Simple EDA using `pandas` and `matplotlib` provides powerful insights to shape training decisions.
 * The quality of synthetic data depends on how well the generator captures **statistical patterns** in the original data.
 * **Privacy metrics** like DCR and NNDR are more advanced than just comparing basic feature distributions.
+---
+## License
+
+This project is licensed under the [MIT License](./LICENSE).  
+© 2025 Chirag Gupta. Please credit if reused.
+
