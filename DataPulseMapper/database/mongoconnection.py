@@ -16,7 +16,7 @@
 
 
 # def get_file_schema_rules(file_id):
-#     client = MongoClient("mongodb+srv://Project0:Diagnostics11@cluster0.w9m3hlk.mongodb.net/")  # replace with your MongoDB connection string
+#     client = MongoClient("mongodbconnection")  # replace with your MongoDB connection string
     
 #     # Select the database and collection
 #     db = client["datapulse0"]
