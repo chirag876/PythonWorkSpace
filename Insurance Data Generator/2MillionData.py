@@ -2,8 +2,6 @@ import pandas as pd
 import numpy as np
 from faker import Faker
 
-import json
-
 fake = Faker()
 
 # Set the random seed for reproducibility
