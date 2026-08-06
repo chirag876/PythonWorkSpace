@@ -1,9 +1,0 @@
-mongodb_uri=#'mongodb://localhost:27017/'#
-db='stage_0'
-db_stage0='new_stage_0'
-connectionstring='Mongodbconnectionstring'
-containername = 'csvcontainer'
-sourcetostage0configs='./Configs/MongoDB_Configs'
-stage0toazureconfigs='./Configs/Blob_Configs'
-csvfilepath='./Configs/MongoDB_tables'
-blobcsvpath='./Configs/Blob_CSV'

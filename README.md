@@ -84,38 +84,6 @@ Before you begin, ensure you have the following installed:
 ## Next Steps
 After completing these steps, you're ready to explore the projects within this repository.  Refer to individual project directories for specific instructions.
 
-# Power BI Dashboards
-📊 This repository highlights our Power BI dashboards, showcasing interactive visualizations and insightful analytics. Explore the features and capabilities here: [Power BI Dashboards](Analytics/Dashboard)
-
-## Analytics Dashboard
-![Conversion Business](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20(Business).png)
-
-![Conversion Other Factors](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20(Other%20Factors).png)
-
-![Conversion Rates](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20Rates.png)
-
-![Conversion Rates with Title](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Conversion%20Ration%20With%20Title.png)
-
-![Lead Analysis](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Lead%20analysis.png)
-
-![Opprtunities Won](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/Analytics%20Dashboards/Opportunities%20Win.png)
-
-## IMS Pipeline Dashboard
-![IMS Quote](https://github.com/chirag876/PythonWorkSpace/blob/main/Analytics/Dashboard/PowerBI%20Dashboards%20Screen%20Shots/IMS%20Pipeline%20Dashboard/IMS%20Quote.png)
-
-## Usage
-To use the dashboard, follow these steps:
-
-1. Load your data sources in Power BI Desktop.
-2. Customize the visuals and reports as needed.
-3. Publish the dashboard to Power BI Service for sharing and collaboration.
-
-## FastAPI
-🔗 Dive into a hands-on project showcasing SQLite database integration with FastAPI and a Command-Line Interface for efficient CRUD operations: [FastAPI Project Repository](Python%20FastAPI_Db)
-
-![FastAPI Doc](https://github.com/chirag876/PythonWorkSpace/blob/main/Python%20FastAPI_Db/Fast%20API.png)
-
-
 # Firebase Project Setup Guide (Backend Integration)
 
 Follow this step-by-step guide to set up your Firebase project with Authentication, Firestore, and Realtime Database. This guide is tailored for backend development using Python.
