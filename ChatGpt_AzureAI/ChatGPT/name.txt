@@ -1,3 +1,0 @@
-Jobid : ft-
-ft-
-export OPENAI_API_KEY="sk-"
